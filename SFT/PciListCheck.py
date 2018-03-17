@@ -38,9 +38,9 @@ class PciListCheck(TestBase):
 	sku=self.config.Get('CanisterPN')
         try:
 	    #to read the golden file
-	    sku="BFT1_EVT"
+	    sku="SFT1_EVT"
 	    errCodeStr="Pci_List_standard_file_missing"
-	    check_filename="/root/CBFT/PciList/%s" %self.list_file
+	    check_filename="/root/CMCC/PciList/%s" %self.list_file
             try:
                 fsock = open(check_filename, "rb", 0)
             	try:
@@ -60,7 +60,6 @@ class PciListCheck(TestBase):
             commandStr = 'lspci'
             self.comm.SendReturn(commandStr)
             result = self.comm.RecvTerminatedBy()
-	    print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 	    print result
 	    #to check if there is some pcie device missing.
 	    all_component_flags=self.LspciCheck(result.split('\n')[0:-1],lspci_list_gold)
@@ -133,7 +132,7 @@ if __name__ == '__main__':
         sys.exit(1)
 
     home_dir = os.environ['FT']
-    config = Configure(home_dir + '/BFTConfig.txt')
+    config = Configure(home_dir + '/SFTConfig.txt')
     config.Put('HOME_DIR',home_dir)
     #config.Put('SATI_II_SN', 'RCZ0976428G006X')
     config.Put('SATI_II_SN', options.serialNumber)
@@ -149,6 +148,6 @@ if __name__ == '__main__':
     comm = Comm232(config, log, eventManager, serial_port) 
     #test = GetBarcode(config, eventManager, log, comm)
     #result = test.Start()
-    test = PciListCheck(config, eventManager, log, comm,"BFT1_DVT_Cycle3.list")
+    test = PciListCheck(config, eventManager, log, comm,"SFT_EVT_Cycle.list")
     result = test.Start()
     print result

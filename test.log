@@ -1,116 +1,17 @@
-16:26:04.37 Section: Halt UUT
-14:18:50.72 Section: BIOS Version Check
-14:18:50.72 Send = dmidecode -s bios-version
-14:18:50.72 Rece = 
-0.50
-14:18:50.72 Version number 5.12 is not matched to 0.50
-14:19:29.12 Section: BIOS Version Check
-14:19:29.12 Send = dmidecode -s bios-version
-14:19:29.12 Rece = 
-0.50
-
-14:19:29.12 Version number 0.50 is matched to 0.50
-14:19:29.12 Tester => OK: BIOS Version Check
-15:00:46.84 Section: Program BMC MAC and FRU
-15:00:46.84 Send = ipmitool raw 0x06 0x52 0x0D 0xA0 0x00 0x1C 0x00 0x01 0x40 0xD4 0xF5 0x12 0x9D 0x00 0x00 0x01 0x40 0xD4 0xF5 0x12 0x9F 0x00 0x00
-15:00:46.84 Rece = 
-
-15:00:46.86 Send = ipmitool mc reset cold
-15:00:46.86 Rece = 
-Sent cold reset command to MC
-15:01:11.90 Send = ipmitool lan print 1
-15:01:11.90 Rece = 
-Get Device ID command failed: 0xff Unspecified error
-Invalid channel: 1
-15:01:15.97 TestEnd => ErrorCode=90001: Program_Bmc_Mac1_Fail
-15:01:56.52 Section: Program BMC MAC and FRU
-15:01:56.52 Send = ipmitool raw 0x06 0x52 0x0D 0xA0 0x00 0x1C 0x00 0x01 0x40 0xD4 0xF5 0x12 0x9D 0x00 0x00 0x01 0x40 0xD4 0xF5 0x12 0x9F 0x00 0x00
-15:01:56.52 Rece = 
-
-15:01:56.54 Send = ipmitool mc reset cold
-15:01:56.54 Rece = 
-Sent cold reset command to MC
-15:03:55.05 Section: Program BMC MAC and FRU
-15:03:55.05 Send = ipmitool raw 0x06 0x52 0x0D 0xA0 0x00 0x1C 0x00 0x01 0x40 0xD4 0xF5 0x12 0x9D 0x00 0x00 0x01 0x40 0xD4 0xF5 0x12 0x9F 0x00 0x00
-15:03:55.05 Rece = 
-
-15:03:55.09 Send = ipmitool mc reset cold
-15:03:55.09 Rece = 
-Sent cold reset command to MC
-15:04:30.18 Send = ipmitool lan print 1
-15:04:30.18 Rece = 
-Set in Progress         : Set Complete
-Auth Type Support       : MD5
-Auth Type Enable        : Callback : MD5 
-                        : User     : MD5 
-                        : Operator : MD5 
-                        : Admin    : MD5 
-                        : OEM      : MD5 
-IP Address Source       : DHCP Address
-IP Address              : 0.0.0.0
-Subnet Mask             : 0.0.0.0
-MAC Address             : 01:40:d4:f5:12:9d
-SNMP Community String   : AMI
-IP Header               : TTL=0x40 Flags=0x40 Precedence=0x00 TOS=0x10
-BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
-Gratituous ARP Intrvl   : 0.0 seconds
-Default Gateway IP      : 0.0.0.0
-Default Gateway MAC     : 00:00:00:00:00:00
-Backup Gateway IP       : 0.0.0.0
-Backup Gateway MAC      : 00:00:00:00:00:00
-802.1q VLAN ID          : Disabled
-802.1q VLAN Priority    : 0
-RMCP+ Cipher Suites     : 0,1,2,3,6,7,8,11,12,15,16,17
-Cipher Suite Priv Max   : caaaaaaaaaaaXXX
-                        :     X=Cipher Suite Unused
-                        :     c=CALLBACK
-                        :     u=USER
-                        :     o=OPERATOR
-                        :     a=ADMIN
-                        :     O=OEM
-15:04:30.31 Send = ipmitool lan print 8
-15:04:30.31 Rece = 
-Set in Progress         : Set Complete
-Auth Type Support       : MD5
-Auth Type Enable        : Callback : MD5 
-                        : User     : MD5 
-                        : Operator : MD5 
-                        : Admin    : MD5 
-                        : OEM      : MD5 
-IP Address Source       : DHCP Address
-IP Address              : 0.0.0.0
-Subnet Mask             : 0.0.0.0
-MAC Address             : 01:40:d4:f5:12:9f
-SNMP Community String   : AMI
-IP Header               : TTL=0x40 Flags=0x40 Precedence=0x00 TOS=0x10
-BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
-Gratituous ARP Intrvl   : 0.0 seconds
-Default Gateway IP      : 0.0.0.0
-Default Gateway MAC     : 00:00:00:00:00:00
-Backup Gateway IP       : 0.0.0.0
-Backup Gateway MAC      : 00:00:00:00:00:00
-802.1q VLAN ID          : Disabled
-802.1q VLAN Priority    : 0
-RMCP+ Cipher Suites     : 0,1,2,3,6,7,8,11,12,15,16,17
-Cipher Suite Priv Max   : caaaaaaaaaaaXXX
-                        :     X=Cipher Suite Unused
-                        :     c=CALLBACK
-                        :     u=USER
-                        :     o=OPERATOR
-                        :     a=ADMIN
-                        :     O=OEM
-15:04:30.45 Send = ipmitool raw 0x0a 0x12 0x00 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x00 0x00 0xff
-15:04:30.45 Rece = 
- 08
-15:04:30.49 Send = ipmitool raw 0x0a 0x12 0x01 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x01 0x00 0xFE 0xC1 0x82 0x00 0x00 0xBD
-15:04:30.49 Rece = 
- 0d
-15:04:30.53 Send = ipmitool raw 0x0a 0x11 0x00 0x00 0x00 0x08
-15:04:30.53 Rece = 
- 08 01 00 00 00 00 00 00 ff
-15:04:30.55 Send = ipmitool raw 0x0a 0x11 0x01 0x00 0x00 0x0D
-15:04:30.56 Rece = 
- 0d 01 00 00 00 00 01 00 fe c1 82 00 00 bd
-
-15:04:30.58 Tester => OK: Program BMC MAC and FRU
-15:13:52.40 Section: Halt UUT
+05:40:05.53 Section: PCIe List Check
+05:40:05.53 Subsection:  PCIE List Check
+05:40:05.53 Send = lspci
+05:40:05.53 Rece = 
+00:00.0 Host bridge: Intel Corporation 440FX - 82441FX PMC [Natoma] (rev 02)
+05:40:05.55 FAIL,Pcie List check missing same component
+05:40:05.55   PCI/PCIE Device 00:01.0 ISA bridge: Intel Corporation 82371SB PIIX3 ISA [Natoma/Triton II] is missing
+05:40:05.55   PCI/PCIE Device 00:01.1 IDE interface: Intel Corporation 82371AB/EB/MB PIIX4 IDE (rev 01) is missing
+05:40:05.55   PCI/PCIE Device 00:02.0 VGA compatible controller: InnoTek Systemberatung GmbH VirtualBox Graphics Adapter is missing
+05:40:05.55   PCI/PCIE Device 00:03.0 Ethernet controller: Intel Corporation 82540EM Gigabit Ethernet Controller (rev 02) is missing
+05:40:05.55   PCI/PCIE Device 00:04.0 System peripheral: InnoTek Systemberatung GmbH VirtualBox Guest Service is missing
+05:40:05.55   PCI/PCIE Device 00:05.0 Multimedia audio controller: Intel Corporation 82801AA AC'97 Audio Controller (rev 01) is missing
+05:40:05.55   PCI/PCIE Device 00:06.0 USB controller: Apple Inc. KeyLargo/Intrepid USB is missing
+05:40:05.55   PCI/PCIE Device 00:07.0 Bridge: Intel Corporation 82371AB/EB/MB PIIX4 ACPI (rev 08) is missing
+05:40:05.55   PCI/PCIE Device 00:08.0 Ethernet controller: Intel Corporation 82540EM Gigabit Ethernet Controller (rev 02) is missing
+05:40:05.55   PCI/PCIE Device 00:09.0 Ethernet controller: Intel Corporation 82540EM Gigabit Ethernet Controller (rev 02) is missing
+05:40:05.55   PCI/PCIE Device 00:0d.0 SATA controller: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] (rev 02) is missing

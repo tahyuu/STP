@@ -1,0 +1,1 @@
+TestConfig/sft_evt.sku

@@ -47,8 +47,8 @@ class TestEngine:
 	#self.config.Put('BootLogFileName', self.log_filename2)
 	print self.log_filename
 	#print self.log_filename2
-        self.log.Open(self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename)
-        #self.log.Open2(self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename2)
+        self.log.Open(self.config.Get('HOME_DIR') + '/SFTLog/TMP/' + self.log_filename)
+        #self.log.Open2(self.config.Get('HOME_DIR') + '/SFTLog/TMP/' + self.log_filename2)
         self.log.PrintNoTime('                                ')
         self.log.PrintNoTime('                                ')
 	self.log.PrintNoTime('Station: ' + self.hostname)
@@ -84,8 +84,8 @@ class TestEngine:
     def GetCurrentStatus(self):
 	#f = open(self.config.Get('HOME_DIR') + '/TestConfig/' + self.sequence ,'r')
         #lines = f.readlines()
-	#results=os.system("ls ~/CBFT/OngoingTest/ | grep %s" %self.config.Get("PcbaSN"))
-	results=os.popen("ls ~/CBFT/OngoingTest/ | grep %s" %self.config.Get("PcbaSN")).readlines()
+	#results=os.system("ls ~/CSFT/OngoingTest/ | grep %s" %self.config.Get("PcbaSN"))
+	results=os.popen("ls ~/CSFT/OngoingTest/ | grep %s" %self.config.Get("PcbaSN")).readlines()
 	if len(results)>0:
 		self.ongingLogfile=results[-1].strip()
 		f = open(self.config.Get('HOME_DIR') + '/OngoingTest/' + results[-1].strip(),'r')
@@ -156,42 +156,42 @@ class TestEngine:
 	print self.testResult
 	print '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 
-	header_complete_str = 'Cannonball BFT: '  + self.testResult 
+	header_complete_str = 'Cannonball SFT: '  + self.testResult 
 	self.log.AddHeader(header_complete_str)
 	#self.log.Close()
 	#self.log.Close2()
 	#self.comm.close()
 
 	if self.config.Get('FlexFlow_Status') == 'On':
-	    ftpLocalPath = self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename
-	    ftpRemotePath = 'Zuari/BFT/ROCDIB/' + self.log_filename
+	    ftpLocalPath = self.config.Get('HOME_DIR') + '/SFTLog/TMP/' + self.log_filename
+	    ftpRemotePath = 'Zuari/SFT/ROCDIB/' + self.log_filename
 	    FtpUpload(ftpLocalPath,ftpRemotePath)
 
-        moveTRIAL1 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename + \
-                   ' ' + self.config.Get('HOME_DIR') + '/BFTLog/TRIAL/' + self.log_filename
-        #moveTRIAL2 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename2 + \
-        #           ' ' + self.config.Get('HOME_DIR') + '/BFTLog/TRIAL/' + self.log_filename2
-        movePASS1 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename + \
-                   ' ' + self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + self.log_filename
-        #movePASS2 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename2 + \
-        #           ' ' + self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + self.log_filename2
-        moveFAIL1 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename + \
-                   ' ' + self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + self.log_filename
-        #moveFAIL2 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename2 + \
-        #           ' ' + self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + self.log_filename2
+        moveTRIAL1 = 'mv ' + self.config.Get('HOME_DIR') + '/SFTLog/TMP/' + self.log_filename + \
+                   ' ' + self.config.Get('HOME_DIR') + '/SFTLog/TRIAL/' + self.log_filename
+        #moveTRIAL2 = 'mv ' + self.config.Get('HOME_DIR') + '/SFTLog/TMP/' + self.log_filename2 + \
+        #           ' ' + self.config.Get('HOME_DIR') + '/SFTLog/TRIAL/' + self.log_filename2
+        movePASS1 = 'mv ' + self.config.Get('HOME_DIR') + '/SFTLog/TMP/' + self.log_filename + \
+                   ' ' + self.config.Get('HOME_DIR') + '/SFTLog/PASS/' + self.log_filename
+        #movePASS2 = 'mv ' + self.config.Get('HOME_DIR') + '/SFTLog/TMP/' + self.log_filename2 + \
+        #           ' ' + self.config.Get('HOME_DIR') + '/SFTLog/PASS/' + self.log_filename2
+        moveFAIL1 = 'mv ' + self.config.Get('HOME_DIR') + '/SFTLog/TMP/' + self.log_filename + \
+                   ' ' + self.config.Get('HOME_DIR') + '/SFTLog/FAIL/' + self.log_filename
+        #moveFAIL2 = 'mv ' + self.config.Get('HOME_DIR') + '/SFTLog/TMP/' + self.log_filename2 + \
+        #           ' ' + self.config.Get('HOME_DIR') + '/SFTLog/FAIL/' + self.log_filename2
 
         if self.config.Get('RUN_STATE') == 'TrialRun':
             print moveTRIAL1
             os.system(moveTRIAL1)
             #print moveTRIAL2
             #os.system(moveTRIAL2)
-	    logpath = self.config.Get('HOME_DIR') + '/BFTLog/TRAIL/' + datetime.now().strftime("%Y-%m-%d")+'/'
+	    logpath = self.config.Get('HOME_DIR') + '/SFTLog/TRAIL/' + datetime.now().strftime("%Y-%m-%d")+'/'
 	    if not os.path.exists(logpath):
 	 	os.system('mkdir '+logpath)
-	    cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/TRAIL/' + self.log_filename + ' ' + logpath + self.log_filename
+	    cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/SFTLog/TRAIL/' + self.log_filename + ' ' + logpath + self.log_filename
 	    print cmdstr
 	    os.system(cmdstr)
-	    #cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/TRAIL/' + self.log_filename2 + ' ' + logpath + self.log_filename2
+	    #cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/SFTLog/TRAIL/' + self.log_filename2 + ' ' + logpath + self.log_filename2
 	    #print cmdstr
 	    #os.system(cmdstr)
         elif self.testResult == 'PASS':
@@ -199,13 +199,13 @@ class TestEngine:
             os.system(movePASS1)
             #print movePASS2
             #os.system(movePASS2)
-	    logpath = self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + datetime.now().strftime("%Y-%m-%d")+'/'
+	    logpath = self.config.Get('HOME_DIR') + '/SFTLog/PASS/' + datetime.now().strftime("%Y-%m-%d")+'/'
 	    if not os.path.exists(logpath):
 	 	os.system('mkdir '+logpath)
-	    cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + self.log_filename + ' ' + logpath + self.log_filename
+	    cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/SFTLog/PASS/' + self.log_filename + ' ' + logpath + self.log_filename
 	    print cmdstr
 	    os.system(cmdstr)
-	    #cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + self.log_filename2 + ' ' + logpath + self.log_filename2
+	    #cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/SFTLog/PASS/' + self.log_filename2 + ' ' + logpath + self.log_filename2
 	    #print cmdstr
 	    #os.system(cmdstr)
         elif self.testResult[0:4] == 'FAIL':
@@ -213,14 +213,14 @@ class TestEngine:
             os.system(moveFAIL1)
             #print moveFAIL2
             #os.system(moveFAIL2)
-	    logpath = self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + datetime.now().strftime("%Y-%m-%d")+'/'
+	    logpath = self.config.Get('HOME_DIR') + '/SFTLog/FAIL/' + datetime.now().strftime("%Y-%m-%d")+'/'
 	    if not os.path.exists(logpath):
 	 	os.system('mkdir '+logpath)
-	    cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + self.log_filename + ' ' + logpath + self.log_filename
+	    cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/SFTLog/FAIL/' + self.log_filename + ' ' + logpath + self.log_filename
 	    print cmdstr
 	    os.system(cmdstr)
 	    #remove ongin file
-	    #cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + self.log_filename2 + ' ' + logpath + self.log_filename2
+	    #cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/SFTLog/FAIL/' + self.log_filename2 + ' ' + logpath + self.log_filename2
 	    #print cmdstr
 	    #os.system(cmdstr)
 
@@ -264,7 +264,7 @@ if __name__ == '__main__':
     config.Put('HOME_DIR', home_dir)
 
     if len( sys.argv ) == 1:
-	sku_name = "BFT1_DVT_PRI_STATION.sku"
+	sku_name = "SFT1_DVT_PRI_STATION.sku"
     elif len( sys.argv ) == 2:
 	sku_name = sys.argv[1]
     else:

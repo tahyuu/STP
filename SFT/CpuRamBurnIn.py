@@ -61,7 +61,7 @@ if __name__ == '__main__':
     (options, args) = parser.parse_args()
 
     home_dir = os.environ['FT']
-    config = Configure(home_dir + '/BFTConfig.txt')
+    config = Configure(home_dir + '/SFTConfig.txt')
     config.Put('HOME_DIR',home_dir)
 
     if len( args ) != 0:

@@ -111,7 +111,7 @@ if __name__ == '__main__':
         sys.exit(1)
 
     home_dir = os.environ['FT']
-    config = Configure(home_dir + '/BFTConfig.txt')
+    config = Configure(home_dir + '/SFTConfig.txt')
     config.Put('HOME_DIR',home_dir)
     #config.Put('SATI_II_SN', 'RCZ0976428G006X')
     config.Put('SATI_II_SN', options.serialNumber)

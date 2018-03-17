@@ -21,7 +21,7 @@ class TestBase:
             print "haha"
             self.comm = comm
 
-        self.errCodePath = self.config.Get('HOME_DIR') + '/BFT/ErrorCode.txt'
+        self.errCodePath = self.config.Get('HOME_DIR') + '/SFT/ErrorCode.txt'
         self.errCode = {}
         self.BuildErrorTable()
 

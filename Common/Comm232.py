@@ -33,15 +33,16 @@ class Comm232(serial.Serial):
 	    if stdout_line != '':
 		print stdout_line,
 		self.log.PrintNoTime(stdout_line.rstrip())
-	    else:
-	        stdout_lines = self.f.stdout.read()
-	        stdout = stdout + stdout_lines
-	        if stdout_line != '':
-		    print stdout_lines,
-		    self.log.PrintNoTime(stdout_lines[0:-1])
+	else:
+	    stdout_lines = self.f.stdout.read()
+	    stdout = stdout + stdout_lines
+	    if stdout_lines != '':
+		print stdout_lines,
+		self.log.PrintNoTime(stdout_lines[0:-1])
 
 	if stdout != '':
 	    return stdout
+	    print stdout_lines,
 	else:
 	    stderr = self.f.stderr.read()
 	    #if stderr != '':
