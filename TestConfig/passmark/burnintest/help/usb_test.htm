@@ -1,0 +1,97 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>USB Test</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?usb_test.htm"; }
+  else { parent.quicksync('a6.10'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">USB Test</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="serial_test.htm">Previous</a>&nbsp;
+     <a href="sound_test.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>Tests the USB (Universal Serial Bus) communications ports connected to the PC. The number of USB devices to test can be set in the <a href="usb_test_preferences.htm">USB test preferences</a> window.</p>
+<p>A USB port <a href="usb_loopback_plugs.htm">loop back plug</a> is required to run this test. The USB 3.0 loopback plugs can &nbsp;test USB3 ports at Super-speed (5Gb/s) and USB2.0 ports up to High-speed (480Mb/s). The USB 2.0 loopback plug provides a &nbsp;way to test USB 1.x and 2.0 (USB 2.0 supports rates up to 480Mb/sec). These can be purchased from the PassMark web site (<a href="www.passmark.com" target="_blank" class="weblink">www.passmark.com</a>).</p>
+<p>&nbsp;</p>
+<p>Using a USB3 or USB2 loopback plug and BurnInTest, it is possible to,</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Quickly check if a USB port is powered (the red LED)</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Check that data can be sent and received from the port </td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Check USB errors rates and transmission speed. </td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Check that the system remains stable under long periods of load</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Check USB cabling </td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Concurrently check multiple USB ports at the same time. </td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Check if your PC ports are super speed 5Gbits/s (USB3 only), high speed 480Mbits/sec (USB 2.0), or full speed 12Mbits/sec (USB 1.x) via a LED</td></tr></table></div><p style="margin: 0px 0px 8px 0px;"><span style="color: #000000;">&nbsp;</span></p>
+<p>Using these plugs on a system that is functioning correctly, you can expect error free loopback transfer speeds of around:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>USB 2.0 loopback plug: 5 – 7 Mbits/sec per port.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>USB 3.0 loopback plug: 80 - 100 Mbits/sec per port.</td></tr></table></div><p>&nbsp;</p>
+<p>To reach this level you need to have the USB test duty cycle set to 100%. Up to 20 of these USB test plugs can be simultaneously connected to a PC (providing that free USB ports are available on the PC or on a down stream hub). Note: If required, both USB2 and USB3 loopback plugs can be used to test different USB ports simultaneously.</p>
+<p>&nbsp;</p>
+<p>Each test cycle corresponds to;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>USB 2.0 loopback plug: 8000 data blocks (4000KB)</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 24px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>USB 3.0 loopback plug: 1,000,000 data blocks (1 MB)</td></tr></table></div><p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p>The number of Operations (‘ops’) corresponds to the number of bytes sent and received. The duty cycle affects the time spent waiting between cycles.<br>
+&nbsp;</p>
+<p>Each plug also has its own serial number stored in EPROM, on the plug, so it is possible to identify each plug when multiple plugs are connected. USB2 loopback plugs are firmware controlled and upgradeable.<br>
+&nbsp;</p>
+<p>The USB test sends data to the USB loopback plug in 0.5KB blocks for USB2 loopback plugs and 1KB blocks for USB3 loopback plugs. The USB loopback plug receives this data, copies it to a new buffer and transmits it back to the PC. The PC compares the data in the block for an exact match, and then builds a new packet of random data bytes before sending it back to the PC. Any differences between the data send and received is flagged as an error.</p>
+<p>&nbsp;<br>
+As the low level USB protocol has some ability to detect errors and re-transmit bad data it is important to pay attention to the transfer speed. A low transfer speed may be an indicator of an intermittent or partial hardware fault. With the USB2 loopback plug an error LED will be lit when more than a defined number of recoverable bus errors occur (currently set to 4). (Note: The USB2Test software will report the number of recoverable bus errors per block). A lack of high quality cabling within or external to the PC is a typical cause of retransmission due to recoverable bus errors.</p>
+<p>&nbsp;<br>
+The USB2 loopback plug Error LED is reset at the start of each test if results are configured to be cleared:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>at the start of each test (Preferences, Logs, Log Clearing, Automatically clear logs at the start of each run), </td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>on selecting “Edit, Clear All Results” or</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>on a power reset (e.g. PC sleep mode).</td></tr></table></div><p>&nbsp;</p>
+<p class="p_Heading2"><span class="f_Heading2">USB test window</span></p>
+<p class="p_Heading2"><span class="f_Heading2">&nbsp;</span></p>
+<p>The following information is displayed in the USB test window.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">USB Identity</span></p>
+<p> The device number, unique device serial number and the bus and port number the plug is connected to are displayed. The device number is determined by the order in which plugs are connected and disconnected and is not linked to a physical USB socket on the PC. (Note that this is different from Serial and Parallel ports). The device serial number is collected during the USB device enumeration process and comes from the memory (EEPROM) in the plug itself.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Bytes Sent</span></p>
+<p>The number of Kilobytes sent to the USB device.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Bytes Rec</span></p>
+<p>The number of Kilobytes received from the USB device.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Throughput</span></p>
+<p>The number of Megabits of data received and transmitted in the last second.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Ave. Throughput</span></p>
+<p>The average number of Megabits of data received and transmitted per second since the start of the test.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Max Read</span></p>
+<p>The maximum read speed measured during the benchmark test (USB2 only).</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Max Write</span></p>
+<p>The maximum write speed measured during the benchmark test (USB2 only).</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Errors</span></p>
+<p>The number of errors that have occurred (i.e. Transmitted data does not match received data). </p>
+
+</td></tr></table>
+
+</body>
+</html>

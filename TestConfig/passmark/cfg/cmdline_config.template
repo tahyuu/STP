@@ -1,0 +1,29 @@
+<Logging>
+LogFilename /root/mount/
+LogPrefix BiTLog2_usb
+Format Ascii
+LogDetailLevel normal
+TraceLevel 2
+MaxFileLines 1000
+LogMode ClearNew
+</Logging>
+
+<DutyCycles>
+AutoStopMinutes 5
+AutoStopCycles 0
+CPU 100
+CDDVD 100
+Memory 100
+Serial 100
+Parallel 100
+Disk 100
+Network 100
+USB 100
+</DutyCycles>
+
+## Errors
+<Errors>
+## Action to take on error - Continue (Continue), Beep and continue (Beep), Stop tests (Stop)
+ActionOnError Continue
+</Errors>
+

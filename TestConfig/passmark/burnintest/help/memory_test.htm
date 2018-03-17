@@ -1,0 +1,77 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Memory (RAM) test</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?memory_test.htm"; }
+  else { parent.quicksync('a6.6'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Memory (RAM) test</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="disk_test.htm">Previous</a>&nbsp;
+     <a href="network_test.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>Tests the Memory in the computer.</p>
+<p>&nbsp;</p>
+<p>The Memory test, tests the reliability of the RAM installed in the computer. &nbsp;Some of the available RAM is being used by the operating system and any other applications running. &nbsp;Any memory that is not already in active use will be grabbed by the Memory test.</p>
+<p>&nbsp;</p>
+<p>The memory test works by writing a pattern numbers in the RAM, then verifying the numbers read from the RAM match this sequence. The pattern used will change automatically from one cycle to the next. Possible patterns are:</p>
+<p>&nbsp;</p>
+<p>Sequence (0,1,2...255)</p>
+<p>Binary 1 (10101010)</p>
+<p>Binary 2 (01010101)</p>
+<p>Zeros (00000000)</p>
+<p>Ones (11111111)</p>
+<p>&nbsp;</p>
+<p>There are 3 sequences that the test goes through:</p>
+<p>1/ Memory allocation. The test will dynamically grab memory depending on how much is currently available. The amount that has been grabbed and is under test is displayed in the Test Ram Field.</p>
+<p>&nbsp;</p>
+<p>2/ Writing the number sequence.</p>
+<p>&nbsp;</p>
+<p>3/ Verifying the number sequence.</p>
+<p>The total amount of free RAM is displayed in the Memory Test Window. This number should always be bigger than the Test Ram number. Some memory is always left available to avoid disk thrashing caused by the operating system swapping to disk.</p>
+<p>&nbsp;</p>
+<p>For the Memory test a cycle is defined to be the number of times the above 3-step sequence is completed. The ‘operations’ count represents the number of bytes read or written.</p>
+<p>&nbsp;</p>
+<p>It should be noted that not all RAM faults will be detected by this test. This is especially the case if the operating system and it's cache is using a large proportion of the available RAM. &nbsp;RAM faults may show up as system crashes or disk errors however.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Compatibility issues</span></p>
+<p>You need to have administrator privileges to run this test.</p>
+<p>&nbsp;</p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

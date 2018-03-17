@@ -1,0 +1,97 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Preparing a Customer Test Certificate</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?preparing_a_customer_test_cert.htm"; }
+  else { parent.quicksync('a12.4'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Preparing a Customer Test Certificate</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="command_line_parameters.htm">Previous</a>&nbsp;
+     <a href="command_line_version.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>A Test Certificate is a report targeted at your customer. It includes your company details, Technician information, System summary, Result summary and a Certification statement. The report would typically be created after a test run. It is produced by (i) selecting &nbsp;File -&gt; Save results report menu and the Test Certificate option or (ii) selecting Configuration -&gt; Test Preferences and selecting a Report type of Customer certificate in Logging.</p>
+<p>&nbsp;</p>
+<p>The Test Certificate is a HTML template. This HTML template will need to be modified with your company’s details.</p>
+<p>&nbsp;</p>
+<p>The items in the report that are specific to your customer, and likely to change frequently, can be modified from Configuration -&gt; <a href="machine_identity.htm">Report Information</a>. This is the Customer’s Name and Technician’s name.</p>
+<p>&nbsp;</p>
+<p>The items in the report that are specific to your company, and unlikely to change frequently, can be modified in the HTML template. </p>
+<p>&nbsp;</p>
+<p>A description of the HTML template follows.</p>
+<p>&nbsp;</p>
+<p><span style="font-weight: bold;">Test certificate HTML template</span></p>
+<p>&nbsp;</p>
+<p>The default location of the HTML test certificate template is the BurnInTest directory. It must be named BITCertificateTemplate.html. This file may be modified in the BurnInTest directory. A sample BITCertificateTemplate.html is provided in the installation package.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Style</span></p>
+<p>&nbsp;</p>
+<p>The HTML file defines the Styles for the Report in the &lt;style&gt; block. You can change the style, such as font size and colors by modifying the style block.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Company Logo</span></p>
+<p>&nbsp;</p>
+<p>The first item in the &lt;body&gt; of the HTML file is a &lt;table&gt; containing your company name and logo as a gif file.</p>
+<p>&nbsp;</p>
+<p>For example:</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&lt;p&gt;Put your company logo here:&lt;/p&gt;</p>
+<p style="margin: 0px 0px 0px 24px;">&lt;img src="./Passmark_logo3.gif"&gt;</p>
+<p>&nbsp;</p>
+<p>You should modify the text in the first line to be your Company name, and change the logo gif filename to a file containing your company logo.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">BurnInTest generated report components</span></p>
+<p>&nbsp;</p>
+<p>BurnInTest will automatically insert 3 sections where the following marker is placed in the HTML file,</p>
+<p>&nbsp;</p>
+<p>&lt;!--BITCERTIFICATE--&gt; &nbsp; &nbsp; &nbsp; &nbsp;&lt;!--Do not edit this line as it will be replaced by the results report--&gt;</p>
+<p>&nbsp;</p>
+<p>The sections are:</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">BurnInTest Certificate: Includes Customer name, date, technician name and BurnInTest version.</p>
+<p style="margin: 0px 0px 0px 24px;">System summary: Includes summary information about the CPU,OS, RAM, video card and drives.</p>
+<p style="margin: 0px 0px 0px 24px;">Result summary: Includes test start and stop times, duration, and a list of tests run with a PASS or FAIL indication.</p>
+<p style="margin: 0px 0px 0px 24px;">&nbsp;</p>
+<p><span style="text-decoration: underline;">Certification statement</span></p>
+<p>&nbsp;</p>
+<p>The certification heading and title can be modified in the HTML file by editing the following sections:</p>
+<p>&nbsp;</p>
+<p style="margin: 0px 0px 0px 24px;">&lt;h2&gt;Certification&lt;/h2&gt;</p>
+<p style="margin: 0px 0px 0px 24px;">&lt;p&gt;This document certifies that the Tests described above have been carried out by a suitably qualified technician on the System described &lt;/p&gt;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+
+</body>
+</html>

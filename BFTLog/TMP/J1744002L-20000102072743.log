@@ -1,0 +1,11 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 2000-01-02 07:27:43
+Version: V0.0.00(BFT1-EVT)
+                                
+07:27:43.63 ##############################################################
+07:27:43.63 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+07:27:43.64 Send = lspci -s 86:00.0 -vvn
+07:27:43.64 Rece = 
+

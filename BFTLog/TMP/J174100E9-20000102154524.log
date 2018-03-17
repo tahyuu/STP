@@ -1,0 +1,338 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 2000-01-02 15:45:24
+Version: V0.0.00(BFT1-EVT)
+                                
+15:45:24.35 ##############################################################
+15:45:24.35 Section: Set Sati System and HW Clock
+15:45:24.35 Month/Day/Hour/Minute/Year : 010215452000
+15:45:24.35 Send = 
+15:45:24.35 Rece = 
+
+15:45:24.36 Send = date 010215452000
+15:45:24.36 Rece = 
+Sun Jan  2 15:45:00 EST 2000
+
+15:45:00.00 Send = hwclock --systohc --utc
+15:45:00.00 Rece = 
+
+15:45:01.50 Tester Chk => OK: Set Sati System and HW Clock
+15:45:01.50 ##############################################################
+15:45:01.50 Section: Bmc Sel Clear
+15:45:01.50 Send = ipmitool sel clear
+15:45:01.50 Rece = 
+Clearing SEL.  Please allow a few seconds to erase.
+
+15:45:01.80 TestChk => PASS: Bmc Sel Clear
+15:45:01.80 ##############################################################
+15:45:01.80 Section: BIOS Version Check
+15:45:01.80 Send = dmidecode -s bios-version
+15:45:01.80 Rece = 
+0.50
+
+15:45:01.81 Version number 0.50 is matched to 0.50
+15:45:01.81 Tester => OK: BIOS Version Check
+15:45:01.81 ##############################################################
+15:45:01.81 Section: BMC Version Check
+15:45:01.81 Send = ipmitool mc info
+15:45:01.81 Rece = 
+Device ID                 : 32
+Device Revision           : 1
+Firmware Revision         : 0.60
+IPMI Version              : 2.0
+Manufacturer ID           : 6305
+Manufacturer Name         : Unknown (0x18A1)
+Product ID                : 32 (0x0020)
+Product Name              : Unknown (0x20)
+Device Available          : yes
+Provides Device SDRs      : no
+Additional Device Support :
+    Sensor Device
+    SDR Repository Device
+    SEL Device
+    FRU Inventory Device
+    IPMB Event Receiver
+    IPMB Event Generator
+    Chassis Device
+Aux Firmware Rev Info     : 
+    0x0a
+    0x91
+    0x00
+    0x01
+15:45:01.83 Version number 0.60 is matched to 0.60
+15:45:01.83 Tester => OK: BMC Version Check
+15:45:01.83 ##############################################################
+15:45:01.83 Section: Program BMC MAC and FRU
+15:45:01.83 Send = ipmitool raw 0x06 0x52 0x0D 0xA0 0x00 0x1C 0x00 0x14 0x0D 0x4F 0x51 0x29 0x9D 0x00 0x00 0x14 0x0D 0x4F 0x51 0x29 0x9E 0x00 0x00
+15:45:01.84 Rece = 
+
+15:45:01.86 Send = ipmitool mc reset cold
+15:45:01.86 Rece = 
+Sent cold reset command to MC
+15:45:36.93 Send = ipmitool lan print 1
+15:45:36.93 Rece = 
+Set in Progress         : Set Complete
+Auth Type Support       : MD5
+Auth Type Enable        : Callback : MD5 
+                        : User     : MD5 
+                        : Operator : MD5 
+                        : Admin    : MD5 
+                        : OEM      : MD5 
+IP Address Source       : Static Address
+IP Address              : 192.168.4.20
+Subnet Mask             : 255.255.255.0
+MAC Address             : 14:0d:4f:51:29:9d
+SNMP Community String   : AMI
+IP Header               : TTL=0x40 Flags=0x40 Precedence=0x00 TOS=0x10
+BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
+Gratituous ARP Intrvl   : 0.0 seconds
+Default Gateway IP      : 0.0.0.0
+Default Gateway MAC     : 00:00:00:00:00:00
+Backup Gateway IP       : 0.0.0.0
+Backup Gateway MAC      : 00:00:00:00:00:00
+802.1q VLAN ID          : Disabled
+802.1q VLAN Priority    : 0
+RMCP+ Cipher Suites     : 0,1,2,3,6,7,8,11,12,15,16,17
+Cipher Suite Priv Max   : caaaaaaaaaaaXXX
+                        :     X=Cipher Suite Unused
+                        :     c=CALLBACK
+                        :     u=USER
+                        :     o=OPERATOR
+                        :     a=ADMIN
+                        :     O=OEM
+15:45:37.01 Send = ipmitool lan print 8
+15:45:37.01 Rece = 
+Set in Progress         : Set Complete
+Auth Type Support       : MD5
+Auth Type Enable        : Callback : MD5 
+                        : User     : MD5 
+                        : Operator : MD5 
+                        : Admin    : MD5 
+                        : OEM      : MD5 
+IP Address Source       : DHCP Address
+IP Address              : 0.0.0.0
+Subnet Mask             : 0.0.0.0
+MAC Address             : 14:0d:4f:51:29:9e
+SNMP Community String   : AMI
+IP Header               : TTL=0x40 Flags=0x40 Precedence=0x00 TOS=0x10
+BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
+Gratituous ARP Intrvl   : 0.0 seconds
+Default Gateway IP      : 0.0.0.0
+Default Gateway MAC     : 00:00:00:00:00:00
+Backup Gateway IP       : 0.0.0.0
+Backup Gateway MAC      : 00:00:00:00:00:00
+802.1q VLAN ID          : Disabled
+802.1q VLAN Priority    : 0
+RMCP+ Cipher Suites     : 0,1,2,3,6,7,8,11,12,15,16,17
+Cipher Suite Priv Max   : caaaaaaaaaaaXXX
+                        :     X=Cipher Suite Unused
+                        :     c=CALLBACK
+                        :     u=USER
+                        :     o=OPERATOR
+                        :     a=ADMIN
+                        :     O=OEM
+15:45:37.11 Send = ipmitool raw 0x0a 0x12 0x00 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x00 0x00 0xff
+15:45:37.11 Rece = 
+ 08
+15:45:37.14 Send = ipmitool raw 0x0a 0x12 0x01 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x01 0x00 0xFE 0xC1 0x82 0x00 0x00 0xBD
+15:45:37.14 Rece = 
+ 0d
+15:45:37.18 Send = ipmitool raw 0x0a 0x11 0x00 0x00 0x00 0x08
+15:45:37.18 Rece = 
+ 08 01 00 00 00 00 00 00 ff
+15:45:37.19 Send = ipmitool raw 0x0a 0x11 0x01 0x00 0x00 0x0D
+15:45:37.20 Rece = 
+ 0d 01 00 00 00 00 01 00 fe c1 82 00 00 bd
+15:45:37.22 Tester => OK: Program BMC MAC and FRU
+15:45:37.22 ##############################################################
+15:45:37.22 Section: Status, ID and Fault LEDs Check
+15:45:37.22 Send = ipmitool raw 0x30 0xF3 0x02 0xFF 0x64
+15:45:37.22 Rece = 
+
+15:45:46.73 ID Blue LED Check Pass
+15:45:46.73 Send = ipmitool raw 00 04 00 01
+15:45:46.73 Rece = 
+
+15:45:48.55 Fault Yellow LED Check Pass
+15:45:48.55 Send = ipmitool raw 00 04 00 00
+15:45:48.55 Rece = 
+
+15:45:48.99 Fault Yellow LED Check Pass
+15:45:48.99 Tester => OK: ID Blue and Fault Yellow LEDs
+15:45:48.99 ##############################################################
+15:45:48.99 Section: USB Check
+15:45:49.00 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+15:45:49.00 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+15:45:49.57 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+15:45:49.57 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg15
+  Removable
+  Host#=15
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=3992977408 bytes, 3808.0 MiB, 3.99 GB
+  Block device=/dev/sdp
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+15:45:50.15 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+15:45:50.15 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg16
+  Removable
+  Host#=16
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=4037017600 bytes, 3850.0 MiB, 4.04 GB
+  Block device=/dev/sdq
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+15:45:52.19 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+15:45:52.19 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+15:45:52.74 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+15:45:52.74 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg15
+  Removable
+  Host#=15
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=3992977408 bytes, 3808.0 MiB, 3.99 GB
+  Block device=/dev/sdp
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+15:45:53.31 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+15:45:53.31 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg16
+  Removable
+  Host#=16
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=4037017600 bytes, 3850.0 MiB, 4.04 GB
+  Block device=/dev/sdq
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+15:45:55.96 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+15:45:55.96 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+15:45:56.53 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+15:45:56.53 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg15
+  Removable
+  Host#=15
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=3992977408 bytes, 3808.0 MiB, 3.99 GB
+  Block device=/dev/sdp
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+15:45:57.11 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+15:45:57.11 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg16
+  Removable
+  Host#=16
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=4037017600 bytes, 3850.0 MiB, 4.04 GB
+  Block device=/dev/sdq
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************

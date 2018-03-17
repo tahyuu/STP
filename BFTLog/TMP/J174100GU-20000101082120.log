@@ -1,0 +1,1654 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 2000-01-01 08:21:20
+Version: V0.0.00(BFT1-EVT)
+                                
+08:21:20.26 ##############################################################
+08:21:20.26 Section: USB Check
+08:21:20.26 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+08:21:20.27 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=0
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sda
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=9B41D4E08409
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:2:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+08:21:20.45 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+08:21:20.45 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=1
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sdb
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=9B41D4E08409
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+08:21:20.61 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+08:21:20.61 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg2
+  Removable
+  Host#=2
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sdc
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=1BC164F06459
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+08:21:20.79 Tester Chk => OK: USB Verify
+08:21:20.79 ##############################################################
+08:21:20.79 Subsection: Interpose1_Storage1_Ctrl Speed and Width Check
+08:21:20.79 Send = lspci -s 18:00.0 -vvn
+08:21:20.79 Rece = 
+18:00.0 0180: 1c36:1031 (prog-if 02)
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 72004000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at 68000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at 70000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=0 offset=00002000
+		PBA: BAR=0 offset=00003000
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A716000269
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: F0:23:B9:A1:D9:08
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: F0:23:B9:A1:D9:09
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:20.83 PASS: Interpose1_Storage1_Ctrl PCIe link speed 8
+08:21:20.83 PASS: Interpose1_Storage1_Ctrl PCIe link Width is 8
+08:21:20.83 Subsection: Interpose1_Storage2_Ctrl Speed and Width Check
+08:21:20.83 Send = lspci -s 18:00.1 -vvn
+08:21:20.83 Rece = 
+18:00.1 0180: 1c36:1031 (prog-if 02)
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 72000000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at 64000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at 6e000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=0 offset=00002000
+		PBA: BAR=0 offset=00003000
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A716000269
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: F0:23:B9:A1:D9:08
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: F0:23:B9:A1:D9:09
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:20.86 PASS: Interpose1_Storage2_Ctrl PCIe link speed 8
+08:21:20.86 PASS: Interpose1_Storage2_Ctrl PCIe link Width is 8
+08:21:20.86 Subsection: Interpose1_Ethernet_Ctrl Speed and Width Check
+08:21:20.86 Send = lspci -s 18:00.2 -vvn
+08:21:20.86 Rece = 
+18:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at 6c000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A716000269
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: F0:23:B9:A1:D9:08
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: F0:23:B9:A1:D9:09
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:20.89 PASS: Interpose1_Ethernet_Ctrl PCIe link speed 8
+08:21:20.89 PASS: Interpose1_Ethernet_Ctrl PCIe link Width is 8
+08:21:20.89 Subsection: Interpose2_Storage1_Ctrl Speed and Width Check
+08:21:20.90 Send = lspci -s 19:00.0 -vvn
+08:21:20.90 Rece = 
+19:00.0 0180: 1c36:1031 (prog-if 02)
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 62004000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at 58000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at 60000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=0 offset=00002000
+		PBA: BAR=0 offset=00003000
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A715048544
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: F0:23:B9:A0:0D:5C
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: F0:23:B9:A0:0D:5D
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:20.93 PASS: Interpose2_Storage1_Ctrl PCIe link speed 8
+08:21:20.93 PASS: Interpose2_Storage1_Ctrl PCIe link Width is 8
+08:21:20.93 Subsection: Interpose2_Storage2_Ctrl Speed and Width Check
+08:21:20.93 Send = lspci -s 19:00.1 -vvn
+08:21:20.93 Rece = 
+19:00.1 0180: 1c36:1031 (prog-if 02)
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 62000000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at 54000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at 5e000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=0 offset=00002000
+		PBA: BAR=0 offset=00003000
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A715048544
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: F0:23:B9:A0:0D:5C
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: F0:23:B9:A0:0D:5D
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:20.96 PASS: Interpose2_Storage2_Ctrl PCIe link speed 8
+08:21:20.96 PASS: Interpose2_Storage2_Ctrl PCIe link Width is 8
+08:21:20.96 Subsection: Interpose2_Ethernet_Ctrl Speed and Width Check
+08:21:20.96 Send = lspci -s 19:00.2 -vvn
+08:21:20.96 Rece = 
+19:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at 5c000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A715048544
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: F0:23:B9:A0:0D:5C
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: F0:23:B9:A0:0D:5D
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:20.99 PASS: Interpose2_Ethernet_Ctrl PCIe link speed 8
+08:21:20.99 PASS: Interpose2_Ethernet_Ctrl PCIe link Width is 8
+08:21:20.99 Subsection: Interpose3_Storage1_Ctrl Speed and Width Check
+08:21:20.99 Send = lspci -s af:00.0 -vvn
+08:21:20.99 Rece = 
+af:00.0 0180: 1c36:1031 (prog-if 02)
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 1
+	Region 0: Memory at e6004000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at dc000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at e4000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=0 offset=00002000
+		PBA: BAR=0 offset=00003000
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A715048199
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: 14:4F:D7:0F:FD:A2
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: 14:4F:D7:0F:FD:A3
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.03 PASS: Interpose3_Storage1_Ctrl PCIe link speed 8
+08:21:21.03 PASS: Interpose3_Storage1_Ctrl PCIe link Width is 8
+08:21:21.03 Subsection: Interpose3_Storage2_Ctrl Speed and Width Check
+08:21:21.03 Send = lspci -s af:00.1 -vvn
+08:21:21.03 Rece = 
+af:00.1 0180: 1c36:1031 (prog-if 02)
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 1
+	Region 0: Memory at e6000000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at d8000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at e2000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=0 offset=00002000
+		PBA: BAR=0 offset=00003000
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A715048199
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: 14:4F:D7:0F:FD:A2
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: 14:4F:D7:0F:FD:A3
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.06 PASS: Interpose3_Storage2_Ctrl PCIe link speed 8
+08:21:21.06 PASS: Interpose3_Storage2_Ctrl PCIe link Width is 8
+08:21:21.06 Subsection: Interpose3_Ethernet_Ctrl Speed and Width Check
+08:21:21.06 Send = lspci -s af:00.2 -vvn
+08:21:21.06 Rece = 
+af:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 1
+	Region 5: Memory at e0000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A715048199
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: 14:4F:D7:0F:FD:A2
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: 14:4F:D7:0F:FD:A3
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.09 PASS: Interpose3_Ethernet_Ctrl PCIe link speed 8
+08:21:21.09 PASS: Interpose3_Ethernet_Ctrl PCIe link Width is 8
+08:21:21.09 Subsection: Interpose4_Storage1_Ctrl Speed and Width Check
+08:21:21.09 Send = lspci -s b0:00.0 -vvn
+08:21:21.09 Rece = 
+b0:00.0 0180: 1c36:1031 (prog-if 02)
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 1
+	Region 0: Memory at d6004000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at cc000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at d4000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=0 offset=00002000
+		PBA: BAR=0 offset=00003000
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A716000206
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: F0:23:B9:A1:D8:96
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: F0:23:B9:A1:D8:97
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.12 PASS: Interpose4_Storage1_Ctrl PCIe link speed 8
+08:21:21.12 PASS: Interpose4_Storage1_Ctrl PCIe link Width is 8
+08:21:21.12 Subsection: Interpose4_Storage2_Ctrl Speed and Width Check
+08:21:21.12 Send = lspci -s b0:00.1 -vvn
+08:21:21.12 Rece = 
+b0:00.1 0180: 1c36:1031 (prog-if 02)
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 1
+	Region 0: Memory at d6000000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at c8000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at d2000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=0 offset=00002000
+		PBA: BAR=0 offset=00003000
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A716000206
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: F0:23:B9:A1:D8:96
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: F0:23:B9:A1:D8:97
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.14 PASS: Interpose4_Storage2_Ctrl PCIe link speed 8
+08:21:21.14 PASS: Interpose4_Storage2_Ctrl PCIe link Width is 8
+08:21:21.14 Subsection: Interpose4_Ethernet_Ctrl Speed and Width Check
+08:21:21.14 Send = lspci -s b0:00.2 -vvn
+08:21:21.14 Rece = 
+b0:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 1
+	Region 5: Memory at d0000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP2VFN018A
+			[SN] Serial number: A716000206
+			[EC] Engineering changes: 1D
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V2] Vendor specific: F0:23:B9:A1:D8:96
+			[V3] Vendor specific: FF:FF:FF:FF:FF:FF
+			[V4] Vendor specific: F0:23:B9:A1:D8:97
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.18 PASS: Interpose4_Ethernet_Ctrl PCIe link speed 8
+08:21:21.18 PASS: Interpose4_Ethernet_Ctrl PCIe link Width is 8
+08:21:21.18 Tester Chk => OK: PCIe Devices Link Speed and Width Verified
+08:21:21.18 ##############################################################
+08:21:21.18 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+08:21:21.18 Send = lspci -s 3b:00.0 -vvn
+08:21:21.18 Rece = 
+3b:00.0 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 8a024000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at 80000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at 88000000 (32-bit, non-prefetchable) [size=32M]
+	Expansion ROM at 8a000000 [disabled] [size=128K]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:36
+			[V2] Vendor specific: 14:4F:D7:0F:82:37
+			[V3] Vendor specific: 14:4F:D7:0F:82:38
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.21 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+08:21:21.21 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+08:21:21.21 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+08:21:21.21 Send = lspci -s 3b:00.1 -vvn
+08:21:21.21 Rece = 
+3b:00.1 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 8a020000 (64-bit, non-prefetchable) [size=16K]
+	Region 5: Memory at 86000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:36
+			[V2] Vendor specific: 14:4F:D7:0F:82:37
+			[V3] Vendor specific: 14:4F:D7:0F:82:38
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.24 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+08:21:21.24 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+08:21:21.24 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+08:21:21.24 Send = lspci -s 3b:00.2 -vvn
+08:21:21.24 Rece = 
+3b:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at 84000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:36
+			[V2] Vendor specific: 14:4F:D7:0F:82:37
+			[V3] Vendor specific: 14:4F:D7:0F:82:38
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.28 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+08:21:21.28 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+08:21:21.28 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+08:21:21.28 Send = lspci -s 3c:00.0 -vvn
+08:21:21.28 Rece = 
+3c:00.0 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 7e004000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 4: Memory at 74000000 (32-bit, non-prefetchable) [disabled] [size=64M]
+	Region 5: Memory at 7c000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:39
+			[V2] Vendor specific: 14:4F:D7:0F:82:3A
+			[V3] Vendor specific: 14:4F:D7:0F:82:3B
+			[V4] Vendor specific: 14:4F:D7:0F:82:3C
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.31 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+08:21:21.31 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+08:21:21.31 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+08:21:21.31 Send = lspci -s 3c:00.1 -vvn
+08:21:21.31 Rece = 
+3c:00.1 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 7e000000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 5: Memory at 7a000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:39
+			[V2] Vendor specific: 14:4F:D7:0F:82:3A
+			[V3] Vendor specific: 14:4F:D7:0F:82:3B
+			[V4] Vendor specific: 14:4F:D7:0F:82:3C
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.34 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+08:21:21.34 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+08:21:21.34 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+08:21:21.34 Send = lspci -s 3c:00.2 -vvn
+08:21:21.34 Rece = 
+3c:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at 78000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:39
+			[V2] Vendor specific: 14:4F:D7:0F:82:3A
+			[V3] Vendor specific: 14:4F:D7:0F:82:3B
+			[V4] Vendor specific: 14:4F:D7:0F:82:3C
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.37 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+08:21:21.37 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+08:21:21.37 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+08:21:21.38 Send = lspci -s 5e:00.0 -vvn
+08:21:21.38 Rece = 
+5e:00.0 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at a2024000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at 98000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at a0000000 (32-bit, non-prefetchable) [size=32M]
+	Expansion ROM at a2000000 [disabled] [size=128K]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7B
+			[V2] Vendor specific: 14:4F:D7:0F:84:7C
+			[V3] Vendor specific: 14:4F:D7:0F:84:7D
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.41 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+08:21:21.41 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+08:21:21.41 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+08:21:21.41 Send = lspci -s 5e:00.1 -vvn
+08:21:21.41 Rece = 
+5e:00.1 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at a2020000 (64-bit, non-prefetchable) [size=16K]
+	Region 5: Memory at 9e000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7B
+			[V2] Vendor specific: 14:4F:D7:0F:84:7C
+			[V3] Vendor specific: 14:4F:D7:0F:84:7D
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.44 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+08:21:21.44 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+08:21:21.44 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+08:21:21.44 Send = lspci -s 5e:00.2 -vvn
+08:21:21.44 Rece = 
+5e:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at 9c000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7B
+			[V2] Vendor specific: 14:4F:D7:0F:84:7C
+			[V3] Vendor specific: 14:4F:D7:0F:84:7D
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.47 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+08:21:21.47 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+08:21:21.47 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+08:21:21.47 Send = lspci -s 5f:00.0 -vvn
+08:21:21.47 Rece = 
+5f:00.0 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 96004000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 4: Memory at 8c000000 (32-bit, non-prefetchable) [disabled] [size=64M]
+	Region 5: Memory at 94000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7E
+			[V2] Vendor specific: 14:4F:D7:0F:84:7F
+			[V3] Vendor specific: 14:4F:D7:0F:84:80
+			[V4] Vendor specific: 14:4F:D7:0F:84:81
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.50 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+08:21:21.50 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+08:21:21.50 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+08:21:21.51 Send = lspci -s 5f:00.1 -vvn
+08:21:21.51 Rece = 
+5f:00.1 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at 96000000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 5: Memory at 92000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7E
+			[V2] Vendor specific: 14:4F:D7:0F:84:7F
+			[V3] Vendor specific: 14:4F:D7:0F:84:80
+			[V4] Vendor specific: 14:4F:D7:0F:84:81
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.53 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+08:21:21.53 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+08:21:21.53 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+08:21:21.54 Send = lspci -s 5f:00.2 -vvn
+08:21:21.54 Rece = 
+5f:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at 90000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7E
+			[V2] Vendor specific: 14:4F:D7:0F:84:7F
+			[V3] Vendor specific: 14:4F:D7:0F:84:80
+			[V4] Vendor specific: 14:4F:D7:0F:84:81
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+08:21:21.57 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+08:21:21.57 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+08:21:21.57 Tester Chk => OK: PCIe Devices Link Speed and Width Verified
+08:21:21.57 ##############################################################
+08:21:21.57 Section: Halt UUT
+08:21:27.67 Send = init 0
+08:21:27.67 ##############################################################
+08:21:27.67 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+08:21:27.67 Send = lspci -s 86:00.0 -vvn
+08:21:27.67 Rece = 
+

@@ -1,0 +1,43 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 2000-01-01 10:53:44
+Version: V0.0.00(BFT1-EVT)
+                                
+10:53:44.39 ##############################################################
+10:53:44.39 Section: Set Sati System and HW Clock
+10:53:44.40 Month/Day/Hour/Minute/Year : 010110532000
+10:53:44.40 Send = 
+10:53:44.40 Rece = 
+
+10:53:44.40 Send = date 010110532000
+10:53:44.40 Rece = 
+Sat Jan  1 10:53:00 CST 2000
+
+10:53:00.00 Send = hwclock --systohc --utc
+10:53:00.00 Rece = 
+
+10:53:01.50 Tester Chk => OK: Set Sati System and HW Clock
+10:53:01.50 ##############################################################
+10:53:01.50 Section: Bmc Sel Clear
+10:53:01.51 Send = ipmitool sel clear
+10:53:01.51 Rece = 
+Could not open device at /dev/ipmi0 or /dev/ipmi/0 or /dev/ipmidev/0: No such file or directory
+10:53:01.51 TestChk => PASS: Bmc Sel Clear
+10:53:01.51 ##############################################################
+10:53:01.51 Section: BIOS Version Check
+10:53:01.51 Send = dmidecode -s bios-version
+10:53:01.51 Rece = 
+0.50
+
+10:53:01.52 Version number 0.50 is matched to 0.50
+10:53:01.52 Tester => OK: BIOS Version Check
+10:53:01.52 ##############################################################
+10:53:01.52 Section: BMC Version Check
+10:53:01.52 Send = ipmitool mc info
+10:53:01.52 Rece = 
+Could not open device at /dev/ipmi0 or /dev/ipmi/0 or /dev/ipmidev/0: No such file or directory
+10:53:01.52 TestEnd => ErrorCode=30011: Version_Fail
+10:53:01.52 Tester => Test Fail: Section: BMC Version Check
+10:53:22.41 ##############################################################
+Cannonball BFT: FAIL ErrorCode=30011

@@ -1,0 +1,109 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 2000-01-01 08:11:58
+Version: V0.0.00(BFT1-EVT)
+                                
+08:11:58.56 ##############################################################
+08:11:58.56 Section: Set Sati System and HW Clock
+08:11:58.57 Month/Day/Hour/Minute/Year : 010108112000
+08:11:58.57 Send = 
+08:11:58.57 Rece = 
+
+08:11:58.58 Send = date 010108112000
+08:11:58.58 Rece = 
+Sat Jan  1 08:11:00 CST 2000
+
+08:11:00.00 Send = hwclock --systohc --utc
+08:11:00.00 Rece = 
+
+08:11:00.50 Tester Chk => OK: Set Sati System and HW Clock
+08:11:00.50 ##############################################################
+08:11:00.50 Section: Bmc Sel Clear
+08:11:00.50 Send = ipmitool sel clear
+08:11:00.50 Rece = 
+Clearing SEL.  Please allow a few seconds to erase.
+
+08:11:00.61 TestChk => PASS: Bmc Sel Clear
+08:11:00.61 ##############################################################
+08:11:00.61 Section: BIOS Version Check
+08:11:00.62 Send = dmidecode -s bios-version
+08:11:00.62 Rece = 
+0.50
+
+08:11:00.62 Version number 0.50 is matched to 0.50
+08:11:00.62 Tester => OK: BIOS Version Check
+08:11:00.62 ##############################################################
+08:11:00.62 Section: BMC Version Check
+08:11:00.62 Send = ipmitool mc info
+08:11:00.62 Rece = 
+Device ID                 : 32
+Device Revision           : 1
+Firmware Revision         : 0.50
+IPMI Version              : 2.0
+Manufacturer ID           : 6305
+Manufacturer Name         : Unknown (0x18A1)
+Product ID                : 32 (0x0020)
+Product Name              : Unknown (0x20)
+Device Available          : yes
+Provides Device SDRs      : no
+Additional Device Support :
+    Sensor Device
+    SDR Repository Device
+    SEL Device
+    FRU Inventory Device
+    IPMB Event Receiver
+    IPMB Event Generator
+    Chassis Device
+Aux Firmware Rev Info     : 
+    0x0a
+    0x91
+    0x00
+    0x01
+08:11:00.64 Version number 0.50 is matched to 0.50
+08:11:00.64 Tester => OK: BMC Version Check
+08:11:00.64 ##############################################################
+08:11:00.64 Section: Program BMC MAC and FRU
+08:11:00.64 Send = ipmitool raw 0x06 0x52 0x0D 0xA0 0x00 0x1C 0x00 0x01 0x40 0xD4 0xF5 0x12 0x9D 0x00 0x00 0x01 0x40 0xD4 0xF5 0x12 0x9E 0x00 0x00
+08:11:00.64 Rece = 
+
+08:11:00.66 Send = ipmitool mc reset cold
+08:11:00.66 Rece = 
+Sent cold reset command to MC
+08:11:02.33 Send = ipmitool lan print 1
+08:11:02.33 Rece = 
+Set in Progress         : Set Complete
+Auth Type Support       : MD5
+Auth Type Enable        : Callback : MD5 
+                        : User     : MD5 
+                        : Operator : MD5 
+                        : Admin    : MD5 
+                        : OEM      : MD5 
+IP Address Source       : DHCP Address
+IP Address              : 192.168.4.28
+Subnet Mask             : 255.255.255.0
+MAC Address             : 00:11:22:33:44:55
+SNMP Community String   : AMI
+IP Header               : TTL=0x40 Flags=0x40 Precedence=0x00 TOS=0x10
+BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
+Gratituous ARP Intrvl   : 0.0 seconds
+Default Gateway IP      : 0.0.0.0
+Default Gateway MAC     : 00:00:00:00:00:00
+Backup Gateway IP       : 0.0.0.0
+Backup Gateway MAC      : 00:00:00:00:00:00
+802.1q VLAN ID          : Disabled
+802.1q VLAN Priority    : 0
+RMCP+ Cipher Suites     : 0,1,2,3,6,7,8,11,12,15,16,17
+Cipher Suite Priv Max   : caaaaaaaaaaaXXX
+                        :     X=Cipher Suite Unused
+                        :     c=CALLBACK
+                        :     u=USER
+                        :     o=OPERATOR
+                        :     a=ADMIN
+                        :     O=OEM
+08:11:02.38 TestEnd => ErrorCode=90001: Program_Bmc_Mac1_Fail
+08:11:02.38 Tester => Test Fail: Section: Program BMC MAC and FRU
+08:11:03.24 ##############################################################
+Cannonball BFT: FAIL ErrorCode=90001
+08:11:04.37 Send = shutdown now
+08:11:04.37 Rece = 

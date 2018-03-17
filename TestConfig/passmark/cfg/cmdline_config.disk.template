@@ -1,0 +1,7 @@
+
+## Disk section - Have a <Test> section for each device to test
+<Test>
+Device DEVICE
+TestMode Cyclic
+FileSize 0.1
+</Test>

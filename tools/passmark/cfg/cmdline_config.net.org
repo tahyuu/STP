@@ -1,0 +1,213 @@
+## Test config file for BurnInTest Linux command line version
+## Use '#' to comment out lines, remove the comment to enable an option
+## Double ## have been used for explanations of each section/paramter
+## Single # have been used to comment out optional paramters/tests
+
+## Note that only 14 lines of tests can be displayed on the main window
+## due to console size limits
+
+## Logging 
+## Comment out the section to turn logging off
+<Logging>
+
+## Location (path) of log file
+LogFilename /tmp/
+
+## Log prefix
+LogPrefix BiTLog2_net
+## Format - Ascii|HTML|Certificate
+Format Ascii
+## Logging detail level - summary|normal
+LogDetailLevel normal
+## Trace level - None (0) | Activity Trace 1 (1)| Activity Trace 2 (2) 
+TraceLevel 0
+##maximum number of lines for file
+MaxFileLines 1000		
+## Logging mode - single file or multiples with timestamp
+##   - ClearAppend Clear results & append (single file)
+##   - AccumulateAppend Clear results & append (single file)
+##   - ClearNew Clear results and overwrite existing (single file) 
+##		- Timestamp Create new timestamped files (multiple files)
+LogMode ClearAppend
+
+</Logging>
+
+## Pre Test Action
+#<PreTest>
+##Action before tests start - None, Warn and ExternalWait - currently only None and ExternalWait are valid
+#Action 
+##If using ExternalWait this is the path of the file or script to launch and wait for the end of it's execution
+#ExternalPath /path/to/file
+#</PreTest>
+
+#<Notes>
+## CustomerName
+#CustomerName Name
+## TechnicianName
+#TechnicianName Name
+## MachineType - One line description of the machine type
+#MachineType Type
+## MachineSerial - Custom serial for this machine
+#MachineSerial Serial1234
+## Notes - Ones line description of extra notes
+#Notes One line of notes
+#</Notes>
+
+## Duty cycles
+<DutyCycles>
+## Auto stop after XXX minutes
+AutoStopMinutes 15
+## Auto stop after XXX cycles
+AutoStopCycles 0
+## Duty cycle load for each test, 1-100
+CPU 100
+CDDVD 100
+Memory 100
+Serial 100
+Parallel 100
+Disk 100
+Network 100
+USB 100
+</DutyCycles>
+
+## Memory section
+<Memory>
+#Test pattern - Cycle, Sequence, Binary1, Binary2, Zeros, Ones
+#Cycle
+</Memory>
+
+## Disk section - Have a <Test> section for each device to test
+<Disk>
+
+##TestAllDisks - Test all detected partitions, uncomment to use
+#TestAllDisks
+
+##TestAllRAWDisks - Test all detected RAW disks, uncomment to use
+#TestAllRAWDisks
+
+##When using Test all  - File size as % of disk space 1-15%
+#FileSize 1
+
+##When using Test all - Cyclic, Sequential, HighLow, Binary1, Binary2, Zeros, Ones, Random, RandomSeeking
+#TestMode Cyclic
+
+
+## Test a device
+<Test>
+## The device to be tested
+#Device /dev/sda1
+## The test mode - Cyclic, Sequential, HighLow, Binary1, Binary2, Zeros, Ones, Random, RandomSeeking
+#TestMode Cyclic
+##File size as % of disk space 1-15%
+#FileSize 1
+## Duty cycle override, 0 - 100
+#DutyCycleOverride 0
+## Seek count
+#SeekCount 100
+</Test>
+</Disk>
+
+##CPU-Math 
+##Comment out the matching test name if you don't want the tests run
+<CPU>
+##General Operations Test
+#General
+##Floating Point Unit test
+#FPU
+##Extension instructions - SSE
+#SSE
+##Extension instructions - SSE2
+#SSE2
+##Prime Number Test
+#Prime 
+</CPU>
+
+## Network
+<Network>
+
+## Have a IP keyword (up to 4) for each IP to test
+IP1
+IP2
+IP3
+IP4
+
+## Bad packet ratio
+## - Set to 0 for every bad packet to generate and error
+## - Set to a 1-99 range for an error to be generated once the bad packet ratio reaches this level
+BadPacketRatio 2
+## Timeout - ms time before connection times out, 100 - 200000
+TimeOut 2000
+## Uncomment TestAllNICs to bind each entered IP to a different network card
+#TestAllNICs
+</Network>
+
+## CD-RW/DVD - Have a <Test> section for each device to test
+#<CDRWDVD>
+
+#<Test>
+## Device to test
+#Device /dev/hdc
+## Test mode - Music CD playback (Music), Data CD Read and Verify (Data), PassMark Test CD/DVD (Passmark), No CD (No)
+#TestMode Passmark
+## Additional seek - uncomment and edit the seek value if necessary, only valid for PassMark Test CD/DVD 0-1000
+#Seek 100
+#</Test>
+
+
+## Device to test
+#Device /dev/hdd
+## Test mode - Music CD playback (Music), Data CD Read and Verify (Data), PassMark## Test CD/DVD (Passmark), No CD (No)
+#TestMode Music
+## Additional seek - uncomment and edit the seek value if necessary, only valid for PassMark Test CD/DVD 0-1000
+#Seek 100
+#</Test>
+
+#</CDRWDVD>
+
+## Serial Port - Have a <Test> section for each device to test
+#<Serial>
+
+#<Test>
+## Device to test - ttys0, ttys1 etc to ttys63
+#Device ttys0
+## Test Mode - Loopback or Detect
+#TestMode Loopback
+#</Test>
+
+#<Test>
+## Device to test - ttys0, ttys1 etc to ttys63
+#Device ttys1
+## Test Mode - Loopback or Detect
+#TestMode Detect
+#</Test>
+
+
+## Disable RTS/CTS and DSR/DTR
+#DisableRTS
+## Send and receive timeout, 100-30000 ms
+#SendReceive 3500
+## Baud rate - 110, 300, 600, 1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200, 
+##            Cycle to 115200 (Cycle115), 230400, Cycle to 230400 (Cycle230)
+#BaudRate 115200
+#</Serial>
+
+
+## Parallel Port - Can only test one port at a time
+#<Parallel>
+## Device to test, lp0, lp1 etc
+#Device lp0
+## Test Mode - Loopback or Detect
+#TestMode Loopback
+#</Parallel>
+
+## USB test section
+#<USB>
+#NumUSB 2
+#</USB>
+
+## Errors
+<Errors>
+## Action to take on error - Continue (Continue), Beep and continue (Beep), Stop tests (Stop)
+ActionOnError Continue
+</Errors>
+

@@ -1,0 +1,218 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 2017-11-14 09:37:14
+Version: V0.0.00(BFT1-EVT)
+                                
+09:37:14.47 ##############################################################
+09:37:14.47 Section: Program BMC MAC and FRU
+09:37:14.47 Send = ipmitool raw 0x06 0x52 0x0D 0xA0 0x00 0x1C 0x00 0x14 0x0D 0x4F 0x51 0x29 0x5D 0x00 0x00 0x14 0x0D 0x4F 0x51 0x29 0x5E 0x00 0x00
+09:37:14.47 Rece = 
+
+09:37:14.50 Send = ipmitool mc reset cold
+09:37:14.50 Rece = 
+Sent cold reset command to MC
+09:37:49.57 Send = ipmitool lan print 1
+09:37:49.57 Rece = 
+Set in Progress         : Set Complete
+Auth Type Support       : MD5
+Auth Type Enable        : Callback : MD5 
+                        : User     : MD5 
+                        : Operator : MD5 
+                        : Admin    : MD5 
+                        : OEM      : MD5 
+IP Address Source       : DHCP Address
+IP Address              : 0.0.0.0
+Subnet Mask             : 0.0.0.0
+MAC Address             : 14:0d:4f:51:29:5d
+SNMP Community String   : AMI
+IP Header               : TTL=0x40 Flags=0x40 Precedence=0x00 TOS=0x10
+BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
+Gratituous ARP Intrvl   : 0.0 seconds
+Default Gateway IP      : 0.0.0.0
+Default Gateway MAC     : 00:00:00:00:00:00
+Backup Gateway IP       : 0.0.0.0
+Backup Gateway MAC      : 00:00:00:00:00:00
+802.1q VLAN ID          : Disabled
+802.1q VLAN Priority    : 0
+RMCP+ Cipher Suites     : 0,1,2,3,6,7,8,11,12,15,16,17
+Cipher Suite Priv Max   : caaaaaaaaaaaXXX
+                        :     X=Cipher Suite Unused
+                        :     c=CALLBACK
+                        :     u=USER
+                        :     o=OPERATOR
+                        :     a=ADMIN
+                        :     O=OEM
+09:37:49.75 Send = ipmitool lan print 8
+09:37:49.75 Rece = 
+Set in Progress         : Set Complete
+Auth Type Support       : MD5 
+Auth Type Enable        : Callback : MD5 
+                        : User     : MD5 
+                        : Operator : MD5 
+                        : Admin    : MD5 
+                        : OEM      : MD5 
+IP Address Source       : DHCP Address
+IP Address              : 0.0.0.0
+Subnet Mask             : 0.0.0.0
+MAC Address             : 14:0d:4f:51:29:5e
+SNMP Community String   : AMI
+IP Header               : TTL=0x40 Flags=0x40 Precedence=0x00 TOS=0x10
+BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
+Gratituous ARP Intrvl   : 0.0 seconds
+Default Gateway IP      : 0.0.0.0
+Default Gateway MAC     : 00:00:00:00:00:00
+Backup Gateway IP       : 0.0.0.0
+Backup Gateway MAC      : 00:00:00:00:00:00
+802.1q VLAN ID          : Disabled
+802.1q VLAN Priority    : 0
+RMCP+ Cipher Suites     : 0,1,2,3,6,7,8,11,12,15,16,17
+Cipher Suite Priv Max   : caaaaaaaaaaaXXX
+                        :     X=Cipher Suite Unused
+                        :     c=CALLBACK
+                        :     u=USER
+                        :     o=OPERATOR
+                        :     a=ADMIN
+                        :     O=OEM
+09:37:49.86 Send = ipmitool raw 0x0a 0x12 0x00 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x00 0x00 0xff
+09:37:49.86 Rece = 
+ 08
+09:37:49.90 Send = ipmitool raw 0x0a 0x12 0x01 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x01 0x00 0xFE 0xC1 0x82 0x00 0x00 0xBD
+09:37:49.90 Rece = 
+ 0d
+09:37:49.94 Send = ipmitool raw 0x0a 0x11 0x00 0x00 0x00 0x08
+09:37:49.94 Rece = 
+ 08 01 00 00 00 00 00 00 ff
+
+09:37:49.95 Send = ipmitool raw 0x0a 0x11 0x01 0x00 0x00 0x0D
+09:37:49.95 Rece = 
+ 0d 01 00 00 00 00 01 00 fe c1 82 00 00 bd
+09:37:49.98 Tester => OK: Program BMC MAC and FRU
+09:37:49.99 ##############################################################
+09:37:49.99 Section: USB Check
+09:37:49.99 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+09:37:49.99 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+09:37:50.04 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+09:37:50.04 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+09:37:50.08 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+09:37:50.08 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:4:1.0 missing
+09:37:53.52 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+09:37:53.52 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+09:37:53.56 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+09:37:53.56 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+09:37:53.59 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+09:37:53.59 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:4:1.0 missing
+09:37:54.16 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+09:37:54.16 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+09:37:54.20 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+09:37:54.20 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+09:37:54.24 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+09:37:54.24 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:4:1.0 missing
+09:37:54.68 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+09:37:54.68 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+09:37:54.71 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+09:37:54.71 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+09:37:54.75 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+09:37:54.75 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:4:1.0 missing
+09:37:55.00 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+09:37:55.00 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+09:37:55.03 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+09:37:55.03 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+09:37:55.07 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+09:37:55.07 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:4:1.0 missing
+09:37:55.10 USB1 Not Found
+09:37:55.10 USB2 Not Found
+09:37:55.10 USB3 Not Found
+09:37:55.10 Tester => Test Fail: Section: USB Check
+09:37:55.31 ##############################################################
+Cannonball BFT: FAIL ErrorCode=23099

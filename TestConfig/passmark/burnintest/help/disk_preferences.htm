@@ -1,0 +1,84 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Disk Preferences</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Disk Preferences,RAW disk test,Un-partitioned disk test" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?disk_preferences.htm"; }
+  else { parent.quicksync('a7.1'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Disk Preferences</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="test_preferences.htm">Previous</a>&nbsp;
+     <a href="maths_preferences.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<div class="p_Heading2"><div style="width:714px;padding:0px"><img src="disk_preferences.png" width="714" height="577" border="0" alt="Disk test preferences" title="Disk test preferences"><p style="text-align:center"><span class="f_ImageCaption">Disk test preferences</span></p></div></div>
+<p>&nbsp;</p>
+<p>Partitioned drives they must be mounted before BurnInTest can test them, they also need to be of partition type ext2, ext3, reiserfs, xfs, vfat or ntfs. Due to limited NTFS support in some Linux distributions you may need to use a non-default type (eg ntfs-3g) to mount NTFS drives with read + write permissions before you can test them.</p>
+<p class="p_Heading2"><span class="f_Heading2">&nbsp;</span></p>
+<p class="p_Heading2"><span class="f_Heading2">Disk Selection</span></p>
+<p>These fields and buttons allow the user to select the hard and floppy disks used in the disk test. </p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p class="p_Heading2"><span class="f_Heading2">Adding a disk</span></p>
+<p>To add a disk for testing, select it in the list of available disks and then click the “Test this drive” checkbox. To test a shared network drive, the drives needs to have a drive letter mapped to it. Only those drives detected by the operating system as displayed in the drop down list. </p>
+<p>&nbsp;</p>
+<p>The following settings can be configured differently for each drive: Slow drive warning threshold, File size and Test Pattern. &nbsp;To use the general disk drive Duty cycle for each disk just set the Duty Cycle override value to blank (no value), otherwise set the required value per disk. </p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p class="p_Heading2"><span class="f_Heading2">Removing a disk</span></p>
+<p>To remove a disk from the list, select it in the list of available disks and uncheck the “Test this drive” checkbox. The “Test Mode” field in the list will change to “Not Testing”.</p>
+<p>&nbsp;</p>
+<p>Up to twenty drive letters can be selected for simultaneous testing. Note: The simultaneous testing of two partitions on the same physical hard drive will result in a lot of seeking between partitions and slow down the test significantly<span style="font-family: 'Times New Roman';">.</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p class="p_Heading2"><span class="f_Heading2">Editing a disk</span></p>
+<p>To edit the values for a disk, select it in the list of disks and if the “Test this drive” checkbox has been checked then the other options will become available. Any changes made to the current values will be automatically reflected in the list.</p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p class="p_Heading2"><span class="f_Heading2">File size</span></p>
+<p>The user can select the test file size and test pattern that is used with the disk test. The size of the file is equal to a certain percentage of the disks capacity. The default file size is 1.0% of the disk size. So if a disk had a total capacity of 40GB then the default size of each file would be 400MB. Setting a smaller percentage results in more files being created on the disk and the read / verify cycle occurring more quickly.</p>
+<p>&nbsp;</p>
+<p class="p_Heading2"><span class="f_Heading2">Test pattern</span></p>
+<p>The test patterns that can be selected are explained in the section, “Disk test (Floppy and hard).</p>
+<p class="p_Heading2"><span class="f_Heading2">&nbsp;</span></p>
+<p class="p_Heading2"><span class="f_Heading2">Seek count</span></p>
+<p>For test modes that perform seeking to different positions on the disk drive (eg. Random data with random seeking), the seek count specifies the number of seeks for a particular iteration (eg. After Random data with random seeking has created 100 test files, the Seek count specifies the number of times a seek should occur between blocks within these 100 files).  </p>
+<p>&nbsp;</p>
+<p class="p_Heading2"><span class="f_Heading2">Duty cycle override</span></p>
+<p>To use the general disk drive Duty cycle for each disk just set the Duty Cycle override value to blank (no value), otherwise set the required value per disk. </p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p class="p_Heading2"><span class="f_Heading2">RAW (un-partitioned) Disk Testing</span></p>
+<p>When a Raw &nbsp;(un-partitioned) disk is detected it will be displayed in the drive columns as "Raw Disk [device name]". This will allow the device to be selected for testing, be aware that this test is designed to be run on un-partitioned devices and running the test on a partitioned device can result in corruption of the partition and data stored on the device. </p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

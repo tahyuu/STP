@@ -1,0 +1,1871 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 1999-12-31 19:51:33
+Version: V0.0.00(BFT1-EVT)
+                                
+19:51:33.99 ##############################################################
+19:51:33.99 Section: PCIe List Check
+19:51:33.99 Subsection:  PCIE List Check
+19:51:33.99 Send = lspci
+19:51:33.99 Rece = 
+00:00.0 Host bridge: Intel Corporation Device 2020 (rev 04)
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+00:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+00:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:11.0 Unassigned class [ff00]: Intel Corporation Device a1ec (rev 09)
+00:11.1 Unassigned class [ff00]: Intel Corporation Device a1ed (rev 09)
+00:11.5 SATA controller: Intel Corporation Lewisburg SSATA Controller [AHCI mode] (rev 09)
+00:14.0 USB controller: Intel Corporation Lewisburg USB 3.0 xHCI Controller (rev 09)
+00:14.2 Signal processing controller: Intel Corporation Device a1b1 (rev 09)
+00:16.0 Communication controller: Intel Corporation Lewisburg CSME: HECI #1 (rev 09)
+00:16.1 Communication controller: Intel Corporation Lewisburg CSME: HECI #2 (rev 09)
+00:16.4 Communication controller: Intel Corporation Lewisburg CSME: HECI #3 (rev 09)
+00:17.0 SATA controller: Intel Corporation Lewisburg SATA Controller [AHCI mode] (rev 09)
+00:1c.0 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #1 (rev f9)
+00:1c.4 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #5 (rev f9)
+00:1f.0 ISA bridge: Intel Corporation Lewisburg LPC Controller (rev 09)
+00:1f.2 Memory controller: Intel Corporation Lewisburg PMC (rev 09)
+00:1f.4 SMBus: Intel Corporation Lewisburg SMBus (rev 09)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Lewisburg SPI Controller (rev 09)
+02:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+17:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+17:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+17:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+17:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+17:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+17:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+18:00.0 Mass storage controller: Device 1c36:1031
+18:00.1 Mass storage controller: Device 1c36:1031
+18:00.2 Ethernet controller: Device 1c36:1001
+19:00.0 Mass storage controller: Device 1c36:1031
+19:00.1 Mass storage controller: Device 1c36:1031
+19:00.2 Ethernet controller: Device 1c36:1001
+3a:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+3a:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+3a:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+3a:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+3a:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+3a:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3a:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3b:00.0 Ethernet controller: Device 1c36:1022
+3b:00.1 Ethernet controller: Device 1c36:1022
+3b:00.2 Ethernet controller: Device 1c36:1001
+3c:00.0 Ethernet controller: Device 1c36:8889
+3c:00.1 Ethernet controller: Device 1c36:8889
+3c:00.2 Ethernet controller: Device 1c36:1001
+5d:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+5d:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+5d:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+5d:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+5d:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+5d:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5e:00.0 Ethernet controller: Device 1c36:1022
+5e:00.1 Ethernet controller: Device 1c36:1022
+5e:00.2 Ethernet controller: Device 1c36:1001
+5f:00.0 Ethernet controller: Device 1c36:8889
+5f:00.1 Ethernet controller: Device 1c36:8889
+5f:00.2 Ethernet controller: Device 1c36:1001
+80:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+80:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+80:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+81:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804
+85:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+85:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+ae:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+ae:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+ae:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+ae:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+ae:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+ae:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+af:00.0 Mass storage controller: Device 1c36:1031
+af:00.1 Mass storage controller: Device 1c36:1031
+af:00.2 Ethernet controller: Device 1c36:1001
+b0:00.0 Mass storage controller: Device 1c36:1031
+b0:00.1 Mass storage controller: Device 1c36:1031
+b0:00.2 Ethernet controller: Device 1c36:1001
+d7:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+d7:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+d7:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+19:51:34.10 PASS,all compnent in lspci check list
+19:51:34.10 Tester Chk => OK: PCIe List Verified
+19:51:34.10 ##############################################################
+19:51:34.10 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+19:51:34.10 Send = lspci -s 3b:00.0 -vvn
+19:51:34.10 Rece = 
+3b:00.0 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ba024000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at b0000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at b8000000 (32-bit, non-prefetchable) [size=32M]
+	Expansion ROM at ba000000 [disabled] [size=128K]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041941
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:35
+			[V2] Vendor specific: 14:4F:D7:0F:84:36
+			[V3] Vendor specific: 14:4F:D7:0F:84:37
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.13 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+19:51:34.13 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+19:51:34.13 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+19:51:34.13 Send = lspci -s 3b:00.1 -vvn
+19:51:34.13 Rece = 
+3b:00.1 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ba020000 (64-bit, non-prefetchable) [size=16K]
+	Region 5: Memory at b6000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041941
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:35
+			[V2] Vendor specific: 14:4F:D7:0F:84:36
+			[V3] Vendor specific: 14:4F:D7:0F:84:37
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.17 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+19:51:34.17 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+19:51:34.17 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:51:34.17 Send = lspci -s 3b:00.2 -vvn
+19:51:34.17 Rece = 
+3b:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at b4000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041941
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:35
+			[V2] Vendor specific: 14:4F:D7:0F:84:36
+			[V3] Vendor specific: 14:4F:D7:0F:84:37
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.20 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:51:34.20 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:51:34.20 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+19:51:34.21 Send = lspci -s 3c:00.0 -vvn
+19:51:34.21 Rece = 
+3c:00.0 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ae004000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 4: Memory at a4000000 (32-bit, non-prefetchable) [disabled] [size=64M]
+	Region 5: Memory at ac000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041941
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:38
+			[V2] Vendor specific: 14:4F:D7:0F:84:39
+			[V3] Vendor specific: 14:4F:D7:0F:84:3A
+			[V4] Vendor specific: 14:4F:D7:0F:84:3B
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.23 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+19:51:34.23 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+19:51:34.23 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+19:51:34.23 Send = lspci -s 3c:00.1 -vvn
+19:51:34.23 Rece = 
+3c:00.1 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ae000000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 5: Memory at aa000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041941
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:38
+			[V2] Vendor specific: 14:4F:D7:0F:84:39
+			[V3] Vendor specific: 14:4F:D7:0F:84:3A
+			[V4] Vendor specific: 14:4F:D7:0F:84:3B
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.26 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+19:51:34.26 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+19:51:34.26 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:51:34.27 Send = lspci -s 3c:00.2 -vvn
+19:51:34.27 Rece = 
+3c:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at a8000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041941
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:38
+			[V2] Vendor specific: 14:4F:D7:0F:84:39
+			[V3] Vendor specific: 14:4F:D7:0F:84:3A
+			[V4] Vendor specific: 14:4F:D7:0F:84:3B
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.30 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:51:34.30 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:51:34.30 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+19:51:34.30 Send = lspci -s 5e:00.0 -vvn
+19:51:34.30 Rece = 
+5e:00.0 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at d2024000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at c8000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at d0000000 (32-bit, non-prefetchable) [size=32M]
+	Expansion ROM at d2000000 [disabled] [size=128K]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041947
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:5F
+			[V2] Vendor specific: 14:4F:D7:0F:84:60
+			[V3] Vendor specific: 14:4F:D7:0F:84:61
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.33 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+19:51:34.33 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+19:51:34.33 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+19:51:34.34 Send = lspci -s 5e:00.1 -vvn
+19:51:34.34 Rece = 
+5e:00.1 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at d2020000 (64-bit, non-prefetchable) [size=16K]
+	Region 5: Memory at ce000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041947
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:5F
+			[V2] Vendor specific: 14:4F:D7:0F:84:60
+			[V3] Vendor specific: 14:4F:D7:0F:84:61
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.37 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+19:51:34.37 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+19:51:34.37 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:51:34.37 Send = lspci -s 5e:00.2 -vvn
+19:51:34.37 Rece = 
+5e:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at cc000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041947
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:5F
+			[V2] Vendor specific: 14:4F:D7:0F:84:60
+			[V3] Vendor specific: 14:4F:D7:0F:84:61
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.40 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:51:34.40 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:51:34.40 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:51:34.40 Send = lspci -s 5f:00.0 -vvn
+19:51:34.40 Rece = 
+5f:00.0 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at c6004000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 4: Memory at bc000000 (32-bit, non-prefetchable) [disabled] [size=64M]
+	Region 5: Memory at c4000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041947
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:62
+			[V2] Vendor specific: 14:4F:D7:0F:84:63
+			[V3] Vendor specific: 14:4F:D7:0F:84:64
+			[V4] Vendor specific: 14:4F:D7:0F:84:65
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.43 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:51:34.43 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:51:34.43 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:51:34.44 Send = lspci -s 5f:00.1 -vvn
+19:51:34.44 Rece = 
+5f:00.1 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at c6000000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 5: Memory at c2000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041947
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:62
+			[V2] Vendor specific: 14:4F:D7:0F:84:63
+			[V3] Vendor specific: 14:4F:D7:0F:84:64
+			[V4] Vendor specific: 14:4F:D7:0F:84:65
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.47 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:51:34.47 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:51:34.47 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:51:34.47 Send = lspci -s 5f:00.2 -vvn
+19:51:34.47 Rece = 
+5f:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at c0000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041947
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:62
+			[V2] Vendor specific: 14:4F:D7:0F:84:63
+			[V3] Vendor specific: 14:4F:D7:0F:84:64
+			[V4] Vendor specific: 14:4F:D7:0F:84:65
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:51:34.50 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:51:34.50 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:51:34.50 Tester Chk => OK: PCIe Devices Link Speed and Width Verified
+19:51:34.50 ##############################################################
+19:51:34.50 Section: Bmc Sel Check
+19:51:34.51 Send = ipmitool sel elist
+19:51:34.51 Rece = 
+   1 |  Pre-Init  |0028106942| Event Logging Disabled SYSTEM_EVENT_LOG | Log area reset/cleared | Asserted
+   2 |  Pre-Init  |0028106943| OEM record d0 | 000001 | 030000000000
+   3 | 01/01/2000 | 00:05:30 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+   4 | 01/01/2000 | 00:05:31 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   5 | 01/01/2000 | 00:05:31 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   6 | 01/01/2000 | 00:05:31 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   7 | 01/01/2000 | 00:05:32 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   8 | 01/01/2000 | 00:05:32 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   9 | 01/01/2000 | 00:05:32 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   a | 01/01/2000 | 00:05:33 | Power Supply PDB_HSC_1_STATUS | Predictive failure | Asserted
+   b | 01/01/2000 | 00:05:33 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 92 > Threshold 85 percent
+   c | 01/01/2000 | 00:05:39 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 11830 < Threshold 1001 RPM
+   d | 01/01/2000 | 00:05:39 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 9373 < Threshold 1001 RPM
+   e | 01/01/2000 | 00:05:40 | Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 5733 < Threshold 1001 RPM
+   f | 01/01/2000 | 00:05:40 | Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 6279 < Threshold 1001 RPM
+  10 | 01/01/2000 | 00:05:43 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 11648 < Threshold 1001 RPM
+  11 | 01/01/2000 | 00:05:43 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 13013 < Threshold 1001 RPM
+  12 | 01/01/2000 | 00:06:23 | OEM record d0 | 000001 | 010000000000
+  13 | 01/01/2000 | 00:07:25 | Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 40 < Threshold 85 percent
+  14 | 01/01/2000 | 00:16:00 | System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  15 | 01/01/2000 | 00:16:00 | Microcontroller/Coprocessor #0x16 | Transition to Power Off | Asserted
+  16 | 01/01/2000 | 00:16:01 | Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  17 | 01/01/2000 | 00:16:02 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  18 | 01/01/2000 | 00:16:41 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  19 | 01/01/2000 | 00:16:42 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1a | 01/01/2000 | 00:16:42 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+  1b | 01/01/2000 | 00:16:54 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  1c | 01/01/2000 | 00:16:55 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 546 < Threshold 1001 RPM
+  1d | 01/01/2000 | 00:16:55 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1e | 01/01/2000 | 00:16:56 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 455 < Threshold 1001 RPM
+  1f | 01/01/2000 | 00:16:56 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  20 | 01/01/2000 | 00:16:56 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  21 | 01/01/2000 | 00:16:56 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  22 | 01/01/2000 | 00:17:07 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  23 |  Pre-Init  |0028107652| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  24 |  Pre-Init  |0028107678| OEM record d0 | 000001 | 010000000000
+  25 |  Pre-Init  |0028107679| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  26 |  Pre-Init  |0028107679| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  27 |  Pre-Init  |0028107683| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  28 |  Pre-Init  |0028107704| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 55 < Threshold 85 percent
+  29 |  Pre-Init  |0028107717| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  2a |  Pre-Init  |0028107719| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  2b |  Pre-Init  |0028107722| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  2c |  Pre-Init  |0028107744| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  2d |  Pre-Init  |0028107744| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  2e |  Pre-Init  |0028107748| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  2f |  Pre-Init  |0028107782| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  30 |  Pre-Init  |0028107783| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  31 |  Pre-Init  |0028107821| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  32 |  Pre-Init  |0028107821| Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  33 |  Pre-Init  |0028107822| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  34 |  Pre-Init  |0028107822| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  35 |  Pre-Init  |0028107822| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  36 |  Pre-Init  |0028107822| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  37 |  Pre-Init  |0028107822| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  38 |  Pre-Init  |0028107823| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  39 |  Pre-Init  |0028107823| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  3a |  Pre-Init  |0028107823| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  3b |  Pre-Init  |0028107823| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  3c |  Pre-Init  |0028107823| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  3d |  Pre-Init  |0028107823| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  3e |  Pre-Init  |0028107823| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  3f |  Pre-Init  |0028107823| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  40 |  Pre-Init  |0028107824| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  41 |  Pre-Init  |0028107824| Fan SYS_FAN_9A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  42 |  Pre-Init  |0028107824| Fan SYS_FAN_9B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  43 |  Pre-Init  |0028107824| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  44 |  Pre-Init  |0028107828| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+  45 |  Pre-Init  |0028107829| System Event END_OF_POST | OEM System boot event | Asserted
+  46 |  Pre-Init  |0028107852| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  47 |  Pre-Init  |0028107852| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  48 |  Pre-Init  |0028107852| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  49 |  Pre-Init  |0028107853| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  4a |  Pre-Init  |0028107853| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  4b |  Pre-Init  |0028107853| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  4c |  Pre-Init  |0028107853| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  4d |  Pre-Init  |0028107854| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  4e |  Pre-Init  |0028107854| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  4f |  Pre-Init  |0028107854| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  50 |  Pre-Init  |0028107854| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  51 |  Pre-Init  |0028107855| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  52 |  Pre-Init  |0028107855| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  53 |  Pre-Init  |0028107855| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  54 |  Pre-Init  |0028107855| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  55 |  Pre-Init  |0028107855| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  56 |  Pre-Init  |0028107856| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  57 |  Pre-Init  |0028107856| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  58 |  Pre-Init  |0028107856| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  59 |  Pre-Init  |0028107856| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  5a |  Pre-Init  |0028107856| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  5b |  Pre-Init  |0028107857| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  5c |  Pre-Init  |0028107857| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  5d |  Pre-Init  |0028107857| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  5e |  Pre-Init  |0028107857| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  5f |  Pre-Init  |0028107858| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  60 |  Pre-Init  |0028107858| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  61 |  Pre-Init  |0028107858| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  62 |  Pre-Init  |0028107858| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  63 |  Pre-Init  |0028107859| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  64 |  Pre-Init  |0028107859| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  65 |  Pre-Init  |0028107859| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  66 |  Pre-Init  |0028107859| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  67 |  Pre-Init  |0028107860| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  68 |  Pre-Init  |0028107860| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  69 |  Pre-Init  |0028107860| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  6a |  Pre-Init  |0028107860| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  6b |  Pre-Init  |0028107860| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  6c |  Pre-Init  |0028107861| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  6d |  Pre-Init  |0028107861| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  6e |  Pre-Init  |0028107861| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  6f |  Pre-Init  |0028107861| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  70 |  Pre-Init  |0028107862| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  71 |  Pre-Init  |0028107862| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  72 |  Pre-Init  |0028107862| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  73 |  Pre-Init  |0028107862| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  74 |  Pre-Init  |0028107863| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  75 |  Pre-Init  |0028107863| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  76 |  Pre-Init  |0028107863| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  77 |  Pre-Init  |0028107863| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  78 |  Pre-Init  |0028107863| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  79 |  Pre-Init  |0028107864| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  7a |  Pre-Init  |0028107864| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  7b |  Pre-Init  |0028107864| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  7c |  Pre-Init  |0028107864| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  7d |  Pre-Init  |0028107864| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  7e |  Pre-Init  |0028107865| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  7f |  Pre-Init  |0028107865| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  80 |  Pre-Init  |0028107865| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  81 |  Pre-Init  |0028107865| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  82 |  Pre-Init  |0028107866| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  83 |  Pre-Init  |0028107866| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  84 |  Pre-Init  |0028107866| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  85 |  Pre-Init  |0028107867| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  86 |  Pre-Init  |0028107867| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  87 |  Pre-Init  |0028107867| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  88 |  Pre-Init  |0028107867| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  89 |  Pre-Init  |0028107867| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  8a |  Pre-Init  |0028107868| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  8b |  Pre-Init  |0028107868| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  8c |  Pre-Init  |0028107868| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  8d |  Pre-Init  |0028107868| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  8e |  Pre-Init  |0028107868| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  8f |  Pre-Init  |0028107869| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  90 |  Pre-Init  |0028107869| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  91 |  Pre-Init  |0028107869| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  92 |  Pre-Init  |0028107869| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  93 |  Pre-Init  |0028107870| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  94 |  Pre-Init  |0028107870| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  95 |  Pre-Init  |0028107870| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  96 |  Pre-Init  |0028107870| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  97 |  Pre-Init  |0028107870| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  98 |  Pre-Init  |0028107871| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  99 |  Pre-Init  |0028107871| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  9a |  Pre-Init  |0028107871| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  9b |  Pre-Init  |0028107871| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  9c |  Pre-Init  |0028107872| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  9d |  Pre-Init  |0028107872| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  9e |  Pre-Init  |0028107872| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  9f |  Pre-Init  |0028107872| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a0 |  Pre-Init  |0028107873| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a1 |  Pre-Init  |0028107873| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a2 |  Pre-Init  |0028107873| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a3 |  Pre-Init  |0028107873| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a4 |  Pre-Init  |0028107874| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a5 |  Pre-Init  |0028107874| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a6 |  Pre-Init  |0028107874| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a7 |  Pre-Init  |0028107874| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a8 |  Pre-Init  |0028107875| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  a9 |  Pre-Init  |0028107875| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  aa |  Pre-Init  |0028107875| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ab |  Pre-Init  |0028107875| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ac |  Pre-Init  |0028107875| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ad |  Pre-Init  |0028107876| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ae |  Pre-Init  |0028107876| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  af |  Pre-Init  |0028107876| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b0 |  Pre-Init  |0028107876| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b1 |  Pre-Init  |0028107877| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b2 |  Pre-Init  |0028107877| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b3 |  Pre-Init  |0028107877| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b4 |  Pre-Init  |0028107877| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b5 |  Pre-Init  |0028107877| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b6 |  Pre-Init  |0028107878| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b7 |  Pre-Init  |0028107878| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b8 |  Pre-Init  |0028107878| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  b9 |  Pre-Init  |0028107878| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ba |  Pre-Init  |0028107878| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  bb |  Pre-Init  |0028107879| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  bc |  Pre-Init  |0028107879| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  bd |  Pre-Init  |0028107879| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  be |  Pre-Init  |0028107879| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  bf |  Pre-Init  |0028107880| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c0 |  Pre-Init  |0028107880| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c1 |  Pre-Init  |0028107880| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c2 |  Pre-Init  |0028107880| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c3 |  Pre-Init  |0028107881| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c4 |  Pre-Init  |0028107881| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c5 |  Pre-Init  |0028107881| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c6 |  Pre-Init  |0028107881| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c7 |  Pre-Init  |0028107882| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c8 |  Pre-Init  |0028107882| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  c9 |  Pre-Init  |0028107882| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ca |  Pre-Init  |0028107882| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  cb |  Pre-Init  |0028107882| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  cc |  Pre-Init  |0028107883| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  cd |  Pre-Init  |0028107883| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ce |  Pre-Init  |0028107883| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  cf |  Pre-Init  |0028107883| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d0 |  Pre-Init  |0028107884| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d1 |  Pre-Init  |0028107884| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d2 |  Pre-Init  |0028107884| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d3 |  Pre-Init  |0028107884| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d4 |  Pre-Init  |0028107884| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d5 |  Pre-Init  |0028107885| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d6 |  Pre-Init  |0028107885| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d7 |  Pre-Init  |0028107885| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d8 |  Pre-Init  |0028107885| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  d9 |  Pre-Init  |0028107885| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  da |  Pre-Init  |0028107886| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  db |  Pre-Init  |0028107886| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  dc |  Pre-Init  |0028107886| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  dd |  Pre-Init  |0028107886| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  de |  Pre-Init  |0028107887| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  df |  Pre-Init  |0028107887| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e0 |  Pre-Init  |0028107887| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e1 |  Pre-Init  |0028107887| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e2 |  Pre-Init  |0028107887| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e3 |  Pre-Init  |0028107888| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e4 |  Pre-Init  |0028107888| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e5 |  Pre-Init  |0028107888| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e6 |  Pre-Init  |0028107888| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e7 |  Pre-Init  |0028107889| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e8 |  Pre-Init  |0028107889| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  e9 |  Pre-Init  |0028107889| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ea |  Pre-Init  |0028107889| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  eb |  Pre-Init  |0028107890| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ec |  Pre-Init  |0028107890| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ed |  Pre-Init  |0028107890| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ee |  Pre-Init  |0028107890| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ef |  Pre-Init  |0028107890| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f0 |  Pre-Init  |0028107891| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f1 |  Pre-Init  |0028107891| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f2 |  Pre-Init  |0028107891| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f3 |  Pre-Init  |0028107891| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f4 |  Pre-Init  |0028107892| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f5 |  Pre-Init  |0028107892| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f6 |  Pre-Init  |0028107892| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f7 |  Pre-Init  |0028107892| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f8 |  Pre-Init  |0028107893| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  f9 |  Pre-Init  |0028107893| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  fa |  Pre-Init  |0028107893| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  fb |  Pre-Init  |0028107893| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  fc |  Pre-Init  |0028107894| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  fd |  Pre-Init  |0028107894| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  fe |  Pre-Init  |0028107894| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+  ff |  Pre-Init  |0028107894| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 100 |  Pre-Init  |0028107894| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 101 |  Pre-Init  |0028107895| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 102 |  Pre-Init  |0028107895| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 103 |  Pre-Init  |0028107895| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 104 |  Pre-Init  |0028107895| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 105 |  Pre-Init  |0028107895| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 106 |  Pre-Init  |0028107896| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 107 |  Pre-Init  |0028107896| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 108 |  Pre-Init  |0028107896| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 109 |  Pre-Init  |0028107896| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 10a |  Pre-Init  |0028107897| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 10b |  Pre-Init  |0028107897| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 10c |  Pre-Init  |0028107897| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 10d |  Pre-Init  |0028107897| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 10e |  Pre-Init  |0028107898| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 10f |  Pre-Init  |0028107898| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 110 |  Pre-Init  |0028107898| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 111 |  Pre-Init  |0028107898| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 112 |  Pre-Init  |0028107898| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 113 |  Pre-Init  |0028107899| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 114 |  Pre-Init  |0028107899| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 115 |  Pre-Init  |0028107899| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 116 |  Pre-Init  |0028107899| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 117 |  Pre-Init  |0028107900| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 118 |  Pre-Init  |0028107900| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 119 |  Pre-Init  |0028107900| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 11a |  Pre-Init  |0028107900| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 11b |  Pre-Init  |0028107901| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 11c |  Pre-Init  |0028107901| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 11d |  Pre-Init  |0028107901| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 11e |  Pre-Init  |0028107901| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 11f |  Pre-Init  |0028107901| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 120 |  Pre-Init  |0028107902| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 121 |  Pre-Init  |0028107902| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 122 |  Pre-Init  |0028107902| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 123 |  Pre-Init  |0028107903| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 124 |  Pre-Init  |0028107903| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 125 |  Pre-Init  |0028107903| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 126 |  Pre-Init  |0028107904| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 127 |  Pre-Init  |0028107904| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 128 |  Pre-Init  |0028107905| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 129 |  Pre-Init  |0028107905| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 12a |  Pre-Init  |0028107905| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 12b |  Pre-Init  |0028107905| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 12c |  Pre-Init  |0028107906| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 12d |  Pre-Init  |0028107906| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 12e |  Pre-Init  |0028107906| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 12f |  Pre-Init  |0028107906| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 130 |  Pre-Init  |0028107907| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 131 |  Pre-Init  |0028107907| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 132 |  Pre-Init  |0028107907| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 133 |  Pre-Init  |0028107907| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 134 |  Pre-Init  |0028107908| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 135 |  Pre-Init  |0028107908| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 136 |  Pre-Init  |0028107908| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 137 |  Pre-Init  |0028107908| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 138 |  Pre-Init  |0028107908| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 139 |  Pre-Init  |0028107909| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 13a |  Pre-Init  |0028107909| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 13b |  Pre-Init  |0028107909| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 13c |  Pre-Init  |0028107909| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 13d |  Pre-Init  |0028107910| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 13e |  Pre-Init  |0028107910| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 13f |  Pre-Init  |0028107910| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 140 |  Pre-Init  |0028107910| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 141 |  Pre-Init  |0028107910| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 142 |  Pre-Init  |0028107911| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 143 |  Pre-Init  |0028107911| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 144 |  Pre-Init  |0028107911| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 145 |  Pre-Init  |0028107911| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 146 |  Pre-Init  |0028107912| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 147 |  Pre-Init  |0028107912| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 148 |  Pre-Init  |0028107912| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 149 |  Pre-Init  |0028107912| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 14a |  Pre-Init  |0028107912| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 14b |  Pre-Init  |0028107913| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 14c |  Pre-Init  |0028107913| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 14d |  Pre-Init  |0028107913| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 14e |  Pre-Init  |0028107913| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 14f |  Pre-Init  |0028107913| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 150 |  Pre-Init  |0028107914| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 151 |  Pre-Init  |0028107914| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 152 |  Pre-Init  |0028107914| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 153 |  Pre-Init  |0028107914| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 154 |  Pre-Init  |0028107914| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 155 |  Pre-Init  |0028107915| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 156 |  Pre-Init  |0028107915| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 157 |  Pre-Init  |0028107915| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 158 |  Pre-Init  |0028107915| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 159 |  Pre-Init  |0028107916| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 15a |  Pre-Init  |0028107916| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 15b |  Pre-Init  |0028107916| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 15c |  Pre-Init  |0028107916| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 15d |  Pre-Init  |0028107917| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 15e |  Pre-Init  |0028107917| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 15f |  Pre-Init  |0028107917| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 160 |  Pre-Init  |0028107917| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 161 |  Pre-Init  |0028107917| Temperature SYS_AMB_TEMP_2 | Upper Critical going high | Asserted | Reading 46 > Threshold 46 degrees C
+ 162 |  Pre-Init  |0028107918| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 163 |  Pre-Init  |0028107918| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 164 |  Pre-Init  |0028107918| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 165 |  Pre-Init  |0028107918| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 166 |  Pre-Init  |0028107918| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 167 |  Pre-Init  |0028107919| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 168 |  Pre-Init  |0028107919| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 169 |  Pre-Init  |0028107919| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 16a |  Pre-Init  |0028107919| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 16b |  Pre-Init  |0028107920| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 16c |  Pre-Init  |0028107920| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 16d |  Pre-Init  |0028107920| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 16e |  Pre-Init  |0028107920| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 16f |  Pre-Init  |0028107921| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 170 |  Pre-Init  |0028107921| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 171 |  Pre-Init  |0028107921| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 172 |  Pre-Init  |0028107921| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 173 |  Pre-Init  |0028107921| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 174 |  Pre-Init  |0028107922| Temperature SYS_AMB_TEMP_3 | Upper Critical going high | Asserted | Reading 46 > Threshold 46 degrees C
+ 175 |  Pre-Init  |0028107922| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 176 |  Pre-Init  |0028107922| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 177 |  Pre-Init  |0028107922| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 178 |  Pre-Init  |0028107922| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 179 |  Pre-Init  |0028107922| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 17a |  Pre-Init  |0028107923| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 17b |  Pre-Init  |0028107923| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 17c |  Pre-Init  |0028107923| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 17d |  Pre-Init  |0028107923| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 17e |  Pre-Init  |0028107924| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 17f |  Pre-Init  |0028107924| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 180 |  Pre-Init  |0028107924| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 181 |  Pre-Init  |0028107924| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 182 |  Pre-Init  |0028107924| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 183 |  Pre-Init  |0028107925| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 184 |  Pre-Init  |0028107925| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 185 |  Pre-Init  |0028107925| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 186 |  Pre-Init  |0028107925| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 187 |  Pre-Init  |0028107926| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 188 |  Pre-Init  |0028107926| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 189 |  Pre-Init  |0028107926| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 18a |  Pre-Init  |0028107926| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 18b |  Pre-Init  |0028107926| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 18c |  Pre-Init  |0028107927| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 18d |  Pre-Init  |0028107927| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 18e |  Pre-Init  |0028107927| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 18f |  Pre-Init  |0028107928| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 190 |  Pre-Init  |0028107928| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 191 |  Pre-Init  |0028107928| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 192 |  Pre-Init  |0028107928| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 193 |  Pre-Init  |0028107928| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 194 |  Pre-Init  |0028107929| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 195 |  Pre-Init  |0028107929| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 196 |  Pre-Init  |0028107929| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 197 |  Pre-Init  |0028107929| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 198 |  Pre-Init  |0028107930| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 199 |  Pre-Init  |0028107930| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 19a |  Pre-Init  |0028107930| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 19b |  Pre-Init  |0028107930| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 19c |  Pre-Init  |0028107930| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 19d |  Pre-Init  |0028107931| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 19e |  Pre-Init  |0028107931| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 19f |  Pre-Init  |0028107931| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a0 |  Pre-Init  |0028107931| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a1 |  Pre-Init  |0028107932| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a2 |  Pre-Init  |0028107932| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a3 |  Pre-Init  |0028107932| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a4 |  Pre-Init  |0028107932| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a5 |  Pre-Init  |0028107932| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a6 |  Pre-Init  |0028107933| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a7 |  Pre-Init  |0028107933| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a8 |  Pre-Init  |0028107933| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1a9 |  Pre-Init  |0028107933| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1aa |  Pre-Init  |0028107934| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1ab |  Pre-Init  |0028107934| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1ac |  Pre-Init  |0028107934| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1ad |  Pre-Init  |0028107934| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1ae |  Pre-Init  |0028107935| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1af |  Pre-Init  |0028107935| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b0 |  Pre-Init  |0028107935| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b1 |  Pre-Init  |0028107935| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b2 |  Pre-Init  |0028107935| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b3 |  Pre-Init  |0028107936| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b4 |  Pre-Init  |0028107936| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b5 |  Pre-Init  |0028107936| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b6 |  Pre-Init  |0028107936| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b7 |  Pre-Init  |0028107937| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b8 |  Pre-Init  |0028107937| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1b9 |  Pre-Init  |0028107937| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1ba |  Pre-Init  |0028107937| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1bb |  Pre-Init  |0028107937| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1bc |  Pre-Init  |0028107938| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1bd |  Pre-Init  |0028107938| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1be |  Pre-Init  |0028107938| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1bf |  Pre-Init  |0028107938| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c0 |  Pre-Init  |0028107939| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c1 |  Pre-Init  |0028107939| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c2 |  Pre-Init  |0028107939| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c3 |  Pre-Init  |0028107939| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c4 |  Pre-Init  |0028107940| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c5 |  Pre-Init  |0028107940| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c6 |  Pre-Init  |0028107940| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c7 |  Pre-Init  |0028107941| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c8 |  Pre-Init  |0028107941| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1c9 |  Pre-Init  |0028107941| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1ca |  Pre-Init  |0028107941| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1cb |  Pre-Init  |0028107942| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1cc |  Pre-Init  |0028107942| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1cd |  Pre-Init  |0028107942| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1ce |  Pre-Init  |0028107942| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1cf |  Pre-Init  |0028107942| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d0 |  Pre-Init  |0028107943| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d1 |  Pre-Init  |0028107943| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d2 |  Pre-Init  |0028107943| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d3 |  Pre-Init  |0028107943| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d4 |  Pre-Init  |0028107943| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d5 |  Pre-Init  |0028107944| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d6 |  Pre-Init  |0028107944| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d7 |  Pre-Init  |0028107944| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d8 |  Pre-Init  |0028107944| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1d9 |  Pre-Init  |0028107945| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1da |  Pre-Init  |0028107945| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1db |  Pre-Init  |0028107945| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1dc |  Pre-Init  |0028107945| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1dd |  Pre-Init  |0028107946| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1de |  Pre-Init  |0028107946| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1df |  Pre-Init  |0028107946| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e0 |  Pre-Init  |0028107946| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e1 |  Pre-Init  |0028107946| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e2 |  Pre-Init  |0028107947| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e3 |  Pre-Init  |0028107947| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e4 |  Pre-Init  |0028107947| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e5 |  Pre-Init  |0028107947| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e6 |  Pre-Init  |0028107948| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e7 |  Pre-Init  |0028107948| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e8 |  Pre-Init  |0028107948| Memory MEMORY_ERROR | Correctable ECC logging limit reached | Asserted
+ 1e9 |  Pre-Init  |0028107948| Button BUTTON | Reset Button pressed | Asserted
+ 1ea | 01/01/2000 | 00:26:35 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+ 1eb | 01/01/2000 | 00:26:36 | Temperature SYS_AMB_TEMP_2 | Upper Critical going high | Asserted | Reading 48 > Threshold 46 degrees C
+ 1ec | 01/01/2000 | 00:26:36 | Temperature SYS_AMB_TEMP_3 | Upper Critical going high | Asserted | Reading 47 > Threshold 46 degrees C
+ 1ed | 01/01/2000 | 00:26:36 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 1ee | 01/01/2000 | 00:26:36 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 92 > Threshold 85 percent
+ 1ef | 01/01/2000 | 00:26:50 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 1f0 | 01/01/2000 | 00:26:52 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 637 < Threshold 1001 RPM
+ 1f1 | 01/01/2000 | 00:26:52 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 364 < Threshold 1001 RPM
+ 1f2 | 01/01/2000 | 00:26:52 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 546 < Threshold 1001 RPM
+ 1f3 | 01/01/2000 | 00:26:52 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+ 1f4 | 01/01/2000 | 00:26:52 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+ 1f5 | 01/01/2000 | 00:26:53 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 1f6 | 01/01/2000 | 00:26:53 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 1f7 | 01/01/2000 | 00:27:24 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 1f8 |  Pre-Init  |0028108270| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 1f9 |  Pre-Init  |0028108272| OEM record d0 | 000001 | 010000000000
+ 1fa |  Pre-Init  |0028108277| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 1fb |  Pre-Init  |0028108295| Processor CPU_CATERR | State Asserted | Asserted
+ 1fc |  Pre-Init  |0028108295| Unknown #0x17 |  | Asserted
+ 1fd |  Pre-Init  |0028108312| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 1fe |  Pre-Init  |0028108312| Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 1ff |  Pre-Init  |0028108312| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 200 |  Pre-Init  |0028108312| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 201 |  Pre-Init  |0028108312| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 202 |  Pre-Init  |0028108312| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 203 |  Pre-Init  |0028108313| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 204 |  Pre-Init  |0028108313| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 205 |  Pre-Init  |0028108313| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 206 |  Pre-Init  |0028108313| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 207 |  Pre-Init  |0028108313| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 208 |  Pre-Init  |0028108313| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 209 |  Pre-Init  |0028108313| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 20a |  Pre-Init  |0028108313| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 20b |  Pre-Init  |0028108314| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 20c |  Pre-Init  |0028108314| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 20d |  Pre-Init  |0028108314| Fan SYS_FAN_9A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 20e |  Pre-Init  |0028108314| Fan SYS_FAN_9B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 20f |  Pre-Init  |0028108315| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 210 |  Pre-Init  |0028108324| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 48 < Threshold 85 percent
+ 211 |  Pre-Init  |0028108501| Button BUTTON | Reset Button pressed | Asserted
+ 212 | 01/01/2000 | 00:32:07 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+ 213 | 01/01/2000 | 00:32:08 | Temperature SYS_AMB_TEMP_2 | Upper Critical going high | Asserted | Reading 49 > Threshold 46 degrees C
+ 214 | 01/01/2000 | 00:32:08 | Temperature SYS_AMB_TEMP_3 | Upper Critical going high | Asserted | Reading 46 > Threshold 46 degrees C
+ 215 | 01/01/2000 | 00:32:08 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 216 | 01/01/2000 | 00:32:08 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+ 217 | 01/01/2000 | 00:32:22 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 218 | 01/01/2000 | 00:32:23 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 637 < Threshold 1001 RPM
+ 219 | 01/01/2000 | 00:32:24 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 455 < Threshold 1001 RPM
+ 21a | 01/01/2000 | 00:32:24 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 546 < Threshold 1001 RPM
+ 21b | 01/01/2000 | 00:32:24 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+ 21c | 01/01/2000 | 00:32:25 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 21d | 01/01/2000 | 00:32:25 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 21e | 01/01/2000 | 00:32:56 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 21f |  Pre-Init  |0028108602| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 220 |  Pre-Init  |0028108604| OEM record d0 | 000001 | 010000000000
+ 221 |  Pre-Init  |0028108608| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 222 |  Pre-Init  |0028108627| Processor CPU_CATERR | State Asserted | Asserted
+ 223 |  Pre-Init  |0028108643| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 224 |  Pre-Init  |0028108643| Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 225 |  Pre-Init  |0028108644| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 226 |  Pre-Init  |0028108644| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 227 |  Pre-Init  |0028108644| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 228 |  Pre-Init  |0028108644| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 229 |  Pre-Init  |0028108644| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 22a |  Pre-Init  |0028108644| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 22b |  Pre-Init  |0028108644| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 22c |  Pre-Init  |0028108645| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 22d |  Pre-Init  |0028108645| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 22e |  Pre-Init  |0028108645| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 22f |  Pre-Init  |0028108645| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 230 |  Pre-Init  |0028108645| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 231 |  Pre-Init  |0028108645| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 232 |  Pre-Init  |0028108645| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 233 |  Pre-Init  |0028108646| Fan SYS_FAN_9A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 234 |  Pre-Init  |0028108646| Fan SYS_FAN_9B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 235 |  Pre-Init  |0028108646| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 236 |  Pre-Init  |0028108656| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 48 < Threshold 85 percent
+ 237 |  Pre-Init  |0028108701| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 238 |  Pre-Init  |0028108702| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 239 |  Pre-Init  |0028108747| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+ 23a |  Pre-Init  |0028108747| System Event END_OF_POST | OEM System boot event | Asserted
+ 23b |  Pre-Init  |0028108806| Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 8099 < Threshold 1001 RPM
+ 23c |  Pre-Init  |0028108806| Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 8554 < Threshold 1001 RPM
+ 23d |  Pre-Init  |0028108807| Fan SYS_FAN_7A | Lower Critical going low  | Deasserted | Reading 13104 < Threshold 1001 RPM
+ 23e |  Pre-Init  |0028108807| Fan SYS_FAN_7B | Lower Critical going low  | Deasserted | Reading 13286 < Threshold 1001 RPM
+ 23f |  Pre-Init  |0028108807| Fan SYS_FAN_9A | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+ 240 |  Pre-Init  |0028108807| Fan SYS_FAN_9B | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+ 241 |  Pre-Init  |0028108808| Fan SYS_FAN_10A | Lower Critical going low  | Deasserted | Reading 12831 < Threshold 1001 RPM
+ 242 |  Pre-Init  |0028108808| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 243 |  Pre-Init  |0028108809| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 13741 < Threshold 1001 RPM
+ 244 |  Pre-Init  |0028108809| Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 13650 < Threshold 1001 RPM
+ 245 |  Pre-Init  |0028108809| Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 10283 < Threshold 1001 RPM
+ 246 |  Pre-Init  |0028108809| Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 7189 < Threshold 1001 RPM
+ 247 |  Pre-Init  |0028108809| Fan SYS_FAN_0A | Lower Critical going low  | Deasserted | Reading 12376 < Threshold 1001 RPM
+ 248 |  Pre-Init  |0028108809| Fan SYS_FAN_0B | Lower Critical going low  | Deasserted | Reading 12467 < Threshold 1001 RPM
+ 249 |  Pre-Init  |0028108810| Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 12012 < Threshold 1001 RPM
+ 24a |  Pre-Init  |0028108810| Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 12467 < Threshold 1001 RPM
+ 24b |  Pre-Init  |0028108810| Fan SYS_FAN_3A | Lower Critical going low  | Deasserted | Reading 7189 < Threshold 1001 RPM
+ 24c |  Pre-Init  |0028108810| Fan SYS_FAN_3B | Lower Critical going low  | Deasserted | Reading 8463 < Threshold 1001 RPM
+ 24d |  Pre-Init  |0028108810| Fan SYS_FAN_4A | Lower Critical going low  | Deasserted | Reading 13832 < Threshold 1001 RPM
+ 24e |  Pre-Init  |0028108810| Fan SYS_FAN_4B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+ 24f |  Pre-Init  |0028108810| Fan SYS_FAN_5A | Lower Critical going low  | Deasserted | Reading 13559 < Threshold 1001 RPM
+ 250 |  Pre-Init  |0028108811| Fan SYS_FAN_5B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+ 251 |  Pre-Init  |0028108811| Fan SYS_FAN_6A | Lower Critical going low  | Deasserted | Reading 13832 < Threshold 1001 RPM
+ 252 |  Pre-Init  |0028108811| Fan SYS_FAN_6B | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+ 253 |  Pre-Init  |0028108811| Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 13195 < Threshold 1001 RPM
+ 254 |  Pre-Init  |0028108811| Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 13195 < Threshold 1001 RPM
+ 255 |  Pre-Init  |0028108813| Temperature SYS_AMB_TEMP_3 | Upper Critical going high | Deasserted | Reading 43 > Threshold 46 degrees C
+ 256 |  Pre-Init  |0028108815| Temperature SYS_AMB_TEMP_2 | Upper Critical going high | Deasserted | Reading 43 > Threshold 46 degrees C
+ 257 |  Pre-Init  |0028108818| Processor CPU_CATERR | State Asserted | Asserted
+ 258 |  Pre-Init  |0028108818| Processor CPU_MSMI | State Asserted | Asserted
+ 259 |  Pre-Init  |0028108939| Unknown SMI_TIMEOUT | State Asserted | Asserted
+ 25a |  Pre-Init  |0028108982| Button BUTTON | Power Button pressed | Asserted
+ 25b |  Pre-Init  |0028108983| Button BUTTON | Power Button pressed | Asserted
+ 25c |  Pre-Init  |0028108984| Button BUTTON | Power Button pressed | Asserted
+ 25d |  Pre-Init  |0028108985| Button BUTTON | Power Button pressed | Asserted
+ 25e |  Pre-Init  |0028108986| Button BUTTON | Power Button pressed | Asserted
+ 25f |  Pre-Init  |0028108987| Button BUTTON | Power Button pressed | Asserted
+ 260 |  Pre-Init  |0028108987| Button BUTTON | Power Button pressed | Asserted
+ 261 |  Pre-Init  |0028108988| Button BUTTON | Power Button pressed | Asserted
+ 262 |  Pre-Init  |0028108989| Button BUTTON | Power Button pressed | Asserted
+ 263 |  Pre-Init  |0028108991| Button BUTTON | Power Button pressed | Asserted
+ 264 |  Pre-Init  |0028108995| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+ 265 |  Pre-Init  |0028108995| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+ 266 |  Pre-Init  |0028108997| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 267 | 01/01/2000 | 00:40:53 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+ 268 | 01/01/2000 | 00:40:54 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 269 | 01/01/2000 | 00:40:54 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 92 > Threshold 85 percent
+ 26a | 01/01/2000 | 00:40:56 | Button BUTTON | Power Button pressed | Asserted
+ 26b | 01/01/2000 | 00:40:56 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 26c | 01/01/2000 | 00:40:57 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 26d | 01/01/2000 | 00:40:57 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 26e | 01/01/2000 | 00:40:57 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 26f | 01/01/2000 | 00:40:58 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+ 270 | 01/01/2000 | 00:40:58 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 271 | 01/01/2000 | 00:40:58 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 272 | 01/01/2000 | 00:41:30 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 273 |  Pre-Init  |0028109114| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 274 |  Pre-Init  |0028109120| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 275 |  Pre-Init  |0028109130| OEM record d0 | 000001 | 010000000000
+ 276 |  Pre-Init  |0028109157| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 277 |  Pre-Init  |0028109157| Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 278 |  Pre-Init  |0028109157| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 279 |  Pre-Init  |0028109158| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 27a |  Pre-Init  |0028109158| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 27b |  Pre-Init  |0028109158| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 27c |  Pre-Init  |0028109158| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 27d |  Pre-Init  |0028109158| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 27e |  Pre-Init  |0028109158| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 27f |  Pre-Init  |0028109158| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 280 |  Pre-Init  |0028109158| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 281 |  Pre-Init  |0028109159| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 282 |  Pre-Init  |0028109159| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 283 |  Pre-Init  |0028109159| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 284 |  Pre-Init  |0028109159| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 285 |  Pre-Init  |0028109159| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 286 |  Pre-Init  |0028109159| Fan SYS_FAN_9A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 287 |  Pre-Init  |0028109160| Fan SYS_FAN_9B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 288 |  Pre-Init  |0028109160| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 289 |  Pre-Init  |0028109174| System Event END_OF_POST | OEM System boot event | Asserted
+ 28a |  Pre-Init  |0028109174| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+ 28b |  Pre-Init  |0028109193| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 61 < Threshold 85 percent
+ 28c |  Pre-Init  |0028109227| Fan SYS_FAN_7A | Lower Critical going low  | Deasserted | Reading 10010 < Threshold 1001 RPM
+ 28d |  Pre-Init  |0028109227| Fan SYS_FAN_7B | Lower Critical going low  | Deasserted | Reading 11102 < Threshold 1001 RPM
+ 28e |  Pre-Init  |0028109228| Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 28f |  Pre-Init  |0028109228| Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 290 |  Pre-Init  |0028109228| Fan SYS_FAN_10A | Lower Critical going low  | Deasserted | Reading 7917 < Threshold 1001 RPM
+ 291 |  Pre-Init  |0028109228| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 9282 < Threshold 1001 RPM
+ 292 |  Pre-Init  |0028109229| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 13559 < Threshold 1001 RPM
+ 293 |  Pre-Init  |0028109229| Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 13195 < Threshold 1001 RPM
+ 294 |  Pre-Init  |0028109229| Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 5005 < Threshold 1001 RPM
+ 295 |  Pre-Init  |0028109230| Fan SYS_FAN_0A | Lower Critical going low  | Deasserted | Reading 9646 < Threshold 1001 RPM
+ 296 |  Pre-Init  |0028109230| Fan SYS_FAN_0B | Lower Critical going low  | Deasserted | Reading 10465 < Threshold 1001 RPM
+ 297 |  Pre-Init  |0028109230| Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 13741 < Threshold 1001 RPM
+ 298 |  Pre-Init  |0028109230| Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 13832 < Threshold 1001 RPM
+ 299 |  Pre-Init  |0028109230| Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 1638 < Threshold 1001 RPM
+ 29a |  Pre-Init  |0028109231| Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 4550 < Threshold 1001 RPM
+ 29b |  Pre-Init  |0028109231| Fan SYS_FAN_3A | Lower Critical going low  | Deasserted | Reading 11102 < Threshold 1001 RPM
+ 29c |  Pre-Init  |0028109231| Fan SYS_FAN_3B | Lower Critical going low  | Deasserted | Reading 11375 < Threshold 1001 RPM
+ 29d |  Pre-Init  |0028109231| Fan SYS_FAN_4A | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+ 29e |  Pre-Init  |0028109231| Fan SYS_FAN_4B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+ 29f |  Pre-Init  |0028109231| Fan SYS_FAN_5A | Lower Critical going low  | Deasserted | Reading 13195 < Threshold 1001 RPM
+ 2a0 |  Pre-Init  |0028109231| Fan SYS_FAN_5B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+ 2a1 |  Pre-Init  |0028109231| Fan SYS_FAN_6A | Lower Critical going low  | Deasserted | Reading 13559 < Threshold 1001 RPM
+ 2a2 |  Pre-Init  |0028109232| Fan SYS_FAN_6B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+ 2a3 |  Pre-Init  |0028109232| Fan SYS_FAN_9A | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 2a4 |  Pre-Init  |0028109232| Fan SYS_FAN_9B | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 2a5 |  Pre-Init  |0028109233| Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 2a6 |  Pre-Init  |0028109442| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+ 2a7 |  Pre-Init  |0028109442| Microcontroller/Coprocessor #0x16 | Transition to Power Off | Asserted
+ 2a8 |  Pre-Init  |0028109442| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+ 2a9 |  Pre-Init  |0028109444| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2aa | 01/01/2000 | 00:47:36 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+ 2ab | 01/01/2000 | 00:47:37 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2ac | 01/01/2000 | 00:47:37 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 94 > Threshold 85 percent
+ 2ad | 01/01/2000 | 00:47:44 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 2ae | 01/01/2000 | 00:47:44 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2af | 01/01/2000 | 00:47:44 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2b0 | 01/01/2000 | 00:47:44 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2b1 | 01/01/2000 | 00:47:45 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+ 2b2 | 01/01/2000 | 00:47:45 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2b3 | 01/01/2000 | 00:47:45 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2b4 | 01/01/2000 | 00:48:17 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 2b5 |  Pre-Init  |0028109522| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 2b6 |  Pre-Init  |0028109527| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2b7 |  Pre-Init  |0028109532| OEM record d0 | 000001 | 010000000000
+ 2b8 |  Pre-Init  |0028109548| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+ 2b9 |  Pre-Init  |0028109548| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+ 2ba |  Pre-Init  |0028109552| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 2bb |  Pre-Init  |0028109566| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 50 < Threshold 85 percent
+ 2bc |  Pre-Init  |0028109587| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 2bd |  Pre-Init  |0028109587| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 2be |  Pre-Init  |0028109624| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2bf |  Pre-Init  |0028109624| Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c0 |  Pre-Init  |0028109625| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c1 |  Pre-Init  |0028109625| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c2 |  Pre-Init  |0028109625| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c3 |  Pre-Init  |0028109625| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c4 |  Pre-Init  |0028109625| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c5 |  Pre-Init  |0028109625| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c6 |  Pre-Init  |0028109625| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c7 |  Pre-Init  |0028109626| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c8 |  Pre-Init  |0028109626| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2c9 |  Pre-Init  |0028109626| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2ca |  Pre-Init  |0028109626| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2cb |  Pre-Init  |0028109626| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2cc |  Pre-Init  |0028109626| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2cd |  Pre-Init  |0028109626| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2ce |  Pre-Init  |0028109627| Fan SYS_FAN_9A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2cf |  Pre-Init  |0028109627| Fan SYS_FAN_9B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2d0 |  Pre-Init  |0028109627| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 2d1 |  Pre-Init  |0028109636| System Event END_OF_POST | OEM System boot event | Asserted
+ 2d2 |  Pre-Init  |0028109636| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+ 2d3 |  Pre-Init  |0028109687| Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 9828 < Threshold 1001 RPM
+ 2d4 |  Pre-Init  |0028109687| Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 10647 < Threshold 1001 RPM
+ 2d5 |  Pre-Init  |0028109687| Fan SYS_FAN_7A | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+ 2d6 |  Pre-Init  |0028109687| Fan SYS_FAN_7B | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+ 2d7 |  Pre-Init  |0028109688| Fan SYS_FAN_9A | Lower Critical going low  | Deasserted | Reading 13013 < Threshold 1001 RPM
+ 2d8 |  Pre-Init  |0028109688| Fan SYS_FAN_9B | Lower Critical going low  | Deasserted | Reading 13195 < Threshold 1001 RPM
+ 2d9 |  Pre-Init  |0028109688| Fan SYS_FAN_10A | Lower Critical going low  | Deasserted | Reading 13559 < Threshold 1001 RPM
+ 2da |  Pre-Init  |0028109688| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 13559 < Threshold 1001 RPM
+ 2db |  Pre-Init  |0028109689| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 13559 < Threshold 1001 RPM
+ 2dc |  Pre-Init  |0028109689| Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 13195 < Threshold 1001 RPM
+ 2dd |  Pre-Init  |0028109690| Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+ 2de |  Pre-Init  |0028109690| Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 13741 < Threshold 1001 RPM
+ 2df |  Pre-Init  |0028109690| Fan SYS_FAN_3A | Lower Critical going low  | Deasserted | Reading 14651 < Threshold 1001 RPM
+ 2e0 |  Pre-Init  |0028109690| Fan SYS_FAN_3B | Lower Critical going low  | Deasserted | Reading 14651 < Threshold 1001 RPM
+ 2e1 |  Pre-Init  |0028109690| Fan SYS_FAN_4A | Lower Critical going low  | Deasserted | Reading 13559 < Threshold 1001 RPM
+ 2e2 |  Pre-Init  |0028109691| Fan SYS_FAN_4B | Lower Critical going low  | Deasserted | Reading 13013 < Threshold 1001 RPM
+ 2e3 |  Pre-Init  |0028109691| Fan SYS_FAN_5A | Lower Critical going low  | Deasserted | Reading 14105 < Threshold 1001 RPM
+ 2e4 |  Pre-Init  |0028109691| Fan SYS_FAN_5B | Lower Critical going low  | Deasserted | Reading 14105 < Threshold 1001 RPM
+ 2e5 |  Pre-Init  |0028109691| Fan SYS_FAN_6B | Lower Critical going low  | Deasserted | Reading 13286 < Threshold 1001 RPM
+ 2e6 |  Pre-Init  |0028109691| Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 13104 < Threshold 1001 RPM
+ 2e7 |  Pre-Init  |0028109691| Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 13104 < Threshold 1001 RPM
+ 2e8 |  Pre-Init  |0028109692| Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 2e9 |  Pre-Init  |0028109693| Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 2ea |  Pre-Init  |0028109693| Fan SYS_FAN_0A | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+ 2eb |  Pre-Init  |0028109693| Fan SYS_FAN_0B | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+ 2ec |  Pre-Init  |0028109694| Fan SYS_FAN_6A | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+19:51:38.15 Total Bmc Log Abnormal Message = 1
+19:51:38.15 Fault Message = 1
+19:51:38.15 Warning Message = 0
+19:51:38.15 Failed Message = 0
+19:51:38.15 ##############################################################
+19:51:38.15 Section: Bmc Sel Clear
+19:51:38.15 Send = ipmitool sel clear
+19:51:38.15 Rece = 
+Clearing SEL.  Please allow a few seconds to erase.
+
+19:51:38.50 TestChk => PASS: Bmc Sel Clear
+19:51:39.66 ##############################################################
+Cannonball BFT: PASS
+19:51:40.62 Send = shutdown now
+19:51:40.62 Rece = 

@@ -1,0 +1,83 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Hard Disk and Floppy Disk Test</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Disk test suite,Read (disk),write(disk),Pattern,File size,Test Pattern,Firewire,Memory card readers,Memory sticks,Removable drives" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?disk_test.htm"; }
+  else { parent.quicksync('a6.5'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Hard Disk and Floppy Disk Test</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="maths_tests.htm">Previous</a>&nbsp;
+     <a href="memory_test.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>This suite contains a number of tests that exercise the mass storage units (Hard disk or otherwise) connected to the computer. By default, the start-up volume (with path represented by “/”) is used for the hard disk and the floppy disk is represented by the mount directory in the “/etc/fstab” file, i.e. the “mnt_dir” field of the &nbsp;“mntent struct” as returned by a &nbsp;getmntent() system call. &nbsp;You can opt to test more disks/volumes by changing the Preferences Dialog (See section, 0, Disk preferences). &nbsp;Up to 20 drives can be selected for simultaneous testing. From this twenty it is possible to select any combination of available floppy disk and hard disks.</p>
+<p>&nbsp;</p>
+<p>Partitioned drives they must be mounted before BurnInTest can test them, they also need to be of partition type ext2, ext3, reiserfs, xfs, vfat or ntfs. Due to limited NTFS support in some Linux distributions you may need to use a non-default type (eg ntfs-3g) to mount NTFS drives with read + write permissions before you can test them.</p>
+<p>&nbsp;</p>
+<p>The user can select one of the following patterns or choose to automatically cycle between the patterns. This selection is done in the preferences dialog (see section, 0, Disk preferences). Possible test mode patterns are,</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Default (Cyclic)</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Sequential data pattern (0,1,2...255)</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Random data with random seeking</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>High Low freq data overwrite (10101 then 00001)</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Binary data pattern 1 (10101010)</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Binary data pattern 2 (01010101)</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Zeros data pattern (00000000)</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Ones data pattern (11111111)</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Random data pattern</td></tr></table></div><p>&nbsp;</p>
+<p>During each test cycle, a file is created and verified on the disk. The size of the file is equal to a certain percentage of the disks capacity and all files are created in the root directory of the drives selected. The default file size is 1.0% of the disk size. For small capacity drives, like floppy disks, there is a minimum file size of 32KB. It is possible to change the default file size percentage from the preferences window.</p>
+<p>&nbsp;</p>
+<p>Each test file is filled with a coded number sequence (a Pattern) that is used to verify the correct operation of the disk when the file is verified (read). Files are created in the free space on the disk until the disk is 94% full. When the disk has reached this limit, all the test files are deleted and the test starts again. A limit of 94% is used to ensure that some space is kept for use by other applications (including the swap files).</p>
+<p>&nbsp;</p>
+<p>A number of test modes perform additional testing to that described above. These are described below:</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Random data with Random seeking </span>generates 7 blocks of random data for each test disk and sequentially writes a file using the first block of random data, followed by the second, third,forth, fifth, sixth and seventh and then the first etc, until the file size specified is reached. This file is then verified with sequential reads of data blocks from the file just written. This is followed by seeking to a block within the files created, selected at random. At random either a read and verify or a write will occur at this position on the disk. This random seek and random read/verify or write will be repeated the number of times specified by the user in the disk preferences “seek count” field. New files are written and verified with this process until the disk full level is reached. At this point, all the test files written to disk will be deleted and the cycle will be repeated.</p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p><span style="font-style: italic; text-decoration: underline;">High Low frequency data overwrite</span> works by first writing a file with a high frequency pattern (10101010101010010101…), then overwriting this with a low frequency pattern (00001000010000100001…) and then verifying that the low frequency pattern has been fully and correctly written. Note: This test pattern will write more data than it reads/verifies, this is the reason the MB Written and MB verified shown on the disk test window may not be equal. </p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p>If an error is detected in the coded pattern then the error count is incremented. The numbers of bytes written and read from the disk are displayed in the test window. The addition of these two values is displayed in the main window.</p>
+<p>&nbsp;</p>
+<p>Graphical progress bars indicate if the test is currently writing or verifying (reading) information, the percentage complete for the particular file and the space remaining on the disk.</p>
+<p>&nbsp;</p>
+<p>The speed of the hard disk and the duty cycle determine how quickly test files are created.</p>
+<p>&nbsp;</p>
+<p>There are a few issues to aware of when interpreting the results of the disk test. These are covered in the precautions section (see section 0, Precautions for thorough and careful testing).</p>
+<p>&nbsp;</p>
+<p>Note (1) To test Firewire ports using BurnInTest it is recommended that an external hard disk via the Firewire port is used in conjunction with the BurnInTest disk test. (2) Similarly, to test external memory card readers/writers or other removal drives, it is recommended that the BurnInTest disk test be used.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Helpful command line tool:</span></p>
+<p>[your_command_line_prompt]# cat /etc/mtab</p>
+<p>This command will show all the mounted disks on your system.</p>
+<p>&nbsp;</p>
+<p>[your_command_line_prompt]# df</p>
+<p>Shows the disk usage including used space and available disk space.</p>
+<p style="text-align: justify;"><span style="color: #000000;">&nbsp;</span></p>
+<p style="text-align: justify;"><span style="color: #000000;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

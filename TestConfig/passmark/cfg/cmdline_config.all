@@ -1,0 +1,67 @@
+## Test config file for BurnInTest Linux command line version
+## Use '#' to comment out lines, remove the comment to enable an option
+## Double ## have been used for explanations of each section/paramter
+## Single # have been used to comment out optional paramters/tests
+
+## Note that only 14 lines of tests can be displayed on the main window
+## due to console size limits
+
+## Logging 
+## Comment out the section to turn logging off
+<Logging>
+
+## Location (path) of log file
+LogFilename /root/mount/
+
+## Log prefix
+LogPrefix BiTLog2_all
+## Format - Ascii|HTML|Certificate
+Format Ascii
+## Logging detail level - summary|normal
+LogDetailLevel normal
+## Trace level - None (0) | Activity Trace 1 (1)| Activity Trace 2 (2) 
+TraceLevel 0
+##maximum number of lines for file
+MaxFileLines 1000		
+## Logging mode - single file or multiples with timestamp
+##   - ClearAppend Clear results & append (single file)
+##   - AccumulateAppend Clear results & append (single file)
+##   - ClearNew Clear results and overwrite existing (single file) 
+##		- Timestamp Create new timestamped files (multiple files)
+LogMode ClearNew
+
+</Logging>
+
+## Duty cycles
+<DutyCycles>
+AutoStopMinutes 15
+AutoStopCycles 0
+CPU 100
+CDDVD 100
+Memory 100
+Serial 100
+Parallel 100
+Disk 100
+USB 100
+</DutyCycles>
+
+## Memory section
+<Memory>
+#Test pattern - Cycle, Sequence, Binary1, Binary2, Zeros, Ones
+Cycle
+</Memory>
+
+<CPU>
+General
+FPU
+SSE
+SSE2
+Prime 
+</CPU>
+
+## Errors
+<Errors>
+## Action to take on error - Continue (Continue), Beep and continue (Beep), Stop tests (Stop)
+ActionOnError Continue
+</Errors>
+

@@ -1,0 +1,388 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 2000-01-02 14:48:10
+Version: V0.0.00(BFT1-EVT)
+                                
+14:48:10.89 ##############################################################
+14:48:10.89 Section: Program BMC MAC and FRU
+14:48:10.89 Send = ipmitool raw 0x06 0x52 0x0D 0xA0 0x00 0x1C 0x00 0x14 0x0D 0x4F 0x51 0x29 0xB9 0x00 0x00 0x14 0x0D 0x4F 0x51 0x29 0xBA 0x00 0x00
+14:48:10.89 Rece = 
+
+14:48:10.92 Send = ipmitool mc reset cold
+14:48:10.92 Rece = 
+Sent cold reset command to MC
+
+14:48:45.98 Send = ipmitool lan print 1
+14:48:45.98 Rece = 
+Set in Progress         : Set Complete
+Auth Type Support       : MD5
+Auth Type Enable        : Callback : MD5
+                        : User     : MD5 
+                        : Operator : MD5 
+                        : Admin    : MD5 
+                        : OEM      : MD5 
+IP Address Source       : DHCP Address
+IP Address              : 0.0.0.0
+Subnet Mask             : 0.0.0.0
+MAC Address             : 14:0d:4f:51:29:b9
+SNMP Community String   : AMI
+IP Header               : TTL=0x40 Flags=0x40 Precedence=0x00 TOS=0x10
+BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
+Gratituous ARP Intrvl   : 0.0 seconds
+Default Gateway IP      : 0.0.0.0
+Default Gateway MAC     : 00:00:00:00:00:00
+Backup Gateway IP       : 0.0.0.0
+Backup Gateway MAC      : 00:00:00:00:00:00
+802.1q VLAN ID          : Disabled
+802.1q VLAN Priority    : 0
+RMCP+ Cipher Suites     : 0,1,2,3,6,7,8,11,12,15,16,17
+Cipher Suite Priv Max   : caaaaaaaaaaaXXX
+                        :     X=Cipher Suite Unused
+                        :     c=CALLBACK
+                        :     u=USER
+                        :     o=OPERATOR
+                        :     a=ADMIN
+                        :     O=OEM
+14:48:46.09 Send = ipmitool lan print 8
+14:48:46.09 Rece = 
+Set in Progress         : Set Complete
+Auth Type Support       : MD5 
+Auth Type Enable        : Callback : MD5 
+                        : User     : MD5 
+                        : Operator : MD5 
+                        : Admin    : MD5 
+                        : OEM      : MD5 
+IP Address Source       : DHCP Address
+IP Address              : 0.0.0.0
+Subnet Mask             : 0.0.0.0
+MAC Address             : 14:0d:4f:51:29:ba
+SNMP Community String   : AMI
+IP Header               : TTL=0x40 Flags=0x40 Precedence=0x00 TOS=0x10
+BMC ARP Control         : ARP Responses Enabled, Gratuitous ARP Disabled
+Gratituous ARP Intrvl   : 0.0 seconds
+Default Gateway IP      : 0.0.0.0
+Default Gateway MAC     : 00:00:00:00:00:00
+Backup Gateway IP       : 0.0.0.0
+Backup Gateway MAC      : 00:00:00:00:00:00
+802.1q VLAN ID          : Disabled
+802.1q VLAN Priority    : 0
+RMCP+ Cipher Suites     : 0,1,2,3,6,7,8,11,12,15,16,17
+Cipher Suite Priv Max   : caaaaaaaaaaaXXX
+                        :     X=Cipher Suite Unused
+                        :     c=CALLBACK
+                        :     u=USER
+                        :     o=OPERATOR
+                        :     a=ADMIN
+                        :     O=OEM
+14:48:46.19 Send = ipmitool raw 0x0a 0x12 0x00 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x00 0x00 0xff
+14:48:46.19 Rece = 
+ 08
+14:48:46.22 Send = ipmitool raw 0x0a 0x12 0x01 0x00 0x00 0x01 0x00 0x00 0x00 0x00 0x01 0x00 0xFE 0xC1 0x82 0x00 0x00 0xBD
+14:48:46.22 Rece = 
+ 0d
+14:48:46.29 Send = ipmitool raw 0x0a 0x11 0x00 0x00 0x00 0x08
+14:48:46.29 Rece = 
+ 08 01 00 00 00 00 00 00 ff
+
+14:48:46.31 Send = ipmitool raw 0x0a 0x11 0x01 0x00 0x00 0x0D
+14:48:46.31 Rece = 
+ 0d 01 00 00 00 00 01 00 fe c1 82 00 00 bd
+14:48:46.37 Tester => OK: Program BMC MAC and FRU
+14:48:46.38 ##############################################################
+14:48:46.38 Section: USB Check
+14:48:46.38 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+14:48:46.38 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+
+14:48:46.52 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+14:48:46.52 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=14
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=3992977408 bytes, 3808.0 MiB, 3.99 GB
+  Block device=/dev/sda
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:48:46.65 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+14:48:46.65 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=15
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=4037017600 bytes, 3850.0 MiB, 4.04 GB
+  Block device=/dev/sdb
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:48:54.88 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+14:48:54.88 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+14:48:55.01 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+14:48:55.01 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=14
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=3992977408 bytes, 3808.0 MiB, 3.99 GB
+  Block device=/dev/sda
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:48:55.14 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+14:48:55.14 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=15
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=4037017600 bytes, 3850.0 MiB, 4.04 GB
+  Block device=/dev/sdb
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:48:55.94 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+14:48:55.94 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+14:48:56.08 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+14:48:56.08 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=14
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=3992977408 bytes, 3808.0 MiB, 3.99 GB
+  Block device=/dev/sda
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:48:56.21 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+14:48:56.21 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=15
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=4037017600 bytes, 3850.0 MiB, 4.04 GB
+  Block device=/dev/sdb
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:49:22.43 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+14:49:22.43 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+14:49:22.57 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+14:49:22.57 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=16
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=4037017600 bytes, 3850.0 MiB, 4.04 GB
+  Block device=/dev/sda
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:49:22.69 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+14:49:22.69 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=17
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=3992977408 bytes, 3808.0 MiB, 3.99 GB
+  Block device=/dev/sdb
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:49:23.87 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+14:49:23.87 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:2:1.0 missing
+14:49:24.02 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+14:49:24.02 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=16
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=4037017600 bytes, 3850.0 MiB, 4.04 GB
+  Block device=/dev/sda
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:49:24.15 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+14:49:24.15 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=17
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=3992977408 bytes, 3808.0 MiB, 3.99 GB
+  Block device=/dev/sdb
+  Vendor=Kingmax
+  Product=USB2.0 FlashDisk
+  Revision=1100
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+14:49:24.27 USB1 Not Found
+14:49:24.27 Tester => Test Fail: Section: USB Check
+14:49:26.47 ##############################################################
+Cannonball BFT: FAIL ErrorCode=23099

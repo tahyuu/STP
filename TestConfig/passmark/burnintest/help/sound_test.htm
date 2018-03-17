@@ -1,0 +1,60 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Sound Test</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?sound_test.htm"; }
+  else { parent.quicksync('a6.11'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Sound Test</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="usb_test.htm">Previous</a>&nbsp;
+     <a href="test_preferences.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>Sound loopback &nbsp;testing measures the distortion between audio input and audio output. Itinvolves connecting the audio out and line in plugs of your computers sound card together with an audio loopback cable (available from <a href="http://www.passmark.com)%20" target="_blank" class="weblink">http://www.passmark.com) </a>. </p>
+<p>&nbsp;</p>
+<p>The test uses a single channel (mono), 8 bit sound format with telephone quality sample rate (11025Hz). The test generates a sin wave sample with a frequency of 300Hz and a duration of approximately 20 seconds. This sample is output, looped back over an audio loop back cable and the input recorded. Once the sample is complete, the test then analyzes the waveform for distortion. It is possible to set the maximum level of distortion before an error is logged in the Sound preferences window. An operation is defined to be an 8-bit sample of a waveform that is looped and is within the user distortion setting. A cycle is defined to be playing a waveform sample of approximately 20 seconds, recording this sample and analyzing it for distortion.</p>
+<p>&nbsp;</p>
+<p>BurnInTest measures the level of distortion between the output signal and the input signal on a wave-by-wave basis. If the distortion measured exceeds the value set in the Sound Preferences window and an error is logged and the output and input waves are displayed in the Sound Test window.</p>
+<p>&nbsp;</p>
+<p>The volume control for the system is a very important setting for the loopback test. If the volume setting is too low, the input signals will be correspondingly vague and therefore distortion will be high. If the volume setting is too high, the input signal may become “capped” as the sound waves become truncated. This will also lead to high distortion and errors being logged. You may need to play with this control while the test is in progress in order to find the “sweet spot”</p>
+<p>&nbsp;</p>
+<p>Note 1: If a system is under high load, the audio device driver may not be able to output a continuous Sine waveform. If this occurs, you may see the "Corrupt Audio input" warnings. To determine if this is load related, reduce system load and re-test. </p>
+<p>&nbsp;</p>
+<p>Note 2: If your system produces audio on certain events, such as clicking a mouse button, then these sounds should be turned off before using the sound Loopback test. </p>
+
+</td></tr></table>
+
+</body>
+</html>

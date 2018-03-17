@@ -1,0 +1,5 @@
+10:06:29.75 Section: FW update
+10:06:29.75 Send = /root/CBFT/FW/flex_cannonball_mainboard_v007/update_all.sh
+10:06:29.75 Rece = 
+Order file "update_order.cfg" not found.
+

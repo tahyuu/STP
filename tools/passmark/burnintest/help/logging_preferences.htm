@@ -1,0 +1,92 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Logging Preferences</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?logging_preferences.htm"; }
+  else { parent.quicksync('a7.12'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Logging Preferences</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="error_handling_preferences.htm">Previous</a>&nbsp;
+     <a href="duty_cycles.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p><span style="font-style: italic; text-decoration: underline;">Automatic logging</span></p>
+<p>&nbsp;</p>
+<p>Logging to disk is switched on and off with the “Logging on” option. When disk logging is on, BurnInTest will log System information, results, result summaries, and detailed error descriptions to files based on the following user settings. This log can be viewed by clicking on the Event Log tab. </p>
+<p>&nbsp;</p>
+<p>The log directory allows the directory and filename prefix to be specified. The file will automatically be appended with _YYMMDD_HHMMSS.log, .htm or .trace, specifying the Year, Month, Day, Hour, Minute &amp; second that the disk log file was created. </p>
+<p>&nbsp;</p>
+<p>A “Log detail level” may be selected for disk logging to specify the amount of information to be written to disk. The options that may be selected are:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">1.</span></td><td>Result Summary only. Produces a .log or .htm file containing system information, a summary of the tests run (eg. Which tests, the number of operations and errors per test) and a summary of the serious and critical errors during a test run (cleared at the end of a non-scripted test run or at the end of the script for a scripted test run).</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">2.</span></td><td>Normal. Produces a .log or .htm file containing the “Result Summary only” information and detailed errors (1 or 2 lines per error). </td></tr></table></div><p>&nbsp;</p>
+<p>A “Trace level” may be selected for detailed disk logging to specify the amount of information to be written to disk. The options that may be selected are:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">1.</span></td><td>No Trace log. No trace log is produced. &nbsp;This is the default setting.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">2.</span></td><td>Activity Trace level 1. Produces a .trace with the “Normal” information and a summary of test activities (eg. The starting and stopping of tests).</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">3.</span></td><td>Activity trace level 2. Produces a .trace file with the “Activity Trace level 1” information and a detailed description of the test activity.</td></tr></table></div><p>&nbsp;</p>
+<p>Setting “Max file size” specifies the approximate maximum file size in terms of the number of lines in either the log or trace files.</p>
+<p>&nbsp;</p>
+<p>The format of the Result summary and Normal log files may be specified to be either ASCII text or HTML via the “ACSII Format” or “HTML Format” buttons. Trace logs are always in ASCII text.</p>
+<p>&nbsp;</p>
+<p>A new set of log files will be created when Logging On is switched on, any of the logging options (Log Directory, Detail Level, ASCII/HTML Format) are changed, or when BurnInTest is started with Logging switched on. The only exception is when BurnInTest is automatically stopped with a REBOOT or REBOOTEND scripting command, and then the original log files will be re-opened and appended to.</p>
+<p>&nbsp;</p>
+<p>The log files are closed and available for use by another application when Logging On is switched off, any of the logging options (Log Directory, Detail Level, ASCII/HTML Format) are changed, or when BurnInTest is exited or automatically stopped with a REBOOT or REBOOTEND scripting command.</p>
+<p>&nbsp;</p>
+<p>Note: Text and HTML disk logs can be manually created using “File”, "Save results report". This will save System information, a result summary and the recent Detailed Error log history (up to 1000 entries).</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Log Name Prefixing (Text/HTML)</span></p>
+<p>&nbsp;</p>
+<p>If you wish to prefix the standard BurnInTest Text or HTML log filenames you can type a prefix string into the “Prefix” edit box. For example, if you want to prefix the standard BurnInTest log filenames with the text “SPECIAL_TEST_” then just enter, SPECIAL_TEST_.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Report type</span></p>
+<p>&nbsp;</p>
+<p>The format of the Result summary and Normal log files may be specified to be either ASCII text or HTML via the “Text (ASCII)”, “HTML” or "<a href="preparing_a_customer_test_cert.htm">Customer certificate</a>" buttons. This setting will also determine the format of the Trace logs.</p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Pre-test logging options</span></p>
+<p>&nbsp;</p>
+<p>Test results, including the detailed error and status log history, can either be cleared each time a new test run is started or test results can be accumulated across several test runs. </p>
+<p>Accumulating test results means that the error count, cycle count and operations count values are the total values that have been accumulated across all test runs on this machine. Accumulation will also occur across scripted reboots, sleeps and execute commands. </p>
+<p>Log files may be appended to the existing log file or a new log file created at the start of each test run.</p>
+<p>&nbsp;</p>
+<p>Three options are available for clearing/accumulating test results and creating/appending log files. These options are:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Clear test results and create a new log</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Clear test results and append to the existing log</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>Accumulate test results and append to the existing log </td></tr></table></div><p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Special Flags</span></p>
+<p>Several special flags are available to be used in the logging path and filename;</p>
+<p>&nbsp;</p>
+<p>%SYSTEMSERIAL% - This will be replaced with either the serial number as set in the<a href="machine_identity.htm"> Report Information</a> and if this value has not been set, the system serial number as retrieved by the dmidecode tool. For example "\logs\BitLog_%SYSTEMSERIAL%" can become "\logs\BitLog_SN123456"</p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p>%DATE% - This will be replaced with the date in YYYMMDD format.</p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

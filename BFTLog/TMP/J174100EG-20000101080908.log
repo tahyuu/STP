@@ -1,0 +1,14 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 2000-01-01 08:09:08
+Version: V0.0.00(BFT1-EVT)
+                                
+08:09:08.63 ##############################################################
+08:09:08.63 Section: Program BMC MAC and FRU
+08:09:08.63 Send = ipmitool raw 0x06 0x52 0x0D 0xA0 0x00 0x1C 0x00 0x14 0x0D 0x4F 0x51 0x29 0x87 0x00 0x00 0x14 0x0D 0x4F 0x51 0x29 0x88 0x00 0x00
+08:09:08.63 Rece = 
+
+08:09:08.66 Send = ipmitool mc reset cold
+08:09:08.66 Rece = 
+Sent cold reset command to MC

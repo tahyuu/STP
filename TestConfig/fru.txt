@@ -1,0 +1,4 @@
+FRU Device Description : Builtin FRU Device (ID 0)
+
+FRU Device Description : AST2400         
+

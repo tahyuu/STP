@@ -1,0 +1,1319 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 1999-12-31 19:29:05
+Version: V0.0.00(BFT1-EVT)
+                                
+19:29:05.81 ##############################################################
+19:29:05.81 Section: PCIe List Check
+19:29:05.81 Subsection:  PCIE List Check
+19:29:05.82 Send = lspci
+19:29:05.82 Rece = 
+00:00.0 Host bridge: Intel Corporation Device 2020 (rev 04)
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+00:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+00:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:11.0 Unassigned class [ff00]: Intel Corporation Device a1ec (rev 09)
+00:11.1 Unassigned class [ff00]: Intel Corporation Device a1ed (rev 09)
+00:11.5 SATA controller: Intel Corporation Lewisburg SSATA Controller [AHCI mode] (rev 09)
+00:14.0 USB controller: Intel Corporation Lewisburg USB 3.0 xHCI Controller (rev 09)
+00:14.2 Signal processing controller: Intel Corporation Device a1b1 (rev 09)
+00:16.0 Communication controller: Intel Corporation Lewisburg CSME: HECI #1 (rev 09)
+00:16.1 Communication controller: Intel Corporation Lewisburg CSME: HECI #2 (rev 09)
+00:16.4 Communication controller: Intel Corporation Lewisburg CSME: HECI #3 (rev 09)
+00:17.0 SATA controller: Intel Corporation Lewisburg SATA Controller [AHCI mode] (rev 09)
+00:1c.0 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #1 (rev f9)
+00:1c.4 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #5 (rev f9)
+00:1f.0 ISA bridge: Intel Corporation Lewisburg LPC Controller (rev 09)
+00:1f.2 Memory controller: Intel Corporation Lewisburg PMC (rev 09)
+00:1f.4 SMBus: Intel Corporation Lewisburg SMBus (rev 09)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Lewisburg SPI Controller (rev 09)
+02:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+17:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+17:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+17:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+17:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+17:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+17:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+18:00.0 Mass storage controller: Device 1c36:1031
+18:00.1 Mass storage controller: Device 1c36:1031
+18:00.2 Ethernet controller: Device 1c36:1001
+19:00.0 Mass storage controller: Device 1c36:1031
+19:00.1 Mass storage controller: Device 1c36:1031
+19:00.2 Ethernet controller: Device 1c36:1001
+3a:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+3a:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+3a:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+3a:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+3a:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+3a:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3a:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3b:00.0 Ethernet controller: Device 1c36:1022
+3b:00.1 Ethernet controller: Device 1c36:1022
+3b:00.2 Ethernet controller: Device 1c36:1001
+3c:00.0 Ethernet controller: Device 1c36:8889
+3c:00.1 Ethernet controller: Device 1c36:8889
+3c:00.2 Ethernet controller: Device 1c36:1001
+5d:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+5d:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+5d:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+5d:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+5d:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+5d:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5e:00.0 Ethernet controller: Device 1c36:1022
+5e:00.1 Ethernet controller: Device 1c36:1022
+5e:00.2 Ethernet controller: Device 1c36:1001
+5f:00.0 Ethernet controller: Device 1c36:8889
+5f:00.1 Ethernet controller: Device 1c36:8889
+5f:00.2 Ethernet controller: Device 1c36:1001
+80:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+80:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+80:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+81:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804
+85:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+85:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+ae:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+ae:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+ae:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+ae:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+ae:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+ae:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+af:00.0 Mass storage controller: Device 1c36:1031
+af:00.1 Mass storage controller: Device 1c36:1031
+af:00.2 Ethernet controller: Device 1c36:1001
+b0:00.0 Mass storage controller: Device 1c36:1031
+b0:00.1 Mass storage controller: Device 1c36:1031
+b0:00.2 Ethernet controller: Device 1c36:1001
+d7:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+d7:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+d7:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+19:29:05.92 PASS,all compnent in lspci check list
+19:29:05.92 Tester Chk => OK: PCIe List Verified
+19:29:05.92 ##############################################################
+19:29:05.92 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+19:29:05.92 Send = lspci -s 3b:00.0 -vvn
+19:29:05.92 Rece = 
+3b:00.0 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ba024000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at b0000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at b8000000 (32-bit, non-prefetchable) [size=32M]
+	Expansion ROM at ba000000 [disabled] [size=128K]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:36
+			[V2] Vendor specific: 14:4F:D7:0F:82:37
+			[V3] Vendor specific: 14:4F:D7:0F:82:38
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:05.95 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+19:29:05.95 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+19:29:05.95 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+19:29:05.96 Send = lspci -s 3b:00.1 -vvn
+19:29:05.96 Rece = 
+3b:00.1 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ba020000 (64-bit, non-prefetchable) [size=16K]
+	Region 5: Memory at b6000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:36
+			[V2] Vendor specific: 14:4F:D7:0F:82:37
+			[V3] Vendor specific: 14:4F:D7:0F:82:38
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:05.99 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+19:29:05.99 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+19:29:05.99 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:29:05.99 Send = lspci -s 3b:00.2 -vvn
+19:29:05.99 Rece = 
+3b:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at b4000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:36
+			[V2] Vendor specific: 14:4F:D7:0F:82:37
+			[V3] Vendor specific: 14:4F:D7:0F:82:38
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.02 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:29:06.02 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:29:06.02 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+19:29:06.02 Send = lspci -s 3c:00.0 -vvn
+19:29:06.02 Rece = 
+3c:00.0 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ae004000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 4: Memory at a4000000 (32-bit, non-prefetchable) [disabled] [size=64M]
+	Region 5: Memory at ac000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:39
+			[V2] Vendor specific: 14:4F:D7:0F:82:3A
+			[V3] Vendor specific: 14:4F:D7:0F:82:3B
+			[V4] Vendor specific: 14:4F:D7:0F:82:3C
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.06 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+19:29:06.06 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+19:29:06.06 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+19:29:06.06 Send = lspci -s 3c:00.1 -vvn
+19:29:06.06 Rece = 
+3c:00.1 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ae000000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 5: Memory at aa000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:39
+			[V2] Vendor specific: 14:4F:D7:0F:82:3A
+			[V3] Vendor specific: 14:4F:D7:0F:82:3B
+			[V4] Vendor specific: 14:4F:D7:0F:82:3C
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.09 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+19:29:06.09 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+19:29:06.09 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:29:06.09 Send = lspci -s 3c:00.2 -vvn
+19:29:06.09 Rece = 
+3c:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at a8000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:39
+			[V2] Vendor specific: 14:4F:D7:0F:82:3A
+			[V3] Vendor specific: 14:4F:D7:0F:82:3B
+			[V4] Vendor specific: 14:4F:D7:0F:82:3C
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.12 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:29:06.12 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:29:06.12 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+19:29:06.12 Send = lspci -s 5e:00.0 -vvn
+19:29:06.13 Rece = 
+5e:00.0 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at d2024000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at c8000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at d0000000 (32-bit, non-prefetchable) [size=32M]
+	Expansion ROM at d2000000 [disabled] [size=128K]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7B
+			[V2] Vendor specific: 14:4F:D7:0F:84:7C
+			[V3] Vendor specific: 14:4F:D7:0F:84:7D
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.15 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+19:29:06.15 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+19:29:06.15 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+19:29:06.16 Send = lspci -s 5e:00.1 -vvn
+19:29:06.16 Rece = 
+5e:00.1 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at d2020000 (64-bit, non-prefetchable) [size=16K]
+	Region 5: Memory at ce000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7B
+			[V2] Vendor specific: 14:4F:D7:0F:84:7C
+			[V3] Vendor specific: 14:4F:D7:0F:84:7D
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.19 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+19:29:06.19 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+19:29:06.19 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:29:06.19 Send = lspci -s 5e:00.2 -vvn
+19:29:06.19 Rece = 
+5e:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at cc000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7B
+			[V2] Vendor specific: 14:4F:D7:0F:84:7C
+			[V3] Vendor specific: 14:4F:D7:0F:84:7D
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.22 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:29:06.22 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:29:06.22 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:29:06.22 Send = lspci -s 5f:00.0 -vvn
+19:29:06.22 Rece = 
+5f:00.0 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at c6004000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 4: Memory at bc000000 (32-bit, non-prefetchable) [disabled] [size=64M]
+	Region 5: Memory at c4000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7E
+			[V2] Vendor specific: 14:4F:D7:0F:84:7F
+			[V3] Vendor specific: 14:4F:D7:0F:84:80
+			[V4] Vendor specific: 14:4F:D7:0F:84:81
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.26 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:29:06.26 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:29:06.26 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:29:06.26 Send = lspci -s 5f:00.1 -vvn
+19:29:06.26 Rece = 
+5f:00.1 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at c6000000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 5: Memory at c2000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7E
+			[V2] Vendor specific: 14:4F:D7:0F:84:7F
+			[V3] Vendor specific: 14:4F:D7:0F:84:80
+			[V4] Vendor specific: 14:4F:D7:0F:84:81
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.29 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:29:06.29 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:29:06.29 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:29:06.29 Send = lspci -s 5f:00.2 -vvn
+19:29:06.29 Rece = 
+5f:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at c0000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7E
+			[V2] Vendor specific: 14:4F:D7:0F:84:7F
+			[V3] Vendor specific: 14:4F:D7:0F:84:80
+			[V4] Vendor specific: 14:4F:D7:0F:84:81
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:29:06.32 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:29:06.32 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:29:06.32 Tester Chk => OK: PCIe Devices Link Speed and Width Verified
+19:29:06.32 ##############################################################
+19:29:06.32 Section: Bmc Sel Check
+19:29:06.32 Send = ipmitool sel elist
+19:29:06.32 Rece = 
+   1 |  Pre-Init  |0028107053| Event Logging Disabled SYSTEM_EVENT_LOG | Log area reset/cleared | Asserted
+   2 |  Pre-Init  |0028107054| OEM record d0 | 000001 | 030000000000
+   3 | 01/01/2000 | 00:07:29 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+   4 | 01/01/2000 | 00:07:30 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   5 | 01/01/2000 | 00:07:30 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   6 | 01/01/2000 | 00:07:30 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   7 | 01/01/2000 | 00:07:31 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   8 | 01/01/2000 | 00:07:31 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   9 | 01/01/2000 | 00:07:31 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   a | 01/01/2000 | 00:07:32 | Power Supply PDB_HSC_0_STATUS | Predictive failure | Asserted
+   b | 01/01/2000 | 00:07:32 | Power Supply PDB_HSC_1_STATUS | Predictive failure | Asserted
+   c | 01/01/2000 | 00:07:32 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 92 > Threshold 85 percent
+   d | 01/01/2000 | 00:07:36 | Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 2002 < Threshold 1001 RPM
+   e | 01/01/2000 | 00:07:38 | Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 14287 < Threshold 1001 RPM
+   f | 01/01/2000 | 00:07:39 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+  10 | 01/01/2000 | 00:07:40 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 13650 < Threshold 1001 RPM
+  11 | 01/01/2000 | 00:08:22 | OEM record d0 | 000001 | 010000000000
+  12 | 01/01/2000 | 00:08:49 | Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  13 | 01/01/2000 | 00:08:49 | Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  14 | 01/01/2000 | 00:08:49 | Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  15 | 01/01/2000 | 00:08:49 | Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  16 | 01/01/2000 | 00:08:49 | Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  17 | 01/01/2000 | 00:08:49 | Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  18 | 01/01/2000 | 00:08:50 | Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  19 | 01/01/2000 | 00:08:50 | Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1a | 01/01/2000 | 00:08:50 | Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1b | 01/01/2000 | 00:08:50 | Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1c | 01/01/2000 | 00:08:50 | Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1d | 01/01/2000 | 00:08:50 | Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1e | 01/01/2000 | 00:09:17 | Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 11193 < Threshold 1001 RPM
+  1f | 01/01/2000 | 00:09:17 | Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 12103 < Threshold 1001 RPM
+  20 | 01/01/2000 | 00:09:29 | Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 54 < Threshold 85 percent
+  21 | 01/01/2000 | 00:09:56 | Unknown H20_CABLE_BROKEN | Predictive Failure Asserted | Asserted
+  22 | 01/01/2000 | 00:09:58 | Unknown H20_CABLE_BROKEN | Predictive Failure Deasserted | Asserted
+  23 | 01/01/2000 | 00:10:02 | Unknown H20_CABLE_BROKEN | Predictive Failure Asserted | Asserted
+  24 | 01/01/2000 | 00:10:02 | Unknown H20_LEAK | Predictive Failure Asserted | Asserted
+  25 | 01/01/2000 | 00:10:04 | Unknown H20_CABLE_BROKEN | Predictive Failure Deasserted | Asserted
+  26 | 01/01/2000 | 00:10:05 | Unknown H20_LEAK | Predictive Failure Deasserted | Asserted
+  27 | 01/01/2000 | 00:10:16 | Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 10920 < Threshold 1001 RPM
+  28 | 01/01/2000 | 00:10:16 | Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 11557 < Threshold 1001 RPM
+  29 | 01/01/2000 | 00:10:18 | Fan SYS_FAN_0A | Lower Critical going low  | Deasserted | Reading 11466 < Threshold 1001 RPM
+  2a | 01/01/2000 | 00:10:18 | Fan SYS_FAN_0B | Lower Critical going low  | Deasserted | Reading 11830 < Threshold 1001 RPM
+  2b | 01/01/2000 | 00:10:19 | Fan SYS_FAN_6A | Lower Critical going low  | Deasserted | Reading 6370 < Threshold 1001 RPM
+  2c | 01/01/2000 | 00:10:19 | Fan SYS_FAN_6B | Lower Critical going low  | Deasserted | Reading 4004 < Threshold 1001 RPM
+  2d | 01/01/2000 | 00:10:20 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 12740 < Threshold 1001 RPM
+  2e | 01/01/2000 | 00:10:21 | Fan SYS_FAN_4A | Lower Critical going low  | Deasserted | Reading 13832 < Threshold 1001 RPM
+  2f | 01/01/2000 | 00:10:21 | Fan SYS_FAN_4B | Lower Critical going low  | Deasserted | Reading 13650 < Threshold 1001 RPM
+  30 | 01/01/2000 | 00:10:21 | Fan SYS_FAN_5A | Lower Critical going low  | Deasserted | Reading 13832 < Threshold 1001 RPM
+  31 | 01/01/2000 | 00:10:21 | Fan SYS_FAN_5B | Lower Critical going low  | Deasserted | Reading 13559 < Threshold 1001 RPM
+  32 | 01/01/2000 | 00:18:37 | System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  33 | 01/01/2000 | 00:18:37 | Microcontroller/Coprocessor #0x16 | Transition to Power Off | Asserted
+  34 | 01/01/2000 | 00:18:37 | Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  35 | 01/01/2000 | 00:18:37 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  36 | 01/01/2000 | 00:19:23 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  37 | 01/01/2000 | 00:19:24 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  38 | 01/01/2000 | 00:19:24 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+  39 | 01/01/2000 | 00:19:32 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  3a | 01/01/2000 | 00:19:33 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  3b | 01/01/2000 | 00:19:33 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 637 < Threshold 1001 RPM
+  3c | 01/01/2000 | 00:19:33 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 273 < Threshold 1001 RPM
+  3d | 01/01/2000 | 00:19:34 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  3e | 01/01/2000 | 00:19:34 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  3f | 01/01/2000 | 00:19:34 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  40 | 01/01/2000 | 00:19:45 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  41 |  Pre-Init  |0028107810| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  42 |  Pre-Init  |0028107836| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  43 |  Pre-Init  |0028107836| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  44 |  Pre-Init  |0028107839| OEM record d0 | 000001 | 010000000000
+  45 |  Pre-Init  |0028107840| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  46 |  Pre-Init  |0028107874| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  47 |  Pre-Init  |0028107875| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 49 < Threshold 85 percent
+  48 |  Pre-Init  |0028107875| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  49 |  Pre-Init  |0028107879| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  4a |  Pre-Init  |0028107901| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  4b |  Pre-Init  |0028107901| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  4c |  Pre-Init  |0028107905| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  4d |  Pre-Init  |0028107939| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  4e |  Pre-Init  |0028107939| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  4f |  Pre-Init  |0028107977| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  50 |  Pre-Init  |0028107977| Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  51 |  Pre-Init  |0028107978| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  52 |  Pre-Init  |0028107978| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  53 |  Pre-Init  |0028107978| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  54 |  Pre-Init  |0028107978| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  55 |  Pre-Init  |0028107978| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  56 |  Pre-Init  |0028107978| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  57 |  Pre-Init  |0028107978| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  58 |  Pre-Init  |0028107978| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  59 |  Pre-Init  |0028107979| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5a |  Pre-Init  |0028107979| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5b |  Pre-Init  |0028107979| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5c |  Pre-Init  |0028107979| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5d |  Pre-Init  |0028107979| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5e |  Pre-Init  |0028107979| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5f |  Pre-Init  |0028107980| Fan SYS_FAN_9A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  60 |  Pre-Init  |0028107980| Fan SYS_FAN_9B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  61 |  Pre-Init  |0028107980| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  62 |  Pre-Init  |0028107981| System Event END_OF_POST | OEM System boot event | Asserted
+  63 |  Pre-Init  |0028107981| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+  64 |  Pre-Init  |0028108034| Fan SYS_FAN_0A | Lower Critical going low  | Deasserted | Reading 7553 < Threshold 1001 RPM
+  65 |  Pre-Init  |0028108034| Fan SYS_FAN_0B | Lower Critical going low  | Deasserted | Reading 8827 < Threshold 1001 RPM
+  66 |  Pre-Init  |0028108034| Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 11466 < Threshold 1001 RPM
+  67 |  Pre-Init  |0028108034| Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 11557 < Threshold 1001 RPM
+  68 |  Pre-Init  |0028108035| Fan SYS_FAN_9A | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+  69 |  Pre-Init  |0028108035| Fan SYS_FAN_9B | Lower Critical going low  | Deasserted | Reading 13468 < Threshold 1001 RPM
+  6a |  Pre-Init  |0028108036| Fan SYS_FAN_10A | Lower Critical going low  | Deasserted | Reading 19656 < Threshold 1001 RPM
+  6b |  Pre-Init  |0028108036| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 19656 < Threshold 1001 RPM
+  6c |  Pre-Init  |0028108037| Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  6d |  Pre-Init  |0028108037| Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  6e |  Pre-Init  |0028108037| Fan SYS_FAN_3A | Lower Critical going low  | Deasserted | Reading 14469 < Threshold 1001 RPM
+  6f |  Pre-Init  |0028108038| Fan SYS_FAN_3B | Lower Critical going low  | Deasserted | Reading 14560 < Threshold 1001 RPM
+  70 |  Pre-Init  |0028108038| Fan SYS_FAN_4A | Lower Critical going low  | Deasserted | Reading 13377 < Threshold 1001 RPM
+  71 |  Pre-Init  |0028108038| Fan SYS_FAN_4B | Lower Critical going low  | Deasserted | Reading 14014 < Threshold 1001 RPM
+  72 |  Pre-Init  |0028108038| Fan SYS_FAN_5B | Lower Critical going low  | Deasserted | Reading 4186 < Threshold 1001 RPM
+  73 |  Pre-Init  |0028108038| Fan SYS_FAN_6A | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  74 |  Pre-Init  |0028108038| Fan SYS_FAN_6B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  75 |  Pre-Init  |0028108038| Fan SYS_FAN_7A | Lower Critical going low  | Deasserted | Reading 12831 < Threshold 1001 RPM
+  76 |  Pre-Init  |0028108039| Fan SYS_FAN_7B | Lower Critical going low  | Deasserted | Reading 12831 < Threshold 1001 RPM
+  77 |  Pre-Init  |0028108039| Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 13195 < Threshold 1001 RPM
+  78 |  Pre-Init  |0028108039| Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 13195 < Threshold 1001 RPM
+  79 |  Pre-Init  |0028108040| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 12740 < Threshold 1001 RPM
+  7a |  Pre-Init  |0028108040| Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 12285 < Threshold 1001 RPM
+  7b |  Pre-Init  |0028108040| Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 11102 < Threshold 1001 RPM
+  7c |  Pre-Init  |0028108041| Fan SYS_FAN_5A | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  7d |  Pre-Init  |0028108086| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  7e |  Pre-Init  |0028108087| Microcontroller/Coprocessor #0x16 | Transition to Power Off | Asserted
+  7f |  Pre-Init  |0028108087| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  80 |  Pre-Init  |0028108088| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  81 | 01/01/2000 | 00:25:08 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  82 | 01/01/2000 | 00:25:09 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  83 | 01/01/2000 | 00:25:09 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+  84 | 01/01/2000 | 00:25:14 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  85 | 01/01/2000 | 00:25:15 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  86 | 01/01/2000 | 00:25:15 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  87 | 01/01/2000 | 00:25:15 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  88 | 01/01/2000 | 00:25:16 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  89 | 01/01/2000 | 00:25:16 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  8a | 01/01/2000 | 00:25:16 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  8b | 01/01/2000 | 00:25:49 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  8c |  Pre-Init  |0028108174| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  8d |  Pre-Init  |0028108178| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  8e |  Pre-Init  |0028108184| OEM record d0 | 000001 | 010000000000
+  8f |  Pre-Init  |0028108200| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  90 |  Pre-Init  |0028108200| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  91 |  Pre-Init  |0028108204| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  92 |  Pre-Init  |0028108213| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 55 < Threshold 85 percent
+  93 |  Pre-Init  |0028108238| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  94 |  Pre-Init  |0028108239| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  95 |  Pre-Init  |0028108262| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 2821 < Threshold 1001 RPM
+  96 |  Pre-Init  |0028108268| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  97 |  Pre-Init  |0028108272| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 2275 < Threshold 1001 RPM
+  98 |  Pre-Init  |0028108274| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  99 |  Pre-Init  |0028108278| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  9a |  Pre-Init  |0028108278| Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  9b |  Pre-Init  |0028108278| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  9c |  Pre-Init  |0028108278| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  9d |  Pre-Init  |0028108279| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  9e |  Pre-Init  |0028108279| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  9f |  Pre-Init  |0028108279| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a0 |  Pre-Init  |0028108279| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a1 |  Pre-Init  |0028108279| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a2 |  Pre-Init  |0028108279| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a3 |  Pre-Init  |0028108280| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a4 |  Pre-Init  |0028108280| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a5 |  Pre-Init  |0028108280| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a6 |  Pre-Init  |0028108280| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a7 |  Pre-Init  |0028108280| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a8 |  Pre-Init  |0028108280| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a9 |  Pre-Init  |0028108281| Fan SYS_FAN_9A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  aa |  Pre-Init  |0028108281| Fan SYS_FAN_9B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  ab |  Pre-Init  |0028108288| System Event END_OF_POST | OEM System boot event | Asserted
+  ac |  Pre-Init  |0028108288| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+  ad |  Pre-Init  |0028108316| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  ae |  Pre-Init  |0028108340| Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 4095 < Threshold 1001 RPM
+  af |  Pre-Init  |0028108340| Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 6461 < Threshold 1001 RPM
+  b0 |  Pre-Init  |0028108341| Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 13650 < Threshold 1001 RPM
+  b1 |  Pre-Init  |0028108341| Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 13741 < Threshold 1001 RPM
+  b2 |  Pre-Init  |0028108342| Fan SYS_FAN_6A | Lower Critical going low  | Deasserted | Reading 13650 < Threshold 1001 RPM
+  b3 |  Pre-Init  |0028108342| Fan SYS_FAN_6B | Lower Critical going low  | Deasserted | Reading 13650 < Threshold 1001 RPM
+  b4 |  Pre-Init  |0028108342| Fan SYS_FAN_7A | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  b5 |  Pre-Init  |0028108342| Fan SYS_FAN_7B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  b6 |  Pre-Init  |0028108342| Fan SYS_FAN_9A | Lower Critical going low  | Deasserted | Reading 13013 < Threshold 1001 RPM
+  b7 |  Pre-Init  |0028108342| Fan SYS_FAN_9B | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+  b8 |  Pre-Init  |0028108343| Fan SYS_FAN_10A | Lower Critical going low  | Deasserted | Reading 13832 < Threshold 1001 RPM
+  b9 |  Pre-Init  |0028108343| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 15834 < Threshold 1001 RPM
+  ba |  Pre-Init  |0028108344| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 12831 < Threshold 1001 RPM
+  bb |  Pre-Init  |0028108344| Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 11284 < Threshold 1001 RPM
+  bc |  Pre-Init  |0028108344| Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 9555 < Threshold 1001 RPM
+  bd |  Pre-Init  |0028108344| Fan SYS_FAN_0A | Lower Critical going low  | Deasserted | Reading 9373 < Threshold 1001 RPM
+  be |  Pre-Init  |0028108344| Fan SYS_FAN_0B | Lower Critical going low  | Deasserted | Reading 10283 < Threshold 1001 RPM
+  bf |  Pre-Init  |0028108345| Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  c0 |  Pre-Init  |0028108345| Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  c1 |  Pre-Init  |0028108345| Fan SYS_FAN_3A | Lower Critical going low  | Deasserted | Reading 14651 < Threshold 1001 RPM
+  c2 |  Pre-Init  |0028108345| Fan SYS_FAN_3B | Lower Critical going low  | Deasserted | Reading 14651 < Threshold 1001 RPM
+  c3 |  Pre-Init  |0028108345| Fan SYS_FAN_4A | Lower Critical going low  | Deasserted | Reading 13104 < Threshold 1001 RPM
+  c4 |  Pre-Init  |0028108345| Fan SYS_FAN_4B | Lower Critical going low  | Deasserted | Reading 12376 < Threshold 1001 RPM
+  c5 |  Pre-Init  |0028108345| Fan SYS_FAN_5A | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  c6 |  Pre-Init  |0028108346| Fan SYS_FAN_5B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+19:29:08.66 Total Bmc Log Abnormal Message = 2
+19:29:08.66 Fault Message = 2
+19:29:08.66 Warning Message = 0
+19:29:08.66 Failed Message = 0
+19:29:08.66 ##############################################################
+19:29:08.66 Section: Bmc Sel Clear
+19:29:08.66 Send = ipmitool sel clear
+19:29:08.66 Rece = 
+Clearing SEL.  Please allow a few seconds to erase.
+
+19:29:09.03 TestChk => PASS: Bmc Sel Clear
+19:29:10.71 ##############################################################
+Cannonball BFT: PASS

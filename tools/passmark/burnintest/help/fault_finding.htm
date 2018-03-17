@@ -1,0 +1,50 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Fault finding</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Fault finding" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?fault_finding.htm"; }
+  else { parent.quicksync('a14.5'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Fault finding</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="precautions_for_thorough_and_careful_testing.htm">Previous</a>&nbsp;
+     <a href="common_error_messages.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>What follows are some hints on how go about finding the cause of particular system instability. &nbsp;We don’t want to try and explain the steps involved in each of these processes, they are just points that may warrant future investigation.</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Check you don’t have any viruses.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Check the drive for errors using the system’s disk checking tool or with command line tools like ‘fsck’ or ‘badblocks’.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Check that space is available on the disk for the swap files.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Have a look through the issues in the section, 0‘Precautions for thorough and careful testing’.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Don’t run all the BurnInTest tests at once. Run just the 2D graphics, then run just the 3D graphics, then just the disk, etc.. &nbsp;This will allow the problem to be isolated to one area.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>If you suspect hardware, and you know what you’re doing, pull out all the “optional hardware”, eg LAN cards, I/O cards and see if the system is more stable.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Once again, if you know what you’re doing, start swapping out components of the system to see if the fault can be localized. Obviously you’ll need some spare hardware to do this.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>If you suspect Open GL problems, possibly with bad Open GL installation or missing libraries, consider running your system’s OpenGL’s screensaver or any OpenGL applications or games to see if problem persist. &nbsp;For more help, go to http://www.opengl.org/.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Faulty RAM may not always be detected by the memory test. It may manifest itself as a disk fault of system crash.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>If you’re really stuck you may want to try a reinstallation of your operating system on a reformatted disk. Think carefully about this option before you attempt it, there are lots of good reasons why you don’t want to reformat your hard disk.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Make sure you’ve got the most up to date software drivers for your hardware. Drivers are a never-ending source of problems.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Check that you haven’t ended up with an over clocked CPU and don’t know about it.</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'StarSymbol'; color: #000000;">-</span></td><td>Check that you haven’t purchased the cheapest and nastiest hardware in the hope of saving a couple of dollars (or pounds, francs, etc). Often it may not be the cheap hardware that causes problems but the quality and support of the software drivers that comes with the hardware that are a problem. Don’t shop on price alone, check out the support and product reviews.</td></tr></table></div>
+</td></tr></table>
+
+</body>
+</html>

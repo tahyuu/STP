@@ -1,0 +1,66 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Entering A Licence Key</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?entering_a_licence_key.htm"; }
+  else { parent.quicksync('a5'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Entering A Licence Key</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="purchase.htm">Previous</a>&nbsp;
+     <a href="test_descriptions.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p class="p_Heading2"><span class="f_Heading2">Copy your user name and key from the E-mail</span></p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp;Select the entire key, including the -----START_OF_KEY----- and -----END_OF_KEY----- flags</td></tr></table></div><p><img src="keymulti_copy.gif" width="412" height="161" border="0" alt="keymulti_copy"></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp;Copy your user name to the clipboard. This can be done by using the Edit / Copy menu item in most E-Mail programs. Alternatively you can use the CTRL-C key combination on the keyboard.</td></tr></table></div><p>&nbsp;</p>
+<p class="p_Heading2"><span class="f_Heading2">Paste your user name and key into the software</span></p>
+<p>&nbsp;</p>
+<p><img src="keymulti_paste.gif" width="488" height="149" border="0" alt="keymulti_paste"></p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td> &nbsp; &nbsp;Click on continue. If the user name and key was accepted, the program will start and the welcome screen will not be displayed again. </td></tr></table></div><p>&nbsp;</p>
+<p class="p_Heading2"><span class="f_Heading2">BurnInTest Linux Command Line</span></p>
+<p>&nbsp;</p>
+<p>Installing a key for the command line version uses a command line argument and a file created called key.dat that contains your key;</p>
+<p>&nbsp;</p>
+<p>./bit_cmd_line_x32 -k</p>
+<p>&nbsp;</p>
+<p>Registers your key stored in the key.dat. When using this flag BurnInTest will expect your username/key, from (and including) the "-----START_OF_KEY-----" to (and including) the "------END_OF_KEY------" flags, to be stored in a file called key.dat in the same directory as BurnInTest. You will need to create a new file called key.dat, paste the key as is, it should be 6 separate lines, 1 each for the start and end flags, 1 for the username and 3 for the key, and then save the file. You will need to restart BurnInTest after registration and you can delete the key.dat file you have created.</p>
+<p>&nbsp;</p>
+<p>Do not alter the savedkey.dat file, this is a file maintained by BurnInTest and altering this file will corrupt it. </p>
+
+</td></tr></table>
+
+</body>
+</html>

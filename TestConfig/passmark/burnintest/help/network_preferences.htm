@@ -1,0 +1,67 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Network Preferences</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="Network preferences" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?network_preferences.htm"; }
+  else { parent.quicksync('a7.4'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Network Preferences</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="memory_preferences.htm">Previous</a>&nbsp;
+     <a href="cd_rom_dvd_preferences.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p><span style="font-style: italic; text-decoration: underline;">Network addresses</span></p>
+<p>Up to 6 network addresses can be entered for the simultaneous testing of the connection to 6 different locations. &nbsp;These connections can pass via different network interface cards (NIC) or the same one. Unless the "Test All" options is selected the NIC used will depend on the TCP/IP configuration set-up of your system. Each address must be a URL or an IP address and should be located on a different machine on the network. If an IP from the </p>
+<p>&nbsp;</p>
+<p>A URL is the name of a network host, eg. www.hostname.com</p>
+<p>An IP address is a sequence of 4 numbers that correspond to a network host. eg. 169.192.0.1</p>
+<p>If less than 6 addresses need to be tested uncheck the active check box.</p>
+<p>&nbsp;</p>
+<p>The host selected must be accessible from the computer and capable of responding to the ‘ping’ command. See the <a href="network_test.htm">Network Test</a> description for more details. PassMark recommends the selection of a local host to minimize data link problems, which are fairly common on the Internet.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Test all available NICs</span></p>
+<p>This option will bind each entered address to a different available network card so the traffic will be correctly routed through each network card. If &nbsp;more network addresses are specified than there are network cards available an error will be displayed. If this option is not selected BurnInTest will not force the routing of test traffic and data routing will depend on the operating system routing table.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Timeout</span></p>
+<p>This value determines how long BurnInTest will wait for a data packet to be sent or received before an error is reported. The value is measured in Milliseconds. 2000ms (2 seconds) is the default value.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Error handling</span></p>
+<p>There are two options for handling errors that occur during the execution of the network test. BurnInTest can either log an error for every bad (or missing) packet or can be set to only log an error when the number of errors exceed a threshold set by the user. This threshold is expressed as the percentage of bad packets compared to the overall number of packets sent, the first error will be flagged only after a certain number of packets have been sent.</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+
+</body>
+</html>

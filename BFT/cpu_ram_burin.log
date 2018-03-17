@@ -1,0 +1,1887 @@
+22:42:46.08 Section: CPU and RAM Burn-in
+22:42:46.09 Send = rm -f /tmp/BiTLog2.log
+22:42:46.09 Rece = 
+
+22:42:46.09 Send = sed -i "59cAutoStopMinutes 2" ../TestConfig/passmark/burnintest/64bit/cmdline_config.txt
+22:42:46.09 Rece = 
+
+22:42:46.10 Send = sed -i "99c#" ../TestConfig/passmark/burnintest/64bit/cmdline_config.txt
+22:42:46.10 Rece = 
+
+22:42:46.10 Send = ../TestConfig/passmark/burnintest/64bit/bit_cmd_line_x64
+22:42:46.10 Rece = 
+[?1049h[1;24r(B[m[4l[?7h[?1h=[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:07
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H54     138 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:08
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H84     188 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:09
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H96     206 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:09
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H111    223 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:10
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H126    240 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:10
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H136    257 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:11
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H146    275 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:11
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H156    291 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:12
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H168    309 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:12
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H183    326 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:13
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H198    343 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:13
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H208    360 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:14
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H218    376 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:14
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H227    393 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:15
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H240    410 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:15
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H253    428 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:16
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H269    445 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:16
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H279    461 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:17
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H288    478 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:17
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H298    495 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:18
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H310    512 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:18
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H325    529 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:19
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H339    546 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:19
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H351    564 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:20
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H360    581 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:20
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H370    597 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:21
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H380    613 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:21
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H394    631 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:22
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H411    648 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:22
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H422    665 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:23
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H431    681 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:23
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H440    698 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:24
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H452    715 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:24
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H465    733 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:25
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H482    749 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:25
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H492    767 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:26
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H503    783 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:26
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H511    799 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:27
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H520    818 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:27
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H537    834 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:28
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H553    851 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:28
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H564    870 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:29
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H575    886 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:29
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H583    901 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:30
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H592    919 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:30
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H606    936 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:31
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H622    952 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:31
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H634    970 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:32
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H646    988 Billion	 0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:32
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H655    1.004 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:33
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H664    1.022 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:33
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H678    1.039 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:34
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H694    1.055 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:34
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H706    1.074 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:35
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H718    1.091 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:35
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H727    1.107 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:36
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H736    1.123 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:36
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H747    1.140 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:37
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H762    1.157 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:37
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H776    1.174 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:38
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H789    1.188 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:38
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H795    1.207 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:39
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H805    1.223 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:39
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H816    1.239 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:40
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H830    1.257 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:40
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H846    1.275 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:41
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H860    1.291 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:41
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H867    1.308 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:42
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H876    1.323 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:42
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H885    1.341 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:43
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H901    1.359 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:43
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H918    1.375 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:44
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H930    1.393 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:44
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H939    1.411 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:45
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H948    1.426 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:45
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H957    1.443 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:46
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H971    1.461 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:46
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H989    1.477 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:47
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1001   1.495 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:47
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1010   1.510 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:48
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1018   1.526 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:48
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1028   1.545 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:49
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1042   1.562 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:49
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1059   1.577 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:50
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1068   1.596 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:50
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1080   1.610 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:51
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1087   1.627 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:51
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1099   1.645 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:52
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1112   1.662 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:52
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1128   1.679 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:53
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1139   1.697 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:53
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1152   1.711 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:54
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1159   1.729 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:54
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1170   1.747 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:55
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1183   1.763 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:55
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1196   1.780 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:56
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1209   1.797 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:56
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1222   1.814 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:57
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1231   1.831 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:57
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1240   1.847 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:58
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1252   1.864 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:58
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1265   1.881 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:59
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1280   1.899 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:00:59
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1293   1.916 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:00
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1303   1.933 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:00
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1312   1.951 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:01
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1324   1.964 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:01
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1333   1.983 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:02
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1352   1.999 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:02
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1364   2.015 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:03
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1372   2.034 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:03
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1382   2.048 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:04
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1392   2.065 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:04
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1403   2.084 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:05
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1421   2.099 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:05
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1432   2.117 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:06
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1444   2.135 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:06
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1454   2.151 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:07
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1463   2.167 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:07
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1474   2.183 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:08
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1490   2.200 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:08
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1502   2.218 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:09
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1515   2.235 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:09
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1523   2.250 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:10
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1532   2.269 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:10
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1546   2.286 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:11
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1561   2.302 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:11
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1573   2.321 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:12
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1587   2.337 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:12
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1595   2.353 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:13
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1604   2.370 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:13
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1616   2.386 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:14
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1629   2.403 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:14
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1642   2.421 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:15
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1657   2.436 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:15
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1664   2.455 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:16
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1676   2.473 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:16
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1688   2.488 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:17
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1699   2.505 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:17
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1713   2.521 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:18
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1725   2.538 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:18
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1735   2.554 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:19
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1746   2.571 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:19
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1756   2.589 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:20
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1770   2.605 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:20
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1782   2.622 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:21
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1795   2.639 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:21
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1806   2.655 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:22
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1817   2.672 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:22
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1827   2.689 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:23
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1838   2.705 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:23
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1852   2.721 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:24
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1864   2.740 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:24
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1877   2.756 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:25
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1886   2.774 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:25
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1898   2.791 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:26
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1910   2.807 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:26
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1924   2.824 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:27
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1936   2.841 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:27
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1949   2.857 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:28
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1956   2.876 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:28
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1970   2.890 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:29
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1978   2.907 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:29
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1991   2.923 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:30
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2005   2.939 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:30
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2018   2.957 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:31
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2027   2.975 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:31
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2040   2.990 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:32
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2047   3.009 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:32
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2063   3.026 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:33
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2077   3.042 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:33
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2090   3.060 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:34
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2099   3.077 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:34
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2110   3.093 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:35
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2119   3.110 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:35
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2134   3.126 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:36
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2145   3.144 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:36
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2160   3.162 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:37
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2171   3.175 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:37
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2179   3.195 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:38
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2190   3.211 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:38
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2204   3.226 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:39
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2214   3.246 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:39
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2230   3.263 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:40
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2242   3.278 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:40
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2251   3.297 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:41
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2262   3.310 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:41
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2271   3.327 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:42
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2284   3.346 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:42
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2300   3.361 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:43
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2310   3.379 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:43
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2321   3.397 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:44
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2333   3.411 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:44
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2340   3.428 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:45
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2355   3.444 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:45
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2366   3.461 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:46
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2379   3.478 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:46
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2389   3.497 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:47
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2404   3.512 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:47
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2412   3.531 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:48
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2427   3.548 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:48
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2438   3.564 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:49
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2451   3.581 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:49
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2461   3.598 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:50
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2475   3.614 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:50
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2483   3.633 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:51
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2499   3.649 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:51
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2507   3.666 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:52
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2522   3.682 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:52
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2532   3.700 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:53
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2547   3.716 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:53
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2554   3.732 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:54
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2566   3.749 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:54
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2576   3.767 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:55
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2592   3.784 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:55
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2604   3.801 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:56
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2618   3.818 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:56
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2626   3.835 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:57
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2638   3.849 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:57
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2646   3.867 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:58
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2661   3.885 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:58
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2674   3.902 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:59
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2688   3.918 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:01:59
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2696   3.937 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:02:00
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2710   3.952 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Thu Jun 15 22:42:46 Elapsed Time 00:02:00
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2718   3.970 Trillion   0	No error
+Memory (RAM)[7;26H0	0[7;50H1[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[11;26HTests Finished. Cleaning up and preparing to exit[24;1H[?1049l[?1l>
+
+22:44:50.43 Send = cat /tmp/BiTLog2.log
+22:44:50.43 Rece = 
+PassMark BurnInTest Log file  -  http://www.passmark.com
+========================================================
+
+BurnInTest v3.1 (1002) Linux 64bit
+Logging detail level: Normal
+
+******************
+SYSTEM SUMMARY
+******************
+Linux 3.10.0-327.el7.x86_64
+2 x Intel(R) Xeon(R) Platinum 8124M CPU @ 3.00GHz
+0 MB RAM
+
+GENERAL
+System Name: erpang-hb9qq.cisco.com
+Motherboard Manufacturer: N/A
+Motherboard Model: N/A
+Motherboard Version: N/A
+Bios Manufacturer: N/A
+Bios Version: N/A
+Bios Release Date: N/A
+
+CPUCPU Manufacturer: GenuineIntel
+CPU Type: Intel(R) Xeon(R) Platinum 8124M CPU @ 3.00GHz
+Speed: 1200.0 MHz
+CPUID: Family 6, Model 85, Stepping 4
+Socket: 
+Physical CPU's: 2
+Cores per CPU: 18
+Hyperthreading: Yes
+CPU Features: MMX SSE SSE2 SSE3 SSE4.1 SSE4.2 PAE VMX SMX 
+Cache per CPU package:
+L1 Cache: 0 kB
+L2 Cache: 25344 kB
+
+MEMORY
+Total Memory: 287646 MB
+Available Memory: 283540 MB
+Memory Devices:
+******************
+DETAILED EVENT LOG
+******************
+LOG NOTE: 2017-06-15 22:42:53, Status, Completed started test run
+LOG NOTE: 2017-06-15 22:44:50, Status, Test run stopped
+
+**************
+RESULT SUMMARY
+**************
+Test Start time: Thu Jun 15 22:42:46 2017 
+Test Stop time: Thu Jun 15 22:44:49 2017
+Test Duration: 000h 02m 03s 
+
+                          Test Name   Cycles   Operations      Result  Errors   Last Error
+                        CPU - Maths   2733     3.995 Trillion  PASS    0        
+                       Memory (RAM)   0        0               FAIL    1        
+TEST RUN FAILED
+
+*********************
+SERIOUS ERROR SUMMARY
+*********************
+
+-----------------------------------------------------------------------------------------------------
+22:44:50.43 TestEnd => ErrorCode=60001: BurnIn_Fail

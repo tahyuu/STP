@@ -1,0 +1,2274 @@
+                                
+                                
+Station: localhost.localdomain
+Date   : 1999-12-31 19:34:23
+Version: V0.0.00(BFT1-EVT)
+                                
+19:34:23.81 ##############################################################
+19:34:23.81 Section: PCIe List Check
+19:34:23.81 Subsection:  PCIE List Check
+19:34:23.81 Send = lspci
+19:34:23.81 Rece = 
+00:00.0 Host bridge: Intel Corporation Device 2020 (rev 04)
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+00:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+00:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:11.0 Unassigned class [ff00]: Intel Corporation Device a1ec (rev 09)
+00:11.1 Unassigned class [ff00]: Intel Corporation Device a1ed (rev 09)
+00:11.5 SATA controller: Intel Corporation Lewisburg SSATA Controller [AHCI mode] (rev 09)
+00:14.0 USB controller: Intel Corporation Lewisburg USB 3.0 xHCI Controller (rev 09)
+00:14.2 Signal processing controller: Intel Corporation Device a1b1 (rev 09)
+00:16.0 Communication controller: Intel Corporation Lewisburg CSME: HECI #1 (rev 09)
+00:16.1 Communication controller: Intel Corporation Lewisburg CSME: HECI #2 (rev 09)
+00:16.4 Communication controller: Intel Corporation Lewisburg CSME: HECI #3 (rev 09)
+00:17.0 SATA controller: Intel Corporation Lewisburg SATA Controller [AHCI mode] (rev 09)
+00:1c.0 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #1 (rev f9)
+00:1c.4 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #5 (rev f9)
+00:1f.0 ISA bridge: Intel Corporation Lewisburg LPC Controller (rev 09)
+00:1f.2 Memory controller: Intel Corporation Lewisburg PMC (rev 09)
+00:1f.4 SMBus: Intel Corporation Lewisburg SMBus (rev 09)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Lewisburg SPI Controller (rev 09)
+02:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+17:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+17:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+17:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+17:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+17:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+17:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+18:00.0 Mass storage controller: Device 1c36:1031
+18:00.1 Mass storage controller: Device 1c36:1031
+18:00.2 Ethernet controller: Device 1c36:1001
+19:00.0 Mass storage controller: Device 1c36:1031
+19:00.1 Mass storage controller: Device 1c36:1031
+19:00.2 Ethernet controller: Device 1c36:1001
+3a:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+3a:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+3a:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+3a:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+3a:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+3a:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3a:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3b:00.0 Ethernet controller: Device 1c36:1022
+3b:00.1 Ethernet controller: Device 1c36:1022
+3b:00.2 Ethernet controller: Device 1c36:1001
+3c:00.0 Ethernet controller: Device 1c36:8889
+3c:00.1 Ethernet controller: Device 1c36:8889
+3c:00.2 Ethernet controller: Device 1c36:1001
+5d:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+5d:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+5d:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+5d:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+5d:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+5d:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5e:00.0 Ethernet controller: Device 1c36:1022
+5e:00.1 Ethernet controller: Device 1c36:1022
+5e:00.2 Ethernet controller: Device 1c36:1001
+5f:00.0 Ethernet controller: Device 1c36:8889
+5f:00.1 Ethernet controller: Device 1c36:8889
+5f:00.2 Ethernet controller: Device 1c36:1001
+80:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+80:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+80:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+81:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804
+85:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+85:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+ae:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+ae:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+ae:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+ae:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+ae:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+ae:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+af:00.0 Mass storage controller: Device 1c36:1031
+af:00.1 Mass storage controller: Device 1c36:1031
+af:00.2 Ethernet controller: Device 1c36:1001
+b0:00.0 Mass storage controller: Device 1c36:1031
+b0:00.1 Mass storage controller: Device 1c36:1031
+b0:00.2 Ethernet controller: Device 1c36:1001
+d7:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+d7:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+d7:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+19:34:23.91 PASS,all compnent in lspci check list
+19:34:23.91 Tester Chk => OK: PCIe List Verified
+19:34:23.91 ##############################################################
+19:34:23.91 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+19:34:23.92 Send = lspci -s 3b:00.0 -vvn
+19:34:23.92 Rece = 
+3b:00.0 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ba024000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at b0000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at b8000000 (32-bit, non-prefetchable) [size=32M]
+	Expansion ROM at ba000000 [disabled] [size=128K]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:36
+			[V2] Vendor specific: 14:4F:D7:0F:82:37
+			[V3] Vendor specific: 14:4F:D7:0F:82:38
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:23.95 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+19:34:23.95 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+19:34:23.95 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+19:34:23.95 Send = lspci -s 3b:00.1 -vvn
+19:34:23.95 Rece = 
+3b:00.1 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ba020000 (64-bit, non-prefetchable) [size=16K]
+	Region 5: Memory at b6000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:36
+			[V2] Vendor specific: 14:4F:D7:0F:82:37
+			[V3] Vendor specific: 14:4F:D7:0F:82:38
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:23.98 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+19:34:23.98 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+19:34:23.98 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:34:23.98 Send = lspci -s 3b:00.2 -vvn
+19:34:23.98 Rece = 
+3b:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at b4000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:36
+			[V2] Vendor specific: 14:4F:D7:0F:82:37
+			[V3] Vendor specific: 14:4F:D7:0F:82:38
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.01 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:34:24.01 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:34:24.01 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+19:34:24.02 Send = lspci -s 3c:00.0 -vvn
+19:34:24.02 Rece = 
+3c:00.0 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ae004000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 4: Memory at a4000000 (32-bit, non-prefetchable) [disabled] [size=64M]
+	Region 5: Memory at ac000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:39
+			[V2] Vendor specific: 14:4F:D7:0F:82:3A
+			[V3] Vendor specific: 14:4F:D7:0F:82:3B
+			[V4] Vendor specific: 14:4F:D7:0F:82:3C
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.05 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+19:34:24.05 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+19:34:24.05 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+19:34:24.05 Send = lspci -s 3c:00.1 -vvn
+19:34:24.05 Rece = 
+3c:00.1 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at ae000000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 5: Memory at aa000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:39
+			[V2] Vendor specific: 14:4F:D7:0F:82:3A
+			[V3] Vendor specific: 14:4F:D7:0F:82:3B
+			[V4] Vendor specific: 14:4F:D7:0F:82:3C
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.08 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+19:34:24.08 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+19:34:24.08 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:34:24.08 Send = lspci -s 3c:00.2 -vvn
+19:34:24.08 Rece = 
+3c:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at a8000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041789
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:82:39
+			[V2] Vendor specific: 14:4F:D7:0F:82:3A
+			[V3] Vendor specific: 14:4F:D7:0F:82:3B
+			[V4] Vendor specific: 14:4F:D7:0F:82:3C
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.11 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:34:24.11 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:34:24.11 Subsection: ButterFly1_Ethernet_Ctrl1 Speed and Width Check
+19:34:24.12 Send = lspci -s 5e:00.0 -vvn
+19:34:24.12 Rece = 
+5e:00.0 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at d2024000 (64-bit, non-prefetchable) [size=16K]
+	Region 4: Memory at c8000000 (32-bit, non-prefetchable) [size=64M]
+	Region 5: Memory at d0000000 (32-bit, non-prefetchable) [size=32M]
+	Expansion ROM at d2000000 [disabled] [size=128K]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7B
+			[V2] Vendor specific: 14:4F:D7:0F:84:7C
+			[V3] Vendor specific: 14:4F:D7:0F:84:7D
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.15 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link speed 8
+19:34:24.15 PASS: ButterFly1_Ethernet_Ctrl1 PCIe link Width is 8
+19:34:24.15 Subsection: ButterFly1_Ethernet_Ctrl2 Speed and Width Check
+19:34:24.15 Send = lspci -s 5e:00.1 -vvn
+19:34:24.15 Rece = 
+5e:00.1 0200: 1c36:1022
+	Subsystem: 0102:abce
+	Control: I/O- Mem+ BusMaster+ SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Latency: 0, Cache Line Size: 32 bytes
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at d2020000 (64-bit, non-prefetchable) [size=16K]
+	Region 5: Memory at ce000000 (32-bit, non-prefetchable) [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7B
+			[V2] Vendor specific: 14:4F:D7:0F:84:7C
+			[V3] Vendor specific: 14:4F:D7:0F:84:7D
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.18 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link speed 8
+19:34:24.18 PASS: ButterFly1_Ethernet_Ctrl2 PCIe link Width is 8
+19:34:24.18 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:34:24.19 Send = lspci -s 5e:00.2 -vvn
+19:34:24.19 Rece = 
+5e:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at cc000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7B
+			[V2] Vendor specific: 14:4F:D7:0F:84:7C
+			[V3] Vendor specific: 14:4F:D7:0F:84:7D
+			[V4] Vendor specific: FF:FF:FF:FF:FF:FF
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.22 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:34:24.22 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:34:24.22 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:34:24.22 Send = lspci -s 5f:00.0 -vvn
+19:34:24.22 Rece = 
+5f:00.0 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at c6004000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 4: Memory at bc000000 (32-bit, non-prefetchable) [disabled] [size=64M]
+	Region 5: Memory at c4000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkCtl2: Target Link Speed: 8GT/s, EnterCompliance- SpeedDis-
+			 Transmit Margin: Normal Operating Range, EnterModifiedCompliance- ComplianceSOS-
+			 Compliance De-emphasis: -6dB
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete+, EqualizationPhase1+
+			 EqualizationPhase2+, EqualizationPhase3+, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0005d000
+		PBA: BAR=5 offset=0005dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7E
+			[V2] Vendor specific: 14:4F:D7:0F:84:7F
+			[V3] Vendor specific: 14:4F:D7:0F:84:80
+			[V4] Vendor specific: 14:4F:D7:0F:84:81
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 1
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.25 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:34:24.25 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:34:24.25 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:34:24.25 Send = lspci -s 5f:00.1 -vvn
+19:34:24.25 Rece = 
+5f:00.1 0200: 1c36:8889
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 0: Memory at c6000000 (64-bit, non-prefetchable) [disabled] [size=16K]
+	Region 5: Memory at c2000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0025d000
+		PBA: BAR=5 offset=0025dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7E
+			[V2] Vendor specific: 14:4F:D7:0F:84:7F
+			[V3] Vendor specific: 14:4F:D7:0F:84:80
+			[V4] Vendor specific: 14:4F:D7:0F:84:81
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 2
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.28 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:34:24.28 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:34:24.28 Subsection: ButterFly1_Ethernet_Ctrl3 Speed and Width Check
+19:34:24.28 Send = lspci -s 5f:00.2 -vvn
+19:34:24.28 Rece = 
+5f:00.2 0200: 1c36:1001
+	Subsystem: 0102:abce
+	Control: I/O- Mem- BusMaster- SpecCycle- MemWINV- VGASnoop- ParErr- Stepping- SERR+ FastB2B- DisINTx-
+	Status: Cap+ 66MHz- UDF- FastB2B- ParErr- DEVSEL=fast >TAbort- <TAbort- <MAbort- >SERR- <PERR- INTx-
+	Interrupt: pin A routed to IRQ 11
+	NUMA node: 0
+	Region 5: Memory at c0000000 (32-bit, non-prefetchable) [disabled] [size=32M]
+	Capabilities: [40] Power Management version 3
+		Flags: PMEClk- DSI- D1- D2- AuxCurrent=375mA PME(D0+,D1-,D2-,D3hot-,D3cold-)
+		Status: D0 NoSoftRst- PME-Enable- DSel=0 DScale=0 PME-
+	Capabilities: [70] Express (v2) Endpoint, MSI 00
+		DevCap:	MaxPayload 256 bytes, PhantFunc 0, Latency L0s <1us, L1 <8us
+			ExtTag- AttnBtn- AttnInd- PwrInd- RBE+ FLReset+ SlotPowerLimit 75.000W
+		DevCtl:	Report errors: Correctable- Non-Fatal- Fatal- Unsupported-
+			RlxdOrd+ ExtTag- PhantFunc- AuxPwr- NoSnoop+ FLReset-
+			MaxPayload 256 bytes, MaxReadReq 512 bytes
+		DevSta:	CorrErr- UncorrErr- FatalErr- UnsuppReq- AuxPwr- TransPend-
+		LnkCap:	Port #0, Speed 8GT/s, Width x8, ASPM not supported, Exit Latency L0s <1us, L1 <64us
+			ClockPM- Surprise- LLActRep- BwNot- ASPMOptComp+
+		LnkCtl:	ASPM Disabled; RCB 64 bytes Disabled- CommClk+
+			ExtSynch- ClockPM- AutWidDis- BWInt- AutBWInt-
+		LnkSta:	Speed 8GT/s, Width x8, TrErr- Train- SlotClk+ DLActive- BWMgmt- ABWMgmt-
+		DevCap2: Completion Timeout: Range ABCD, TimeoutDis+, LTR-, OBFF Not Supported
+		DevCtl2: Completion Timeout: 50us to 50ms, TimeoutDis-, LTR-, OBFF Disabled
+		LnkSta2: Current De-emphasis Level: -3.5dB, EqualizationComplete-, EqualizationPhase1-
+			 EqualizationPhase2-, EqualizationPhase3-, LinkEqualizationRequest-
+	Capabilities: [b0] MSI-X: Enable- Count=64 Masked-
+		Vector table: BAR=5 offset=0013d000
+		PBA: BAR=5 offset=0013dff0
+	Capabilities: [c0] Vital Product Data
+		Product Name: Annapurna Labs Alpine AL5+
+		Read-only fields:
+			[PN] Part number: N08AP6VFN008A
+			[SN] Serial number: A715041951
+			[EC] Engineering changes: 1E
+			[V0] Vendor specific: FF
+			[V1] Vendor specific: 14:4F:D7:0F:84:7E
+			[V2] Vendor specific: 14:4F:D7:0F:84:7F
+			[V3] Vendor specific: 14:4F:D7:0F:84:80
+			[V4] Vendor specific: 14:4F:D7:0F:84:81
+		End
+	Capabilities: [100 v1] Alternative Routing-ID Interpretation (ARI)
+		ARICap:	MFVC- ACS-, Next Function: 0
+		ARICtl:	MFVC- ACS-, Function Group: 0
+	Capabilities: [140 v1] Device Serial Number 9a-bc-de-f0-12-34-56-78
+	Capabilities: [150 v1] #19
+	Capabilities: [178 v1] Transaction Processing Hints
+		Device specific mode supported
+		No steering table available
+	Capabilities: [200 v2] Advanced Error Reporting
+		UESta:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UEMsk:	DLP- SDES- TLP- FCP- CmpltTO- CmpltAbrt- UnxCmplt- RxOF- MalfTLP- ECRC- UnsupReq- ACSViol-
+		UESvrt:	DLP+ SDES+ TLP- FCP+ CmpltTO- CmpltAbrt- UnxCmplt- RxOF+ MalfTLP+ ECRC- UnsupReq- ACSViol-
+		CESta:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr-
+		CEMsk:	RxErr- BadTLP- BadDLLP- Rollover- Timeout- NonFatalErr+
+		AERCap:	First Error Pointer: 00, GenCap+ CGenEn- ChkCap+ ChkEn-
+
+19:34:24.31 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link speed 8
+19:34:24.31 PASS: ButterFly1_Ethernet_Ctrl3 PCIe link Width is 8
+19:34:24.31 Tester Chk => OK: PCIe Devices Link Speed and Width Verified
+19:34:24.32 ##############################################################
+19:34:24.32 Section: Bmc Sel Check
+19:34:24.32 Send = ipmitool sel elist
+19:34:24.32 Rece = 
+   1 |  Pre-Init  |0028110934| Event Logging Disabled SYSTEM_EVENT_LOG | Log area reset/cleared | Asserted
+   2 |  Pre-Init  |0028110944| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+   3 |  Pre-Init  |0028110945| Microcontroller/Coprocessor #0x16 | Transition to Power Off | Asserted
+   4 |  Pre-Init  |0028110945| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+   5 |  Pre-Init  |0028110949| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+   6 |  Pre-Init  |0028110951| Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+   7 | 01/01/2000 | 00:00:11 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+   8 | 01/01/2000 | 00:00:12 | System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+   9 | 01/01/2000 | 00:00:12 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   a | 01/01/2000 | 00:00:12 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 96 > Threshold 85 percent
+   b | 01/01/2000 | 00:00:12 | Processor BMC_CPU_Util | Upper Critical going high | Asserted | Reading 96 > Threshold 95 percent
+   c | 01/01/2000 | 00:00:16 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+   d | 01/01/2000 | 00:00:16 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+   e | 01/01/2000 | 00:00:16 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 455 < Threshold 1001 RPM
+   f | 01/01/2000 | 00:00:16 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  10 | 01/01/2000 | 00:00:17 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  11 | 01/01/2000 | 00:00:17 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  12 | 01/01/2000 | 00:00:56 | Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  13 | 01/01/2000 | 00:01:02 | OEM record d0 | 000001 | 010000000000
+  14 | 01/01/2000 | 00:01:32 | Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  15 | 01/01/2000 | 00:01:32 | Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  16 | 01/01/2000 | 00:01:32 | Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  17 | 01/01/2000 | 00:01:32 | Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  18 | 01/01/2000 | 00:01:33 | Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  19 | 01/01/2000 | 00:01:33 | Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1a | 01/01/2000 | 00:01:33 | Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1b | 01/01/2000 | 00:01:33 | Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1c | 01/01/2000 | 00:01:33 | Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1d | 01/01/2000 | 00:01:33 | Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1e | 01/01/2000 | 00:01:33 | Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  1f | 01/01/2000 | 00:01:33 | Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  20 | 01/01/2000 | 00:01:34 | Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  21 | 01/01/2000 | 00:01:34 | Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  22 | 01/01/2000 | 00:01:34 | Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  23 | 01/01/2000 | 00:01:34 | Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  24 | 01/01/2000 | 00:01:35 | Fan SYS_FAN_9A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  25 | 01/01/2000 | 00:01:35 | Fan SYS_FAN_9B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  26 | 01/01/2000 | 00:01:35 | Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  27 | 01/01/2000 | 00:02:05 | Processor BMC_CPU_Util | Upper Critical going low  | Asserted | Reading 56 < Threshold 95 percent
+  28 | 01/01/2000 | 00:02:05 | Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 56 < Threshold 85 percent
+  29 | 01/01/2000 | 00:04:18 | System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  2a | 01/01/2000 | 00:04:18 | Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  2b | 01/01/2000 | 00:04:22 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  2c | 01/01/2000 | 00:04:24 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  2d | 01/01/2000 | 00:06:23 | Fan SYS_FAN_9A | Lower Critical going low  | Deasserted | Reading 9100 < Threshold 1001 RPM
+  2e | 01/01/2000 | 00:06:23 | Fan SYS_FAN_9B | Lower Critical going low  | Deasserted | Reading 10192 < Threshold 1001 RPM
+  2f | 01/01/2000 | 00:06:23 | Fan SYS_FAN_10A | Lower Critical going low  | Deasserted | Reading 10829 < Threshold 1001 RPM
+  30 | 01/01/2000 | 00:06:24 | Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 11193 < Threshold 1001 RPM
+  31 | 01/01/2000 | 00:06:24 | Fan SYS_FAN_0A | Lower Critical going low  | Deasserted | Reading 12012 < Threshold 1001 RPM
+  32 | 01/01/2000 | 00:06:25 | Fan SYS_FAN_0B | Lower Critical going low  | Deasserted | Reading 12194 < Threshold 1001 RPM
+  33 | 01/01/2000 | 00:06:25 | Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 14105 < Threshold 1001 RPM
+  34 | 01/01/2000 | 00:06:25 | Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 14105 < Threshold 1001 RPM
+  35 | 01/01/2000 | 00:06:25 | Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 11921 < Threshold 1001 RPM
+  36 | 01/01/2000 | 00:06:25 | Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 12285 < Threshold 1001 RPM
+  37 | 01/01/2000 | 00:06:26 | Fan SYS_FAN_3A | Lower Critical going low  | Deasserted | Reading 13104 < Threshold 1001 RPM
+  38 | 01/01/2000 | 00:06:26 | Fan SYS_FAN_3B | Lower Critical going low  | Deasserted | Reading 13286 < Threshold 1001 RPM
+  39 | 01/01/2000 | 00:06:26 | Fan SYS_FAN_4A | Lower Critical going low  | Deasserted | Reading 13741 < Threshold 1001 RPM
+  3a | 01/01/2000 | 00:06:26 | Fan SYS_FAN_4B | Lower Critical going low  | Deasserted | Reading 13741 < Threshold 1001 RPM
+  3b | 01/01/2000 | 00:06:26 | Fan SYS_FAN_6A | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  3c | 01/01/2000 | 00:06:26 | Fan SYS_FAN_6B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+  3d | 01/01/2000 | 00:06:26 | Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 3731 < Threshold 1001 RPM
+  3e | 01/01/2000 | 00:06:26 | Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 4186 < Threshold 1001 RPM
+  3f | 01/01/2000 | 00:06:27 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 12376 < Threshold 1001 RPM
+  40 | 01/01/2000 | 00:06:28 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 12831 < Threshold 1001 RPM
+  41 | 01/01/2000 | 00:06:28 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 13013 < Threshold 1001 RPM
+  42 | 01/01/2000 | 00:06:28 | Fan SYS_FAN_5A | Lower Critical going low  | Deasserted | Reading 9555 < Threshold 1001 RPM
+  43 | 01/01/2000 | 00:06:28 | Fan SYS_FAN_5B | Lower Critical going low  | Deasserted | Reading 7644 < Threshold 1001 RPM
+  44 | 01/01/2000 | 00:06:29 | Fan SYS_FAN_7A | Lower Critical going low  | Deasserted | Reading 13013 < Threshold 1001 RPM
+  45 | 01/01/2000 | 00:06:29 | Fan SYS_FAN_7B | Lower Critical going low  | Deasserted | Reading 13013 < Threshold 1001 RPM
+  46 | 01/01/2000 | 00:00:11 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  47 | 01/01/2000 | 00:00:12 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  48 | 01/01/2000 | 00:00:12 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+  49 | 01/01/2000 | 00:00:23 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  4a | 01/01/2000 | 00:00:24 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 819 < Threshold 1001 RPM
+  4b | 01/01/2000 | 00:00:24 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 546 < Threshold 1001 RPM
+  4c | 01/01/2000 | 00:00:24 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  4d | 01/01/2000 | 00:00:25 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  4e | 01/01/2000 | 00:00:25 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  4f | 01/01/2000 | 00:00:25 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  50 | 01/01/2000 | 00:00:28 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 11284 < Threshold 1001 RPM
+  51 | 01/01/2000 | 00:00:29 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 12831 < Threshold 1001 RPM
+  52 | 01/01/2000 | 00:00:29 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 12558 < Threshold 1001 RPM
+  53 | 01/01/2000 | 00:00:32 | Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 12012 < Threshold 1001 RPM
+  54 | 01/01/2000 | 00:00:32 | Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 12194 < Threshold 1001 RPM
+  55 | 01/01/2000 | 00:01:04 | OEM record d0 | 000001 | 010000000000
+  56 | 01/01/2000 | 00:01:41 | Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  57 | 01/01/2000 | 00:01:41 | Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  58 | 01/01/2000 | 00:01:41 | Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  59 | 01/01/2000 | 00:01:41 | Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5a | 01/01/2000 | 00:01:42 | Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5b | 01/01/2000 | 00:01:42 | Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5c | 01/01/2000 | 00:01:42 | Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5d | 01/01/2000 | 00:01:42 | Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  5e | 01/01/2000 | 00:01:44 | Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  5f | 01/01/2000 | 00:00:11 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  60 | 01/01/2000 | 00:00:12 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  61 | 01/01/2000 | 00:00:12 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+  62 | 01/01/2000 | 00:00:18 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  63 | 01/01/2000 | 00:00:19 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 728 < Threshold 1001 RPM
+  64 | 01/01/2000 | 00:00:19 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 546 < Threshold 1001 RPM
+  65 | 01/01/2000 | 00:00:20 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  66 | 01/01/2000 | 00:00:20 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  67 | 01/01/2000 | 00:00:20 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  68 | 01/01/2000 | 00:00:20 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  69 | 01/01/2000 | 00:00:58 | Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  6a | 01/01/2000 | 00:01:05 | OEM record d0 | 000001 | 010000000000
+  6b | 01/01/2000 | 00:01:34 | Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  6c | 01/01/2000 | 00:01:34 | Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  6d | 01/01/2000 | 00:01:35 | Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  6e | 01/01/2000 | 00:01:35 | Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  6f | 01/01/2000 | 00:01:35 | Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  70 | 01/01/2000 | 00:01:35 | Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  71 | 01/01/2000 | 00:01:35 | Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  72 | 01/01/2000 | 00:01:35 | Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  73 | 01/01/2000 | 00:01:36 | Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  74 | 01/01/2000 | 00:01:36 | Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  75 | 01/01/2000 | 00:01:36 | Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  76 | 01/01/2000 | 00:01:36 | Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  77 | 01/01/2000 | 00:01:36 | Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  78 | 01/01/2000 | 00:01:36 | Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  79 | 01/01/2000 | 00:01:37 | Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  7a | 01/01/2000 | 00:01:37 | Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  7b | 01/01/2000 | 00:01:37 | Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  7c | 01/01/2000 | 00:02:01 | Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 55 < Threshold 85 percent
+  7d | 01/01/2000 | 00:00:11 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  7e | 01/01/2000 | 00:00:12 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  7f | 01/01/2000 | 00:00:12 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 92 > Threshold 85 percent
+  80 | 01/01/2000 | 00:00:26 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  81 | 01/01/2000 | 00:00:27 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  82 | 01/01/2000 | 00:00:27 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 637 < Threshold 1001 RPM
+  83 | 01/01/2000 | 00:00:27 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  84 | 01/01/2000 | 00:00:27 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  85 | 01/01/2000 | 00:00:28 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  86 | 01/01/2000 | 00:00:28 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  87 | 01/01/2000 | 00:01:04 | OEM record d0 | 000001 | 010000000000
+  88 | 01/01/2000 | 00:01:08 | Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  89 | 01/01/2000 | 00:01:43 | Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  8a | 01/01/2000 | 00:01:43 | Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  8b | 01/01/2000 | 00:01:43 | Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  8c | 01/01/2000 | 00:01:43 | Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  8d | 01/01/2000 | 00:01:43 | Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  8e | 01/01/2000 | 00:01:44 | Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  8f | 01/01/2000 | 00:01:44 | Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  90 | 01/01/2000 | 00:01:44 | Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  91 | 01/01/2000 | 00:01:44 | Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  92 | 01/01/2000 | 00:01:44 | Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  93 | 01/01/2000 | 00:01:44 | Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  94 | 01/01/2000 | 00:01:44 | Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  95 | 01/01/2000 | 00:01:44 | Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  96 | 01/01/2000 | 00:01:44 | Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  97 | 01/01/2000 | 00:01:45 | Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  98 | 01/01/2000 | 00:01:45 | Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  99 | 01/01/2000 | 00:01:45 | Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  9a | 01/01/2000 | 00:01:57 | Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 48 < Threshold 85 percent
+  9b | 01/01/2000 | 00:00:11 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  9c | 01/01/2000 | 00:00:12 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  9d | 01/01/2000 | 00:00:12 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 92 > Threshold 85 percent
+  9e | 01/01/2000 | 00:00:22 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  9f | 01/01/2000 | 00:00:23 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a0 | 01/01/2000 | 00:00:23 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 637 < Threshold 1001 RPM
+  a1 | 01/01/2000 | 00:00:23 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a2 | 01/01/2000 | 00:00:24 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  a3 | 01/01/2000 | 00:00:24 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a4 | 01/01/2000 | 00:00:24 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a5 | 01/01/2000 | 00:01:03 | Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a6 | 01/01/2000 | 00:01:03 | OEM record d0 | 000001 | 010000000000
+  a7 | 01/01/2000 | 00:01:38 | Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a8 | 01/01/2000 | 00:01:39 | Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  a9 | 01/01/2000 | 00:01:39 | Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  aa | 01/01/2000 | 00:01:39 | Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  ab | 01/01/2000 | 00:01:39 | Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  ac | 01/01/2000 | 00:01:39 | Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  ad | 01/01/2000 | 00:01:39 | Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  ae | 01/01/2000 | 00:01:39 | Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  af | 01/01/2000 | 00:01:39 | Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  b0 | 01/01/2000 | 00:01:40 | Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  b1 | 01/01/2000 | 00:01:40 | Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  b2 | 01/01/2000 | 00:01:40 | Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  b3 | 01/01/2000 | 00:01:40 | Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  b4 | 01/01/2000 | 00:01:40 | Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  b5 | 01/01/2000 | 00:01:40 | Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  b6 | 01/01/2000 | 00:01:41 | Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  b7 | 01/01/2000 | 00:01:58 | Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 51 < Threshold 85 percent
+  b8 | 01/01/2000 | 00:02:21 | Fan SYS_FAN_6B | Lower Critical going low  | Deasserted | Reading 6279 < Threshold 1001 RPM
+  b9 | 01/01/2000 | 00:00:11 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  ba | 01/01/2000 | 00:00:12 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  bb | 01/01/2000 | 00:00:12 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+  bc | 01/01/2000 | 00:00:19 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  bd | 01/01/2000 | 00:00:19 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 455 < Threshold 1001 RPM
+  be | 01/01/2000 | 00:00:20 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  bf | 01/01/2000 | 00:00:20 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  c0 | 01/01/2000 | 00:00:20 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  c1 | 01/01/2000 | 00:00:20 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  c2 | 01/01/2000 | 00:00:21 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  c3 | 01/01/2000 | 00:00:52 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  c4 |  Pre-Init  |0028106624| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  c5 |  Pre-Init  |0028106630| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  c6 |  Pre-Init  |0028106635| OEM record d0 | 000001 | 010000000000
+  c7 |  Pre-Init  |0028106650| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  c8 |  Pre-Init  |0028106650| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  c9 |  Pre-Init  |0028106654| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  ca |  Pre-Init  |0028106664| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 54 < Threshold 85 percent
+  cb |  Pre-Init  |0028106668| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  cc |  Pre-Init  |0028106669| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  cd |  Pre-Init  |0028106695| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  ce |  Pre-Init  |0028106695| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  cf |  Pre-Init  |0028106699| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  d0 |  Pre-Init  |0028106713| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  d1 |  Pre-Init  |0028106714| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  d2 |  Pre-Init  |0028106740| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+  d3 |  Pre-Init  |0028106740| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+  d4 |  Pre-Init  |0028106744| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  d5 |  Pre-Init  |0028106758| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  d6 |  Pre-Init  |0028106760| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+  d7 |  Pre-Init  |0028106806| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+  d8 |  Pre-Init  |0028106806| System Event END_OF_POST | OEM System boot event | Asserted
+  d9 |  Pre-Init  |0028106812| Boot Error BOOT_ERROR | Invalid boot sector | Asserted
+  da |  Pre-Init  |0028106817| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  db |  Pre-Init  |0028106817| Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  dc |  Pre-Init  |0028106818| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  dd |  Pre-Init  |0028106818| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  de |  Pre-Init  |0028106818| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  df |  Pre-Init  |0028106818| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e0 |  Pre-Init  |0028106819| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e1 |  Pre-Init  |0028106819| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e2 |  Pre-Init  |0028106819| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e3 |  Pre-Init  |0028106819| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e4 |  Pre-Init  |0028106819| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e5 |  Pre-Init  |0028106819| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e6 |  Pre-Init  |0028106819| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e7 |  Pre-Init  |0028106819| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e8 |  Pre-Init  |0028106820| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  e9 |  Pre-Init  |0028106820| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  ea |  Pre-Init  |0028106821| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  eb | 01/01/2000 | 00:04:47 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  ec | 01/01/2000 | 00:04:48 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  ed | 01/01/2000 | 00:04:48 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 94 > Threshold 85 percent
+  ee | 01/01/2000 | 00:04:52 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  ef | 01/01/2000 | 00:04:52 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  f0 | 01/01/2000 | 00:04:52 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  f1 | 01/01/2000 | 00:04:52 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  f2 | 01/01/2000 | 00:04:53 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  f3 | 01/01/2000 | 00:04:53 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  f4 | 01/01/2000 | 00:04:53 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  f5 | 01/01/2000 | 00:05:06 | Button BUTTON | Reset Button pressed | Asserted
+  f6 | 01/01/2000 | 00:06:45 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+  f7 | 01/01/2000 | 00:06:46 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  f8 | 01/01/2000 | 00:06:46 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+  f9 | 01/01/2000 | 00:06:53 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+  fa | 01/01/2000 | 00:06:54 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 728 < Threshold 1001 RPM
+  fb | 01/01/2000 | 00:06:54 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 455 < Threshold 1001 RPM
+  fc | 01/01/2000 | 00:06:55 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  fd | 01/01/2000 | 00:06:55 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+  fe | 01/01/2000 | 00:06:55 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+  ff | 01/01/2000 | 00:06:55 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 100 | 01/01/2000 | 00:07:33 | Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 101 | 01/01/2000 | 00:07:37 | OEM record d0 | 000001 | 010000000000
+ 102 | 01/01/2000 | 00:07:41 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 103 |  Pre-Init  |0028107086| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 104 |  Pre-Init  |0028107114| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 105 |  Pre-Init  |0028107114| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 106 |  Pre-Init  |0028107115| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 107 |  Pre-Init  |0028107115| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 108 |  Pre-Init  |0028107115| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 109 |  Pre-Init  |0028107115| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 10a |  Pre-Init  |0028107115| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 10b |  Pre-Init  |0028107115| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 10c |  Pre-Init  |0028107116| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 10d |  Pre-Init  |0028107116| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 10e |  Pre-Init  |0028107116| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 10f |  Pre-Init  |0028107116| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 110 |  Pre-Init  |0028107116| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 111 |  Pre-Init  |0028107116| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 112 |  Pre-Init  |0028107116| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 113 |  Pre-Init  |0028107117| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 114 |  Pre-Init  |0028107124| System Event END_OF_POST | OEM System boot event | Asserted
+ 115 |  Pre-Init  |0028107124| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+ 116 |  Pre-Init  |0028107140| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 58 < Threshold 85 percent
+ 117 |  Pre-Init  |0028107141| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 118 |  Pre-Init  |0028107142| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 119 |  Pre-Init  |0028107165| Fan SYS_FAN_0A | Lower Critical going low  | Deasserted | Reading 10556 < Threshold 1001 RPM
+ 11a |  Pre-Init  |0028107199| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 11b |  Pre-Init  |0028107201| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 11c |  Pre-Init  |0028107206| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 11d |  Pre-Init  |0028107241| System Event END_OF_POST | OEM System boot event | Asserted
+ 11e |  Pre-Init  |0028107241| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+ 11f |  Pre-Init  |0028107294| Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 5551 < Threshold 1001 RPM
+ 120 |  Pre-Init  |0028107294| Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 7917 < Threshold 1001 RPM
+ 121 |  Pre-Init  |0028107295| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 1638 < Threshold 1001 RPM
+ 122 |  Pre-Init  |0028107295| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 13104 < Threshold 1001 RPM
+ 123 |  Pre-Init  |0028107295| Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 13559 < Threshold 1001 RPM
+ 124 |  Pre-Init  |0028107295| Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 13650 < Threshold 1001 RPM
+ 125 |  Pre-Init  |0028107296| Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 126 |  Pre-Init  |0028107296| Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 13286 < Threshold 1001 RPM
+ 127 |  Pre-Init  |0028107296| Fan SYS_FAN_3A | Lower Critical going low  | Deasserted | Reading 3731 < Threshold 1001 RPM
+ 128 |  Pre-Init  |0028107296| Fan SYS_FAN_3B | Lower Critical going low  | Deasserted | Reading 5369 < Threshold 1001 RPM
+ 129 |  Pre-Init  |0028107297| Fan SYS_FAN_7A | Lower Critical going low  | Deasserted | Reading 12103 < Threshold 1001 RPM
+ 12a |  Pre-Init  |0028107297| Fan SYS_FAN_7B | Lower Critical going low  | Deasserted | Reading 12831 < Threshold 1001 RPM
+ 12b |  Pre-Init  |0028107299| Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 14105 < Threshold 1001 RPM
+ 12c |  Pre-Init  |0028107299| Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 14196 < Threshold 1001 RPM
+ 12d |  Pre-Init  |0028107300| Unknown H20_CABLE_BROKEN | Predictive Failure Asserted | Asserted
+ 12e |  Pre-Init  |0028107301| Unknown H20_LEAK | Predictive Failure Asserted | Asserted
+ 12f |  Pre-Init  |0028107305| Unknown H20_CABLE_BROKEN | Predictive Failure Deasserted | Asserted
+ 130 |  Pre-Init  |0028107305| Unknown H20_LEAK | Predictive Failure Deasserted | Asserted
+ 131 |  Pre-Init  |0028107306| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 132 |  Pre-Init  |0028107308| Fan SYS_FAN_6B | Lower Critical going low  | Deasserted | Reading 9282 < Threshold 1001 RPM
+ 133 |  Pre-Init  |0028107308| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 12831 < Threshold 1001 RPM
+ 134 |  Pre-Init  |0028107338| Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 135 |  Pre-Init  |0028107349| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 136 |  Pre-Init  |0028107349| OEM record d0 | 000001 | 030000000000
+ 137 | 01/01/2000 | 00:12:30 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+ 138 | 01/01/2000 | 00:12:31 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 139 | 01/01/2000 | 00:12:31 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 13a | 01/01/2000 | 00:12:31 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 13b | 01/01/2000 | 00:12:31 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 13c | 01/01/2000 | 00:12:32 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 13d | 01/01/2000 | 00:12:32 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 13e | 01/01/2000 | 00:12:33 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 92 > Threshold 85 percent
+ 13f | 01/01/2000 | 00:12:38 | Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 13741 < Threshold 1001 RPM
+ 140 | 01/01/2000 | 00:12:38 | Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 13741 < Threshold 1001 RPM
+ 141 | 01/01/2000 | 00:12:39 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 11557 < Threshold 1001 RPM
+ 142 | 01/01/2000 | 00:12:39 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 9009 < Threshold 1001 RPM
+ 143 | 01/01/2000 | 00:12:43 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 11648 < Threshold 1001 RPM
+ 144 | 01/01/2000 | 00:13:20 | OEM record d0 | 000001 | 010000000000
+ 145 | 01/01/2000 | 00:13:48 | Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 146 | 01/01/2000 | 00:13:48 | Fan SYS_FAN_0B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 147 | 01/01/2000 | 00:13:49 | Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 148 | 01/01/2000 | 00:13:49 | Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 149 | 01/01/2000 | 00:13:49 | Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 14a | 01/01/2000 | 00:13:49 | Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 14b | 01/01/2000 | 00:13:49 | Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 14c | 01/01/2000 | 00:13:49 | Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 14d | 01/01/2000 | 00:13:50 | Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 14e | 01/01/2000 | 00:14:27 | Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 49 < Threshold 85 percent
+ 14f | 01/01/2000 | 00:14:50 | Fan SYS_FAN_0B | Lower Critical going low  | Deasserted | Reading 6461 < Threshold 1001 RPM
+ 150 | 01/01/2000 | 00:16:11 | Processor #0x1c |  | Asserted
+ 151 | 01/01/2000 | 00:16:11 | Processor #0x1c |  | Deasserted
+ 152 | 01/01/2000 | 00:16:14 | Processor #0x1c |  | Asserted
+ 153 | 01/01/2000 | 00:16:14 | Processor #0x1c |  | Deasserted
+ 154 | 01/01/2000 | 00:16:17 | Processor #0x1c |  | Asserted
+ 155 | 01/01/2000 | 00:16:17 | Processor #0x1c |  | Deasserted
+ 156 | 01/01/2000 | 00:16:19 | Processor #0x1c |  | Asserted
+ 157 | 01/01/2000 | 00:16:19 | Processor #0x1c |  | Deasserted
+ 158 | 01/01/2000 | 00:16:19 | Processor #0x1c |  | Asserted
+ 159 | 01/01/2000 | 00:16:19 | Processor #0x1c |  | Deasserted
+ 15a | 01/01/2000 | 00:16:20 | Temperature CPU_0_PECI_TEMP | Upper Critical going high | Asserted | Reading 103 > Threshold 103 degrees C
+ 15b | 01/01/2000 | 00:16:20 | Temperature CPU_0_DTS_TEMP | Upper Critical going high | Asserted | Reading -1 > Threshold -1 degrees C
+ 15c | 01/01/2000 | 00:16:21 | Processor #0x1c |  | Asserted
+ 15d | 01/01/2000 | 00:16:22 | Processor #0x1c |  | Deasserted
+ 15e | 01/01/2000 | 00:16:25 | Processor #0x1c |  | Asserted
+ 15f | 01/01/2000 | 00:16:25 | Processor #0x1c |  | Deasserted
+ 160 | 01/01/2000 | 00:16:25 | Processor #0x1c |  | Asserted
+ 161 | 01/01/2000 | 00:16:26 | Processor #0x1c |  | Deasserted
+ 162 | 01/01/2000 | 00:16:26 | Processor #0x1c |  | Asserted
+ 163 | 01/01/2000 | 00:16:26 | Processor #0x1c |  | Deasserted
+ 164 | 01/01/2000 | 00:16:27 | Processor #0x1c |  | Asserted
+ 165 | 01/01/2000 | 00:16:28 | Processor #0x1c |  | Deasserted
+ 166 | 01/01/2000 | 00:16:29 | Processor #0x1c |  | Asserted
+ 167 | 01/01/2000 | 00:16:29 | Processor #0x1c |  | Deasserted
+ 168 | 01/01/2000 | 00:16:31 | Processor #0x1c |  | Asserted
+ 169 | 01/01/2000 | 00:16:31 | Processor #0x1c |  | Deasserted
+ 16a | 01/01/2000 | 00:16:32 | Processor #0x1c |  | Asserted
+ 16b | 01/01/2000 | 00:16:33 | Processor #0x1c |  | Deasserted
+ 16c | 01/01/2000 | 00:16:34 | Processor #0x1c |  | Asserted
+ 16d | 01/01/2000 | 00:16:34 | Processor #0x1c |  | Deasserted
+ 16e | 01/01/2000 | 00:16:34 | Processor #0x1c |  | Deasserted
+ 16f | 01/01/2000 | 00:16:34 | Processor #0x1c |  | Asserted
+ 170 | 01/01/2000 | 00:16:34 | Processor #0x1c |  | Deasserted
+ 171 | 01/01/2000 | 00:16:35 | Processor #0x1c |  | Asserted
+ 172 | 01/01/2000 | 00:16:35 | Processor #0x1c |  | Deasserted
+ 173 | 01/01/2000 | 00:16:35 | Processor #0x1c |  | Asserted
+ 174 | 01/01/2000 | 00:16:35 | Processor #0x1c |  | Deasserted
+ 175 | 01/01/2000 | 00:16:38 | Processor #0x1c |  | Asserted
+ 176 | 01/01/2000 | 00:16:38 | Processor #0x1c |  | Asserted
+ 177 | 01/01/2000 | 00:16:39 | Processor #0x1c |  | Deasserted
+ 178 | 01/01/2000 | 00:16:39 | Processor #0x1c |  | Asserted
+ 179 | 01/01/2000 | 00:16:40 | Processor #0x1c |  | Deasserted
+ 17a | 01/01/2000 | 00:16:40 | Processor #0x1c |  | Asserted
+ 17b | 01/01/2000 | 00:16:41 | Processor #0x1c |  | Deasserted
+ 17c | 01/01/2000 | 00:16:42 | Processor #0x1c |  | Asserted
+ 17d | 01/01/2000 | 00:16:42 | Processor #0x1c |  | Deasserted
+ 17e | 01/01/2000 | 00:16:44 | Processor #0x1c |  | Asserted
+ 17f | 01/01/2000 | 00:16:44 | Processor #0x1c |  | Deasserted
+ 180 | 01/01/2000 | 00:16:46 | Processor #0x1c |  | Asserted
+ 181 | 01/01/2000 | 00:16:46 | Processor #0x1c |  | Deasserted
+ 182 | 01/01/2000 | 00:16:49 | Processor #0x1c |  | Asserted
+ 183 | 01/01/2000 | 00:16:49 | Processor #0x1c |  | Deasserted
+ 184 | 01/01/2000 | 00:16:49 | Processor #0x1c |  | Asserted
+ 185 | 01/01/2000 | 00:16:50 | Processor #0x1c |  | Deasserted
+ 186 | 01/01/2000 | 00:16:50 | Processor #0x1c |  | Asserted
+ 187 | 01/01/2000 | 00:16:50 | Processor #0x1c |  | Deasserted
+ 188 | 01/01/2000 | 00:16:51 | Processor #0x1c |  | Asserted
+ 189 | 01/01/2000 | 00:16:51 | Processor #0x1c |  | Deasserted
+ 18a | 01/01/2000 | 00:16:52 | Processor #0x1c |  | Asserted
+ 18b | 01/01/2000 | 00:16:52 | Processor #0x1c |  | Deasserted
+ 18c | 01/01/2000 | 00:16:53 | Processor #0x1c |  | Asserted
+ 18d | 01/01/2000 | 00:16:53 | Processor #0x1c |  | Deasserted
+ 18e | 01/01/2000 | 00:16:56 | Processor #0x1c |  | Asserted
+ 18f | 01/01/2000 | 00:16:57 | Processor #0x1c |  | Deasserted
+ 190 | 01/01/2000 | 00:16:58 | Processor #0x1c |  | Asserted
+ 191 | 01/01/2000 | 00:16:58 | Processor #0x1c |  | Deasserted
+ 192 | 01/01/2000 | 00:16:59 | Processor #0x1c |  | Asserted
+ 193 | 01/01/2000 | 00:17:00 | Processor #0x1c |  | Deasserted
+ 194 | 01/01/2000 | 00:17:00 | Processor #0x1c |  | Asserted
+ 195 | 01/01/2000 | 00:17:01 | Processor #0x1c |  | Deasserted
+ 196 | 01/01/2000 | 00:17:01 | Processor #0x1c |  | Asserted
+ 197 | 01/01/2000 | 00:17:02 | Processor #0x1c |  | Deasserted
+ 198 | 01/01/2000 | 00:17:03 | Processor #0x1c |  | Asserted
+ 199 | 01/01/2000 | 00:17:03 | Processor #0x1c |  | Deasserted
+ 19a | 01/01/2000 | 00:17:04 | Processor #0x1c |  | Asserted
+ 19b | 01/01/2000 | 00:17:05 | Processor #0x1c |  | Deasserted
+ 19c | 01/01/2000 | 00:17:05 | Processor #0x1c |  | Asserted
+ 19d | 01/01/2000 | 00:17:06 | Processor #0x1c |  | Deasserted
+ 19e | 01/01/2000 | 00:17:07 | Processor #0x1c |  | Asserted
+ 19f | 01/01/2000 | 00:17:07 | Processor #0x1c |  | Deasserted
+ 1a0 | 01/01/2000 | 00:17:09 | Processor #0x1c |  | Asserted
+ 1a1 | 01/01/2000 | 00:17:09 | Processor #0x1c |  | Deasserted
+ 1a2 | 01/01/2000 | 00:17:10 | Processor #0x1c |  | Asserted
+ 1a3 | 01/01/2000 | 00:17:10 | Processor #0x1c |  | Deasserted
+ 1a4 | 01/01/2000 | 00:17:10 | Processor #0x1c |  | Asserted
+ 1a5 | 01/01/2000 | 00:17:11 | Processor #0x1c |  | Deasserted
+ 1a6 | 01/01/2000 | 00:17:12 | Processor #0x1c |  | Asserted
+ 1a7 | 01/01/2000 | 00:17:12 | Processor #0x1c |  | Deasserted
+ 1a8 | 01/01/2000 | 00:17:12 | Processor #0x1c |  | Deasserted
+ 1a9 | 01/01/2000 | 00:17:13 | Processor #0x1c |  | Asserted
+ 1aa | 01/01/2000 | 00:17:13 | Processor #0x1c |  | Deasserted
+ 1ab | 01/01/2000 | 00:17:13 | Processor #0x1c |  | Asserted
+ 1ac | 01/01/2000 | 00:17:14 | Processor #0x1c |  | Deasserted
+ 1ad | 01/01/2000 | 00:17:14 | Processor #0x1c |  | Asserted
+ 1ae | 01/01/2000 | 00:17:14 | Processor #0x1c |  | Deasserted
+ 1af | 01/01/2000 | 00:17:14 | Processor #0x1c |  | Asserted
+ 1b0 | 01/01/2000 | 00:17:16 | Processor #0x1c |  | Deasserted
+ 1b1 | 01/01/2000 | 00:17:17 | Processor #0x1c |  | Asserted
+ 1b2 | 01/01/2000 | 00:17:18 | Processor #0x1c |  | Deasserted
+ 1b3 | 01/01/2000 | 00:17:18 | Processor #0x1c |  | Asserted
+ 1b4 | 01/01/2000 | 00:17:18 | Processor #0x1c |  | Deasserted
+ 1b5 | 01/01/2000 | 00:17:19 | Processor #0x1c |  | Asserted
+ 1b6 | 01/01/2000 | 00:17:19 | Processor #0x1c |  | Deasserted
+ 1b7 | 01/01/2000 | 00:17:20 | Processor #0x1c |  | Asserted
+ 1b8 | 01/01/2000 | 00:17:20 | Processor #0x1c |  | Deasserted
+ 1b9 | 01/01/2000 | 00:17:21 | Processor #0x1c |  | Asserted
+ 1ba | 01/01/2000 | 00:17:21 | Processor #0x1c |  | Deasserted
+ 1bb | 01/01/2000 | 00:17:22 | Processor #0x1c |  | Asserted
+ 1bc | 01/01/2000 | 00:17:22 | Processor #0x1c |  | Deasserted
+ 1bd | 01/01/2000 | 00:17:23 | Processor #0x1c |  | Asserted
+ 1be | 01/01/2000 | 00:17:24 | Processor #0x1c |  | Deasserted
+ 1bf | 01/01/2000 | 00:17:24 | Processor #0x1c |  | Deasserted
+ 1c0 | 01/01/2000 | 00:17:24 | Processor #0x1c |  | Asserted
+ 1c1 | 01/01/2000 | 00:17:24 | Processor #0x1c |  | Deasserted
+ 1c2 | 01/01/2000 | 00:17:26 | Processor #0x1c |  | Asserted
+ 1c3 | 01/01/2000 | 00:17:26 | Processor #0x1c |  | Deasserted
+ 1c4 | 01/01/2000 | 00:17:27 | Processor #0x1c |  | Asserted
+ 1c5 | 01/01/2000 | 00:17:27 | Processor #0x1c |  | Deasserted
+ 1c6 | 01/01/2000 | 00:17:28 | Processor #0x1c |  | Asserted
+ 1c7 | 01/01/2000 | 00:17:28 | Processor #0x1c |  | Deasserted
+ 1c8 | 01/01/2000 | 00:17:29 | Processor #0x1c |  | Asserted
+ 1c9 | 01/01/2000 | 00:17:29 | Processor #0x1c |  | Deasserted
+ 1ca | 01/01/2000 | 00:17:31 | Processor #0x1c |  | Asserted
+ 1cb | 01/01/2000 | 00:17:32 | Processor #0x1c |  | Deasserted
+ 1cc | 01/01/2000 | 00:17:32 | Processor #0x1c |  | Asserted
+ 1cd | 01/01/2000 | 00:17:32 | Processor #0x1c |  | Deasserted
+ 1ce | 01/01/2000 | 00:17:33 | Processor #0x1c |  | Asserted
+ 1cf | 01/01/2000 | 00:17:34 | Processor #0x1c |  | Deasserted
+ 1d0 | 01/01/2000 | 00:17:34 | Processor #0x1c |  | Asserted
+ 1d1 | 01/01/2000 | 00:17:35 | Processor #0x1c |  | Deasserted
+ 1d2 | 01/01/2000 | 00:17:35 | Processor #0x1c |  | Asserted
+ 1d3 | 01/01/2000 | 00:17:36 | Processor #0x1c |  | Deasserted
+ 1d4 | 01/01/2000 | 00:17:36 | Processor #0x1c |  | Asserted
+ 1d5 | 01/01/2000 | 00:17:36 | Processor #0x1c |  | Deasserted
+ 1d6 | 01/01/2000 | 00:17:37 | Processor #0x1c |  | Asserted
+ 1d7 | 01/01/2000 | 00:17:37 | Processor #0x1c |  | Deasserted
+ 1d8 | 01/01/2000 | 00:17:37 | Processor #0x1c |  | Asserted
+ 1d9 | 01/01/2000 | 00:17:38 | Processor #0x1c |  | Deasserted
+ 1da | 01/01/2000 | 00:17:39 | Processor #0x1c |  | Asserted
+ 1db | 01/01/2000 | 00:17:39 | Processor #0x1c |  | Deasserted
+ 1dc | 01/01/2000 | 00:17:42 | Processor #0x1c |  | Asserted
+ 1dd | 01/01/2000 | 00:17:42 | Processor #0x1c |  | Deasserted
+ 1de | 01/01/2000 | 00:17:43 | Processor #0x1c |  | Asserted
+ 1df | 01/01/2000 | 00:17:43 | Processor #0x1c |  | Deasserted
+ 1e0 | 01/01/2000 | 00:17:44 | Processor #0x1c |  | Asserted
+ 1e1 | 01/01/2000 | 00:17:44 | Processor #0x1c |  | Deasserted
+ 1e2 | 01/01/2000 | 00:17:45 | Processor #0x1c |  | Asserted
+ 1e3 | 01/01/2000 | 00:17:45 | Processor #0x1c |  | Deasserted
+ 1e4 | 01/01/2000 | 00:17:45 | Processor #0x1c |  | Deasserted
+ 1e5 | 01/01/2000 | 00:17:46 | Processor #0x1c |  | Asserted
+ 1e6 | 01/01/2000 | 00:17:46 | Processor #0x1c |  | Deasserted
+ 1e7 | 01/01/2000 | 00:17:47 | Processor #0x1c |  | Asserted
+ 1e8 | 01/01/2000 | 00:17:47 | Processor #0x1c |  | Deasserted
+ 1e9 | 01/01/2000 | 00:17:48 | Processor #0x1c |  | Asserted
+ 1ea | 01/01/2000 | 00:17:48 | Processor #0x1c |  | Deasserted
+ 1eb | 01/01/2000 | 00:17:48 | Processor #0x1c |  | Asserted
+ 1ec | 01/01/2000 | 00:17:49 | Processor #0x1c |  | Deasserted
+ 1ed | 01/01/2000 | 00:17:49 | Processor #0x1c |  | Asserted
+ 1ee | 01/01/2000 | 00:17:49 | Processor #0x1c |  | Deasserted
+ 1ef | 01/01/2000 | 00:17:51 | Processor #0x1c |  | Asserted
+ 1f0 | 01/01/2000 | 00:17:51 | Processor #0x1c |  | Deasserted
+ 1f1 | 01/01/2000 | 00:17:51 | Processor #0x1c |  | Asserted
+ 1f2 | 01/01/2000 | 00:17:51 | Processor #0x1c |  | Deasserted
+ 1f3 | 01/01/2000 | 00:17:52 | Processor #0x1c |  | Asserted
+ 1f4 | 01/01/2000 | 00:17:52 | Processor #0x1c |  | Deasserted
+ 1f5 | 01/01/2000 | 00:17:54 | Processor #0x1c |  | Asserted
+ 1f6 | 01/01/2000 | 00:17:55 | Processor #0x1c |  | Deasserted
+ 1f7 | 01/01/2000 | 00:17:55 | Processor #0x1c |  | Asserted
+ 1f8 | 01/01/2000 | 00:17:55 | Processor #0x1c |  | Deasserted
+ 1f9 | 01/01/2000 | 00:17:55 | Processor #0x1c |  | Asserted
+ 1fa | 01/01/2000 | 00:17:56 | Processor #0x1c |  | Deasserted
+ 1fb | 01/01/2000 | 00:17:57 | Processor #0x1c |  | Asserted
+ 1fc | 01/01/2000 | 00:17:57 | Processor #0x1c |  | Deasserted
+ 1fd | 01/01/2000 | 00:18:00 | Processor #0x1c |  | Asserted
+ 1fe | 01/01/2000 | 00:18:00 | Processor #0x1c |  | Deasserted
+ 1ff | 01/01/2000 | 00:18:01 | Processor #0x1c |  | Asserted
+ 200 | 01/01/2000 | 00:18:01 | Processor #0x1c |  | Deasserted
+ 201 | 01/01/2000 | 00:18:01 | Processor #0x1c |  | Asserted
+ 202 | 01/01/2000 | 00:18:02 | Processor #0x1c |  | Deasserted
+ 203 | 01/01/2000 | 00:18:05 | Processor #0x1c |  | Asserted
+ 204 | 01/01/2000 | 00:18:05 | Processor #0x1c |  | Deasserted
+ 205 | 01/01/2000 | 00:18:07 | Processor #0x1c |  | Asserted
+ 206 | 01/01/2000 | 00:18:07 | Processor #0x1c |  | Asserted
+ 207 | 01/01/2000 | 00:18:07 | Processor #0x1c |  | Deasserted
+ 208 | 01/01/2000 | 00:18:07 | Processor #0x1c |  | Deasserted
+ 209 | 01/01/2000 | 00:18:08 | Processor #0x1c |  | Asserted
+ 20a | 01/01/2000 | 00:18:08 | Processor #0x1c |  | Deasserted
+ 20b | 01/01/2000 | 00:18:10 | Processor #0x1c |  | Asserted
+ 20c | 01/01/2000 | 00:18:11 | Processor #0x1c |  | Deasserted
+ 20d | 01/01/2000 | 00:18:11 | Processor #0x1c |  | Asserted
+ 20e | 01/01/2000 | 00:18:11 | Processor #0x1c |  | Deasserted
+ 20f | 01/01/2000 | 00:18:12 | Processor #0x1c |  | Asserted
+ 210 | 01/01/2000 | 00:18:12 | Processor #0x1c |  | Deasserted
+ 211 | 01/01/2000 | 00:18:13 | Processor #0x1c |  | Asserted
+ 212 | 01/01/2000 | 00:18:13 | Processor #0x1c |  | Deasserted
+ 213 | 01/01/2000 | 00:18:13 | Processor #0x1c |  | Asserted
+ 214 | 01/01/2000 | 00:18:14 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 85 > Threshold 85 percent
+ 215 | 01/01/2000 | 00:18:14 | Processor #0x1c |  | Deasserted
+ 216 | 01/01/2000 | 00:18:14 | Processor #0x1c |  | Asserted
+ 217 | 01/01/2000 | 00:18:15 | Processor #0x1c |  | Deasserted
+ 218 | 01/01/2000 | 00:18:15 | Processor #0x1c |  | Asserted
+ 219 | 01/01/2000 | 00:18:15 | Processor #0x1c |  | Deasserted
+ 21a | 01/01/2000 | 00:18:16 | Processor #0x1c |  | Asserted
+ 21b | 01/01/2000 | 00:18:16 | Processor #0x1c |  | Deasserted
+ 21c | 01/01/2000 | 00:18:16 | Processor #0x1c |  | Asserted
+ 21d | 01/01/2000 | 00:18:16 | Processor #0x1c |  | Deasserted
+ 21e | 01/01/2000 | 00:18:18 | Processor #0x1c |  | Asserted
+ 21f | 01/01/2000 | 00:18:18 | Processor #0x1c |  | Deasserted
+ 220 | 01/01/2000 | 00:18:19 | Processor #0x1c |  | Asserted
+ 221 | 01/01/2000 | 00:18:19 | Processor #0x1c |  | Deasserted
+ 222 | 01/01/2000 | 00:18:21 | Processor #0x1c |  | Asserted
+ 223 | 01/01/2000 | 00:18:21 | Processor #0x1c |  | Deasserted
+ 224 | 01/01/2000 | 00:18:22 | Processor #0x1c |  | Asserted
+ 225 | 01/01/2000 | 00:18:22 | Processor #0x1c |  | Deasserted
+ 226 | 01/01/2000 | 00:18:22 | Processor #0x1c |  | Asserted
+ 227 | 01/01/2000 | 00:18:23 | Processor #0x1c |  | Deasserted
+ 228 | 01/01/2000 | 00:18:23 | Processor #0x1c |  | Asserted
+ 229 | 01/01/2000 | 00:18:24 | Processor #0x1c |  | Deasserted
+ 22a | 01/01/2000 | 00:18:24 | Processor #0x1c |  | Asserted
+ 22b | 01/01/2000 | 00:18:24 | Processor #0x1c |  | Deasserted
+ 22c | 01/01/2000 | 00:18:25 | Processor #0x1c |  | Asserted
+ 22d | 01/01/2000 | 00:18:25 | Processor #0x1c |  | Deasserted
+ 22e | 01/01/2000 | 00:18:26 | Processor #0x1c |  | Asserted
+ 22f | 01/01/2000 | 00:18:26 | Processor #0x1c |  | Deasserted
+ 230 | 01/01/2000 | 00:18:26 | Processor #0x1c |  | Asserted
+ 231 | 01/01/2000 | 00:18:26 | Processor #0x1c |  | Deasserted
+ 232 | 01/01/2000 | 00:18:27 | Processor #0x1c |  | Asserted
+ 233 | 01/01/2000 | 00:18:27 | Processor #0x1c |  | Deasserted
+ 234 | 01/01/2000 | 00:18:32 | Processor #0x1c |  | Asserted
+ 235 | 01/01/2000 | 00:18:32 | Processor #0x1c |  | Deasserted
+ 236 | 01/01/2000 | 00:18:32 | Processor #0x1c |  | Asserted
+ 237 | 01/01/2000 | 00:18:32 | Processor #0x1c |  | Deasserted
+ 238 | 01/01/2000 | 00:18:34 | Processor #0x1c |  | Asserted
+ 239 | 01/01/2000 | 00:18:34 | Processor #0x1c |  | Deasserted
+ 23a | 01/01/2000 | 00:18:35 | Processor #0x1c |  | Asserted
+ 23b | 01/01/2000 | 00:18:36 | Processor #0x1c |  | Deasserted
+ 23c | 01/01/2000 | 00:18:36 | Processor #0x1c |  | Asserted
+ 23d | 01/01/2000 | 00:18:36 | Processor #0x1c |  | Asserted
+ 23e | 01/01/2000 | 00:18:36 | Processor #0x1c |  | Deasserted
+ 23f | 01/01/2000 | 00:18:39 | Processor #0x1c |  | Asserted
+ 240 | 01/01/2000 | 00:18:39 | Processor #0x1c |  | Deasserted
+ 241 | 01/01/2000 | 00:18:39 | Processor #0x1c |  | Asserted
+ 242 | 01/01/2000 | 00:18:40 | Processor #0x1c |  | Deasserted
+ 243 | 01/01/2000 | 00:18:40 | Processor #0x1c |  | Asserted
+ 244 | 01/01/2000 | 00:18:40 | Processor #0x1c |  | Deasserted
+ 245 | 01/01/2000 | 00:18:41 | Processor #0x1c |  | Asserted
+ 246 | 01/01/2000 | 00:18:41 | Processor #0x1c |  | Deasserted
+ 247 | 01/01/2000 | 00:18:42 | Processor #0x1c |  | Asserted
+ 248 | 01/01/2000 | 00:18:42 | Processor #0x1c |  | Deasserted
+ 249 | 01/01/2000 | 00:18:43 | Processor #0x1c |  | Asserted
+ 24a | 01/01/2000 | 00:18:43 | Processor #0x1c |  | Deasserted
+ 24b | 01/01/2000 | 00:18:44 | Processor #0x1c |  | Asserted
+ 24c | 01/01/2000 | 00:18:44 | Processor #0x1c |  | Deasserted
+ 24d | 01/01/2000 | 00:18:46 | Processor #0x1c |  | Asserted
+ 24e | 01/01/2000 | 00:18:46 | Processor #0x1c |  | Deasserted
+ 24f | 01/01/2000 | 00:18:47 | Processor #0x1c |  | Asserted
+ 250 | 01/01/2000 | 00:18:47 | Processor #0x1c |  | Deasserted
+ 251 | 01/01/2000 | 00:18:48 | Processor #0x1c |  | Asserted
+ 252 | 01/01/2000 | 00:18:48 | Processor #0x1c |  | Deasserted
+ 253 | 01/01/2000 | 00:18:48 | Processor #0x1c |  | Deasserted
+ 254 | 01/01/2000 | 00:18:49 | Processor #0x1c |  | Asserted
+ 255 | 01/01/2000 | 00:18:49 | Processor #0x1c |  | Deasserted
+ 256 | 01/01/2000 | 00:18:51 | Processor #0x1c |  | Asserted
+ 257 | 01/01/2000 | 00:18:51 | Processor #0x1c |  | Deasserted
+ 258 | 01/01/2000 | 00:18:51 | Processor #0x1c |  | Asserted
+ 259 | 01/01/2000 | 00:18:52 | Processor #0x1c |  | Deasserted
+ 25a | 01/01/2000 | 00:18:52 | Processor #0x1c |  | Asserted
+ 25b | 01/01/2000 | 00:18:53 | Processor #0x1c |  | Deasserted
+ 25c | 01/01/2000 | 00:18:53 | Processor #0x1c |  | Asserted
+ 25d | 01/01/2000 | 00:18:53 | Processor #0x1c |  | Deasserted
+ 25e | 01/01/2000 | 00:18:53 | Processor #0x1c |  | Asserted
+ 25f | 01/01/2000 | 00:18:54 | Processor #0x1c |  | Deasserted
+ 260 | 01/01/2000 | 00:18:54 | Processor #0x1c |  | Asserted
+ 261 | 01/01/2000 | 00:18:54 | Processor #0x1c |  | Deasserted
+ 262 | 01/01/2000 | 00:18:54 | Processor #0x1c |  | Asserted
+ 263 | 01/01/2000 | 00:18:55 | Processor #0x1c |  | Deasserted
+ 264 | 01/01/2000 | 00:18:55 | Processor #0x1c |  | Asserted
+ 265 | 01/01/2000 | 00:18:55 | Processor #0x1c |  | Deasserted
+ 266 | 01/01/2000 | 00:18:55 | Processor #0x1c |  | Asserted
+ 267 | 01/01/2000 | 00:18:56 | Processor #0x1c |  | Deasserted
+ 268 | 01/01/2000 | 00:18:56 | Processor #0x1c |  | Asserted
+ 269 | 01/01/2000 | 00:18:56 | Processor #0x1c |  | Deasserted
+ 26a | 01/01/2000 | 00:18:56 | Processor #0x1c |  | Asserted
+ 26b | 01/01/2000 | 00:18:57 | Processor #0x1c |  | Deasserted
+ 26c | 01/01/2000 | 00:18:57 | Processor #0x1c |  | Asserted
+ 26d | 01/01/2000 | 00:19:00 | Processor #0x1c |  | Deasserted
+ 26e | 01/01/2000 | 00:19:00 | Processor #0x1c |  | Asserted
+ 26f | 01/01/2000 | 00:19:00 | Processor #0x1c |  | Deasserted
+ 270 | 01/01/2000 | 00:19:01 | Processor #0x1c |  | Asserted
+ 271 | 01/01/2000 | 00:19:01 | Processor #0x1c |  | Deasserted
+ 272 | 01/01/2000 | 00:19:02 | Processor #0x1c |  | Asserted
+ 273 | 01/01/2000 | 00:19:02 | Processor #0x1c |  | Deasserted
+ 274 | 01/01/2000 | 00:19:03 | Processor #0x1c |  | Deasserted
+ 275 | 01/01/2000 | 00:19:03 | Processor #0x1c |  | Asserted
+ 276 | 01/01/2000 | 00:19:03 | Processor #0x1c |  | Deasserted
+ 277 | 01/01/2000 | 00:19:04 | Processor #0x1c |  | Asserted
+ 278 | 01/01/2000 | 00:19:04 | Processor #0x1c |  | Deasserted
+ 279 | 01/01/2000 | 00:19:05 | Processor #0x1c |  | Asserted
+ 27a | 01/01/2000 | 00:19:05 | Processor #0x1c |  | Deasserted
+ 27b | 01/01/2000 | 00:19:07 | Processor #0x1c |  | Asserted
+ 27c | 01/01/2000 | 00:19:08 | Processor #0x1c |  | Deasserted
+ 27d | 01/01/2000 | 00:19:08 | Processor #0x1c |  | Asserted
+ 27e | 01/01/2000 | 00:19:09 | Processor #0x1c |  | Deasserted
+ 27f | 01/01/2000 | 00:19:11 | Processor #0x1c |  | Asserted
+ 280 | 01/01/2000 | 00:19:11 | Processor #0x1c |  | Deasserted
+ 281 | 01/01/2000 | 00:19:14 | Processor #0x1c |  | Asserted
+ 282 | 01/01/2000 | 00:19:14 | Processor #0x1c |  | Deasserted
+ 283 | 01/01/2000 | 00:19:14 | Processor #0x1c |  | Asserted
+ 284 | 01/01/2000 | 00:19:15 | Processor #0x1c |  | Deasserted
+ 285 | 01/01/2000 | 00:19:15 | Processor #0x1c |  | Asserted
+ 286 | 01/01/2000 | 00:19:15 | Processor #0x1c |  | Deasserted
+ 287 | 01/01/2000 | 00:19:16 | Processor #0x1c |  | Asserted
+ 288 | 01/01/2000 | 00:19:17 | Processor #0x1c |  | Deasserted
+ 289 | 01/01/2000 | 00:19:18 | Processor #0x1c |  | Asserted
+ 28a | 01/01/2000 | 00:19:18 | Processor #0x1c |  | Deasserted
+ 28b | 01/01/2000 | 00:19:19 | Processor #0x1c |  | Asserted
+ 28c | 01/01/2000 | 00:19:19 | Processor #0x1c |  | Deasserted
+ 28d | 01/01/2000 | 00:19:20 | Processor #0x1c |  | Asserted
+ 28e | 01/01/2000 | 00:19:20 | Processor #0x1c |  | Deasserted
+ 28f | 01/01/2000 | 00:19:20 | Processor #0x1c |  | Asserted
+ 290 | 01/01/2000 | 00:19:21 | Processor #0x1c |  | Deasserted
+ 291 | 01/01/2000 | 00:19:21 | Processor #0x1c |  | Asserted
+ 292 | 01/01/2000 | 00:19:21 | Processor #0x1c |  | Deasserted
+ 293 | 01/01/2000 | 00:19:21 | Processor #0x1c |  | Asserted
+ 294 | 01/01/2000 | 00:19:22 | Processor #0x1c |  | Deasserted
+ 295 | 01/01/2000 | 00:19:22 | Processor #0x1c |  | Asserted
+ 296 | 01/01/2000 | 00:19:23 | Processor #0x1c |  | Deasserted
+ 297 | 01/01/2000 | 00:19:24 | Processor #0x1c |  | Asserted
+ 298 | 01/01/2000 | 00:19:24 | Processor #0x1c |  | Deasserted
+ 299 | 01/01/2000 | 00:19:25 | Processor #0x1c |  | Asserted
+ 29a | 01/01/2000 | 00:19:25 | Processor #0x1c |  | Deasserted
+ 29b | 01/01/2000 | 00:19:25 | Processor #0x1c |  | Asserted
+ 29c | 01/01/2000 | 00:19:26 | Processor #0x1c |  | Deasserted
+ 29d | 01/01/2000 | 00:19:27 | Processor #0x1c |  | Asserted
+ 29e | 01/01/2000 | 00:19:27 | Processor #0x1c |  | Deasserted
+ 29f | 01/01/2000 | 00:19:28 | Processor #0x1c |  | Asserted
+ 2a0 | 01/01/2000 | 00:19:28 | Processor #0x1c |  | Deasserted
+ 2a1 | 01/01/2000 | 00:19:29 | Processor #0x1c |  | Asserted
+ 2a2 | 01/01/2000 | 00:19:29 | Processor #0x1c |  | Deasserted
+ 2a3 | 01/01/2000 | 00:19:31 | Processor #0x1c |  | Asserted
+ 2a4 | 01/01/2000 | 00:19:31 | Processor #0x1c |  | Deasserted
+ 2a5 | 01/01/2000 | 00:19:32 | Processor #0x1c |  | Asserted
+ 2a6 | 01/01/2000 | 00:19:32 | Processor #0x1c |  | Deasserted
+ 2a7 | 01/01/2000 | 00:19:33 | Processor #0x1c |  | Asserted
+ 2a8 | 01/01/2000 | 00:19:33 | Processor #0x1c |  | Deasserted
+ 2a9 | 01/01/2000 | 00:19:34 | Processor #0x1c |  | Asserted
+ 2aa | 01/01/2000 | 00:19:34 | Processor #0x1c |  | Deasserted
+ 2ab | 01/01/2000 | 00:19:34 | Processor #0x1c |  | Deasserted
+ 2ac | 01/01/2000 | 00:19:35 | Processor #0x1c |  | Asserted
+ 2ad | 01/01/2000 | 00:19:35 | Processor #0x1c |  | Deasserted
+ 2ae | 01/01/2000 | 00:19:35 | Processor #0x1c |  | Asserted
+ 2af | 01/01/2000 | 00:19:35 | Processor #0x1c |  | Deasserted
+ 2b0 | 01/01/2000 | 00:19:36 | Processor #0x1c |  | Asserted
+ 2b1 | 01/01/2000 | 00:19:36 | Processor #0x1c |  | Deasserted
+ 2b2 | 01/01/2000 | 00:19:36 | Processor #0x1c |  | Asserted
+ 2b3 | 01/01/2000 | 00:19:37 | Processor #0x1c |  | Deasserted
+ 2b4 | 01/01/2000 | 00:19:37 | Processor #0x1c |  | Asserted
+ 2b5 | 01/01/2000 | 00:19:37 | Processor #0x1c |  | Deasserted
+ 2b6 | 01/01/2000 | 00:19:38 | Processor #0x1c |  | Asserted
+ 2b7 | 01/01/2000 | 00:19:38 | Processor #0x1c |  | Deasserted
+ 2b8 | 01/01/2000 | 00:19:39 | Processor #0x1c |  | Asserted
+ 2b9 | 01/01/2000 | 00:19:39 | Processor #0x1c |  | Deasserted
+ 2ba | 01/01/2000 | 00:19:39 | Processor #0x1c |  | Asserted
+ 2bb | 01/01/2000 | 00:19:39 | Processor #0x1c |  | Deasserted
+ 2bc | 01/01/2000 | 00:19:40 | Processor #0x1c |  | Asserted
+ 2bd | 01/01/2000 | 00:19:40 | Processor #0x1c |  | Deasserted
+ 2be | 01/01/2000 | 00:19:40 | Processor #0x1c |  | Asserted
+ 2bf | 01/01/2000 | 00:19:41 | Processor #0x1c |  | Deasserted
+ 2c0 | 01/01/2000 | 00:19:43 | Processor #0x1c |  | Asserted
+ 2c1 | 01/01/2000 | 00:19:43 | Processor #0x1c |  | Deasserted
+ 2c2 | 01/01/2000 | 00:19:43 | Processor #0x1c |  | Asserted
+ 2c3 | 01/01/2000 | 00:19:44 | Processor #0x1c |  | Deasserted
+ 2c4 | 01/01/2000 | 00:19:44 | Processor #0x1c |  | Asserted
+ 2c5 | 01/01/2000 | 00:19:45 | Processor #0x1c |  | Deasserted
+ 2c6 | 01/01/2000 | 00:19:45 | Processor #0x1c |  | Asserted
+ 2c7 | 01/01/2000 | 00:19:45 | Processor #0x1c |  | Deasserted
+ 2c8 | 01/01/2000 | 00:19:45 | Processor #0x1c |  | Asserted
+ 2c9 | 01/01/2000 | 00:19:46 | Processor #0x1c |  | Deasserted
+ 2ca | 01/01/2000 | 00:19:46 | Processor #0x1c |  | Asserted
+ 2cb | 01/01/2000 | 00:19:46 | Processor #0x1c |  | Deasserted
+ 2cc | 01/01/2000 | 00:19:47 | Processor #0x1c |  | Asserted
+ 2cd | 01/01/2000 | 00:19:48 | Processor #0x1c |  | Deasserted
+ 2ce | 01/01/2000 | 00:19:49 | Processor #0x1c |  | Asserted
+ 2cf | 01/01/2000 | 00:19:49 | Processor #0x1c |  | Deasserted
+ 2d0 | 01/01/2000 | 00:19:50 | Processor #0x1c |  | Asserted
+ 2d1 | 01/01/2000 | 00:19:50 | Processor #0x1c |  | Deasserted
+ 2d2 | 01/01/2000 | 00:19:51 | Processor #0x1c |  | Asserted
+ 2d3 | 01/01/2000 | 00:19:52 | Processor #0x1c |  | Deasserted
+ 2d4 | 01/01/2000 | 00:19:53 | Processor #0x1c |  | Asserted
+ 2d5 | 01/01/2000 | 00:19:54 | Processor #0x1c |  | Deasserted
+ 2d6 | 01/01/2000 | 00:19:57 | Processor #0x1c |  | Asserted
+ 2d7 | 01/01/2000 | 00:19:58 | Processor #0x1c |  | Deasserted
+ 2d8 | 01/01/2000 | 00:19:58 | Processor #0x1c |  | Asserted
+ 2d9 | 01/01/2000 | 00:19:58 | Processor #0x1c |  | Deasserted
+ 2da | 01/01/2000 | 00:19:59 | Processor #0x1c |  | Asserted
+ 2db | 01/01/2000 | 00:19:59 | Processor #0x1c |  | Deasserted
+ 2dc | 01/01/2000 | 00:20:00 | Processor #0x1c |  | Asserted
+ 2dd | 01/01/2000 | 00:20:01 | Processor #0x1c |  | Deasserted
+ 2de | 01/01/2000 | 00:20:02 | Processor #0x1c |  | Asserted
+ 2df | 01/01/2000 | 00:20:02 | Processor #0x1c |  | Deasserted
+ 2e0 | 01/01/2000 | 00:20:03 | Processor #0x1c |  | Asserted
+ 2e1 | 01/01/2000 | 00:20:03 | Processor #0x1c |  | Deasserted
+ 2e2 | 01/01/2000 | 00:20:04 | Processor #0x1c |  | Asserted
+ 2e3 | 01/01/2000 | 00:20:04 | Processor #0x1c |  | Deasserted
+ 2e4 | 01/01/2000 | 00:20:05 | Processor #0x1c |  | Asserted
+ 2e5 | 01/01/2000 | 00:20:05 | Processor #0x1c |  | Deasserted
+ 2e6 | 01/01/2000 | 00:20:05 | Processor #0x1c |  | Asserted
+ 2e7 | 01/01/2000 | 00:20:06 | Processor #0x1c |  | Deasserted
+ 2e8 | 01/01/2000 | 00:20:08 | Processor #0x1c |  | Asserted
+ 2e9 | 01/01/2000 | 00:20:08 | Processor #0x1c |  | Deasserted
+ 2ea | 01/01/2000 | 00:20:09 | Processor #0x1c |  | Asserted
+ 2eb | 01/01/2000 | 00:20:09 | Processor #0x1c |  | Deasserted
+ 2ec | 01/01/2000 | 00:20:09 | Processor #0x1c |  | Asserted
+ 2ed | 01/01/2000 | 00:20:09 | Processor #0x1c |  | Deasserted
+ 2ee | 01/01/2000 | 00:20:10 | Processor #0x1c |  | Asserted
+ 2ef | 01/01/2000 | 00:20:10 | Processor #0x1c |  | Deasserted
+ 2f0 | 01/01/2000 | 00:20:11 | Processor #0x1c |  | Asserted
+ 2f1 | 01/01/2000 | 00:20:11 | Processor #0x1c |  | Deasserted
+ 2f2 | 01/01/2000 | 00:20:12 | Processor #0x1c |  | Asserted
+ 2f3 | 01/01/2000 | 00:20:12 | Processor #0x1c |  | Deasserted
+ 2f4 | 01/01/2000 | 00:20:14 | Processor #0x1c |  | Asserted
+ 2f5 | 01/01/2000 | 00:20:14 | Processor #0x1c |  | Deasserted
+ 2f6 | 01/01/2000 | 00:20:14 | Processor #0x1c |  | Asserted
+ 2f7 | 01/01/2000 | 00:20:15 | Processor #0x1c |  | Deasserted
+ 2f8 | 01/01/2000 | 00:20:16 | Processor #0x1c |  | Asserted
+ 2f9 | 01/01/2000 | 00:20:16 | Processor #0x1c |  | Deasserted
+ 2fa | 01/01/2000 | 00:20:16 | Processor #0x1c |  | Asserted
+ 2fb | 01/01/2000 | 00:20:17 | Processor #0x1c |  | Deasserted
+ 2fc | 01/01/2000 | 00:20:18 | Processor #0x1c |  | Asserted
+ 2fd | 01/01/2000 | 00:20:18 | Processor #0x1c |  | Deasserted
+ 2fe | 01/01/2000 | 00:20:19 | Processor #0x1c |  | Asserted
+ 2ff | 01/01/2000 | 00:20:19 | Processor #0x1c |  | Deasserted
+ 300 | 01/01/2000 | 00:20:20 | Processor #0x1c |  | Asserted
+ 301 | 01/01/2000 | 00:20:21 | Processor #0x1c |  | Deasserted
+ 302 | 01/01/2000 | 00:20:21 | Processor #0x1c |  | Asserted
+ 303 | 01/01/2000 | 00:20:21 | Processor #0x1c |  | Deasserted
+ 304 | 01/01/2000 | 00:20:22 | Processor #0x1c |  | Asserted
+ 305 | 01/01/2000 | 00:20:22 | Processor #0x1c |  | Deasserted
+ 306 | 01/01/2000 | 00:20:23 | Processor #0x1c |  | Asserted
+ 307 | 01/01/2000 | 00:20:23 | Processor #0x1c |  | Deasserted
+ 308 | 01/01/2000 | 00:20:23 | Processor #0x1c |  | Deasserted
+ 309 | 01/01/2000 | 00:20:23 | Processor #0x1c |  | Asserted
+ 30a | 01/01/2000 | 00:20:24 | Processor #0x1c |  | Deasserted
+ 30b | 01/01/2000 | 00:20:27 | Processor #0x1c |  | Asserted
+ 30c | 01/01/2000 | 00:20:27 | Processor #0x1c |  | Deasserted
+ 30d | 01/01/2000 | 00:20:28 | Processor #0x1c |  | Asserted
+ 30e | 01/01/2000 | 00:20:29 | Processor #0x1c |  | Deasserted
+ 30f | 01/01/2000 | 00:20:30 | Processor #0x1c |  | Asserted
+ 310 | 01/01/2000 | 00:20:30 | Processor #0x1c |  | Deasserted
+ 311 | 01/01/2000 | 00:20:30 | Processor #0x1c |  | Asserted
+ 312 | 01/01/2000 | 00:20:30 | Processor #0x1c |  | Deasserted
+ 313 | 01/01/2000 | 00:20:31 | Processor #0x1c |  | Asserted
+ 314 | 01/01/2000 | 00:20:31 | Processor #0x1c |  | Deasserted
+ 315 | 01/01/2000 | 00:20:32 | Processor #0x1c |  | Asserted
+ 316 | 01/01/2000 | 00:20:33 | Processor #0x1c |  | Deasserted
+ 317 | 01/01/2000 | 00:20:34 | Processor #0x1c |  | Asserted
+ 318 | 01/01/2000 | 00:20:35 | Processor #0x1c |  | Deasserted
+ 319 | 01/01/2000 | 00:20:37 | Processor #0x1c |  | Asserted
+ 31a | 01/01/2000 | 00:20:38 | Processor #0x1c |  | Deasserted
+ 31b | 01/01/2000 | 00:20:38 | Processor #0x1c |  | Asserted
+ 31c | 01/01/2000 | 00:20:39 | Processor #0x1c |  | Deasserted
+ 31d | 01/01/2000 | 00:20:39 | Processor #0x1c |  | Asserted
+ 31e | 01/01/2000 | 00:20:40 | Processor #0x1c |  | Deasserted
+ 31f | 01/01/2000 | 00:20:40 | Processor #0x1c |  | Asserted
+ 320 | 01/01/2000 | 00:20:40 | Processor #0x1c |  | Deasserted
+ 321 | 01/01/2000 | 00:20:41 | Processor #0x1c |  | Asserted
+ 322 | 01/01/2000 | 00:20:41 | Processor #0x1c |  | Deasserted
+ 323 | 01/01/2000 | 00:20:42 | Processor #0x1c |  | Asserted
+ 324 | 01/01/2000 | 00:20:43 | Processor #0x1c |  | Deasserted
+ 325 | 01/01/2000 | 00:20:45 | Processor #0x1c |  | Asserted
+ 326 | 01/01/2000 | 00:20:45 | Processor #0x1c |  | Deasserted
+ 327 | 01/01/2000 | 00:20:45 | Processor #0x1c |  | Asserted
+ 328 | 01/01/2000 | 00:20:45 | Processor #0x1c |  | Deasserted
+ 329 | 01/01/2000 | 00:20:46 | Processor #0x1c |  | Asserted
+ 32a | 01/01/2000 | 00:20:46 | Processor #0x1c |  | Deasserted
+ 32b | 01/01/2000 | 00:20:47 | Processor #0x1c |  | Asserted
+ 32c | 01/01/2000 | 00:20:47 | Processor #0x1c |  | Deasserted
+ 32d | 01/01/2000 | 00:20:48 | Processor #0x1c |  | Asserted
+ 32e | 01/01/2000 | 00:20:48 | Processor #0x1c |  | Deasserted
+ 32f | 01/01/2000 | 00:20:50 | Processor #0x1c |  | Asserted
+ 330 | 01/01/2000 | 00:20:50 | Processor #0x1c |  | Deasserted
+ 331 | 01/01/2000 | 00:20:51 | Processor #0x1c |  | Asserted
+ 332 | 01/01/2000 | 00:20:51 | Processor #0x1c |  | Deasserted
+ 333 | 01/01/2000 | 00:20:51 | Processor #0x1c |  | Asserted
+ 334 | 01/01/2000 | 00:20:51 | Processor #0x1c |  | Deasserted
+ 335 | 01/01/2000 | 00:20:52 | Processor #0x1c |  | Asserted
+ 336 | 01/01/2000 | 00:20:52 | Processor #0x1c |  | Deasserted
+ 337 | 01/01/2000 | 00:20:52 | Processor #0x1c |  | Deasserted
+ 338 | 01/01/2000 | 00:20:52 | Processor #0x1c |  | Asserted
+ 339 | 01/01/2000 | 00:20:52 | Processor #0x1c |  | Deasserted
+ 33a | 01/01/2000 | 00:20:55 | Processor #0x1c |  | Asserted
+ 33b | 01/01/2000 | 00:20:55 | Processor #0x1c |  | Deasserted
+ 33c | 01/01/2000 | 00:20:56 | Processor #0x1c |  | Asserted
+ 33d | 01/01/2000 | 00:20:56 | Processor #0x1c |  | Deasserted
+ 33e | 01/01/2000 | 00:20:57 | Processor #0x1c |  | Asserted
+ 33f | 01/01/2000 | 00:20:58 | Processor #0x1c |  | Deasserted
+ 340 | 01/01/2000 | 00:20:58 | Processor #0x1c |  | Asserted
+ 341 | 01/01/2000 | 00:20:59 | Processor #0x1c |  | Deasserted
+ 342 | 01/01/2000 | 00:20:59 | Processor #0x1c |  | Asserted
+ 343 | 01/01/2000 | 00:21:00 | Processor #0x1c |  | Deasserted
+ 344 | 01/01/2000 | 00:21:01 | Processor #0x1c |  | Asserted
+ 345 | 01/01/2000 | 00:21:02 | Processor #0x1c |  | Deasserted
+ 346 | 01/01/2000 | 00:21:02 | Processor #0x1c |  | Deasserted
+ 347 | 01/01/2000 | 00:21:03 | Processor #0x1c |  | Asserted
+ 348 | 01/01/2000 | 00:21:03 | Processor #0x1c |  | Deasserted
+ 349 | 01/01/2000 | 00:21:04 | Processor #0x1c |  | Asserted
+ 34a | 01/01/2000 | 00:21:05 | Processor #0x1c |  | Deasserted
+ 34b | 01/01/2000 | 00:21:05 | Processor #0x1c |  | Asserted
+ 34c | 01/01/2000 | 00:21:05 | Processor #0x1c |  | Deasserted
+ 34d | 01/01/2000 | 00:21:06 | Processor #0x1c |  | Asserted
+ 34e | 01/01/2000 | 00:21:06 | Processor #0x1c |  | Deasserted
+ 34f | 01/01/2000 | 00:21:06 | Processor #0x1c |  | Asserted
+ 350 | 01/01/2000 | 00:21:07 | Processor #0x1c |  | Deasserted
+ 351 | 01/01/2000 | 00:21:07 | Processor #0x1c |  | Deasserted
+ 352 | 01/01/2000 | 00:21:07 | Processor #0x1c |  | Asserted
+ 353 | 01/01/2000 | 00:21:07 | Processor #0x1c |  | Deasserted
+ 354 | 01/01/2000 | 00:21:08 | Processor #0x1c |  | Asserted
+ 355 | 01/01/2000 | 00:21:08 | Processor #0x1c |  | Deasserted
+ 356 | 01/01/2000 | 00:21:09 | Processor #0x1c |  | Asserted
+ 357 | 01/01/2000 | 00:21:09 | Processor #0x1c |  | Deasserted
+ 358 | 01/01/2000 | 00:21:09 | Processor #0x1c |  | Deasserted
+ 359 | 01/01/2000 | 00:21:09 | Processor #0x1c |  | Asserted
+ 35a | 01/01/2000 | 00:21:10 | Processor #0x1c |  | Deasserted
+ 35b | 01/01/2000 | 00:21:11 | Processor #0x1c |  | Asserted
+ 35c | 01/01/2000 | 00:21:12 | Processor #0x1c |  | Deasserted
+ 35d | 01/01/2000 | 00:21:13 | Processor #0x1c |  | Asserted
+ 35e | 01/01/2000 | 00:21:14 | Processor #0x1c |  | Deasserted
+ 35f | 01/01/2000 | 00:21:14 | Processor #0x1c |  | Asserted
+ 360 | 01/01/2000 | 00:21:15 | Processor #0x1c |  | Deasserted
+ 361 | 01/01/2000 | 00:21:15 | Processor #0x1c |  | Asserted
+ 362 | 01/01/2000 | 00:21:16 | Processor #0x1c |  | Deasserted
+ 363 | 01/01/2000 | 00:21:16 | Processor #0x1c |  | Asserted
+ 364 | 01/01/2000 | 00:21:16 | Processor #0x1c |  | Deasserted
+ 365 | 01/01/2000 | 00:21:17 | Processor #0x1c |  | Asserted
+ 366 | 01/01/2000 | 00:21:17 | Processor #0x1c |  | Deasserted
+ 367 | 01/01/2000 | 00:21:18 | Processor #0x1c |  | Asserted
+ 368 | 01/01/2000 | 00:21:18 | Processor #0x1c |  | Deasserted
+ 369 | 01/01/2000 | 00:21:18 | Processor #0x1c |  | Asserted
+ 36a | 01/01/2000 | 00:21:19 | Processor #0x1c |  | Deasserted
+ 36b | 01/01/2000 | 00:21:19 | Processor #0x1c |  | Asserted
+ 36c | 01/01/2000 | 00:21:19 | Processor #0x1c |  | Deasserted
+ 36d | 01/01/2000 | 00:21:22 | Processor #0x1c |  | Asserted
+ 36e | 01/01/2000 | 00:21:23 | Processor #0x1c |  | Deasserted
+ 36f | 01/01/2000 | 00:21:23 | Processor #0x1c |  | Asserted
+ 370 | 01/01/2000 | 00:21:23 | Processor #0x1c |  | Deasserted
+ 371 | 01/01/2000 | 00:21:26 | Processor #0x1c |  | Asserted
+ 372 | 01/01/2000 | 00:21:26 | Processor #0x1c |  | Deasserted
+ 373 | 01/01/2000 | 00:21:27 | Processor #0x1c |  | Asserted
+ 374 | 01/01/2000 | 00:21:27 | Processor #0x1c |  | Deasserted
+ 375 | 01/01/2000 | 00:21:28 | Processor #0x1c |  | Asserted
+ 376 | 01/01/2000 | 00:21:28 | Processor #0x1c |  | Deasserted
+ 377 | 01/01/2000 | 00:21:28 | Processor #0x1c |  | Deasserted
+ 378 | 01/01/2000 | 00:21:29 | Processor #0x1c |  | Asserted
+ 379 | 01/01/2000 | 00:21:29 | Processor #0x1c |  | Deasserted
+ 37a | 01/01/2000 | 00:21:30 | Processor #0x1c |  | Asserted
+ 37b | 01/01/2000 | 00:21:30 | Processor #0x1c |  | Deasserted
+ 37c | 01/01/2000 | 00:21:31 | Processor #0x1c |  | Asserted
+ 37d | 01/01/2000 | 00:21:31 | Processor #0x1c |  | Deasserted
+ 37e | 01/01/2000 | 00:21:31 | Processor #0x1c |  | Asserted
+ 37f | 01/01/2000 | 00:21:31 | Processor #0x1c |  | Deasserted
+ 380 | 01/01/2000 | 00:21:33 | Processor #0x1c |  | Asserted
+ 381 | 01/01/2000 | 00:21:33 | Processor #0x1c |  | Deasserted
+ 382 | 01/01/2000 | 00:21:35 | Processor #0x1c |  | Asserted
+ 383 | 01/01/2000 | 00:21:36 | Processor #0x1c |  | Deasserted
+ 384 | 01/01/2000 | 00:21:37 | Processor #0x1c |  | Asserted
+ 385 | 01/01/2000 | 00:21:37 | Processor #0x1c |  | Deasserted
+ 386 | 01/01/2000 | 00:21:38 | Processor #0x1c |  | Asserted
+ 387 | 01/01/2000 | 00:21:38 | Processor #0x1c |  | Deasserted
+ 388 | 01/01/2000 | 00:21:39 | Processor #0x1c |  | Asserted
+ 389 | 01/01/2000 | 00:21:39 | Processor #0x1c |  | Deasserted
+ 38a | 01/01/2000 | 00:21:41 | Processor #0x1c |  | Asserted
+ 38b | 01/01/2000 | 00:21:42 | Processor #0x1c |  | Deasserted
+ 38c | 01/01/2000 | 00:21:42 | Processor #0x1c |  | Asserted
+ 38d | 01/01/2000 | 00:21:43 | Processor #0x1c |  | Deasserted
+ 38e | 01/01/2000 | 00:21:44 | Processor #0x1c |  | Asserted
+ 38f | 01/01/2000 | 00:21:44 | Processor #0x1c |  | Deasserted
+ 390 | 01/01/2000 | 00:21:47 | Processor #0x1c |  | Asserted
+ 391 | 01/01/2000 | 00:21:47 | Processor #0x1c |  | Deasserted
+ 392 | 01/01/2000 | 00:21:48 | Processor #0x1c |  | Asserted
+ 393 | 01/01/2000 | 00:21:48 | Processor #0x1c |  | Deasserted
+ 394 | 01/01/2000 | 00:21:48 | Processor #0x1c |  | Deasserted
+ 395 | 01/01/2000 | 00:21:48 | Processor #0x1c |  | Asserted
+ 396 | 01/01/2000 | 00:21:49 | Processor #0x1c |  | Deasserted
+ 397 | 01/01/2000 | 00:21:51 | Processor #0x1c |  | Asserted
+ 398 | 01/01/2000 | 00:21:51 | Processor #0x1c |  | Deasserted
+ 399 | 01/01/2000 | 00:21:52 | Processor #0x1c |  | Asserted
+ 39a | 01/01/2000 | 00:21:52 | Processor #0x1c |  | Deasserted
+ 39b | 01/01/2000 | 00:21:54 | Processor #0x1c |  | Asserted
+ 39c | 01/01/2000 | 00:21:54 | Processor #0x1c |  | Deasserted
+ 39d | 01/01/2000 | 00:21:54 | Processor #0x1c |  | Asserted
+ 39e | 01/01/2000 | 00:21:55 | Processor #0x1c |  | Deasserted
+ 39f | 01/01/2000 | 00:21:55 | Processor #0x1c |  | Asserted
+ 3a0 | 01/01/2000 | 00:21:55 | Processor #0x1c |  | Deasserted
+ 3a1 | 01/01/2000 | 00:21:56 | Processor #0x1c |  | Asserted
+ 3a2 | 01/01/2000 | 00:21:57 | Processor #0x1c |  | Deasserted
+ 3a3 | 01/01/2000 | 00:21:57 | Processor #0x1c |  | Asserted
+ 3a4 | 01/01/2000 | 00:21:57 | Processor #0x1c |  | Asserted
+ 3a5 | 01/01/2000 | 00:21:57 | Processor #0x1c |  | Deasserted
+ 3a6 | 01/01/2000 | 00:21:58 | Processor #0x1c |  | Asserted
+ 3a7 | 01/01/2000 | 00:21:59 | Processor #0x1c |  | Deasserted
+ 3a8 | 01/01/2000 | 00:21:59 | Processor #0x1c |  | Asserted
+ 3a9 | 01/01/2000 | 00:22:00 | Processor #0x1c |  | Deasserted
+ 3aa | 01/01/2000 | 00:22:00 | Processor #0x1c |  | Deasserted
+ 3ab | 01/01/2000 | 00:22:00 | Processor #0x1c |  | Asserted
+ 3ac | 01/01/2000 | 00:22:00 | Processor #0x1c |  | Deasserted
+ 3ad | 01/01/2000 | 00:22:01 | Processor #0x1c |  | Asserted
+ 3ae | 01/01/2000 | 00:22:02 | Processor #0x1c |  | Deasserted
+ 3af | 01/01/2000 | 00:22:03 | Processor #0x1c |  | Asserted
+ 3b0 | 01/01/2000 | 00:22:03 | Processor #0x1c |  | Deasserted
+ 3b1 | 01/01/2000 | 00:22:04 | Processor #0x1c |  | Asserted
+ 3b2 | 01/01/2000 | 00:22:04 | Processor #0x1c |  | Deasserted
+ 3b3 | 01/01/2000 | 00:22:04 | Processor #0x1c |  | Deasserted
+ 3b4 | 01/01/2000 | 00:22:05 | Processor #0x1c |  | Asserted
+ 3b5 | 01/01/2000 | 00:22:05 | Processor #0x1c |  | Deasserted
+ 3b6 | 01/01/2000 | 00:22:06 | Processor #0x1c |  | Asserted
+ 3b7 | 01/01/2000 | 00:22:06 | Processor #0x1c |  | Deasserted
+ 3b8 | 01/01/2000 | 00:22:07 | Processor #0x1c |  | Asserted
+ 3b9 | 01/01/2000 | 00:22:07 | Processor #0x1c |  | Asserted
+ 3ba | 01/01/2000 | 00:22:08 | Processor #0x1c |  | Deasserted
+ 3bb | 01/01/2000 | 00:22:09 | Processor #0x1c |  | Asserted
+ 3bc | 01/01/2000 | 00:22:09 | Processor #0x1c |  | Deasserted
+ 3bd | 01/01/2000 | 00:22:10 | Processor #0x1c |  | Asserted
+ 3be | 01/01/2000 | 00:22:10 | Processor #0x1c |  | Deasserted
+ 3bf | 01/01/2000 | 00:22:12 | Processor #0x1c |  | Asserted
+ 3c0 | 01/01/2000 | 00:22:12 | Processor #0x1c |  | Deasserted
+ 3c1 | 01/01/2000 | 00:22:12 | Processor #0x1c |  | Asserted
+ 3c2 | 01/01/2000 | 00:22:12 | Processor #0x1c |  | Deasserted
+ 3c3 | 01/01/2000 | 00:22:13 | Processor #0x1c |  | Asserted
+ 3c4 | 01/01/2000 | 00:22:13 | Processor #0x1c |  | Asserted
+ 3c5 | 01/01/2000 | 00:22:13 | Processor #0x1c |  | Deasserted
+ 3c6 | 01/01/2000 | 00:22:16 | Processor #0x1c |  | Asserted
+ 3c7 | 01/01/2000 | 00:22:16 | Processor #0x1c |  | Deasserted
+ 3c8 | 01/01/2000 | 00:22:16 | Processor #0x1c |  | Asserted
+ 3c9 | 01/01/2000 | 00:22:17 | Processor #0x1c |  | Deasserted
+ 3ca | 01/01/2000 | 00:22:17 | Processor #0x1c |  | Asserted
+ 3cb | 01/01/2000 | 00:22:17 | Processor #0x1c |  | Deasserted
+ 3cc | 01/01/2000 | 00:22:19 | Processor #0x1c |  | Asserted
+ 3cd | 01/01/2000 | 00:22:20 | Processor #0x1c |  | Deasserted
+ 3ce | 01/01/2000 | 00:22:20 | Processor #0x1c |  | Asserted
+ 3cf | 01/01/2000 | 00:22:20 | Processor #0x1c |  | Deasserted
+ 3d0 | 01/01/2000 | 00:22:21 | Processor #0x1c |  | Asserted
+ 3d1 | 01/01/2000 | 00:22:21 | Processor #0x1c |  | Deasserted
+ 3d2 | 01/01/2000 | 00:22:22 | Processor #0x1c |  | Asserted
+ 3d3 | 01/01/2000 | 00:22:23 | Processor #0x1c |  | Deasserted
+ 3d4 | 01/01/2000 | 00:22:23 | Processor #0x1c |  | Asserted
+ 3d5 | 01/01/2000 | 00:22:23 | Processor #0x1c |  | Deasserted
+ 3d6 | 01/01/2000 | 00:22:26 | Processor #0x1c |  | Asserted
+ 3d7 | 01/01/2000 | 00:22:26 | Processor #0x1c |  | Deasserted
+ 3d8 | 01/01/2000 | 00:22:26 | Processor #0x1c |  | Asserted
+ 3d9 | 01/01/2000 | 00:22:26 | Processor #0x1c |  | Deasserted
+ 3da | 01/01/2000 | 00:22:27 | Processor #0x1c |  | Asserted
+ 3db | 01/01/2000 | 00:22:27 | Processor #0x1c |  | Deasserted
+ 3dc | 01/01/2000 | 00:22:29 | Processor #0x1c |  | Asserted
+ 3dd | 01/01/2000 | 00:22:29 | Processor #0x1c |  | Deasserted
+ 3de | 01/01/2000 | 00:22:30 | Processor #0x1c |  | Asserted
+ 3df | 01/01/2000 | 00:22:31 | Processor #0x1c |  | Deasserted
+ 3e0 | 01/01/2000 | 00:22:32 | Processor #0x1c |  | Asserted
+ 3e1 | 01/01/2000 | 00:22:32 | Processor #0x1c |  | Deasserted
+ 3e2 | 01/01/2000 | 00:22:35 | Processor #0x1c |  | Asserted
+ 3e3 | 01/01/2000 | 00:22:35 | Processor #0x1c |  | Deasserted
+ 3e4 | 01/01/2000 | 00:22:37 | Processor #0x1c |  | Asserted
+ 3e5 | 01/01/2000 | 00:22:37 | Processor #0x1c |  | Deasserted
+ 3e6 | 01/01/2000 | 00:22:38 | Processor #0x1c |  | Asserted
+ 3e7 | 01/01/2000 | 00:22:38 | Processor #0x1c |  | Deasserted
+ 3e8 | 01/01/2000 | 00:22:40 | Processor #0x1c |  | Asserted
+ 3e9 | 01/01/2000 | 00:22:40 | Processor #0x1c |  | Deasserted
+ 3ea | 01/01/2000 | 00:22:40 | Processor #0x1c |  | Asserted
+ 3eb | 01/01/2000 | 00:22:40 | Processor #0x1c |  | Deasserted
+ 3ec | 01/01/2000 | 00:22:41 | Processor #0x1c |  | Asserted
+ 3ed | 01/01/2000 | 00:22:41 | Processor #0x1c |  | Deasserted
+ 3ee | 01/01/2000 | 00:22:42 | Processor #0x1c |  | Asserted
+ 3ef | 01/01/2000 | 00:22:42 | Processor #0x1c |  | Deasserted
+ 3f0 | 01/01/2000 | 00:22:42 | Processor #0x1c |  | Asserted
+ 3f1 | 01/01/2000 | 00:22:42 | Processor #0x1c |  | Deasserted
+ 3f2 | 01/01/2000 | 00:22:43 | Processor #0x1c |  | Asserted
+ 3f3 | 01/01/2000 | 00:22:43 | Processor #0x1c |  | Deasserted
+ 3f4 | 01/01/2000 | 00:22:45 | Processor #0x1c |  | Asserted
+ 3f5 | 01/01/2000 | 00:22:45 | Processor #0x1c |  | Deasserted
+ 3f6 | 01/01/2000 | 00:22:45 | Processor #0x1c |  | Asserted
+ 3f7 | 01/01/2000 | 00:22:45 | Processor #0x1c |  | Deasserted
+ 3f8 | 01/01/2000 | 00:22:46 | Processor #0x1c |  | Asserted
+ 3f9 | 01/01/2000 | 00:22:46 | Processor #0x1c |  | Deasserted
+ 3fa | 01/01/2000 | 00:22:47 | Processor #0x1c |  | Asserted
+ 3fb | 01/01/2000 | 00:22:48 | Processor #0x1c |  | Deasserted
+ 3fc | 01/01/2000 | 00:22:48 | Processor #0x1c |  | Asserted
+ 3fd | 01/01/2000 | 00:22:48 | Processor #0x1c |  | Deasserted
+ 3fe | 01/01/2000 | 00:22:49 | Processor #0x1c |  | Asserted
+ 3ff | 01/01/2000 | 00:22:49 | Processor #0x1c |  | Deasserted
+ 400 | 01/01/2000 | 00:22:49 | Processor #0x1c |  | Asserted
+ 401 | 01/01/2000 | 00:22:50 | Processor #0x1c |  | Deasserted
+ 402 | 01/01/2000 | 00:22:50 | Processor #0x1c |  | Asserted
+ 403 | 01/01/2000 | 00:22:51 | Processor #0x1c |  | Deasserted
+ 404 | 01/01/2000 | 00:22:52 | Processor #0x1c |  | Asserted
+ 405 | 01/01/2000 | 00:22:52 | Processor #0x1c |  | Deasserted
+ 406 | 01/01/2000 | 00:22:53 | Processor #0x1c |  | Asserted
+ 407 | 01/01/2000 | 00:22:53 | Processor #0x1c |  | Deasserted
+ 408 | 01/01/2000 | 00:22:53 | Processor #0x1c |  | Asserted
+ 409 | 01/01/2000 | 00:22:54 | Processor #0x1c |  | Deasserted
+ 40a | 01/01/2000 | 00:22:54 | Processor #0x1c |  | Asserted
+ 40b | 01/01/2000 | 00:22:54 | Processor #0x1c |  | Deasserted
+ 40c | 01/01/2000 | 00:22:55 | Processor #0x1c |  | Asserted
+ 40d | 01/01/2000 | 00:22:56 | Processor #0x1c |  | Deasserted
+ 40e | 01/01/2000 | 00:22:56 | Temperature CPU_0_PECI_TEMP | Upper Critical going high | Deasserted | Reading 101 > Threshold 103 degrees C
+ 40f | 01/01/2000 | 00:22:56 | Temperature CPU_0_DTS_TEMP | Upper Critical going high | Deasserted | Reading -3 > Threshold -1 degrees C
+ 410 | 01/01/2000 | 00:24:03 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+ 411 | 01/01/2000 | 00:24:04 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 412 | 01/01/2000 | 00:24:04 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+ 413 | 01/01/2000 | 00:24:14 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 414 | 01/01/2000 | 00:24:15 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 415 | 01/01/2000 | 00:24:15 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 416 | 01/01/2000 | 00:24:15 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 417 | 01/01/2000 | 00:24:16 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+ 418 | 01/01/2000 | 00:24:16 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 419 | 01/01/2000 | 00:24:16 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 41a | 01/01/2000 | 00:24:27 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 41b |  Pre-Init  |0028108092| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 41c |  Pre-Init  |0028108118| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+ 41d |  Pre-Init  |0028108118| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+ 41e |  Pre-Init  |0028108119| OEM record d0 | 000001 | 010000000000
+ 41f |  Pre-Init  |0028108122| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 420 |  Pre-Init  |0028108157| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 421 |  Pre-Init  |0028108157| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 422 |  Pre-Init  |0028108158| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 49 < Threshold 85 percent
+ 423 |  Pre-Init  |0028108160| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 424 |  Pre-Init  |0028108183| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+ 425 |  Pre-Init  |0028108183| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+ 426 |  Pre-Init  |0028108187| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 427 |  Pre-Init  |0028108221| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 428 |  Pre-Init  |0028108223| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 429 |  Pre-Init  |0028108261| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 42a |  Pre-Init  |0028108261| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 42b |  Pre-Init  |0028108261| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 42c |  Pre-Init  |0028108261| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 42d |  Pre-Init  |0028108261| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 42e |  Pre-Init  |0028108262| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 42f |  Pre-Init  |0028108262| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 430 |  Pre-Init  |0028108262| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 431 |  Pre-Init  |0028108262| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 432 |  Pre-Init  |0028108262| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 433 |  Pre-Init  |0028108263| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 434 |  Pre-Init  |0028108263| Fan SYS_FAN_6A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 435 |  Pre-Init  |0028108263| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 436 |  Pre-Init  |0028108263| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 437 |  Pre-Init  |0028108268| System Event END_OF_POST | OEM System boot event | Asserted
+ 438 |  Pre-Init  |0028108268| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+ 439 |  Pre-Init  |0028108332| Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 5278 < Threshold 1001 RPM
+ 43a |  Pre-Init  |0028108332| Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 7826 < Threshold 1001 RPM
+ 43b |  Pre-Init  |0028108332| Fan SYS_FAN_3A | Lower Critical going low  | Deasserted | Reading 4277 < Threshold 1001 RPM
+ 43c |  Pre-Init  |0028108332| Fan SYS_FAN_3B | Lower Critical going low  | Deasserted | Reading 4823 < Threshold 1001 RPM
+ 43d |  Pre-Init  |0028108333| Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 12012 < Threshold 1001 RPM
+ 43e |  Pre-Init  |0028108333| Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 12194 < Threshold 1001 RPM
+ 43f |  Pre-Init  |0028108333| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 8645 < Threshold 1001 RPM
+ 440 |  Pre-Init  |0028108335| Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 21021 < Threshold 1001 RPM
+ 441 |  Pre-Init  |0028108335| Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 21203 < Threshold 1001 RPM
+ 442 |  Pre-Init  |0028108335| Fan SYS_FAN_7A | Lower Critical going low  | Deasserted | Reading 12376 < Threshold 1001 RPM
+ 443 |  Pre-Init  |0028108335| Fan SYS_FAN_7B | Lower Critical going low  | Deasserted | Reading 12376 < Threshold 1001 RPM
+ 444 |  Pre-Init  |0028108336| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 12467 < Threshold 1001 RPM
+ 445 |  Pre-Init  |0028108337| Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 12740 < Threshold 1001 RPM
+ 446 |  Pre-Init  |0028108337| Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 11284 < Threshold 1001 RPM
+ 447 |  Pre-Init  |0028108339| Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 12922 < Threshold 1001 RPM
+ 448 |  Pre-Init  |0028108342| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 449 |  Pre-Init  |0028108344| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 13013 < Threshold 1001 RPM
+ 44a |  Pre-Init  |0028108383| Fan SYS_FAN_6B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 44b |  Pre-Init  |0028108384| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+ 44c |  Pre-Init  |0028108384| Microcontroller/Coprocessor #0x16 | Transition to Power Off | Asserted
+ 44d |  Pre-Init  |0028108384| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+ 44e |  Pre-Init  |0028108384| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 44f | 01/01/2000 | 00:30:03 | Management Subsystem Health BMC_INIT | Controller access degraded or unavailable | Deasserted
+ 450 | 01/01/2000 | 00:30:04 | Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 451 | 01/01/2000 | 00:30:04 | Processor BMC_CPU_Util | Upper Non-critical going high | Asserted | Reading 93 > Threshold 85 percent
+ 452 | 01/01/2000 | 00:30:15 | System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 453 | 01/01/2000 | 00:30:16 | Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 454 | 01/01/2000 | 00:30:16 | Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 455 | 01/01/2000 | 00:30:16 | Cooling Device CPU1_PUMP_RPM_1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 456 | 01/01/2000 | 00:30:17 | Microcontroller/Coprocessor #0x16 | Transition to Running | Asserted
+ 457 | 01/01/2000 | 00:30:17 | Fan SYS_FAN_8A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 458 | 01/01/2000 | 00:30:17 | Fan SYS_FAN_8B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 459 | 01/01/2000 | 00:30:49 | System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 45a |  Pre-Init  |0028108474| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 45b |  Pre-Init  |0028108480| Fan SYS_FAN_10B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 45c |  Pre-Init  |0028108480| OEM record d0 | 000001 | 010000000000
+ 45d |  Pre-Init  |0028108500| System ACPI Power State ACPI_POWER_STATE | S5/G2: soft-off | Asserted
+ 45e |  Pre-Init  |0028108500| Power Unit PWR_UNIT_STATUS | Power off/down | Asserted
+ 45f |  Pre-Init  |0028108504| Processor BMC_CPU_Util | Upper Non-critical going low  | Asserted | Reading 54 < Threshold 85 percent
+ 460 |  Pre-Init  |0028108505| System ACPI Power State ACPI_POWER_STATE | S0/G0: working | Asserted
+ 461 |  Pre-Init  |0028108539| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 462 |  Pre-Init  |0028108540| System Event TIMESTAMP_SYNC | Timestamp Clock Sync | Asserted
+ 463 |  Pre-Init  |0028108577| Fan SYS_FAN_0A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 464 |  Pre-Init  |0028108577| Fan SYS_FAN_1A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 465 |  Pre-Init  |0028108577| Fan SYS_FAN_1B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 466 |  Pre-Init  |0028108578| Fan SYS_FAN_2A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 467 |  Pre-Init  |0028108578| Fan SYS_FAN_2B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 468 |  Pre-Init  |0028108578| Fan SYS_FAN_3A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 469 |  Pre-Init  |0028108578| Fan SYS_FAN_3B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 46a |  Pre-Init  |0028108578| Fan SYS_FAN_4A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 46b |  Pre-Init  |0028108578| Fan SYS_FAN_4B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 46c |  Pre-Init  |0028108578| Fan SYS_FAN_5A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 46d |  Pre-Init  |0028108578| Fan SYS_FAN_5B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 46e |  Pre-Init  |0028108579| Fan SYS_FAN_7A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 46f |  Pre-Init  |0028108579| Fan SYS_FAN_7B | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 470 |  Pre-Init  |0028108579| Fan SYS_FAN_10A | Lower Critical going low  | Asserted | Reading 0 < Threshold 1001 RPM
+ 471 |  Pre-Init  |0028108584| Fan SYS_FAN_0A | Lower Critical going low  | Deasserted | Reading 7280 < Threshold 1001 RPM
+ 472 |  Pre-Init  |0028108594| System Event END_OF_POST | OEM System boot event | Asserted
+ 473 |  Pre-Init  |0028108594| System Boot Initiated SYSRESTARTCAUSE | System Restart | Asserted
+ 474 |  Pre-Init  |0028108653| Fan SYS_FAN_2A | Lower Critical going low  | Deasserted | Reading 5551 < Threshold 1001 RPM
+ 475 |  Pre-Init  |0028108653| Fan SYS_FAN_2B | Lower Critical going low  | Deasserted | Reading 8008 < Threshold 1001 RPM
+ 476 |  Pre-Init  |0028108655| Fan SYS_FAN_1A | Lower Critical going low  | Deasserted | Reading 11557 < Threshold 1001 RPM
+ 477 |  Pre-Init  |0028108655| Fan SYS_FAN_1B | Lower Critical going low  | Deasserted | Reading 11921 < Threshold 1001 RPM
+ 478 |  Pre-Init  |0028108656| Fan SYS_FAN_7A | Lower Critical going low  | Deasserted | Reading 13650 < Threshold 1001 RPM
+ 479 |  Pre-Init  |0028108656| Fan SYS_FAN_7B | Lower Critical going low  | Deasserted | Reading 13832 < Threshold 1001 RPM
+ 47a |  Pre-Init  |0028108656| Fan SYS_FAN_8A | Lower Critical going low  | Deasserted | Reading 14378 < Threshold 1001 RPM
+ 47b |  Pre-Init  |0028108656| Fan SYS_FAN_8B | Lower Critical going low  | Deasserted | Reading 14469 < Threshold 1001 RPM
+ 47c |  Pre-Init  |0028108657| Fan SYS_FAN_10B | Lower Critical going low  | Deasserted | Reading 13195 < Threshold 1001 RPM
+ 47d |  Pre-Init  |0028108658| Cooling Device CPU0_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 12740 < Threshold 1001 RPM
+ 47e |  Pre-Init  |0028108658| Cooling Device CPU0_PUMP_RPM_1 | Lower Critical going low  | Deasserted | Reading 12649 < Threshold 1001 RPM
+ 47f |  Pre-Init  |0028108658| Cooling Device CPU1_PUMP_RPM_0 | Lower Critical going low  | Deasserted | Reading 9919 < Threshold 1001 RPM
+ 480 |  Pre-Init  |0028108659| Fan SYS_FAN_3A | Lower Critical going low  | Deasserted | Reading 14560 < Threshold 1001 RPM
+ 481 |  Pre-Init  |0028108659| Fan SYS_FAN_3B | Lower Critical going low  | Deasserted | Reading 14560 < Threshold 1001 RPM
+ 482 |  Pre-Init  |0028108663| Fan SYS_FAN_10A | Lower Critical going low  | Deasserted | Reading 2457 < Threshold 1001 RPM
+19:34:26.85 Total Bmc Log Abnormal Message = 0
+19:34:26.85 Fault Message = 0
+19:34:26.85 Warning Message = 0
+19:34:26.85 Failed Message = 0
+19:34:26.85 ##############################################################
+19:34:26.85 Section: Bmc Sel Clear
+19:34:26.85 Send = ipmitool sel clear
+19:34:26.85 Rece = 
+Clearing SEL.  Please allow a few seconds to erase.
+19:34:27.21 TestChk => PASS: Bmc Sel Clear
+19:34:29.13 ##############################################################
+Cannonball BFT: PASS

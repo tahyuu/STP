@@ -1,0 +1,93 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Serial Port Test</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?serial_test.htm"; }
+  else { parent.quicksync('a6.9'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Serial Port Test</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="parallel_test.htm">Previous</a>&nbsp;
+     <a href="usb_test.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>Tests the serial communications ports connected to the PC. Up to 64 serial ports may be tested simultaneously. The serial ports and test speed can be selected from the Test Preferences window (see <a href="serial_port_preferences.htm">Serial port preferences</a>).</p>
+<p>&nbsp;</p>
+<p>A serial port loop back plug per port is required to run this test. These can be purchased from the PassMark web site (www.passmark.com) or you can make them yourself (see <a href="serial_port_loopback_plug.htm">Making Loopback plugs</a>).</p>
+<p>&nbsp;</p>
+<div><div style="float:left;width:299px;padding:0px"><img src="serialloopback.jpg" width="299" height="169" border="0" alt="Serial loopback plug" title="Serial loopback plug"><p style="text-align:center"><span >Serial loopback plug</span></p></div></div>
+<p>&nbsp;</p>
+<p>Each test cycle corresponds to about 10 seconds of data transmission followed by a signal pin test phase. The signal pin test phase checks that the following pins on the serial port are functioning correctly.</p>
+<p>RTS – Request to Send</p>
+<p>CTS - Clear to Send</p>
+<p>DTR – Data terminal ready</p>
+<p>DSR – Data set ready</p>
+<p>&nbsp;</p>
+<p>The number of ‘ops’ corresponds to the number of bytes sent and received. The duty cycle affects the time spent waiting between cycles.</p>
+<p>&nbsp;</p>
+<p>The serial port selected must not already be in use by the operating system (for example by the mouse or an active modem), for the test to be carried out.</p>
+<p>&nbsp;</p>
+<p>The speed that the serial port operates at is independent from the modem speeds. Even if you have a 56Kbit/s modem your serial port may operate at a higher speed. The maximum serial port speed depends on the type of chip installed on your motherboard. Most PCs will only do up to 115Kbit/s, so don’t be alarmed if the test fails at 128Kbit/s or above.</p>
+<p>&nbsp;</p>
+<p>If the “detect only” option was selected in the preferences window then the loopback test will not be performed. The presence of the serial port in the system will still be checked for however.</p>
+<p>&nbsp;</p>
+<p>The following information is displayed for each port being tested.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Serial Port</span></p>
+<p>This is the name for the serial port being tested. The port can be selected from the Test Preferences window. Any port between /dev/ttys0 and /dev/ttyS63 is supported. </p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Speed</span></p>
+<p>This is speed that the serial port is configured for. The speed can be selected from the Test Preferences window.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Bytes Sent</span></p>
+<p>This is the number of bytes that have been sent to the serial port.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Bytes Received</span></p>
+<p>This is the number of bytes that have received from the serial port.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Errors</span></p>
+<p>This is the number of errors detected (see Appendix C, p.48).</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Throughput</span></p>
+<p>This is the real measured throughput for the port. This will generally be less than the Speed (see above) as there is some overhead in the code and in the data transmission itself (e.g. Stop bits).</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Compatibility issues</span></p>
+<p>You need to have administrator privileges to run this test.</p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+<p><span style="color: #000000;">&nbsp;</span></p>
+
+</td></tr></table>
+
+</body>
+</html>

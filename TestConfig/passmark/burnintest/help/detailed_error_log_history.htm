@@ -1,0 +1,90 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Detailed Error log history</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?detailed_error_log_history.htm"; }
+  else { parent.quicksync('a9.2'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Detailed Error log history</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="test_window_display.htm">Previous</a>&nbsp;
+     <a href="menu_options.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>The detailed error log history can be opened from the ‘View / Error log file’ menu. It contains a record of recent errors and status messages that have occurred during a test run. It is possible to save a copy of this log of recent history using the ‘File / Save test log’ menu item.</p>
+<p>&nbsp;</p>
+<p>The log can contain up to 1000 messages. After 1000, the oldest messages are overwritten by the newer ones. The log window is updated in real time and can left open while a test run is in progress.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Time stamp</span></p>
+<p>The time stamp records the time when the event occurred. The format is, YYYY-MM-DD HH:MM:SS</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Test type</span></p>
+<p>The test type refers t the name of the test which originated the event. Examples are, “RAM”, Floppy Disk”. The word “Status”, indicated that the event is not an error but just a status message.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Error Classification</span></p>
+<p>Where logging records an error, the severity of this error (CRITICAL, SERIOUS, WARNING or INFORMATION) is logged. Where an informational line (related to this error) follows the error line, the error classification is not repeated (to aid determination of the number of unique errors per classification).</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Details</span></p>
+<p>This is a text field that contains additional information about the error (or status message). See Appendix C for a description of the errors that may be encountered. In some cases a log entry may be spread across two lines. The 1st line will contain some general information about the error and the 2nd line will contain more detail.</p>
+<p>&nbsp;</p>
+<p>Some error messages may contain internal program variables (and thus be fair cryptic). These are not always intended to be interpreted by the user can but help us track down faults in our software.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Configuring Error Classifications</span></p>
+<p>Each of the standard errors detected by BurnInTest can configured to include a customer specific string and error classification. The file BITErrorClassification.txt (in the software directory) contains the error text and classification used by BurnInTest. </p>
+<p>&nbsp;</p>
+<p>The file is formatted as a Comma Separated File with four fields:</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">1.</span></td><td>Error number – this must not be changed by the customer;</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">2.</span></td><td>Error description text – this may be changed. This must be a sting enclosed by quotes;</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">3.</span></td><td>Error classification – this may be changed. This must be one of the following text values (not in quotes): </td></tr></table></div><p>CRITICAL, SERIOUS, WARNING, or INFORMATION </p>
+<p>A number of errors may be configured to be ignored (not reported as errors), as they may be considered ‘below the radar’. These are configured by setting the Error classification to NONE. These are:</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>138,"Warning: Could not lock parallel port",WARNING,PP</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>146,"Frame could not be displayed and was skipped",INFORMATION,</td></tr></table></div><div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="13"><span style="font-size: 10pt; font-family: 'Arial Unicode MS', 'Lucida Sans Unicode', 'Arial'; color: #000000;">&#8226;</span></td><td>182,"Video Playback is dropping samples",WARNING,</td></tr></table></div><p>Other errors may not be configured to be ignored in this way.</p>
+<p>&nbsp;</p>
+<div style="text-align: left; text-indent: 0px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><table border="0" cellpadding="0" cellspacing="0" style="line-height: normal;"><tr style="vertical-align:baseline" valign="baseline"><td width="15"><span style="font-size: 10pt; font-family: 'Arial'; color: #000000;">4.</span></td><td>Customer comment – this is optional and may be changed – it is ignored by BurnInTest.</td></tr></table></div><p>&nbsp;</p>
+<p>Comment lines may be inserted by using a “#” at the start of the line. These lines will be ignored by BurnInTest.</p>
+<p>&nbsp;</p>
+<p>An example is shown below:</p>
+<p>&nbsp;</p>
+<p># PassMark BurnInTest,,,</p>
+<p># Error message text and classification,,,</p>
+<p>0,"No errors",NONE,</p>
+<p>1,"Incorrect mathematical addition",SERIOUS,</p>
+<p>2,"Incorrect mathematical subtraction",SERIOUS,</p>
+<p>3,"Incorrect mathematical division",SERIOUS,</p>
+<p>4,"Incorrect mathematical multiply",SERIOUS,</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+
+</body>
+</html>

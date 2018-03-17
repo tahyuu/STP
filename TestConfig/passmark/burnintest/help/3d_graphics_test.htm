@@ -1,0 +1,67 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>3D Graphics Test</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?3d_graphics_test.htm"; }
+  else { parent.quicksync('a6.2'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">3D Graphics Test</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="2d_graphics_tests.htm">Previous</a>&nbsp;
+     <a href="cd_rom_and_dvd_test.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>Tests the OpenGL's graphics system.</p>
+<p>&nbsp;</p>
+<p>This test creates and animates an OpenGL depth buffer with RGBA or color index mode and double buffering capabilities (for off-screen rendering for smoother graphics) to test the OpenGL functionality of the video card and it’s OpenGL capabilities.</p>
+<p>The test creates 5 spheres. Each sphere contains 32 ‘slices’ and 32 ‘segments’. Making a total of 2*32*32*5 = 10240 triangular polygons rendered for each scene.</p>
+<p>&nbsp;</p>
+<p>For the 3D test a cycle is defined to be 200 frames of 3D animation. The ‘operations’ count represents the number of polygons displayed.</p>
+<p>&nbsp;</p>
+<p>The test makes use of Qt's OpenGL graphics class called QGL. &nbsp;If OpenGL is not installed on your system, you will not be able to run this test (in fact you may not even be able to start BurnInTest). &nbsp;OpenGL can be downloaded from www.opengl.org and should come standard with all new versions of Linux distributions.</p>
+<p>&nbsp;</p>
+<p>Warning: A number of manufacturers produce video cards, which have very poor software support for 3D graphics (OpenGL). &nbsp;This is especially the case for the cheaper, bottom of the range video cards. Poor drivers can result in strange visual artefacts appearing on the screen, poor 3D performance and system crashes. </p>
+<p>&nbsp;</p>
+<p><span style="text-decoration: underline;">Helpful command line tool:</span></p>
+<p>[your_command_line_prompt]# glxinfo</p>
+<p>Displays your system's OpenGL's capabilities (if any).</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
+</td></tr></table>
+
+</body>
+</html>

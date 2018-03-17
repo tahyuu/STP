@@ -1,0 +1,76 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- saved from url=(0029)http://www.helpandmanual.com/ -->
+<head>
+   <title>Parallel Port Test</title>
+   <meta name="generator" content="Help &amp; Manual" />
+   <meta name="keywords" content="" />
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+   <meta http-equiv="Content-Style-Type" content="text/css" />
+   <link type="text/css" href="default.css" rel="stylesheet" />
+<script type="text/javascript" src="helpman_topicinit.js"></script>
+<!-- Redirect browser to frame page if page is not in the content frame. -->
+<script type="text/javascript">
+<!--
+if (location.search.lastIndexOf("toc=0")<=0) {
+  if (parent.frames.length==0) { parent.location.href="index.html?parallel_test.htm"; }
+  else { parent.quicksync('a6.8'); }
+}
+//-->
+</script>
+<script type="text/javascript" src="highlight.js"></script></head>
+<body style="margin: 0px 0px 0px 0px; background: #FFFFFF;" onload="highlight();">
+<div id="hmpopupDiv" style="visibility:hidden; position:absolute; z-index:1000; "></div>
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="5" bgcolor="#649CCC">
+  <tr valign="middle">
+    <td align="left">
+      <p class="p_Heading1"><span class="f_Heading1">Parallel Port Test</span></p>
+
+    </td>
+    <td align="right">
+     <span style="font-size: 9pt">
+     <a href="overview.htm">Top</a>&nbsp;
+     <a href="network_test.htm">Previous</a>&nbsp;
+     <a href="serial_test.htm">Next</a>
+     </span>
+    </td>
+  </tr>
+</table>
+
+
+<!-- Placeholder for topic body. -->
+<table width="100%" border="0" cellspacing="0" cellpadding="5"><tr valign="top"><td align="left">
+<p>Tests the parallel communications port connected to the PC. The parallel port to be tested can be selected from the Test Preferences window (see section 0, Parallel port preferences).</p>
+<p>&nbsp;</p>
+<p>A parallel port loop back plug is required to run this test. These can be purchased from the PassMark web site (www.passmark.com) or you can make them yourself (see Appendix D).</p>
+<p>&nbsp;</p>
+<p>Each test cycle corresponds to 500,000 bytes of data transmission. The number of ‘ops’ corresponds to the number of bytes sent and received. The duty cycle affects the time spent waiting between cycles.</p>
+<p>&nbsp;</p>
+<p>The parallel port selected must not already be in use by the operating system (for example by the printer or other external device), for the test to be carried out. &nbsp;The default on-board Parallel port settings are that Port0 is named /dev/lp0 and corresponds to the physical IO memory address 0378.</p>
+<p>&nbsp;</p>
+<p style="text-align: justify;"><span style="color: #000000;">&nbsp;</span></p>
+<div style="text-align: justify;"><div style="width:300px;padding:0px"><img src="paraloopback.jpg" width="300" height="300" border="0" alt="Parallel loopback plug" title="Parallel loopback plug"><p style="text-align:center"><span class="f_ImageCaption">Parallel loopback plug</span></p></div></div>
+<p><span style="font-style: italic; text-decoration: underline;">Parallel Port</span></p>
+<p>This is the port name for the parallel port being tested. The port can be selected from the Test Preferences window. </p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Bytes Sent</span></p>
+<p>This is the number of bytes that have been sent to the parallel port.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Bytes Received</span></p>
+<p>This is the number of bytes that have received from the parallel port.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Errors</span></p>
+<p>This is the number of errors detected (see Appendix C, p.48).</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Throughput</span></p>
+<p>This is the measured throughput for the port.</p>
+<p>&nbsp;</p>
+<p><span style="font-style: italic; text-decoration: underline;">Compatibility issues</span></p>
+<p>You need to have administrator privileges to run this test.</p>
+
+</td></tr></table>
+
+</body>
+</html>
