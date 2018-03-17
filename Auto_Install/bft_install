@@ -4,11 +4,47 @@ yum -y install rpm_files/sg3_utils-libs-1.37-9.el7.x86_64.rpm
 yum -y install rpm_files/sg3_utils-1.37-9.el7.x86_64.rpm
 yum -y install rpm_files/tix-8.4.3-12.el7.x86_64.rpm
 yum -y install rpm_files/tkinter-2.7.5-34.el7.x86_64.rpm
-yum -y install rpm_files/python2-pip-8.1.2-5.el7.noarch.rpm
+#install python2-pip
+rpm -qa | grep -i python2-pip
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed python2-pip skip!"
+else
+  echo "install python2-pip"
+  yum install -y rpm_files/python2-pip-8.1.2-5.el7.noarch.rpm
+fi
+#install OpenIPMI
 yum -y install rpm_files/OpenIPMI-modalias-2.0.19-15.el7.x86_64.rpm
-yum -y install rpm_files/ipmitool-1.8.15-7.el7.x86_64.rpm
+rpm -qa | grep -i OpenIPMI
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed OpenIPMI skip!"
+else
+  echo "install OpenIPMI"
+  yum install -y rpm_files/OpenIPMI-modalias-2.0.19-15.el7.x86_64.rpm
+fi
+#install ipmitool
+rpm -qa | grep -i ipmitool
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed ipmitool skip!"
+else
+  echo "install ipmitool"
+  yum install -y rpm_files/ipmitool-1.8.15-7.el7.x86_64.rpm 
+fi
 yum -y install rpm_files/pciutils-3.5.1-2.el7.x86_64.rpm
+#install pciutils
+rpm -qa | grep -i pciutils
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed pciutils skip!"
+else
+  echo "install pciutils"
+  yum install -y rpm_files/pciutils-3.5.1-2.el7.x86_64.rpm
+fi
+#install pyserial
 pip install rpm_files/pyserial-3.3-py2.py3-none-any.whl
-rm -rf rpm_files
+#rm -rf rpm_files
 cp bash_profile ~/.bash_profile
+# change grub.cfg, to make the ethernet index from eth0
+sed -i "s/quiet/quiet net.ifnames=0/g" /etc/default/grub
+#grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
+grub2-mkconfig -o /boot/grub2/grub.cfg
+
 

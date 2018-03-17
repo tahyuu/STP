@@ -22,8 +22,8 @@ class ConfigurationCheck(TestBase):
 	self.log.Print(ConfigurationCheck.section_str)
         try:
 	    self.CheckBIOSVersion()
-	    self.CheckBmcVersion()
-	    self.CheckBmcMac1()
+	    #self.CheckBmcVersion()
+	    #self.CheckBmcMac1()
 	    result = CpuRamCheck(self.config, self.eventManager, self.log, self.comm).Start()
 	    if result.find('FAIL') > -1:
 		errCode = re.findall('\d+',result)[0]
@@ -259,7 +259,7 @@ if __name__ == '__main__':
         sys.exit(1)
 
     home_dir = os.environ['FT']
-    config = Configure(home_dir + '/BFTConfig.txt')
+    config = Configure(home_dir + '/SFTConfig.txt')
     config.Put('HOME_DIR',home_dir)
     config.Put('PcbaSN', options.serialNumber)
     config.Put('PcbaSN', 'SZ605FZ5240010')

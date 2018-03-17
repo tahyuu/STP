@@ -479,3 +479,15 @@
 00:0d.0 SATA controller: Intel Corporation 82801HM/HEM (ICH8M/ICH8M-E) SATA Controller [AHCI mode] (rev 02)
 06:06:37.47 PASS,all compnent in lspci check list
 06:06:37.47 Tester Chk => OK: PCIe List Verified
+06:18:39.60 Section: Configuration Check
+06:18:39.60 Send = dmidecode -s bios-version
+06:18:39.60 Rece = 
+VirtualBox
+06:18:39.60 BIOS Version number 0.50 is not matched to VirtualBox
+06:18:39.60 TestEnd => ErrorCode=40001: BIOS_Version_Fail
+06:27:16.14 Section: SSD Check
+06:27:16.14 Send = fdisk -l | grep "480.1 GB"
+06:27:16.14 Rece = 
+
+06:27:16.25 SSD Qty 0 is not match to 40
+06:27:16.25 TestEnd => ErrorCode=50001: Device_Count_Fail

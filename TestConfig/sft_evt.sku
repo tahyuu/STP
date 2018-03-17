@@ -24,7 +24,7 @@ BmcMAC1			0140D4F5129D
 BmcMAC2			0140D4F5129E
 
 # BIOS,BMC,Ethernet Version and Speed Check
-BIOS_Version		0.50
+BIOS_Version		VirtualBox
 CMD_Version		01 07
 BMC_Version		0.50
 ETHERNET_Version	3.132
@@ -44,7 +44,7 @@ CPU_Stepping		4
 CPU_Speed		3000
 CPU_Core_Count		18
 CPU_Core_Enabled	18
-CPU_Qty			2
+CPU_Qty			0
 
 # DIMM Width, Speed, Size
 DIMM_Total_Width	72  

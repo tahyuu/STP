@@ -141,8 +141,8 @@ if __name__ == '__main__':
     parser = OptionParser(usage="usage: %prog [option])")
     (options, args) = parser.parse_args()
 
-    home_dir = os.environ['Zuari_BFT']
-    config = Configure(home_dir + '/BFTConfig.txt')
+    home_dir = os.environ['FT']
+    config = Configure(home_dir + '/SFTConfig.txt')
     config.Put('HOME_DIR',home_dir)
 
     log = Log()
