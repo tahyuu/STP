@@ -1,0 +1,16 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+        . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+export FT=${HOME}/CMCC
+PYTHONPATH=${PYTHONPATH}:${FT}/Common
+PYTHONPATH=${PYTHONPATH}:${FT}/FT
+PATH=${PATH}:${HOME}/bin:${FT}/bin:${FT}/Common:${FT}/FT:${FT}/satimainwindow
+
+export PYTHONPATH
+export PATH
+

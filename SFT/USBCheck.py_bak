@@ -1,0 +1,96 @@
+#!/usr/bin/env python
+
+from TestBase import *
+
+class USBCheck(TestBase):
+    section_str = "Section: USB Port Check"
+    def __init__(self, config, eventManager, log, comm):
+	TestBase.__init__(self, config, eventManager, log, comm)
+
+    def Start(self):
+	self.log.Print(USBCheck.section_str)
+        try:
+	    self.FindUsbTestDrive()
+	    self.WriteReadTestData()
+        except Error, error:
+            errCode, errMsg = error
+            self.log.Print('TestEnd Chk => ErrorCode=%s: %s' % \
+                           (errCode, errMsg))
+            return 'FAIL ErrorCode=%s' % errCode
+        except Exception, exception:
+            #self.log.Print(exception)
+            print exception
+            return 'FAIL ErrorCode=%s' % self.errCode['Others_Fail']
+        else:
+            self.log.Print("Tester Chk => OK: USB Port Check")
+	    return 'PASS'
+
+    def FindUsbTestDrive(self):
+        self.comm.SendReturn('ls /dev/sd?')
+	line = self.comm.RecvTerminatedBy()
+	print line.split()[1:]
+	drive_list = line.split()[2:-2]
+	print drive_list
+	self.usb = None
+	for drive in drive_list:
+	    #self.comm.SendReturn('fdisk -l ' + drive)
+	    self.comm.SendReturn('dd if=' + drive + ' count=1 bs=16')
+	    line = self.comm.RecvTerminatedBy()
+	    #if line.find('16.2 GB') > 0:
+	    #if line.find('7767 MB') > 0:
+	    if line.find('usbtestpendrive') >= 0:
+		self.usb = drive
+		print self.usb
+		break
+	errCodeStr = 'USB_Not_Found_Fail'
+	if self.usb == None:
+            self.log.Print("USB Port Read Write Fail")
+            raise Error(self.errCode[errCodeStr], errCodeStr)
+        else:
+            self.log.Print("USB test drive found")
+    def WriteReadTestData(self):
+	self.comm.setTimeout(40)
+        self.comm.SendReturn('dd if=/dev/urandom of=/dev/shm/TestDataOut.dat count=81920')
+	result = self.comm.RecvTerminatedBy()
+	if result == 'FAIL':
+	    errCodeStr = 'Others_Fail'
+            raise Error(self.errCode[errCodeStr], errCodeStr)
+        self.comm.SendReturn('dd if=/dev/shm/TestDataOut.dat of=' + self.usb + ' seek=1')
+	result = self.comm.RecvTerminatedBy()
+	if result == 'FAIL':
+	    errCodeStr = 'Others_Fail'
+            raise Error(self.errCode[errCodeStr], errCodeStr)
+        self.comm.SendReturn('dd if=' + self.usb + ' of=/dev/shm/TestDataIn.dat skip=1 count=81920')
+	result = self.comm.RecvTerminatedBy()
+	if result == 'FAIL':
+	    errCodeStr = 'Others_Fail'
+            raise Error(self.errCode[errCodeStr], errCodeStr)
+	self.comm.SendReturn('diff /dev/shm/TestDataOut.dat /dev/shm/TestDataIn.dat')
+	line = self.comm.RecvTerminatedBy()
+	errCodeStr = 'Write_Read_Fail'
+	self.comm.SendReturn('echo $?')
+	line = self.comm.RecvTerminatedBy()
+	if line.find('0') < 0:
+            self.log.Print("USB Port Read Write Fail")
+            raise Error(self.errCode[errCodeStr], errCodeStr)
+        else:
+            self.log.Print("USB Port Read Write Pass")
+	self.comm.setTimeout(5)
+
+if __name__ == '__main__':
+    parser = OptionParser(usage="usage: %prog [option]")
+    (options, args) = parser.parse_args()
+
+    home_dir = os.environ['FT']
+    config = Configure(home_dir + '/BFTConfig.txt')
+    config.Put('HOME_DIR',home_dir)
+
+    serial_port = config.Get('port')
+
+    eventManager = EventManager()
+    log = Log()
+    log.Open('test.log')
+    comm = Comm232(config, log, eventManager, serial_port) 
+    test = USBCheck(config, eventManager, log, comm)
+    result = test.Start()
+    print result

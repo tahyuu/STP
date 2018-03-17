@@ -1,0 +1,2207 @@
+00:00.0 Host bridge: Intel Corporation Device 2020 (rev 04)
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+00:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+00:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:11.0 Unassigned class [ff00]: Intel Corporation Device a1ec (rev 09)
+00:11.1 Unassigned class [ff00]: Intel Corporation Device a1ed (rev 09)
+00:11.5 SATA controller: Intel Corporation Lewisburg SSATA Controller [AHCI mode] (rev 09)
+00:14.0 USB controller: Intel Corporation Lewisburg USB 3.0 xHCI Controller (rev 09)
+00:14.2 Signal processing controller: Intel Corporation Device a1b1 (rev 09)
+00:16.0 Communication controller: Intel Corporation Lewisburg CSME: HECI #1 (rev 09)
+00:16.1 Communication controller: Intel Corporation Lewisburg CSME: HECI #2 (rev 09)
+00:16.4 Communication controller: Intel Corporation Lewisburg CSME: HECI #3 (rev 09)
+00:17.0 SATA controller: Intel Corporation Lewisburg SATA Controller [AHCI mode] (rev 09)
+00:1c.0 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #1 (rev f9)
+00:1c.4 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #5 (rev f9)
+00:1f.0 ISA bridge: Intel Corporation Lewisburg LPC Controller (rev 09)
+00:1f.2 Memory controller: Intel Corporation Lewisburg PMC (rev 09)
+00:1f.4 SMBus: Intel Corporation Lewisburg SMBus (rev 09)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Lewisburg SPI Controller (rev 09)
+02:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+17:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+17:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+17:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+17:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+3a:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+3a:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+3a:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+3a:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3a:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+5d:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+5d:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+5d:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+5d:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+80:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+80:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+80:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+81:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804
+85:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+85:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+85:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+85:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+86:00.0 Ethernet controller: Device 1c36:1022
+86:00.1 Ethernet controller: Device 1c36:1022
+86:00.2 Ethernet controller: Device 1c36:1001
+87:00.0 Ethernet controller: Device 1c36:8889
+87:00.1 Ethernet controller: Device 1c36:8889
+87:00.2 Ethernet controller: Device 1c36:1001
+ae:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+ae:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+ae:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+ae:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+d7:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+d7:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+d7:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+d7:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+d7:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d8:00.0 Ethernet controller: Device 1c36:1022
+d8:00.1 Ethernet controller: Device 1c36:1022
+d8:00.2 Ethernet controller: Device 1c36:1001
+d9:00.0 Ethernet controller: Device 1c36:8889
+d9:00.1 Ethernet controller: Device 1c36:8889
+d9:00.2 Ethernet controller: Device 1c36:1001
+15:41:02.84 Section: PCIe List Check
+15:41:02.85 Subsection:  PCIE List Check
+15:41:02.85 Send = lspci
+15:41:02.85 Rece = 
+00:00.0 Host bridge: Intel Corporation Device 2020 (rev 04)
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+00:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+00:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:11.0 Unassigned class [ff00]: Intel Corporation Device a1ec (rev 09)
+00:11.1 Unassigned class [ff00]: Intel Corporation Device a1ed (rev 09)
+00:11.5 SATA controller: Intel Corporation Lewisburg SSATA Controller [AHCI mode] (rev 09)
+00:14.0 USB controller: Intel Corporation Lewisburg USB 3.0 xHCI Controller (rev 09)
+00:14.2 Signal processing controller: Intel Corporation Device a1b1 (rev 09)
+00:16.0 Communication controller: Intel Corporation Lewisburg CSME: HECI #1 (rev 09)
+00:16.1 Communication controller: Intel Corporation Lewisburg CSME: HECI #2 (rev 09)
+00:16.4 Communication controller: Intel Corporation Lewisburg CSME: HECI #3 (rev 09)
+00:17.0 SATA controller: Intel Corporation Lewisburg SATA Controller [AHCI mode] (rev 09)
+00:1c.0 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #1 (rev f9)
+00:1c.4 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #5 (rev f9)
+00:1f.0 ISA bridge: Intel Corporation Lewisburg LPC Controller (rev 09)
+00:1f.2 Memory controller: Intel Corporation Lewisburg PMC (rev 09)
+00:1f.4 SMBus: Intel Corporation Lewisburg SMBus (rev 09)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Lewisburg SPI Controller (rev 09)
+02:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+17:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+17:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+17:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+17:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+3a:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+3a:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+3a:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+3a:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3a:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+5d:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+5d:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+5d:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+5d:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+80:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+80:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+80:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+81:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804
+85:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+85:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+85:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+85:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+86:00.0 Ethernet controller: Device 1c36:1022
+86:00.1 Ethernet controller: Device 1c36:1022
+86:00.2 Ethernet controller: Device 1c36:1001
+87:00.0 Ethernet controller: Device 1c36:8889
+87:00.1 Ethernet controller: Device 1c36:8889
+87:00.2 Ethernet controller: Device 1c36:1001
+ae:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+ae:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+ae:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+ae:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+d7:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+d7:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+d7:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+d7:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+d7:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d8:00.0 Ethernet controller: Device 1c36:1022
+d8:00.1 Ethernet controller: Device 1c36:1022
+d8:00.2 Ethernet controller: Device 1c36:1001
+d9:00.0 Ethernet controller: Device 1c36:8889
+d9:00.1 Ethernet controller: Device 1c36:8889
+d9:00.2 Ethernet controller: Device 1c36:1001
+15:41:02.97 PASS,all compnent in lspci check list
+15:41:02.97 Tester Chk => OK: PCIe List Verified
+15:47:20.15 Section: PCIe List Check
+15:47:20.15 Subsection:  PCIE List Check
+15:47:20.15 Send = lspci
+15:47:20.15 Rece = 
+00:00.0 Host bridge: Intel Corporation Device 2020 (rev 04)
+00:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+00:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+00:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+00:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+00:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+00:11.0 Unassigned class [ff00]: Intel Corporation Device a1ec (rev 09)
+00:11.1 Unassigned class [ff00]: Intel Corporation Device a1ed (rev 09)
+00:11.5 SATA controller: Intel Corporation Lewisburg SSATA Controller [AHCI mode] (rev 09)
+00:14.0 USB controller: Intel Corporation Lewisburg USB 3.0 xHCI Controller (rev 09)
+00:14.2 Signal processing controller: Intel Corporation Device a1b1 (rev 09)
+00:16.0 Communication controller: Intel Corporation Lewisburg CSME: HECI #1 (rev 09)
+00:16.1 Communication controller: Intel Corporation Lewisburg CSME: HECI #2 (rev 09)
+00:16.4 Communication controller: Intel Corporation Lewisburg CSME: HECI #3 (rev 09)
+00:17.0 SATA controller: Intel Corporation Lewisburg SATA Controller [AHCI mode] (rev 09)
+00:1c.0 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #1 (rev f9)
+00:1c.4 PCI bridge: Intel Corporation Lewisburg PCI Express Root Port #5 (rev f9)
+00:1f.0 ISA bridge: Intel Corporation Lewisburg LPC Controller (rev 09)
+00:1f.2 Memory controller: Intel Corporation Lewisburg PMC (rev 09)
+00:1f.4 SMBus: Intel Corporation Lewisburg SMBus (rev 09)
+00:1f.5 Serial bus controller [0c80]: Intel Corporation Lewisburg SPI Controller (rev 09)
+02:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+03:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+17:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+17:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+17:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+17:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+17:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+17:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+3a:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+3a:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+3a:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+3a:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+3a:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+3a:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+3a:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3a:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+3a:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+3a:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+3a:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+3a:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+3a:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+3a:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+3a:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+3a:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+3a:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+3a:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+3a:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+3b:00.0 Ethernet controller: Device 1c36:1022
+3b:00.1 Ethernet controller: Device 1c36:1022
+3b:00.2 Ethernet controller: Device 1c36:1001
+3c:00.0 Ethernet controller: Device 1c36:8889
+3c:00.1 Ethernet controller: Device 1c36:8889
+3c:00.2 Ethernet controller: Device 1c36:1001
+5d:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+5d:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04)
+5d:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+5d:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+5d:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+5d:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+5d:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+5d:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+5d:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5d:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+5e:00.0 Ethernet controller: Device 1c36:1022
+5e:00.1 Ethernet controller: Device 1c36:1022
+5e:00.2 Ethernet controller: Device 1c36:1001
+5f:00.0 Ethernet controller: Device 1c36:8889
+5f:00.1 Ethernet controller: Device 1c36:8889
+5f:00.2 Ethernet controller: Device 1c36:1001
+80:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04)
+80:04.0 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.1 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.2 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.3 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.4 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.5 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.6 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:04.7 System peripheral: Intel Corporation Sky Lake-E CBDMA Registers (rev 04)
+80:05.0 System peripheral: Intel Corporation Sky Lake-E MM/Vt-d Configuration Registers (rev 04)
+80:05.2 System peripheral: Intel Corporation Device 2025 (rev 04)
+80:05.4 PIC: Intel Corporation Device 2026 (rev 04)
+80:08.0 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.1 Performance counters: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+80:08.2 System peripheral: Intel Corporation Sky Lake-E Ubox Registers (rev 04)
+81:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd Device a804
+85:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+85:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+85:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+85:08.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:08.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:09.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0a.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0b.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0e.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:0f.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.4 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.5 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.6 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:10.7 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:11.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.0 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.1 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.2 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1d.3 System peripheral: Intel Corporation Sky Lake-E CHA Registers (rev 04)
+85:1e.0 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.1 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.2 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.3 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.4 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.5 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+85:1e.6 System peripheral: Intel Corporation Sky Lake-E PCU Registers (rev 04)
+ae:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+ae:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+ae:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+ae:08.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:09.0 System peripheral: Intel Corporation Device 2066 (rev 04)
+ae:0a.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0a.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0a.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0a.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0a.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0a.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0a.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0a.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0b.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0b.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0b.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0b.3 System peripheral: Intel Corporation Device 204b (rev 04)
+ae:0c.0 System peripheral: Intel Corporation Device 2040 (rev 04)
+ae:0c.1 System peripheral: Intel Corporation Device 2041 (rev 04)
+ae:0c.2 System peripheral: Intel Corporation Device 2042 (rev 04)
+ae:0c.3 System peripheral: Intel Corporation Device 2043 (rev 04)
+ae:0c.4 System peripheral: Intel Corporation Device 2044 (rev 04)
+ae:0c.5 System peripheral: Intel Corporation Device 2045 (rev 04)
+ae:0c.6 System peripheral: Intel Corporation Device 2046 (rev 04)
+ae:0c.7 System peripheral: Intel Corporation Device 2047 (rev 04)
+ae:0d.0 System peripheral: Intel Corporation Device 2048 (rev 04)
+ae:0d.1 System peripheral: Intel Corporation Device 2049 (rev 04)
+ae:0d.2 System peripheral: Intel Corporation Device 204a (rev 04)
+ae:0d.3 System peripheral: Intel Corporation Device 204b (rev 04)
+d7:05.0 System peripheral: Intel Corporation Device 2034 (rev 04)
+d7:05.2 System peripheral: Intel Corporation Sky Lake-E RAS Configuration Registers (rev 04)
+d7:05.4 PIC: Intel Corporation Device 2036 (rev 04)
+d7:0e.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0e.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:0f.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:0f.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:10.0 Performance counters: Intel Corporation Device 2058 (rev 04)
+d7:10.1 System peripheral: Intel Corporation Device 2059 (rev 04)
+d7:12.0 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.1 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.2 System peripheral: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.4 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:12.5 Performance counters: Intel Corporation Sky Lake-E M3KTI Registers (rev 04)
+d7:15.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:16.4 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+d7:17.0 System peripheral: Intel Corporation Sky Lake-E M2PCI Registers (rev 04)
+15:47:20.26 FAIL,Pcie List check missing same component
+15:47:20.26   PCI/PCIE Device 17:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04) is missing
+15:47:20.26   PCI/PCIE Device 17:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04) is missing
+15:47:20.26   PCI/PCIE Device 18:00.0 Mass storage controller: Device 1c36:1031 is missing
+15:47:20.26   PCI/PCIE Device 18:00.1 Mass storage controller: Device 1c36:1031 is missing
+15:47:20.26   PCI/PCIE Device 18:00.2 Ethernet controller: Device 1c36:1001 is missing
+15:47:20.26   PCI/PCIE Device 19:00.0 Mass storage controller: Device 1c36:1031 is missing
+15:47:20.26   PCI/PCIE Device 19:00.1 Mass storage controller: Device 1c36:1031 is missing
+15:47:20.26   PCI/PCIE Device 19:00.2 Ethernet controller: Device 1c36:1001 is missing
+15:47:20.26   PCI/PCIE Device ae:00.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1A (rev 04) is missing
+15:47:20.26   PCI/PCIE Device ae:02.0 PCI bridge: Intel Corporation Sky Lake-E PCI Express Root Port 1C (rev 04) is missing
+15:47:20.26   PCI/PCIE Device af:00.0 Mass storage controller: Device 1c36:1031 is missing
+15:47:20.26   PCI/PCIE Device af:00.1 Mass storage controller: Device 1c36:1031 is missing
+15:47:20.26   PCI/PCIE Device af:00.2 Ethernet controller: Device 1c36:1001 is missing
+15:47:20.26   PCI/PCIE Device b0:00.0 Mass storage controller: Device 1c36:1031 is missing
+15:47:20.26   PCI/PCIE Device b0:00.1 Mass storage controller: Device 1c36:1031 is missing
+15:47:20.26   PCI/PCIE Device b0:00.2 Ethernet controller: Device 1c36:1001 is missing
+15:47:20.26   PCI/PCIE Device 14:57:26.60 PASS,all compnent in lspci check list is missing
+15:47:20.26   PCI/PCIE Device 14:57:26.60 Tester Chk => OK: PCIe List Verified is missing
+15:47:20.26   PCI/PCIE Device 15:46:25.33 Section: PCIe List Check is missing
+15:47:20.26   PCI/PCIE Device 15:46:25.34 Subsection:  PCIE List Check is missing
+15:47:20.26   PCI/PCIE Device 15:46:25.34 Send = lspci is missing
+15:47:20.26   PCI/PCIE Device 15:46:25.34 Rece =  is missing
+18:12:46.31 Section: USB Check
+18:12:46.32 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+18:12:46.32 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=0
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sda
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=9B41D4E08409
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:2:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:12:46.45 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+18:12:46.45 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+18:12:46.59 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+18:12:46.59 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=1
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sdb
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=4B0184D054C9
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:12:46.71 USB2 Not Found
+18:14:53.61 Section: USB Check
+18:14:53.61 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+18:14:53.61 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=0
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sda
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=9B41D4E08409
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:2:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:14:53.74 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+18:14:53.74 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+18:14:53.88 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+18:14:53.88 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=1
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sdb
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=4B0184D054C9
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:14:54.00 USB2 Not Found
+18:16:27.56 Section: USB Check
+18:16:27.56 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+18:16:27.56 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=0
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sda
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=9B41D4E08409
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:2:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:16:27.69 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+18:16:27.69 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+18:16:27.83 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+18:16:27.83 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=1
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sdb
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=4B0184D054C9
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:16:27.97 USB2 Not Found
+18:17:12.97 Section: USB Check
+18:17:12.97 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+18:17:12.97 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=0
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sda
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=9B41D4E08409
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:2:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:17:13.10 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+18:17:13.10 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+18:17:13.24 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+18:17:13.24 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=1
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sdb
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=4B0184D054C9
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:17:13.36 USB2 Not Found
+18:18:02.90 Section: USB Check
+18:18:02.91 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+18:18:02.91 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=0
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sda
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=9B41D4E08409
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:2:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:18:03.04 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+18:18:03.04 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Info: Total device count is 0
+Error: Device count mismatch
+Info: Possible reason: usb path 0:3:1.0 missing
+18:18:03.18 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+18:18:03.18 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=1
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sdb
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=4B0184D054C9
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:18:18.36 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info
+18:18:18.36 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg0
+  Removable
+  Host#=0
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sda
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=9B41D4E08409
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:2:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:18:18.55 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info
+18:18:18.55 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg2
+  Removable
+  Host#=16
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sdc
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=9B41D4E08409
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:3:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:18:18.71 Send = /root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info
+18:18:18.71 Rece = 
+Storage test tool
+Version 2.5 Copyright Flextronics Penang
+
+Device info for /dev/sg1
+  Removable
+  Host#=1
+  Bus#=0
+  SCSI Id#=0
+  LUN#=0
+  Type=0
+  Size=15502147584 bytes, 14784.0 MiB, 15.50 GB
+  Block device=/dev/sdb
+  Vendor=Kingston
+  Product=DataTraveler 3.0
+  Revision=PMAP
+  Serial number=4B0184D054C9
+  Controller=Intel Corporation Lewisburg USB 3.0 xHCI Controller
+  Controller PCI vendorID:deviceID=8086:a1af
+  Controller PCI path=0000:00:14.0
+  Controller USB path=0:4:1.0
+  Controller SCSI path=0:0:0:0
+****************************
+*** Device count matches ***
+****************************
+18:18:18.87 Tester Chk => OK: USB Verify
+18:46:49.22 Section: Halt UUT
+18:46:56.46 Send = init 0
+09:58:33.77 Section: FW update
+09:58:33.77 Send = /root/CBFT/FW/flex_cannonball_mainboard_v007/update_all.sh
+09:58:33.77 Rece = 
+Order file "update_order.cfg" not found.
+10:27:28.57 Section: FW update
+10:28:08.52 Section: FW update
+10:28:49.86 Section: FW update
+10:30:05.87 Section: FW update
+10:30:45.68 Section: FW update
+10:31:39.50 Section: FW update
+10:36:53.87 Section: FW update
+10:37:20.21 Section: FW update
+10:48:51.42 Section: FW update
+10:48:52.21 TestEnd => ErrorCode=24000: FW_Update_Fail
+10:49:39.70 Section: FW update
+10:49:40.46 TestEnd => ErrorCode=24000: FW_Update_Fail
+10:50:14.66 Section: FW update
+10:50:15.42 TestEnd => ErrorCode=24000: FW_Update_Fail
+10:50:57.30 Section: FW update
+11:14:51.74 Section: FW update
+08:29:17.25 Section: FW update
+03:05:45.48 Section: CPU and RAM Burn-in
+03:05:45.48 Send = rm -f /tmp/BiTLog2.log
+03:05:45.48 Rece = 
+03:05:45.48 TestEnd => ErrorCode=60099: Others_Fail
+03:06:25.22 Section: PCIe List Check
+03:06:25.22 Subsection:  PCIE List Check
+03:06:25.22 Send = lspci
+03:06:25.23 Rece = 
+03:08:32.01 Section: Set Sati System and HW Clock
+03:08:32.02 Month/Day/Hour/Minute/Year : 031703082018
+03:08:32.03 Send = 
+03:08:32.03 Rece = 
+
+03:08:32.04 Send = date 031703082018
+03:08:32.04 Rece = 
+Sat Mar 17 03:08:00 EDT 2018
+
+03:08:00.01 Send = hwclock --systohc --utc
+03:08:00.01 Rece = 
+
+03:08:01.50 Tester Chk => OK: Set Sati System and HW Clock
+03:08:46.76 Section: CPU and RAM Burn-in
+03:08:46.77 Send = rm -f /tmp/BiTLog2.log
+03:08:46.77 Rece = 
+03:08:46.77 TestEnd => ErrorCode=60099: Others_Fail
+03:13:41.34 Section: CPU and RAM Burn-in
+03:13:41.35 Send = rm -f /tmp/BiTLog2.log
+03:13:41.35 Rece = 
+03:13:41.35 TestEnd => ErrorCode=60099: Others_Fail
+03:14:41.27 Section: CPU and RAM Burn-in
+03:14:41.27 Send = rm -f /tmp/BiTLog2.log
+03:14:41.27 Rece = 
+
+03:14:41.28 Send = sed -i "59cAutoStopMinutes 2" /root/CBFT/TestConfig/passmark/burnintest/64bit/cmdline_config.txt
+03:14:41.28 Rece = 
+
+03:14:41.29 Send = sed -i "99c#" /root/CBFT/TestConfig/passmark/burnintest/64bit/cmdline_config.txt
+03:14:41.29 Rece = 
+03:17:33.06 Section: CPU and RAM Burn-in
+03:17:33.07 Send = rm -f /tmp/BiTLog2.log
+03:17:33.07 Rece = 
+03:18:52.85 Section: CPU and RAM Burn-in
+03:18:52.85 Send = rm -f /tmp/BiTLog2.log
+03:18:52.85 Rece = 
+
+03:18:52.86 Send = sed -i "59cAutoStopMinutes 2" /root/CBFT/TestConfig/passmark/burnintest/64bit/cmdline_config.txt
+03:18:52.86 Rece = 
+
+03:18:52.86 Send = sed -i "99c#" /root/CBFT/TestConfig/passmark/burnintest/64bit/cmdline_config.txt
+03:18:52.86 Rece = 
+
+03:18:52.86 Send = /root/CBFT/TestConfig/passmark/burnintest/64bit/bit_cmd_line_x64
+03:18:52.86 Rece = 
+[?1049h[1;24r(B[m[4l[?7h[?1h=[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:01
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H0	0[6;50H0	No error
+Memory (RAM)[7;26H0	0[7;50H0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:02
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H0	407 Million	 0	No error
+Memory (RAM)[7;26H0	633 Million	 0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:03
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H0	490 Million	 0	No error
+Memory (RAM)[7;26H0	785 Million	 0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:03
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H0	811 Million	 0	No error
+Memory (RAM)[7;26H0	932 Million	 0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:04
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1	811 Million	 0	No error
+Memory (RAM)[7;26H1	1.091 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:04
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1	927 Million	 0	No error
+Memory (RAM)[7;26H1	1.412 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:05
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1	1.124 Billion    0	No error
+Memory (RAM)[7;26H1	1.661 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:05
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1	1.178 Billion    0	No error
+Memory (RAM)[7;26H1	1.804 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:06
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1	1.260 Billion    0	No error
+Memory (RAM)[7;26H1	1.949 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:06
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H1	1.595 Billion    0	No error
+Memory (RAM)[7;26H1	2.101 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:07
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2	1.595 Billion    0	No error
+Memory (RAM)[7;26H2	2.399 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:07
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2	1.705 Billion    0	No error
+Memory (RAM)[7;26H2	2.683 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:08
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2	1.900 Billion    0	No error
+Memory (RAM)[7;26H2	2.826 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:08
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2	1.954 Billion    0	No error
+Memory (RAM)[7;26H2	2.975 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:09
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2	2.036 Billion    0	No error
+Memory (RAM)[7;26H2	3.124 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:09
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H2	2.368 Billion    0	No error
+Memory (RAM)[7;26H3	3.367 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:10
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H3	2.368 Billion    0	No error
+Memory (RAM)[7;26H3	3.701 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:10
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H3	2.482 Billion    0	No error
+Memory (RAM)[7;26H3	3.859 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:11
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H3	2.683 Billion    0	No error
+Memory (RAM)[7;26H3	4.012 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:11
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H3	2.737 Billion    0	No error
+Memory (RAM)[7;26H3	4.159 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:12
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H3	2.820 Billion    0	No error
+Memory (RAM)[7;26H4	4.363 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:12
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H3	3.157 Billion    0	No error
+Memory (RAM)[7;26H4	4.694 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:13
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H4	3.157 Billion    0	No error
+Memory (RAM)[7;26H4	4.895 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:13
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H4	3.269 Billion    0	No error
+Memory (RAM)[7;26H4	5.040 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:14
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H4	3.462 Billion    0	No error
+Memory (RAM)[7;26H4	5.193 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:14
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H4	3.517 Billion    0	No error
+Memory (RAM)[7;26H5	5.358 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:15
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H4	3.601 Billion    0	No error
+Memory (RAM)[7;26H5	5.644 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:15
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H4	3.859 Billion    0	No error
+Memory (RAM)[7;26H5	5.862 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:16
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H5	3.859 Billion    0	No error
+Memory (RAM)[7;26H5	5.988 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:16
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H5	3.974 Billion    0	No error
+Memory (RAM)[7;26H5	6.138 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:17
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H5	4.180 Billion    0	No error
+Memory (RAM)[7;26H5	6.286 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:17
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H5	4.233 Billion    0	No error
+Memory (RAM)[7;26H6	6.485 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:18
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H5	4.315 Billion    0	No error
+Memory (RAM)[7;26H6	6.806 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:18
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H5	4.649 Billion    0	No error
+Memory (RAM)[7;26H6	7.013 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:19
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H6	4.650 Billion    0	No error
+Memory (RAM)[7;26H6	7.114 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:19
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H6	4.730 Billion    0	No error
+Memory (RAM)[7;26H6	7.185 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:20
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H6	4.876 Billion    0	No error
+Memory (RAM)[7;26H6	7.272 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:20
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H6	4.924 Billion    0	No error
+Memory (RAM)[7;26H6	7.413 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:21
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H6	5.001 Billion    0	No error
+Memory (RAM)[7;26H7	7.690 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:21
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H6	5.314 Billion    0	No error
+Memory (RAM)[7;26H7	7.989 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:22
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H7	5.315 Billion    0	No error
+Memory (RAM)[7;26H7	8.122 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:22
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H7	5.423 Billion    0	No error
+Memory (RAM)[7;26H7	8.265 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:23
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H7	5.626 Billion    0	No error
+Memory (RAM)[7;26H7	8.417 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:23
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H7	5.680 Billion    0	No error
+Memory (RAM)[7;26H8	8.629 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:24
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H7	5.760 Billion    0	No error
+Memory (RAM)[7;26H8	8.958 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:24
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H7	6.087 Billion    0	No error
+Memory (RAM)[7;26H8	9.143 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:25
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H8	6.087 Billion    0	No error
+Memory (RAM)[7;26H8	9.283 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:25
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H8	6.199 Billion    0	No error
+Memory (RAM)[7;26H8	9.436 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:26
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H8	6.401 Billion    0	No error
+Memory (RAM)[7;26H9	9.603 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:26
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H8	6.457 Billion    0	No error
+Memory (RAM)[7;26H9	9.906 Billion    0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:27
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H8	6.539 Billion    0	No error
+Memory (RAM)[7;26H9	10.161 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:27
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H8	6.872 Billion    0	No error
+Memory (RAM)[7;26H9	10.312 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:28
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H9	6.873 Billion    0	No error
+Memory (RAM)[7;26H9	10.454 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:28
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H9	6.985 Billion    0	No error
+Memory (RAM)[7;26H9	10.599 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:29
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H9	7.187 Billion    0	No error
+Memory (RAM)[7;26H10     10.867 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:29
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H9	7.240 Billion    0	No error
+Memory (RAM)[7;26H10     11.178 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:30
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H9	7.318 Billion    0	No error
+Memory (RAM)[7;26H10     11.327 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:30
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H9	7.632 Billion    0	No error
+Memory (RAM)[7;26H10     11.470 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:31
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H10     7.633 Billion    0	No error
+Memory (RAM)[7;26H10     11.572 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:31
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H10     7.729 Billion    0	No error
+Memory (RAM)[7;26H10     11.679 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:32
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H10     7.902 Billion    0	No error
+Memory (RAM)[7;26H11     11.983 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:32
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H10     7.957 Billion    0	No error
+Memory (RAM)[7;26H11     12.262 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:33
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H10     8.039 Billion    0	No error
+Memory (RAM)[7;26H11     12.409 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:33
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H10     8.361 Billion    0	No error
+Memory (RAM)[7;26H11     12.555 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:34
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H11     8.362 Billion    0	No error
+Memory (RAM)[7;26H11     12.701 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:34
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H11     8.471 Billion    0	No error
+Memory (RAM)[7;26H12     12.961 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:35
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H11     8.675 Billion    0	No error
+Memory (RAM)[7;26H12     13.289 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:35
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H11     8.728 Billion    0	No error
+Memory (RAM)[7;26H12     13.439 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:36
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H11     8.812 Billion    0	No error
+Memory (RAM)[7;26H12     13.577 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:36
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H11     9.144 Billion    0	No error
+Memory (RAM)[7;26H12     13.726 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:37
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H12     9.144 Billion    0	No error
+Memory (RAM)[7;26H13     13.937 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:37
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H12     9.254 Billion    0	No error
+Memory (RAM)[7;26H13     14.263 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:38
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H12     9.456 Billion    0	No error
+Memory (RAM)[7;26H13     14.461 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:39
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H12     9.512 Billion    0	No error
+Memory (RAM)[7;26H13     14.607 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:39
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H12     9.591 Billion    0	No error
+Memory (RAM)[7;26H13     14.751 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:40
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H12     9.921 Billion    0	No error
+Memory (RAM)[7;26H14     14.920 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:40
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H13     9.922 Billion    0	No error
+Memory (RAM)[7;26H14     15.231 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:41
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H13     10.035 Billion   0	No error
+Memory (RAM)[7;26H14     15.484 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:41
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H13     10.231 Billion   0	No error
+Memory (RAM)[7;26H14     15.628 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:42
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H13     10.285 Billion   0	No error
+Memory (RAM)[7;26H14     15.778 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:42
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H13     10.367 Billion   0	No error
+Memory (RAM)[7;26H14     15.924 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:43
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H13     10.700 Billion   0	No error
+Memory (RAM)[7;26H15     16.199 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:43
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H14     10.700 Billion   0	No error
+Memory (RAM)[7;26H15     16.501 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:44
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H14     10.812 Billion   0	No error
+Memory (RAM)[7;26H15     16.647 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:44
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H14     11.008 Billion   0	No error
+Memory (RAM)[7;26H15     16.799 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:45
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H14     11.063 Billion   0	No error
+Memory (RAM)[7;26H15     16.946 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:45
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H14     11.143 Billion   0	No error
+Memory (RAM)[7;26H16     17.182 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:46
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H14     11.476 Billion   0	No error
+Memory (RAM)[7;26H16     17.497 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:46
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H15     11.477 Billion   0	No error
+Memory (RAM)[7;26H16     17.668 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:47
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H15     11.590 Billion   0	No error
+Memory (RAM)[7;26H16     17.786 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:47
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H15     11.770 Billion   0	No error
+Memory (RAM)[7;26H16     17.884 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:48
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H15     11.811 Billion   0	No error
+Memory (RAM)[7;26H16     18.008 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:48
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H15     11.889 Billion   0	No error
+Memory (RAM)[7;26H17     18.244 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:49
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H15     12.230 Billion   0	No error
+Memory (RAM)[7;26H17     18.560 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:49
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H16     12.230 Billion   0	No error
+Memory (RAM)[7;26H17     18.738 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:50
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H16     12.341 Billion   0	No error
+Memory (RAM)[7;26H17     18.880 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:50
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H16     12.540 Billion   0	No error
+Memory (RAM)[7;26H17     19.033 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:51
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H16     12.596 Billion   0	No error
+Memory (RAM)[7;26H18     19.215 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:51
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H16     12.677 Billion   0	No error
+Memory (RAM)[7;26H18     19.536 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:52
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H16     13.012 Billion   0	No error
+Memory (RAM)[7;26H18     19.758 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:52
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H17     13.012 Billion   0	No error
+Memory (RAM)[7;26H18     19.911 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
+a: About BurnInTest  Up/Down arrow: Scroll[H[2J[1;26HBurnInTest Linux Command Line Version
+Start Time Sat Mar 17 03:18:52 Elapsed Time 00:00:53
+Run for 2.0 minutes or 0 cycles (0 is forever)
+
+Test Name[5;26HCycle  Operations	 Errors Last Error Description
+CPU - Maths[6;26H17     13.123 Billion   0	No error
+Memory (RAM)[7;26H18     20.060 Billion   0	No error[20dUse ESC or CTRL-C to exit. Use number keys to switch to single test screen;
+1: Main Menu     2: CPU Test	  3: Memory Test   4: Disk Test   5: DVD/CD Test[22;1H6: Network Test  7: Serial Test   8: Parallel Test 9: USB Test    0: Sound Test
