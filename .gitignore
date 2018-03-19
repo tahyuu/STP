@@ -6,6 +6,7 @@ REPLY_NO
 *~
 *.bak
 *_old
+*.swap
 FTConfig.txt
 BFTConfig.txt
 BFTConfig2.txt

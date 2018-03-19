@@ -287,13 +287,8 @@ if __name__ == '__main__':
     ScanBarCode(config)
     #InvokeMessagePopup("Turn Power ON to Start Badger System Test!", \
     #		'Proceed', True)	
-    print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     #config.Put('DUT_Name', 'LS')
-    
-    print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-    print config.Get("CanisterPN")
     config.Put('HOME_DIR', home_dir)
-    print home_dir
    #*********************************
     #Date:2014-07-14
     #Author:Yong Tan
