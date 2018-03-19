@@ -21,9 +21,9 @@ class USBCheck(TestBase):
         #self.cmd_usb_rwspeed="./storage-tool-64 -pciid 8086:8d31 -scsipath 0:0:0:0 -devicecount 1 -action testspeed -speed 10"
         #self.cmd_usb_rwspeed="./storage-tool-64 -pciid 8086:8d31 -usbpath 0:1:1:0 -devicecount 1 -action testspeed -speed 10"
         #####################################Check with Pciid###################################
-        self.cmd_usb1_info="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action info"
-        self.cmd_usb1_rwspeed="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action testspeed -speed 10"
-        self.cmd_usb1_ramdom_test="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:2:1.0 -devicecount 1 -action writeread -count 1M -force"
+        self.cmd_usb1_info="/root/CBFT/tools/storage-tool-64 -pciid 8086:3a3c -usbpath 0:4:1.0 -devicecount 1 -action info"
+        self.cmd_usb1_rwspeed="/root/CBFT/tools/storage-tool-64 -pciid 8086:3a3c -usbpath 0:4:1.0 -devicecount 1 -action testspeed -speed 10"
+        self.cmd_usb1_ramdom_test="/root/CBFT/tools/storage-tool-64 -pciid 8086:3a3c -usbpath 0:4:1.0 -devicecount 1 -action writeread -count 1M -force"
         self.cmd_usb2_info="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info"
         self.cmd_usb2_rwspeed="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action testspeed -speed 10"
         self.cmd_usb2_ramdom_test="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action writeread -count 1M -force"
@@ -163,15 +163,15 @@ class USBCheck(TestBase):
 	usb3Flag=False
 	testTimes=0
 	#find USB1/USB2
-	print usb1Flag
 	while ((not usbFlag) and  testTimes<5):
-		print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 		if (not usbFlag) and testTimes>0:
 			#self.LoadDriver()
             		InvokeMessagePopup('Please check the tree usb insert well', 'Proceed')
 		usb1Flag=self.CheckUSBDrivesInfo(1)
-		usb2Flag=self.CheckUSBDrivesInfo(2)
-		usb3Flag=self.CheckUSBDrivesInfo(3)
+		usb2Flag=True
+		usb3Flag=True
+		#usb2Flag=self.CheckUSBDrivesInfo(2)
+		#usb3Flag=self.CheckUSBDrivesInfo(3)
 		usbFlag=usb1Flag and usb2Flag and usb3Flag
 		testTimes=testTimes+1
 	    		#print "Please Check the USB Insert well and the USB LED is on!!"
@@ -229,12 +229,12 @@ class USBCheck(TestBase):
 #	****************************'''
 	#to check the SSD Present
         errCodeStr = 'USB_Not_Found_Fail'
-	if line.find("Device count matches")<0:
+	if line.find("Device count matches")>0:
 	#	self.log.Print("USB%s Not Found" %index)
 	#	raise Error(self.errCode[errCodeStr], errCodeStr)
-		return False
-	else:
 		return True
+	else:
+		return False
 	#smart error check
 #        errCodeStr = 'USB_Smart_Error_Fail'
 #	if line.find("Info check status: Pass")<0:
@@ -258,4 +258,3 @@ if __name__ == '__main__':
     comm = Comm232(config, log, eventManager, serial_port) 
     test = USBCheck(config, eventManager, log, comm)
     result = test.Start()
-    print result

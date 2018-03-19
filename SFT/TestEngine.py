@@ -232,7 +232,7 @@ if __name__ == '__main__':
     config.Put('HOME_DIR', home_dir)
 
     if len( sys.argv ) == 1:
-	sku_name = "BFT1_EVT.sku"
+	sku_name = "silk_road_s1.sku"
     elif len( sys.argv ) == 2:
 	sku_name = sys.argv[1]
     else:
