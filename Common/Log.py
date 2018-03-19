@@ -33,7 +33,7 @@ class Log:
 
     def Open(self, filename):
 	self.filename=filename
-	self._fd = open(filename, "a+")
+	self._fd = open(filename, "w+")
 
     def Open2(self, filename):
 	self._fd2 = open(filename, "w+")
@@ -71,6 +71,10 @@ class Log:
 	self._fd.write(line2)
 	self._fd.flush()
 	self._fd.seek(0,2)
+
+    #to add long string to the head of the file.
+    def AddHeader_Long(self, headerStr, logfile):
+        os.system("(echo '0a'; echo '%s'; echo '.'; echo 'wq')|ed -s %s" %(headerStr,logfile))
 	
     def Close(self):
 	self._fd.close()
