@@ -1,33 +1,52 @@
 #!/usr/bin/env python
 
-import sys
-import os
-import subprocess
-from datetime import datetime
+from ShopFloorQueryJDM import *
 from InvokeMessagePopup import *
 from InvokeYesNoButton import *
-#from PowerControl import *
-#from RelayControl import *
-#from FtpUpload import *
-from ScanBarCode import *
-from Log import *
-from EventManager import *
-from Comm232 import * 
+from Log import Log
+from datetime import datetime
+from TestItem import TestItem
 
+#from Comm232 import Comm232
+#from FFGetUnitInfo import *
+#from FFSaveResult import *
+import sys 
+import os
+import subprocess
+from Configure import Configure
+from ScanBarCode import ScanBarCode
+from FFGetUnitInfo import FFGetUnitInfo
+from datetime import *
+from PowerDown import *
+from GetBarcodeCSV import *
+from GetBarcodePN import *
+from ShopFloorQuery import *
+from ShopFloorPass import *
+from ShopFloorFail import *
+from FFSaveResult import *
 
 class TestEngine:
     def __init__(self, config, sku):
 	self.config = config
 	self.sequence = self.config.Get('TestSequence')
-	self.log = Log()
+	self.dut_name = self.config.Get('DUT_Name')
         self.eventManager = EventManager()
+	self.log = Log()
 	port = self.config.Get('port')
+	print self.config.Get('port')
         self.comm = Comm232(self.config, self.log, self.eventManager, port)
-	#self.comm.setTimeout(1)
-	self.PrepareForInit()
+	self.comm.UnsetVerbose()
+	#print "*********************", self.comm.verboseFlag
+        #self.comm.setTimeout(3)
+	self.testItems = []
+	self.testItemResults=[]
 	self.BuildTestItems()
-	#self.powercontrol = PowerControl(self.config)
-	#RelayControl(self.config).Set('Fan','ON')
+	self.testResult = ''
+	self.PrepareForInit()
+	self.powerdown = PowerDown(self.config, self.eventManager, self.log, \
+			   self.comm, 2, True)
+	self.shopFloorPass = ShopFloorPass(self.config)
+	self.shopFloorFail = ShopFloorFail(self.config)
 
     def PrepareForInit(self):
 	cmdStr = '/bin/hostname'
@@ -35,218 +54,258 @@ class TestEngine:
                                       stdout=subprocess.PIPE, \
                                       stderr=subprocess.PIPE)
         lsopenfile.wait()
-        self.hostname = lsopenfile.communicate()[0].split()[0]
-	
-        self.log_filename = self.config.Get('PcbaSN') + '-' + datetime.now().strftime("%Y%m%d%H%M%S") + '.log'
-        #self.log_filename2 = self.config.Get('PcbaSN') + '-' + datetime.now().strftime("%Y%m%d%H%M%S") + '-boot.log'
-	#self.config.Put('BootLogFileName', self.log_filename2)
+        self.hostname = lsopenfile.communicate()[0]
+	self.testDate = datetime.now().strftime("%Y/%m/%d")
+
+    def PrepareForEachTest(self):
+        self.log_filename = self.config.Get('CanisterSN') + \
+	     '-' + datetime.now().strftime("%Y%m%d%H%M%S") + '.log'
+        self.log_filename2 = self.config.Get('CanisterSN') + \
+	     '-' + datetime.now().strftime("%Y%m%d%H%M%S") + '-boot.log'
+	self.config.Put('BootLogFileName', self.log_filename2)
 	print self.log_filename
-	#print self.log_filename2
-        self.log.Open(self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename)
-        #self.log.Open2(self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename2)
+	print self.log_filename2
+	home_dir = self.config.Get('HOME_DIR')
+        self.log.Open(home_dir + '/FTLog/TMP/' + self.log_filename)
+        self.log.Open2(home_dir + '/FTLog/TMP/' + self.log_filename2)
         self.log.PrintNoTime('                                ')
         self.log.PrintNoTime('                                ')
-	self.log.PrintNoTime('Station: ' + self.hostname)
-	self.config.Put('StartTime', datetime.now().strftime("%Y-%m-%d %H:%M:%S") )
-	self.log.PrintNoTime('Date   : ' + self.config.Get('StartTime')) 
-	self.log.PrintNoTime('Version: ' + self.config.Get('Version')) 
-        self.log.PrintNoTime('                                ')
+	#self.log.PrintNoTime('Station : ' + self.hostname)
+	#self.log.PrintNoTime('Date    : ' + self.testDate) 
+	#self.log.PrintNoTime('Version : ' + self.config.Get('Version')) 
+	#############################################3333
+	# No need to print the below item in log, Because there information already print by GetBarcode
+	#############################################3333
+	#self.log.PrintNoTime('PN      : ' + self.config.Get('PN')) 
+	#self.log.PrintNoTime('SN      : ' + self.config.Get('SN')) 
+	#self.log.PrintNoTime('BMC_MAC1: ' + self.config.Get('BMC_MAC1')) 
+	#self.log.PrintNoTime('BMC_MAC2: ' + self.config.Get('BMC_MAC2')) 
+	#self.log.PrintNoTime('ETH_MAC1: ' + self.config.Get('ETH_MAC1')) 
+	#self.log.PrintNoTime('ETH_MAC2: ' + self.config.Get('ETH_MAC2')) 
+	#self.log.PrintNoTime('ETH_MAC3: ' + self.config.Get('ETH_MAC3')) 
+	#self.log.PrintNoTime('SAS_EXP : ' + self.config.Get('WWW_SAS_Exp')) 
+	#self.log.PrintNoTime('SAS_Ctl : ' + self.config.Get('WWW_SAS_Contr')) 
 
     def BuildTestItems(self):
 	self.testItems = []
-	
-	if self.config.Get('FlexFlow_Status') == 'On':
-	    from FFGetUnitInfo import *
-	    self.testItems.append(eval('FFGetUnitInfo(self.config, self.log)'))
-
-	f = open(self.config.Get('HOME_DIR') + '/TestConfig/' + self.sequence ,'r')
+	f = open('/home/bft/SatiFT/TestConfig/' + self.sequence ,'r')
         lines = f.readlines()
-        for index,line in enumerate(lines):
-	    print index, line
+        for line in lines:
             if line[0] == '#':
                 continue
-	    item = line[:line.find('(')]
-	    cmdstr = 'from '+ item + ' import *'
-	    exec cmdstr
-            self.testItems.append(eval(line))
+	    #print line
+            #self.testItems.append(eval(line))
+            #************************************
+            #Date:2014-07-14
+            #Author:Yong Tan
+            #this following code will let the testscript  import the model automotally, we not need to update the TestEngine.py file(import the New test Item),when there are same new test item added.
+            #we split the Class Name and Pramater, And Then import the Class Name(the Class Name must same as the Model Name) and to create a new object with the Class Name, and Paramter.
+            #************************************
+	    print line
+            modelPatt="(?P<ClassName>^\w+)(?P<Parameter>\([\w\W]*\)$)"
+            patternModel = re.compile(modelPatt)
+            m = patternModel.search(line)
+            className = m.group('ClassName')
+            if className=="GetBarcode":
+                className="FFGetUnitInfo"
+            if className=="ShopFloorQuery":
+                continue
 
+            parameter = m.group('Parameter')
+            m_import=__import__(className)
+            m_testItem=getattr(m_import,className)
+            #eval("m_testItem%s" %parameter)
+	    print m_testItem
+            self.testItems.append(eval("m_testItem%s" %parameter))
+
+	
     def Run(self):
-	self.testResult = ''
-        errorCodeList = '' 
+	self.PrepareForEachTest()
+        self.errorCodeList = '' 
 	flexflow_group = []
-
-	for index, test_oo in enumerate(self.testItems):
-	    flexflow_tmp = ['start','duration','name','']
-	    flexflow_tmp[0] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-	    flexflow_tmp[2] = test_oo.__class__.__name__
+	self.config.Put('StartTime', datetime.now().strftime("%Y-%m-%d %H:%M:%S") )
+	for test_oo in self.testItems:
+	    #print "=====================", self.comm.verboseFlag
+	    #flexflow_tmp = ['start','duration','name','']
+	    flexflow_tmp = ['','','','']
 	    self.log.Print('##############################################################')
-            self.testResult = test_oo.Start()
-	    self.config.Put('EndTime', datetime.now().strftime("%Y-%m-%d %H:%M:%S") )
-	    flexflow_tmp[1] = str(datetime.now() - datetime.strptime(flexflow_tmp[0], ("%Y-%m-%d %H:%M:%S"))).split('.')[0]
-	    if self.testResult[0:4] == 'FAIL':
-		flexflow_tmp[3] = self.testResult[15:20] #ErrorCode
-	    if index == 0:
-		pass
-	    else:
-	    	flexflow_group.append(flexflow_tmp)
-	    self.config.Put('flexflow_group', flexflow_group)
-	    print self.config.Get('flexflow_group'), type(self.config.Get('flexflow_group'))
 
+	    testItemResult=TestItem()
+	    testItemResult.testName=test_oo.section_str
+	    self.testResult = test_oo.Start()
 	    if self.testResult[0:4] == 'FAIL':
-		self.config.Put('Zuari_TestResult', 'FAIL')
-		# FAIL ErrorCode=40014: CPU_ID_Fail
-		self.config.Put('Zuari_ErrorCode', self.testResult[15:20])
-        	#errorCodeList = errorCodeList + self.testResult[15:20] + ', '
-        	errorCodeList = errorCodeList + self.testResult[15:20]
-		self.log.Print("Tester => Test Fail: %s" % test_oo.section_str)
+	    	flexflow_tmp[0] = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+	    	flexflow_tmp[1] = str((datetime.now() - datetime.strptime(flexflow_tmp[0], ("%Y-%m-%d %H:%M:%S"))).seconds)
+	    	flexflow_tmp[2] =test_oo.section_str
+		flexflow_tmp[3] = self.testResult[15:20]
+	    	testItemResult.testResult="FAIL"
+	        self.config.Put('Sati_ErrorCode', self.testResult[-5:])
+		self.log.Print("Test Fail: %s" % test_oo.section_str)
+		self.config.Put('Sati_TestResult', 'Failed')
+        	#self.errorCodeList = self.errorCodeList + self.testResult[-5:] + ', '
+        	self.errorCodeList = self.errorCodeList + self.testResult[-5:]
+		#self.ffSaveResult.Start()
+		testItemResult.errorCode=self.testResult[-5:]
+	        self.testItemResults.append(testItemResult)
+	    	flexflow_group.append(flexflow_tmp)
+	    	self.config.Put('flexflow_group', flexflow_group)
+    		self.config.Put('TestResult', "Failed") 
                 return self.testResult 
 	    elif self.testResult == 'PASS':
+    		self.config.Put('TestResult', "Passed") 
+	    	testItemResult.testResult="PASS"
+	    	self.testItemResults.append(testItemResult)
 		pass
 	    else:
-		self.log.Print("Tester => Test Result Unknow: %s" % test_oo.section_str)
+    		self.config.Put('TestResult', "Failed") 
+		self.log.Print("Test result unknow: %s" % test_oo.section_str)
 		return 'FAIL'
-	self.config.Put('Zuari_TestResult', 'PASS')
-	self.config.Put('Zuari_ErrorCode', '00000')
-	return 'PASS'
+	
+	#recorde the test result in test log
+        if self.errorCodeList == '':
+	    self.config.Put('Sati_ErrorCode', '00000')
+	    self.config.Put('Sati_TestResult', 'Passed')
+	    #self.config.Put('Sati_TestResult', 'Passed')
+	    return 'PASS'
+	else:
+	    return 'FAIL ErrorCode=%s' % self.errorCodeList 
 
     def End(self):
-	self.log.Print('##############################################################')
-
-	if self.config.Get('FlexFlow_Status') == 'On':
-	    from FFSaveResult import *
-	    if self.config.Get('Zuari_ErrorCode')[:-2] == '020':
-            	InvokeMessagePopup('FlexFlow: GetUnitInfo Error, please check process!', 'Proceed')
-	    else:		
+	print ">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>"
+	print self.config.Get('Sati_ErrorCode')[:-2]
+	self.config.Put('EndTime', datetime.now().strftime("%Y-%m-%d %H:%M:%S") )
+	if self.config.Get('Sati_ErrorCode')[:-2] == '050':
+	    pass
+	elif self.config.Get('Sati_ErrorCode')[:-2] != '000':
+            InvokeYesNoButton("Report Fail to Shop Floor?")
+            try:
+                open("REPLY_NO")
+            except IOError:
+                #self.shopFloorFail.Start()
 	    	f = FFSaveResult(self.config, self.log).Start()
 	    	if f[15:20] == '030':
 		    InvokeMessagePopup('FlexFlow: SaveResult Error, please check network!', 'Proceed')
-            
-	print '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
-	print self.testResult
-	print '++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++'
 
-	header_complete_str = 'Zuari SFT: '  + self.testResult 
-	self.log.AddHeader(header_complete_str)
-	#self.log.Close()
-	#self.log.Close2()
+	else:
+	    #self.shopFloorPass.Start()
+            f = FFSaveResult(self.config, self.log).Start()
+	    if f[15:20] == '030':
+	        InvokeMessagePopup('FlexFlow: SaveResult Error, please check network!', 'Proceed')
+
+	    pass
+	if self.config.Get('Sati_ErrorCode')[:-2] == '050':
+	    pass
+	elif self.config.Get('Sati_ErrorCode')[:-2] != '100' and \
+	   self.config.Get('Sati_ErrorCode')[:-2] != '190' and \
+	   self.config.Get('Sati_ErrorCode')[:-2] != '000':
+	    self.DoPowerOFF()
+	else:
+	    try:
+		pass
+	    	#self.powerdown.TurnOff() 
+	    except:
+		pass
+	#print "Power off"
+	#self.powerdown.TurnOff() 
+	#header_complete_str = 'LS BFT: '  + self.testResult 
+	#self.log.AddHeader(header_complete_str)
+	#to create header in test log
+	header_complete_str=""
+	header_complete_str+= ('Station : ' + self.hostname+"\n")
+	header_complete_str+= ('Date    : ' + self.testDate+"\n") 
+	header_complete_str+= (('Version : ' + self.config.Get('Version'))+"\n") 
+	header_complete_str+= ('%s BFT: %s\n' %(self.dut_name, self.testResult)) 
+	header_complete_str+="\n****************************************************************************************\n"
+	for ti in self.testItemResults:
+		str_testResults=ti.testName.ljust(70)+ti.testResult.rjust(10)+"\n"
+		header_complete_str=header_complete_str+str_testResults
+	header_complete_str +="****************************************************************************************\n"
+	self.log.AddHeader_Long(header_complete_str,home_dir + '/FTLog/TMP/' + self.log_filename)
+	self.log.Close()
+	self.log.Close2()
 	#self.comm.close()
 
-	if self.config.Get('FlexFlow_Status') == 'On':
-	    ftpLocalPath = self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename
-	    ftpRemotePath = 'Zuari/BFT/ROCDIB/' + self.log_filename
-	    FtpUpload(ftpLocalPath,ftpRemotePath)
-
-        moveTRIAL1 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename + \
-                   ' ' + self.config.Get('HOME_DIR') + '/BFTLog/TRIAL/' + self.log_filename
-        #moveTRIAL2 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename2 + \
-        #           ' ' + self.config.Get('HOME_DIR') + '/BFTLog/TRIAL/' + self.log_filename2
-        movePASS1 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename + \
-                   ' ' + self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + self.log_filename
-        #movePASS2 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename2 + \
-        #           ' ' + self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + self.log_filename2
-        moveFAIL1 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename + \
-                   ' ' + self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + self.log_filename
-        #moveFAIL2 = 'mv ' + self.config.Get('HOME_DIR') + '/BFTLog/TMP/' + self.log_filename2 + \
-        #           ' ' + self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + self.log_filename2
-
+        moveTRIAL1 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename + \
+                   ' ' + home_dir + '/FTLog/TRIAL/' + self.log_filename
+        moveTRIAL2 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename2 + \
+                   ' ' + home_dir + '/FTLog/TRIAL/' + self.log_filename2
+        movePASS1 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename + \
+                   ' ' + home_dir + '/FTLog/PASS/' + self.log_filename
+        movePASS2 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename2 + \
+                   ' ' + home_dir + '/FTLog/PASS/' + self.log_filename2
+        moveFAIL1 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename + \
+                   ' ' + home_dir + '/FTLog/FAIL/' + self.log_filename
+        moveFAIL2 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename2 + \
+                   ' ' + home_dir + '/FTLog/FAIL/' + self.log_filename2
         if self.config.Get('RUN_STATE') == 'TrialRun':
             print moveTRIAL1
             os.system(moveTRIAL1)
-            #print moveTRIAL2
-            #os.system(moveTRIAL2)
-	    logpath = self.config.Get('HOME_DIR') + '/BFTLog/TRAIL/' + datetime.now().strftime("%Y-%m-%d")+'/'
-	    if not os.path.exists(logpath):
-	 	os.system('mkdir '+logpath)
-	    cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/TRAIL/' + self.log_filename + ' ' + logpath + self.log_filename
-	    print cmdstr
-	    os.system(cmdstr)
-	    #cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/TRAIL/' + self.log_filename2 + ' ' + logpath + self.log_filename2
-	    #print cmdstr
-	    #os.system(cmdstr)
+            print moveTRIAL2
+            os.system(moveTRIAL2)
         elif self.testResult == 'PASS':
             print movePASS1
             os.system(movePASS1)
-            #print movePASS2
-            #os.system(movePASS2)
-	    logpath = self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + datetime.now().strftime("%Y-%m-%d")+'/'
-	    if not os.path.exists(logpath):
-	 	os.system('mkdir '+logpath)
-	    cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + self.log_filename + ' ' + logpath + self.log_filename
-	    print cmdstr
-	    os.system(cmdstr)
-	    #cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/PASS/' + self.log_filename2 + ' ' + logpath + self.log_filename2
-	    #print cmdstr
-	    #os.system(cmdstr)
+            print movePASS2
+            os.system(movePASS2)
         elif self.testResult[0:4] == 'FAIL':
             print moveFAIL1
             os.system(moveFAIL1)
-            #print moveFAIL2
-            #os.system(moveFAIL2)
-	    logpath = self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + datetime.now().strftime("%Y-%m-%d")+'/'
-	    if not os.path.exists(logpath):
-	 	os.system('mkdir '+logpath)
-	    cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + self.log_filename + ' ' + logpath + self.log_filename
-	    print cmdstr
-	    os.system(cmdstr)
-	    #cmdstr = 'cp ' + self.config.Get('HOME_DIR') + '/BFTLog/FAIL/' + self.log_filename2 + ' ' + logpath + self.log_filename2
-	    #print cmdstr
-	    #os.system(cmdstr)
+            print moveFAIL2
+            os.system(moveFAIL2)
 
-        if self.config.Get('Zuari_ErrorCode')[:-2] == '020':
-	    self.comm.close()
-        elif self.config.Get('Zuari_ErrorCode')[:-2] == '030':
-            self.comm.SendReturn('halt')
-            self.comm.RecvTerminatedBy('Power down')
-	    self.comm.close()
-	    InvokeMessagePopup('\xe5\x85\xb3\xe9\x97\xad\xe7\x94\xb5\xe6\xba\x90\nTurn off Power', '\xe7\xbb\xa7\xe7\xbb\xad\nProceed')
-            #self.powercontrol.PowerOff()
-        elif self.config.Get('Zuari_ErrorCode')[:-2] == '100' or self.config.Get('Zuari_ErrorCode')[:-2] == '110':
-	    self.comm.close()
-	    InvokeMessagePopup('\xe5\x85\xb3\xe9\x97\xad\xe7\x94\xb5\xe6\xba\x90\nTurn off Power', '\xe7\xbb\xa7\xe7\xbb\xad\nProceed')
-	    #self.powercontrol.PowerOff()    
+    def DoPowerOFF(self):
+        InvokeYesNoButton("Click YES to start shutting down SATI")
+        try:
+            open("REPLY_NO")
+        except IOError:
+            self.powerdown.TurnOff()
         else:
-            InvokeYesNoButton("\xe7\x82\xb9\xe5\x87\xbbYES\xe5\x85\xb3\xe9\x97\xad\xe7\x94\xb5\xe6\xba\x90\nClick YES to start shutting down Zuari")
-            try:
-            	open("REPLY_NO")
-            except IOError:
-            	os.system('rm -rf REPLY_YES')
-            	#self.comm.SendReturn('halt')
-            	self.comm.SendReturn('shutdown now')
-            	self.comm.RecvTerminatedBy('Power down')
-		self.comm.close()
-		InvokeMessagePopup('\xe5\x85\xb3\xe9\x97\xad\xe7\x94\xb5\xe6\xba\x90\nTurn off Power', '\xe7\xbb\xa7\xe7\xbb\xad\nProceed')
-	    	#self.powercontrol.PowerOff()    
-            else:
-            	os.system('rm -rf REPLY_NO')
-		self.comm.close()
-            	#InvokeMessagePopup("\xe4\xb8\x8d\xe8\xa6\x81\xe5\x85\xb3\xe9\x97\xad\xe6\xad\xa4\xe7\xaa\x97\xe5\x8f\xa3\xef\xbc\x8c\xe8\xaf\xb7\xe6\x89\x93\xe5\xbc\x80\xe5\x8f\xa6\xe4\xb8\x80\xe7\xbb\x88\xe7\xab\xaf\xe8\xbf\x9b\xe8\xa1\x8c\xe8\xb0\x83\xe8\xaf\x95\nDon't close this window, please open another terminal to debug", 'Exit', True)
-	    	#self.powercontrol.PowerOff()
+            pass
 
-	self.log.Close()
-	#self.log.Close2()
- 
 
 if __name__ == '__main__':
-    home_dir = os.environ['FT']
+    home_dir = os.environ['HOME']
     config = Configure()
-    config.Put('HOME_DIR', home_dir)
-
-    if len( sys.argv ) == 1:
-	sku_name = "BFT1_EVT.sku"
-    elif len( sys.argv ) == 2:
-	sku_name = sys.argv[1]
-    else:
-	sys.exit('Usage: TestEngine.py sku_name')
-
-    config.Load(home_dir + '/TestConfig/' + sku_name)
+    #to read the station config file
+    stationcfg=Configure()
+    stationcfg.Load(home_dir + '/SatiFT/TestConfig/station.cfg')
     ScanBarCode(config)
-    InvokeMessagePopup("'\xe8\xaf\xb7\xe7\xa1\xae\xe4\xbf\x9d\xe6\x89\x80\xe6\x9c\x89\xe7\xbb\x84\xe4\xbb\xb6\xe5\xae\x89\xe8\xa3\x85\xe5\x88\xb0\xe4\xbd\x8d\nPlease make sure all components connected properly", '\xe7\xbb\xa7\xe7\xbb\xad\nProceed')
+    #GetBarcode(config).Start()
+    #FFGetUnitInfo(config, eventManager, log, comm)
+    FFGetUnitInfo(config,None,None,None).Start()
+    #print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    #print config.Get("CanisterPN")
+    #print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    if sys.argv[1] == "SKU_Auto":
+	sku_name = config.Get("CanisterPN") + ".sku"
+    else:
+	sku_name = sys.argv[1]
+    print sku_name
+    #InvokeMessagePopup("Turn Power ON to Start Badger System Test!", \
+    #		'Proceed', True)	
+    config.Load(home_dir + '/SatiFT/TestConfig/' + sku_name)
+    #config.Put('DUT_Name', 'LS')
+    config.Put('HOME_DIR', home_dir)
+   #*********************************
+    #Date:2014-07-14
+    #Author:Yong Tan
+    #We will not load the port information form sku file. inorder to easy contorl the code, we make anoter station.cfg file to recorde the staiton iformation.one station will share one station.cfg. and station.cfg will not control by git.because every sation test program are same except the port information.
+    #*********************************
+    serialPort=stationcfg.Get('port')
+    config.Put('port',serialPort)
+    serialPort_UUT=stationcfg.Get('uut_port')
+    config.Put('uut_port',serialPort_UUT)
+    serialPort_Golden=stationcfg.Get('gold_port')
+    config.Put('gold_port',serialPort_Golden)
     testMain = TestEngine(config, sku_name)
     result = testMain.Run()
     if result[0:4] == 'FAIL':
-        InvokeMessagePopup(result, 'Exit', True)
+        InvokeMessagePopup(result, 'Exit',True)
+    	testMain.End()
+        #raw_input("Press any key to proceed!")
     elif result == 'PASS':
+    	testMain.End()
         InvokeMessagePopup("Test Pass!!", 'Exit', True)
     else:
         print "Shouldn't reach here"
-    testMain.End()
+        raw_input() 
