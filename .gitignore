@@ -1,6 +1,4 @@
 *.pyc
-*.png
-*.jpg
 *.old
 REPLY_YES
 REPLY_NO
