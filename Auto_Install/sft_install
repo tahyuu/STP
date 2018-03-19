@@ -48,3 +48,4 @@ sed -i "s/quiet/quiet net.ifnames=0/g" /etc/default/grub
 grub2-mkconfig -o /boot/grub2/grub.cfg
 
 
+
