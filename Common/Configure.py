@@ -49,7 +49,7 @@ class Configure:
 	if self._setting.has_key(key):
 	    return self._setting[key]
 	else:
-	    return 'No such key'
+	    return 'No_such_key'
 
     def Put(self, key, value):
 	self._setting[key] = value
@@ -68,19 +68,19 @@ class Configure:
 	f.close()
 	
 if __name__ == "__main__":
-    home_dir = os.environ['Europa_BFT']
+    home_dir = os.environ['FT']
     config = Configure()
-    config.Load(home_dir + "/BFTConfig.txt")
+    config.Load(home_dir + "/SFTConfig.txt")
     config.Print()
     print '--------------------------------------------------------------'
     print config.Get('DUT_Name')
     print '--------------------------------------------------------------'
     config.Print()
-    config.Save('BFTConfig2.txt')	
+    config.Save('SFTConfig2.txt')	
     while True:
 	key = raw_input('Input key value: ')
 	value = config.Get(key)
-	if value != 'No such key':
+	if value != 'No_such_key':
 	    print value
 	else:
 	    break

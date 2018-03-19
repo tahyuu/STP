@@ -3,6 +3,7 @@
 from datetime import datetime
 import re
 import sys
+import os
 
 GREY   = '\033[1;20m'
 RED    = '\033[1;31m'

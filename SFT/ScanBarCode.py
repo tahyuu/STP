@@ -16,10 +16,11 @@ class ScanBarCode:
         #self.config.Put('Zuari_BmcMac1_Re', '[0-9A-F]{12}$')
         #self.config.Put('Zuari_BmcMac2_Re', '[0-9A-F]{12}$')
 	self.dut_name = self.config.Get('DUT_Name')
+	print self.dut_name
 	
 	self.width = 30
 	self.font = "Times -24 bold"
-	title_str = 'Cannonball BFT Station: ' + self.FindHostName() + '      SW Version: ' + self.config.Get('Version')
+	title_str = 'Silk Road SFT Station: ' + self.FindHostName() + '      SW Version: ' + self.config.Get('Version')
 	self.root = Tk()
 	self.root.title(title_str)
 	w, h = self.root.winfo_screenwidth(), self.root.winfo_screenheight()
@@ -173,7 +174,7 @@ class ScanBarCode:
 
 if __name__ == "__main__":
     home_dir = os.environ['FT']
-    config = Configure(home_dir + '/BFTConfig.txt')
+    config = Configure(home_dir + '/SFTConfig.txt')
     ScanBarCode(config)
     print config.Get('PcbaSN')
     print config.Get('BmcMAC1')

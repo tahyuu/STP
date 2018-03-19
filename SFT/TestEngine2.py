@@ -271,7 +271,6 @@ if __name__ == '__main__':
     #to read the station config file
     stationcfg=Configure()
     stationcfg.Load(home_dir + '/TestConfig/station.cfg')
-    ScanBarCode(config)
     #GetBarcode(config).Start()
     #FFGetUnitInfo(config, eventManager, log, comm)
     #FFGetUnitInfo(config,None,None,None).Start()
@@ -282,11 +281,17 @@ if __name__ == '__main__':
 	sku_name = config.Get("CanisterPN") + ".sku"
     else:
 	sku_name = sys.argv[1]
-    print sku_name
+
+    config.Load(home_dir + '/TestConfig/' + sku_name)
+    config.Read()
+    ScanBarCode(config)
     #InvokeMessagePopup("Turn Power ON to Start Badger System Test!", \
     #		'Proceed', True)	
-    config.Load(home_dir + '/TestConfig/' + sku_name)
+    print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     #config.Put('DUT_Name', 'LS')
+    
+    print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+    print config.Get("CanisterPN")
     config.Put('HOME_DIR', home_dir)
     print home_dir
    #*********************************
