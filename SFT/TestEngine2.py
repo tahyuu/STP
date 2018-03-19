@@ -35,7 +35,7 @@ class TestEngine:
 	port = self.config.Get('port')
 	print self.config.Get('port')
         self.comm = Comm232(self.config, self.log, self.eventManager, port)
-	self.comm.UnsetVerbose()
+	#self.comm.UnsetVerbose()
 	#print "*********************", self.comm.verboseFlag
         #self.comm.setTimeout(3)
 	self.testItems = []
@@ -60,14 +60,14 @@ class TestEngine:
     def PrepareForEachTest(self):
         self.log_filename = self.config.Get('CanisterSN') + \
 	     '-' + datetime.now().strftime("%Y%m%d%H%M%S") + '.log'
-        self.log_filename2 = self.config.Get('CanisterSN') + \
-	     '-' + datetime.now().strftime("%Y%m%d%H%M%S") + '-boot.log'
-	self.config.Put('BootLogFileName', self.log_filename2)
+        #self.log_filename2 = self.config.Get('CanisterSN') + \
+	#     '-' + datetime.now().strftime("%Y%m%d%H%M%S") + '-boot.log'
+	#self.config.Put('BootLogFileName', self.log_filename2)
 	print self.log_filename
-	print self.log_filename2
+	#print self.log_filename2
 	home_dir = self.config.Get('HOME_DIR')
         self.log.Open(home_dir + '/FTLog/TMP/' + self.log_filename)
-        self.log.Open2(home_dir + '/FTLog/TMP/' + self.log_filename2)
+        #self.log.Open2(home_dir + '/FTLog/TMP/' + self.log_filename2)
         self.log.PrintNoTime('                                ')
         self.log.PrintNoTime('                                ')
 	#self.log.PrintNoTime('Station : ' + self.hostname)
@@ -88,7 +88,8 @@ class TestEngine:
 
     def BuildTestItems(self):
 	self.testItems = []
-	f = open('/home/bft/SatiFT/TestConfig/' + self.sequence ,'r')
+	home_dir = self.config.Get('HOME_DIR')
+	f = open(home_dir+'/TestConfig/' + self.sequence ,'r')
         lines = f.readlines()
         for line in lines:
             if line[0] == '#':
@@ -182,15 +183,16 @@ class TestEngine:
                 open("REPLY_NO")
             except IOError:
                 #self.shopFloorFail.Start()
-	    	f = FFSaveResult(self.config, self.log).Start()
-	    	if f[15:20] == '030':
-		    InvokeMessagePopup('FlexFlow: SaveResult Error, please check network!', 'Proceed')
+	    	#f = FFSaveResult(self.config, self.log).Start()
+	    	#if f[15:20] == '030':
+		#    InvokeMessagePopup('FlexFlow: SaveResult Error, please check network!', 'Proceed')
+		pass
 
 	else:
 	    #self.shopFloorPass.Start()
-            f = FFSaveResult(self.config, self.log).Start()
-	    if f[15:20] == '030':
-	        InvokeMessagePopup('FlexFlow: SaveResult Error, please check network!', 'Proceed')
+            #f = FFSaveResult(self.config, self.log).Start()
+	    #if f[15:20] == '030':
+	    #    InvokeMessagePopup('FlexFlow: SaveResult Error, please check network!', 'Proceed')
 
 	    pass
 	if self.config.Get('Sati_ErrorCode')[:-2] == '050':
@@ -214,7 +216,7 @@ class TestEngine:
 	header_complete_str+= ('Station : ' + self.hostname+"\n")
 	header_complete_str+= ('Date    : ' + self.testDate+"\n") 
 	header_complete_str+= (('Version : ' + self.config.Get('Version'))+"\n") 
-	header_complete_str+= ('%s BFT: %s\n' %(self.dut_name, self.testResult)) 
+	header_complete_str+= ('%s SFT: %s\n' %(self.dut_name, self.testResult)) 
 	header_complete_str+="\n****************************************************************************************\n"
 	for ti in self.testItemResults:
 		str_testResults=ti.testName.ljust(70)+ti.testResult.rjust(10)+"\n"
@@ -222,36 +224,36 @@ class TestEngine:
 	header_complete_str +="****************************************************************************************\n"
 	self.log.AddHeader_Long(header_complete_str,home_dir + '/FTLog/TMP/' + self.log_filename)
 	self.log.Close()
-	self.log.Close2()
+	#self.log.Close2()
 	#self.comm.close()
 
         moveTRIAL1 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename + \
                    ' ' + home_dir + '/FTLog/TRIAL/' + self.log_filename
-        moveTRIAL2 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename2 + \
-                   ' ' + home_dir + '/FTLog/TRIAL/' + self.log_filename2
+        #moveTRIAL2 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename2 + \
+        #           ' ' + home_dir + '/FTLog/TRIAL/' + self.log_filename2
         movePASS1 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename + \
                    ' ' + home_dir + '/FTLog/PASS/' + self.log_filename
-        movePASS2 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename2 + \
-                   ' ' + home_dir + '/FTLog/PASS/' + self.log_filename2
+        #movePASS2 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename2 + \
+        #           ' ' + home_dir + '/FTLog/PASS/' + self.log_filename2
         moveFAIL1 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename + \
                    ' ' + home_dir + '/FTLog/FAIL/' + self.log_filename
-        moveFAIL2 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename2 + \
-                   ' ' + home_dir + '/FTLog/FAIL/' + self.log_filename2
+        #moveFAIL2 = 'mv ' + home_dir + '/FTLog/TMP/' + self.log_filename2 + \
+        #           ' ' + home_dir + '/FTLog/FAIL/' + self.log_filename2
         if self.config.Get('RUN_STATE') == 'TrialRun':
             print moveTRIAL1
             os.system(moveTRIAL1)
-            print moveTRIAL2
-            os.system(moveTRIAL2)
+            #print moveTRIAL2
+            #os.system(moveTRIAL2)
         elif self.testResult == 'PASS':
             print movePASS1
             os.system(movePASS1)
-            print movePASS2
-            os.system(movePASS2)
+            #print movePASS2
+            #os.system(movePASS2)
         elif self.testResult[0:4] == 'FAIL':
             print moveFAIL1
             os.system(moveFAIL1)
-            print moveFAIL2
-            os.system(moveFAIL2)
+            #print moveFAIL2
+            #os.system(moveFAIL2)
 
     def DoPowerOFF(self):
         InvokeYesNoButton("Click YES to start shutting down SATI")
@@ -264,15 +266,15 @@ class TestEngine:
 
 
 if __name__ == '__main__':
-    home_dir = os.environ['HOME']
+    home_dir = os.environ['FT']
     config = Configure()
     #to read the station config file
     stationcfg=Configure()
-    stationcfg.Load(home_dir + '/SatiFT/TestConfig/station.cfg')
+    stationcfg.Load(home_dir + '/TestConfig/station.cfg')
     ScanBarCode(config)
     #GetBarcode(config).Start()
     #FFGetUnitInfo(config, eventManager, log, comm)
-    FFGetUnitInfo(config,None,None,None).Start()
+    #FFGetUnitInfo(config,None,None,None).Start()
     #print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
     #print config.Get("CanisterPN")
     #print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
@@ -283,9 +285,10 @@ if __name__ == '__main__':
     print sku_name
     #InvokeMessagePopup("Turn Power ON to Start Badger System Test!", \
     #		'Proceed', True)	
-    config.Load(home_dir + '/SatiFT/TestConfig/' + sku_name)
+    config.Load(home_dir + '/TestConfig/' + sku_name)
     #config.Put('DUT_Name', 'LS')
     config.Put('HOME_DIR', home_dir)
+    print home_dir
    #*********************************
     #Date:2014-07-14
     #Author:Yong Tan

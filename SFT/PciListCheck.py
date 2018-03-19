@@ -17,7 +17,6 @@ class PciListCheck(TestBase):
     def LspciCheck(self,check_list,lspci_list_gold):
 	# check_list: the list which lspci command return
 	# lspci_list_gold: the list gold list which stored in pc
-	print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 	print check_list 
 	print lspci_list_gold
 	all_component_flags=[]
@@ -148,6 +147,6 @@ if __name__ == '__main__':
     comm = Comm232(config, log, eventManager, serial_port) 
     #test = GetBarcode(config, eventManager, log, comm)
     #result = test.Start()
-    test = PciListCheck(config, eventManager, log, comm,"SFT_EVT_Cycle.list")
+    test = PciListCheck(config, eventManager, log, comm,"S1.list")
     result = test.Start()
     print result
