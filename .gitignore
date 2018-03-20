@@ -10,6 +10,8 @@ REPLY_NO
 FTConfig.txt
 BFTConfig.txt
 BFTConfig2.txt
+SFTLog/
+SFTLog/OngoingTest/
 TestConfig/station.cfg
 PciList_BAK
 PciList_bak

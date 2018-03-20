@@ -1,0 +1,6 @@
+#default centos6
+label centos6
+kernel centos6/vmlinuz-2.6.32-358.el6.x86_64
+#append initrd=centos6/initramfs.img root=nfs:10.5.5.2:/home/tftpboot/centos6/root rw selinux=0
+#append initrd=initramfs-2.6.32-358.el6.x86_64.img root=nfs:10.5.5.2:/home/tftpboot/centos6/root rw selinux=0
+append initrd=centos6/initramfs-2.6.32-358.el6.x86_64.img method=http://10.5.5.2/centos6 devfs=nomount

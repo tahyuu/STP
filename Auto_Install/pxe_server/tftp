@@ -1,0 +1,20 @@
+# default: off
+# description: tftp service is provided primarily for booting or when a \
+#	router need an upgrade. Most sites run this only on machines acting as \
+#	"boot servers".
+#	The tftp protocol is often used to boot diskless \
+#	workstations, download configuration files to network-aware printers, \
+#	and to start the installation process for some operating systems.
+service tftp
+{
+	socket_type		= dgram
+	protocol		= udp
+	wait			= yes
+	flags			= IPv6 IPv4
+	user			= root
+	server			= /usr/sbin/in.tftpd
+	server_args		= -u nobody -s /srv/tftpboot
+#	per_source		= 11
+#	cps			= 100 2
+	disable			= no
+}

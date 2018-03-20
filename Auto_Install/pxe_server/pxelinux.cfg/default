@@ -1,0 +1,45 @@
+default menu.c32
+menu color border 0 #ffffffff #00000000
+menu color sel 7 #ffffffff #ff000000
+menu color title 0 #ffffffff #00000000
+menu color tabmsg 0 #ffffffff #00000000
+menu color unsel 0 #ffffffff #00000000
+menu color hotsel 0 #ff000000 #ffffffff
+menu color hotkey 7 #ffffffff #ff000000
+menu color timeout_msg 0 #ffffffff #00000000
+menu color timeout 0 #ffffffff #00000000
+menu color cmdline 0 #ffffffff #00000000
+prompt 0
+timeout 60
+menu title PXE Menu
+
+#label linuxtext0 new
+#    menu Scientific Linux 6.3 new
+#    kernel vmlinuz-2.6.32-431.17.1.el6.x86_64
+#    append initrd=my_new_initramd.img.gz vga=791 console=tty0 console=ttyS0,115200 ip=::::testa01::dhcp selinux=0
+#    append initrd=initrd.new.img root=live:CDLABEL=RHEL live_dir=/LiveOS/ rootfstype=vfat rw liveimg 3 nodiskmount nolvmmount vga=791 rd_NO_LUKS rd_NO_MD rd_NO_DM hostname=localhost pcie_aspm=off hpet=enable console=tty0 console=ttyS0,115200
+#    append root=/dev/nfs netboot=nfs netroot=192.168.10.132:/tftpboot/LiveOS rw selinux=0 ip=:192.168.10.132:192.168.10.1:255.255.255.0::eth0:dhcp initrd=initrd0.img console=tty0 console=ttyS0,115200
+
+label CentOS 6.5 x86_64 Ramdisk
+   MENU CentOS 6.5 x86_64 Ramdisk
+   MENU DEFAULT
+   kernel vmlinuz-2.6.32-431.17.1.el6.x86_64
+   append initrd=diskless_std_centos_6.5_x86_64.cpio.gz console=ttyS0,115200  BOOT_IMAGE=vmlinuz-2.6.32-431.17.1.el6.x86_64  ip=::::::dhcp vga=791
+
+label dos
+    menu label Dos
+    kernel memdisk
+    append initrd=dos.img
+
+#label linuxtext1
+#    menu label Scientific Linux 6.3 Alternate
+#    kernel vmlinuz0
+#    append initrd=initrd1.img root=live:CDLABEL=RHEL live_dir=/LiveOS/temp rootfstype=auto rw liveimg 3 nodiskmount nolvmmount vga=791 rd_NO_LUKS rd_NO_MD rd_NO_DM hostname=localhost pcie_aspm=off hpet=enable console=tty0 console=ttyS0,115200
+
+label memtest
+    menu label Memtest86+
+    kernel memtest
+
+label hdt
+    menu label Hardware Detection Tool
+    kernel hdt.c32

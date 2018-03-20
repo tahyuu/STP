@@ -13,7 +13,6 @@ else
   yum install -y rpm_files/python2-pip-8.1.2-5.el7.noarch.rpm
 fi
 #install OpenIPMI
-yum -y install rpm_files/OpenIPMI-modalias-2.0.19-15.el7.x86_64.rpm
 rpm -qa | grep -i OpenIPMI
 if [ "$?" == 0 ] ;then
   echo ">>The system has been installed OpenIPMI skip!"
@@ -29,7 +28,6 @@ else
   echo "install ipmitool"
   yum install -y rpm_files/ipmitool-1.8.15-7.el7.x86_64.rpm 
 fi
-yum -y install rpm_files/pciutils-3.5.1-2.el7.x86_64.rpm
 #install pciutils
 rpm -qa | grep -i pciutils
 if [ "$?" == 0 ] ;then
