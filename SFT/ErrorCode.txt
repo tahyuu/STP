@@ -117,8 +117,12 @@
 90002	ProgramBmcMacFru.Program_Bmc_Mac2_Fail
 90003	ProgramBmcMacFru.Program_Bmc_Fru_Fail
 90099	ProgramBmcMacFru.Others_Fail
-91000	ProgramEthernetMac
-91001	ProgramEthernetMac.Program_Mac1_Fail
-91002	ProgramEthernetMac.Program_Mac2_Fail
-91003	ProgramEthernetMac.Program_FW_MAC_Fail
-91099	ProgramEthernetMac.Others_Fail
+91000	EthernetLoopbackCheck
+91001	EthernetLoopbackCheck.Ethernet_Loopback_Fail
+91002	EthernetLoopbackCheck.FW_Version_Port0_Fail
+91003	EthernetLoopbackCheck.FW_Version_Port1_Fail
+91004	EthernetLoopbackCheck.FW_Version_Port2_Fail
+91005	EthernetLoopbackCheck.MAC_Port0_Fail
+91006	EthernetLoopbackCheck.MAC_Port1_Fail
+91007	EthernetLoopbackCheck.MAC_Port2_Fail
+91099	EthernetLoopbackCheck.Others_Fail

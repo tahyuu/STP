@@ -36,14 +36,46 @@ else
   echo "install pciutils"
   yum install -y rpm_files/pciutils-3.5.1-2.el7.x86_64.rpm
 fi
+#install openssl-devel-1.0.2k-8.el7.x86_64
+rpm -qa | grep -i openssl-devel
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed openssl-devel skip!"
+else
+  echo "install openssl-devel-1.0.2k-8.el7.x86_64"
+  yum install -y rpm_files/openssl-devel-1.0.2k-8.el7.x86_64
+fi
+#install ftp
+rpm -qa | grep -i ftp
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed pciutils skip!"
+else
+  echo "install ftp"
+  yum install -y rpm_files/ftp-0.17-67.el7.x86_64.rpm
+fi
+#install uuidlib-devel
+rpm -qa | grep -i uuidlib-devel
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed uuidlib-devel skip!"
+else
+  echo "install uuidlib-devel"
+  yum install uuidlib-devel
+fi
+#install perl-Archive-Zip
+rpm -qa | grep -i perl-Archive-Zip
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed perl-Archive-Zip skip!"
+else
+  echo "install perl-Archive-Zip"
+  yum install perl-Archive-Zip
+fi
 #install pyserial
 pip install rpm_files/pyserial-3.3-py2.py3-none-any.whl
 #rm -rf rpm_files
 cp bash_profile ~/.bash_profile
 # change grub.cfg, to make the ethernet index from eth0
-sed -i "s/quiet/quiet net.ifnames=0/g" /etc/default/grub
+#sed -i "s/quiet/quiet net.ifnames=0/g" /etc/default/grub
 #grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
-grub2-mkconfig -o /boot/grub2/grub.cfg
+#grub2-mkconfig -o /boot/grub2/grub.cfg
 
 
 

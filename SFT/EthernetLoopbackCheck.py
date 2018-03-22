@@ -19,23 +19,21 @@ class EthernetLoopbackCheck(TestBase):
 	self.port0=""
 	self.port1=""
 	self.port2=""
-	self.busIds=["0000:01:00.0","0000:01:00.1","0000:01:00.2"]
+	self.busIds=["0000:06:05.0","0000:05:00.0"]
 	self.device="ixgbe"
 	self.fw="0x800009fa"
     def Start(self):
 	self.log.Print(EthernetLoopbackCheck.section_str)
         try:
 	    self.FindEthDev()
-   	    self.CheckFWPort(self.port0)
-   	    self.CheckFWPort(self.port1)
-   	    self.CheckFWPort(self.port2)
-	    self.CheckPortMAC(self.port0)
-	    self.CheckPortMAC(self.port1)
-	    self.CheckPortMAC(self.port2)
-	    self.EthernetLoopbackTest(self.port1,self.port2)
-	    time.sleep(5)
+   	    #self.CheckFWPort(self.port0)
+   	    #self.CheckFWPort(self.port1)
+	    #self.CheckPortMAC(self.port0)
+	    #self.CheckPortMAC(self.port1)
+	    self.EthernetLoopbackTest(self.port0,self.port1)
+	    #time.sleep(5)
             #InvokeMessagePopup('Please Plug in Ethernet Cable to Port0 Port1', 'Proceed')
-	    self.EthernetLoopbackTest(self.port1,self.port0)
+	    #self.EthernetLoopbackTest(self.port1,self.port0)
 	    #time.sleep(5)
 	    #self.EthernetLoopbackTest(self.port0,self.port2)
         except Error, error:
@@ -59,7 +57,8 @@ class EthernetLoopbackCheck(TestBase):
         self.comm.SendReturn('ifconfig -a | grep eth | cut -d " " -f 1')
         line = self.comm.RecvTerminatedBy()
         eth_list = line.split()
-        eth_list = eth_list [12:-2]
+        #print eth_list
+        #eth_list = eth_list [12:-2]
         print eth_list
         for ethdev in eth_list:
             self.comm.SendReturn('ethtool -i ' + ethdev)
@@ -67,18 +66,17 @@ class EthernetLoopbackCheck(TestBase):
             if self.port0 != '' and self.port1 != '' and self.port2!='':
                break
             if line.find(self.busIds[0]) > 0:
-		self.port0 = ethdev
+		self.port0 = ethdev.replace(':','')
 		continue	
             if line.find(self.busIds[1]) > 0:
-		self.port1 = ethdev
+		self.port1 = ethdev.replace(':','')
 		continue	
-            if line.find(self.busIds[2]) > 0:
-		self.port2 = ethdev
-		continue	
+            #if line.find(self.busIds[2]) > 0:
+	#	self.port2 = ethdev
+	#	continue	
 	print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 	print self.port0
 	print self.port1
-	print self.port2
 
     def CheckFWPort(self, port):
 	self.version = self.config.Get('ETHERNET_Version')
@@ -154,11 +152,11 @@ class EthernetLoopbackCheck(TestBase):
 	#  commands:
 	#	service iptables stop
 	#	echo 0 > /selinux/enforce
-        self.comm.SendReturn("service iptables stop")
+        self.comm.SendReturn("systemctl stop firewalld.service")
 	line = self.comm.RecvTerminatedBy()
 
-        self.comm.SendReturn("echo 0 > /selinux/enforce")
-	line = self.comm.RecvTerminatedBy()
+        #self.comm.SendReturn("echo 0 > /selinux/enforce")
+	#line = self.comm.RecvTerminatedBy()
 
 	#
 	#setp2 start fire firewall
@@ -173,8 +171,9 @@ class EthernetLoopbackCheck(TestBase):
 	#  except string 
 	#	All Passed 
 
-        errorCodeStr = 'Ethernet__Loopback_Fail'
-        self.comm.SendReturn("./netloop-testtool -d1 %s -d2 %s -ftpuser root -ftppassword 123456 -ftpsize 1G -maxerror 1" %(portA,portB))
+        errorCodeStr = 'Ethernet_Loopback_Fail'
+        #self.comm.SendReturn("/root/CMCC/tools/netloop-testtool3-64 -d1 %s -d2 %s -ftpuser root -ftppassword 123456 -ftpsize 1G -maxerror 1" %(portA,portB))
+        self.comm.SendReturn("/root/CMCC/tools/netloop-testtool3-64 -d1 %s -d2 %s -iperfspeed 90" %(portA,portB))
 	line = self.comm.RecvTerminatedBy()
 	if line.find("All Passed")<0:
         	raise Error(self.errCode[errorCodeStr], errorCodeStr)
@@ -188,8 +187,8 @@ if __name__ == '__main__':
                       help="serialNumber specifies the UUT SN")
     (options, args) = parser.parse_args()
 
-    home_dir = os.environ['SATI_FT']
-    config = Configure(home_dir + '/FTConfig.txt')
+    home_dir = os.environ['FT']
+    config = Configure(home_dir + '/SFTConfig.txt')
 
     serial_port = config.Get('port')
 
@@ -202,8 +201,8 @@ if __name__ == '__main__':
     #config.Put('LS_Canister_SN', options.serialNumber)
     comm = Comm232(config, log, eventManager, serial_port) 
     #test = ScanBarCode(config,)
-    test = GetBarcode(config, eventManager, log, comm)
-    result = test.Start()
+    #test = GetBarcode(config, eventManager, log, comm)
+    #result = test.Start()
 
     test = EthernetLoopbackCheck(config, eventManager, log, comm)
     result = test.Start()
