@@ -16,7 +16,7 @@ class SasPhysDataPathCheck(TestBase):
     def Start(self):
 	self.log.Print(SasPhysDataPathCheck.section_str)
 	self.Prepare()
-	try:
+	if True:
             self.DiscoverDisks()
 	    for i in range(self.numOfCycle):
                 self.ExerciseDisks()
@@ -24,18 +24,20 @@ class SasPhysDataPathCheck(TestBase):
             #self.EnterGEM()
             #self.CheckPhyCounter()
             #self.LeaveGEM()
+	try:
+	    pass
 	except Error, error:
             errCode, errMsg = error
-            self.log.Print('TestEnd => ErrorCode=%s: %s' % \
+            self.log.Print('TestEnd Chk => ErrorCode=%s: %s' % \
                            (errCode, errMsg))
-            self.LeaveGEM()
             return 'FAIL ErrorCode=%s' % errCode
         else:
             self.log.Print("Tester => OK: All SAS Data Path Check Pass")
             return 'PASS'
 
     def Prepare(self):
-	self.comm.SendReturn('cp -n /root/random_10M.bin /dev/shm')
+	home_dir = self.config.Get('HOME_DIR')
+	self.comm.SendReturn('cp -n %s/tools/random_10M.bin /dev/shm' %home_dir)
 	self.comm.RecvTerminatedBy()
 	self.comm.SendReturn('rm -f /dev/shm/test.bin')
 	self.comm.RecvTerminatedBy()
@@ -46,15 +48,19 @@ class SasPhysDataPathCheck(TestBase):
 	self.comm.SendReturn(home_dir+'/tools/discover_drives_sg.py ' + 'SEAGATE '+'HITACHI '+ 'ATA')
 	result = self.comm.RecvTerminatedBy()
 	self.drives_list = result.split('+')[1].split()
-	print len(self.drives_list)
 	if len(self.drives_list) != int(self.numOfDisk):
-	    raise Error(self.errCode['Disk_Discover_Fail'],'Disk_Discover_Fail')
+	    errCodeStr="Disk_Discover_Fail"
+            raise Error(self.errCode[errCodeStr], errCodeStr)
 	
     def ExerciseDisks(self):
+	print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx"
 	drives=""
 	home_dir = self.config.Get('HOME_DIR')
 	for drive in self.drives_list:
+	    if drive=="/dev/sg1":
+		continue
 	    drives=drives+drive+" "
+	print drives
 	#for drive in self.drives_list:	
 	self.comm.SendReturn(home_dir+'/tools/exercise_drive_sg.py ' + drives)
 	print "+++++++++++++++++++++++++++++++++++++"
@@ -63,7 +69,8 @@ class SasPhysDataPathCheck(TestBase):
 	print "+++++++++++++++++++++++++++++++++++++"
 	print line
 	if line.find('Fail') >= 0:
-	        raise Error(self.errCode['Disk_ReadWrite_Fail'],'Disk_ReadWrite_Fail')
+	    errCodeStr="Disk_ReadWrite_Fail"
+            raise Error(self.errCode[errCodeStr], errCodeStr)
 
     def EnterGEM(self):
         self.comm.SendReturn('miniterm.py\n')
@@ -106,8 +113,8 @@ if __name__ == '__main__':
     parser.add_option("-d", "--num_of_disk", \
                       action="store", \
                       dest="num_of_disk", \
-                      default="24", \
-                      help="num_of_disk is 48 with HBA otherwise is 24")
+                      default="6", \
+                      help="num_of_disk is 5 ")
 
     (options, args) = parser.parse_args(sys.argv)
 
