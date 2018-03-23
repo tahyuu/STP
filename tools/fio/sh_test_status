@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+ps cax | grep fio > /dev/null
+
+if [ $? == 0 ]; then
+    echo "Test is running."
+else
+    echo "#e> Test is not running. Please check logs."
+fi
+

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+killall fio 2>&-
+killall fio 2>&-
+

@@ -1,0 +1,471 @@
+#!/usr/bin/env bash
+
+### -- get drive --
+
+### get_boot_drive()
+function get_boot_drive() {
+    (df -h | grep boot | grep -Po "sd[a-z]+|nvme\d\w\d";  pvdisplay | grep -Po "sd[a-z]+|nvme\d\w\d") | sort -u
+}
+
+### get_removable_drives()
+### note: USB stick
+function get_removable_drives() {
+    # try to get drive lables from the system
+    # give up after 2 minutes with tries --> no drive found
+    try=0
+    while [ $try -lt 60 ]
+    do
+        grep -H . /sys/block/*/removable 2>/dev/null | grep ":1" | grep -Po "sd\w+|nvme\d+\w+" >/dev/null
+
+        if [ $? -eq 0 ]
+        then
+            sleep 5
+            grep -H . /sys/block/*/removable 2>/dev/null | grep ":1" | grep -Po "sd\w+|nvme\d+\w+"
+
+            break
+        fi
+
+        sleep 2; try=$(($try+2))
+    done
+}
+
+### get_non_removable_drives()
+### note: HDD/SSD
+function get_non_removable_drives() {
+    # try to get drive lables from the system
+    # give up after 2 minutes with tries --> no drive found
+    try=0
+    while [ $try -lt 60 ]
+    do
+        grep -H . /sys/block/*/removable 2>/dev/null | grep ":0" | grep -Po "sd\w+|nvme\d+\w+" >/dev/null
+
+        if [ $? -eq 0 ]
+        then
+            sleep 5
+            grep -H . /sys/block/*/removable 2>/dev/null | grep ":0" | grep -Po "sd\w+|nvme\d+\w+"
+
+            break
+        fi
+
+        sleep 2; try=$(($try+2))
+    done
+}
+
+### get_drive_type()
+function get_drive_type() {
+    if [ "x$1" == "x" ]
+    then
+        echo
+    else
+        drive_type=$(smartctl -i /dev/$1 |
+                        grep -Po "SAS|SATA|NVM" |
+                        uniq)
+
+        if [ "x$drive_type" == "x" ]
+        then
+            echo OTHER
+        else
+            echo $drive_type
+        fi
+    fi
+}
+
+### get_drive_serial()
+function get_drive_serial() {
+    if [ "x$1" == "x" ]
+    then
+        echo
+    else
+        # serial number = ATA devices
+        # serial number = SAS devices
+        # serial number = NVMe devices
+        smartctl -i /dev/$1 |
+            grep -iE "serial number" |
+            tr ' ' '_' |
+            sed 's/serial_number:_\+//gi'
+    fi
+}
+
+### get_drive_model()
+function get_drive_model() {
+    if [ "x$1" == "x" ]
+    then
+        echo
+    else
+        # device model  = ATA devices
+        # product       = SAS devices
+        # model number  = NVMe devices
+        smartctl -i /dev/$1 |
+            grep -iE "device model|product|model number" |
+            tr ' ' '_' | tr '/' '_' |
+            sed 's/device_model:_\+//gi' |
+            sed 's/product:_\+//gi' |
+            sed 's/model_number:_\+//gi'
+    fi
+}
+
+### get_drive_firmware()
+function get_drive_firmware() {
+    if [ "x$1" == "x" ]
+    then
+        echo
+    else
+        # firmware version = ATA devices, NVMe devices
+        # revision         = SAS devices
+        smartctl -i /dev/$1 |
+            grep -iE "firmware version|revision:" |
+            tr ' ' '_' |
+            sed 's/firmware_version:_\+//gi' |
+            sed 's/revision:_\+//gi'
+    fi
+}
+
+### get_drive_slot()
+function get_drive_slot() {
+    if [ "x$1" == "x" ]
+    then
+        echo
+    else
+        echo 255
+    fi
+}
+
+### -- show drive data --
+
+### show_drive()
+function show_drive() {
+    if [ "x$1" == "x" ]
+    then
+        echo
+    else
+        serial=$(get_drive_serial $1)
+        model=$(get_drive_model $1)
+        slot=$(get_drive_slot $1)
+
+        type=$(get_drive_type $1)
+
+        echo "#i>-----------------------------------------------------------------------------"
+        echo "#i> $1, model: $model, serial: $serial, slot: $slot"
+        echo "#i>-----------------------------------------------------------------------------"
+        echo
+
+        echo "#i> smartctl -i /dev/$1:"
+        smartctl -i /dev/$1
+        smartctl -x /dev/$1 | grep -i "negotiated logical link rate"
+
+        echo "#i> smartctl -H /dev/$1:"
+        smartctl -H /dev/$1 |
+            grep -iv "copyright" |
+            grep -iv "local build" |
+            grep -iv "smartctl -a"
+        echo
+
+        echo "#i> smartctl -x /dev/$1:"
+        smartctl -x /dev/$1
+        echo
+
+        echo "#i> smartctl -l sataphy /dev/$1:"
+        smartctl -l sataphy /dev/$1 2>/dev/null |
+            grep -iv "copyright" |
+            grep -iv "local build" |
+            grep -iv "smartctl -a" |
+            sed "s/^/$1,$model: /g"
+        echo
+
+        echo "#i> smartctl -l sasphy /dev/$1:"
+        smartctl -l sasphy  /dev/$1 2>/dev/null |
+            grep -iv "copyright" |
+            grep -iv "local build" |
+            grep -iv "smartctl -a" |
+            sed "s/^/$1,$model: /g"
+        echo
+
+        echo "#i> smartctl -A /dev/$1:"
+        smartctl -A /dev/$1 2>/dev/null |
+            grep -iv "copyright" |
+            grep -iv "local build" |
+            grep -iv "smartctl -a" |
+            sed "s/^/$1,$model: /g"
+
+        # workaround for Toshiba disks
+        grown_defect_list=$(smartctl -A /dev/$1 | grep "unknown number of elements")
+        if [ "x$grown_defect_list" != "x" ]
+        then
+            bytes=$(echo $grown_defect_list | grep -Po "\d+ bytes" | grep -Po "\d+")
+            error=$(( $bytes /4 ))
+
+            echo "$1,$model: Elements in grown defect list: $error"
+        fi
+        echo
+
+        echo "#i> sg_logs -a /dev/$1:"
+        sg_logs -a /dev/$1 2>/dev/null |
+            sed "s/^/$1,$model: /g"
+        echo
+
+        echo "#i>-----------------------------------------------------------------------------"
+        echo "#i> $1 end"
+        echo "#i>-----------------------------------------------------------------------------"
+        echo
+    fi
+}
+
+### show_all_drives()
+function show_all_drives() {
+    drives="$(get_non_removable_drives)"
+
+    for drv in $drives
+    do
+        show_drive $drv
+    done
+}
+
+
+### -- partitions --
+
+### delete_partitions()
+# param     drives      create partitions for drives
+#
+# example:
+#   delete_partitions "sda sdb ..."
+function delete_partitions() {
+    drives="$1"
+
+    boot_drive=$(get_boot_drive)
+
+    for sd in $drives
+    do
+        if [ "$sd" == "$boot_drive" ]
+        then
+            continue
+        fi
+
+        {
+            if [[ "$sd" =~ "sd" ]]
+            then
+                umount /dev/${sd}1 2>/dev/null
+            fi
+
+            if [[ "$sd" =~ "nvme" ]]
+            then
+                umount /dev/${sd}p1 2>/dev/null
+            fi
+
+            rm -rf /mnt/$sd
+        } 2>/dev/null >/dev/null
+
+        if [ $? != 0 ]; then
+            echo "#e> Unexcepted error occured while deleting partition for /dev/$sd, step 1 umount"
+            exit 1
+        fi
+
+        echo "#i> unmounted /dev/${sd}1"
+    done
+
+    for sd in $drives
+    do
+
+        if [ "$sd" == "$boot_drive" ]
+        then
+            continue
+        fi
+
+        {
+            sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | gdisk /dev/$sd
+              x # extra functionality
+              z # zap (destroy) GPT data structures and exit
+              y # About to wipe out GPT on /dev/sdh. Proceed?
+              y # Blank out MBR? (Y/N)
+EOF
+        } 2>/dev/null >/dev/null
+
+        if [ $? != 0 ]; then
+            sleep 1
+            {
+                sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | gdisk /dev/$sd
+                  2 # Create blank GPT
+                  x # extra functionality
+                  z # zap (destroy) GPT data structures and exit
+                  y # About to wipe out GPT on /dev/sdh. Proceed?
+                  y # Blank out MBR? (Y/N)
+EOF
+            } 2>/dev/null >/dev/null
+        fi
+
+        if [ $? != 0 ]; then
+            echo "#e> Unexcepted error occured while deleting gpt MBR partition for /dev/$sd, step 2 gdisk"
+            exit 1
+        fi
+
+        echo "#i> gpt MBR partition deleted /dev/${sd}"
+    done
+
+    for sd in $drives
+    do
+        if [ "$sd" == "$boot_drive" ]
+        then
+            continue
+        fi
+
+        echo "#i> cmd: dd if=/dev/zero of=/dev/$sd bs=512 count=1"
+        {
+            dd if=/dev/zero of=/dev/$sd bs=512 count=1
+        } 2>/dev/null >/dev/null
+
+        if [ $? != 0 ]; then
+            echo "#e> Unexcepted error occured while deleting partition for /dev/$sd, step 3 dd"
+            exit 1
+        fi
+
+        echo "#i> deleted partitions on /dev/$sd"
+    done
+
+    sync
+    sync
+    sleep 1
+}
+
+### create_partition()
+# param     drives      create partitions for drives
+# param     psize       partition size in GB
+#
+# example:
+#   create_partition "sda sdb ..."
+function create_partition() {
+    drives="$1"
+    psize=$(($2*1024*1024*1024)) # convert GB to bytes
+
+    delete_partitions "$drives"
+
+    boot_drive=$(get_boot_drive)
+
+    for sd in $drives
+    do
+        if [ "$sd" == "$boot_drive" ]
+        then
+            continue
+        fi
+
+        {
+            sector_size=($(fdisk -l /dev/$sd | grep -i "units" | grep -Po "\d+"))
+
+            l=$(($psize/${sector_size[2]}))
+
+            sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | fdisk /dev/$sd
+              n # new partition
+                # primary partition
+                # partition number 1
+                # default - start at beginning of disk
+             $l # default - last sector
+              w # write the partition table
+EOF
+        } 2>/dev/null >/dev/null
+
+        if [ $? != 0 ]; then
+            echo "#e> Unexcepted error occured by creating partition for /dev/$sd, step 1 fdisk"
+            exit 1
+        fi
+
+        echo "#i> partition created on /dev/$sd"
+    done
+
+    sync
+    sync
+    sleep 1
+
+    for sd in $drives
+    do
+        if [ "$sd" == "$boot_drive" ]
+        then
+            continue
+        fi
+
+        {
+            if [[ "$sd" =~ "sd" ]]
+            then
+                mkfs.ext4 /dev/${sd}1
+            fi
+
+            if [[ "$sd" =~ "nvme" ]]
+            then
+                mkfs.ext4 /dev/${sd}p1
+            fi
+        } 2>/dev/null >/dev/null
+
+        if [ $? != 0 ]; then
+            sleep 2
+            {
+                dd if=/dev/zero of=/dev/$sd bs=512 count=1
+
+                sync
+                sync
+                sleep 1
+
+                sector_size=($(fdisk -l /dev/$sd | grep -i "units" | grep -Po "\d+"))
+
+                l=$(($psize/${sector_size[2]}))
+
+                sed -e 's/\s*\([\+0-9a-zA-Z]*\).*/\1/' << EOF | fdisk /dev/$sd
+                  n # new partition
+                    # primary partition
+                    # partition number 1
+                    # default - start at beginning of disk
+                 $l # default - last sector
+                  w # write the partition table
+EOF
+
+                sync
+                sync
+                sleep 1
+
+                if [[ "$sd" =~ "sd" ]]
+                then
+                    mkfs.ext4 /dev/${sd}1
+                fi
+
+                if [[ "$sd" =~ "nvme" ]]
+                then
+                    mkfs.ext4 /dev/${sd}p1
+                fi
+            } 2>/dev/null >/dev/null
+        fi
+
+        if [ $? != 0 ]; then
+            echo "#e> Unexcepted error occured by creating partition for /dev/$sd, step 2 mkfs"
+            exit 1
+        fi
+
+        echo "#i> ext4 filesystem created on /dev/${sd}"
+    done
+
+    for sd in $drives
+    do
+        if [ "$sd" == "$boot_drive" ]
+        then
+            continue
+        fi
+
+        {
+            rm -rf /mnt/$sd
+            mkdir  /mnt/$sd
+
+            if [[ "$sd" =~ "sd" ]]
+            then
+                mount /dev/${sd}1 /mnt/$sd
+            fi
+
+            if [[ "$sd" =~ "nvme" ]]
+            then
+                mount /dev/${sd}p1 /mnt/$sd
+            fi
+        } 2>/dev/null >/dev/null
+
+        if [ $? != 0 ]; then
+            echo "#e> Unexcepted error occured by creating partition for /dev/$sd, step 3 mount"
+            exit 1
+        fi
+
+        echo "#i> /dev/$sd mounted to /mnt/$sd"
+    done
+}
+

@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+
+echo "#i> Check drv.log:"
+cat drv.log | grep -i err \
+    | grep -v "err= 0"
+
+if [ $? != 0 ]
+then
+    echo "#i> Check passed."
+else
+    echo "#f> Check failed."
+fi
+

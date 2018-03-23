@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+./kill_fio
+
+sleep 5
+
+./sh_drv_log
+

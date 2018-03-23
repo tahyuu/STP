@@ -1,0 +1,54 @@
+#!/usr/bin/env bash
+
+### -- number --
+
+### __eq_num()
+function __eq_num() {
+    [ $1 -eq $2 ] && return 0 || return 1
+}
+### __lt_num()
+function __lt_num() {
+    [ $1 -lt $2 ] && return 0 || return 1
+}
+### __le_num()
+function __le_num() {
+    [ $1 -le $2 ] && return 0 || return 1
+}
+### __gt_num()
+function __gt_num() {
+    [ $1 -gt $2 ] && return 0 || return 1
+}
+### __ge_num()
+function __ge_num() {
+    [ $1 -ge $2 ] && return 0 || return 1
+}
+
+### -- string --
+
+### __eq_str()
+function __eq_str() {
+    [ "$1" == "$2" ] && return 0 || return 1
+}
+### __ne_str()
+function __ne_str() {
+    [ "$1" != "$2" ] && return 0 || return 1
+}
+
+### -- regexp --
+
+### __regexp()
+function __regexp() {
+    [[ "$1" =~ $2 ]] && return 0 || return 1
+}
+
+### __cmd_err()
+function __cmd_err() {
+    echo "#e> $1: $2" >&2
+    exit 1
+}
+
+### __hhhmmss()
+function __hhhmmss() {
+    printf "%03d:%02d:%02d" $(($1/3600)) $(($1%3600/60)) $(($1%60))
+}
+

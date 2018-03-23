@@ -1,0 +1,126 @@
+#!/usr/bin/env bash
+
+### globals
+CMD_NAME=run_drv_test
+CMD__VER=1.0
+
+### runtime in sec
+# 1-X = runtime
+DEF_RUNTIME=3600
+MIN_RUNTIME=30
+MAX_RUNTIME=604800      # 7*24*60*60 - 1 week
+
+### usage()
+function usage() {
+    echo \
+"
+-- $CMD_NAME v$CMD__VER --
+Usage:
+    -h              help
+    -r <opt>        runtime:
+                        X   - runtime in seconds
+                    - default: $DEF_RUNTIME
+                    - min runtime: $MIN_RUNTIME
+                    - max runtime: $MAX_RUNTIME
+
+ (C) Copyright 2010-2016 Flex Ltd. All Rights Reserved.
+"
+    exit 1
+}
+
+. common.lib
+
+OPTS=":hr:"
+
+### opts
+if ( ! getopts "$OPTS" opt )
+then
+    usage
+fi
+
+typeset -i opt_r=${DEF_RUNTIME}
+
+while getopts "$OPTS" opt
+do
+    case ${opt} in
+        h)
+            usage
+        ;;
+        r)
+            __regexp $OPTARG "^0$|^-?[1-9][0-9]*$" ||
+                __cmd_err ${CMD_NAME} "runtime is not an INTEGER -> $OPTARG"
+            __lt_num $OPTARG ${MIN_RUNTIME} &&
+                __cmd_err ${CMD_NAME} "runtime is -lt $MIN_RUNTIME -> $OPTARG"
+            __gt_num $OPTARG ${MAX_RUNTIME} &&
+                __cmd_err ${CMD_NAME} "runtime is -gt $MIN_RUNTIME -> $OPTARG"
+            opt_r=$OPTARG
+        ;;
+        \?)
+            __cmd_err ${CMD_NAME} "invalid option -> -$OPTARG"
+        ;;
+        :)
+            __cmd_err ${CMD_NAME} "argument required -> -$OPTARG"
+        ;;
+     esac
+done
+
+### stop old processes
+./kill_fio
+
+sleep 5
+
+. drive.lib
+
+### delete partitions for non removable drives
+delete_partitions "$(get_non_removable_drives)" >/dev/null
+
+
+### did we boot from a drive?
+boot_drive=$(get_boot_drive)
+
+### add drives to test
+drives="$(get_non_removable_drives)"
+
+sdX=""
+nvmeX=""
+for sd in $drives
+do
+    if [ "$sd" == "$boot_drive" ]
+    then
+        continue
+    fi
+
+    sdX="$sdX --name=/dev/$sd"
+done
+
+>drv.log
+{
+    ### functional test
+    # randwrite:1M
+
+    echo "#i>-----------------------------------------------------------------------------" >>drv.log
+    echo "#i> 1M randwrite Functional Benchmark Start                                     " >>drv.log
+    echo "#i>-----------------------------------------------------------------------------" >>drv.log
+
+    echo "#i> cmd: fio --ioengine=libaio --direct=1 --bs=1M --iodepth=32 --size=64G --rw=randwrite --ramp_time=10s --runtime=$opt_r"
+    fio --ioengine=libaio --direct=1 --bs=1M --iodepth=32 --size=64G \
+        --rw=randwrite \
+        --runtime=$opt_r --ramp_time=10s \
+        $sdX 2>&1 >>drv.log &
+
+    # wait until fio tests finished
+    wait
+
+    echo "#i>-----------------------------------------------------------------------------" >>drv.log
+    echo "#i> 1M randwrite Functional Benchmark End                                       " >>drv.log
+    echo "#i>-----------------------------------------------------------------------------" >>drv.log
+    echo >>drv.log
+
+    pkill --signal 9 fio >/dev/null
+    sleep 2
+    pkill --signal 9 fio >/dev/null
+} &
+
+### show status of test
+./sh_test_status
+
