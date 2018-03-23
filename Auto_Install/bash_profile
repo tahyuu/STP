@@ -1,4 +1,5 @@
 # .bash_profile
+export TERM=vt100
 
 # Get the aliases and functions
 if [ -f ~/.bashrc ]; then
