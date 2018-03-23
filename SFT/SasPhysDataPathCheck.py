@@ -2,26 +2,28 @@
 
 from TestBase import *
 from InvokeYesNoButtonPicture import *
+from multiprocessing import Pool
+import time
+
 
 class SasPhysDataPathCheck(TestBase):
     section_str = "Section: SAS Phys Data Path Check"
-    def __init__(self, config, eventManager, log, comm, numOfCycle):
+    def __init__(self, config, eventManager, log, comm, numOfCycle, numOfDisk):
 	TestBase.__init__(self, config, eventManager, log, comm)
 	self.numOfCycle = numOfCycle
+	self.numOfDisk = numOfDisk
 
     def Start(self):
 	self.log.Print(SasPhysDataPathCheck.section_str)
 	self.Prepare()
 	try:
             self.DiscoverDisks()
-	    self.EnterGEM()
-	    self.GetPhyCounter()
-	    self.LeaveGEM()
 	    for i in range(self.numOfCycle):
                 self.ExerciseDisks()
-            self.EnterGEM()
-            self.CheckPhyCounter()
-            self.LeaveGEM()
+                #self.ExerciseDisksAll()
+            #self.EnterGEM()
+            #self.CheckPhyCounter()
+            #self.LeaveGEM()
 	except Error, error:
             errCode, errMsg = error
             self.log.Print('TestEnd => ErrorCode=%s: %s' % \
@@ -33,27 +35,34 @@ class SasPhysDataPathCheck(TestBase):
             return 'PASS'
 
     def Prepare(self):
-	self.comm.setTimeout(60)
 	self.comm.SendReturn('cp -n /root/random_10M.bin /dev/shm')
 	self.comm.RecvTerminatedBy()
 	self.comm.SendReturn('rm -f /dev/shm/test.bin')
 	self.comm.RecvTerminatedBy()
 	self.comm.SendReturn('echo 1 > /proc/scsi/sg/allow_dio')
 	self.comm.RecvTerminatedBy()
-	self.comm.setTimeout(20)
     def DiscoverDisks(self):
-	self.comm.SendReturn('discover_drives_sg.py ' + 'SEAGATE')
+	home_dir = self.config.Get('HOME_DIR')
+	self.comm.SendReturn(home_dir+'/tools/discover_drives_sg.py ' + 'SEAGATE '+'HITACHI '+ 'ATA')
 	result = self.comm.RecvTerminatedBy()
 	self.drives_list = result.split('+')[1].split()
-	print self.drives_list
-	if len(self.drives_list) != int(self.config.Get('NUM_DISKS')):
+	print len(self.drives_list)
+	if len(self.drives_list) != int(self.numOfDisk):
 	    raise Error(self.errCode['Disk_Discover_Fail'],'Disk_Discover_Fail')
 	
     def ExerciseDisks(self):
-	for drive in self.drives_list:	
-	    self.comm.SendReturn('exercise_drive_sg.py ' + drive)
-	    line = self.comm.RecvTerminatedBy()
-	    if line.find('Fail') >= 0:
+	drives=""
+	home_dir = self.config.Get('HOME_DIR')
+	for drive in self.drives_list:
+	    drives=drives+drive+" "
+	#for drive in self.drives_list:	
+	self.comm.SendReturn(home_dir+'/tools/exercise_drive_sg.py ' + drives)
+	print "+++++++++++++++++++++++++++++++++++++"
+	print "exercise_drive_sg.py "+drives
+	line = self.comm.RecvTerminatedBy()
+	print "+++++++++++++++++++++++++++++++++++++"
+	print line
+	if line.find('Fail') >= 0:
 	        raise Error(self.errCode['Disk_ReadWrite_Fail'],'Disk_ReadWrite_Fail')
 
     def EnterGEM(self):
@@ -64,19 +73,10 @@ class SasPhysDataPathCheck(TestBase):
         self.comm.SendReturn('\x1d')
         line = self.comm.RecvTerminatedBy()
 
-    def GetPhyCounter(self):
-        self.comm.SendReturn('ddump_phycounters')
-        result = self.comm.RecvTerminatedBy('GEM>')
-        self.phycounter = self.comm.RecvTerminatedBy('GEM>')
-
     def CheckPhyCounter(self):
         self.comm.SendReturn('ddump_phycounters')
         result = self.comm.RecvTerminatedBy('GEM>')
         result = self.comm.RecvTerminatedBy('GEM>')
-	if self.phycounter[30:-30] == result[30:-30]:
-	    self.log.Print("The phy counter doesn't increase")
-	else:
-	    self.log.Print("Error: The phy counter increases")
 	if result.count('Valid            : 1') != 36:
 	    raise Error(self.errCode['Phy_Counter_Valid_Fail'], 'Phy_Counter_Valid_Fail')
 	self.log.Print('Phy 0-35 Counter Valid PASS')
@@ -101,15 +101,19 @@ if __name__ == '__main__':
     parser.add_option("-n", "--numOfCycle", \
                       action="store", \
                       dest="numOfCycle", \
-                      default="1", \
+                      default="4", \
                       help="numOfCycle specifies how many cycles for the stress test")
-    (options, args) = parser.parse_args()
+    parser.add_option("-d", "--num_of_disk", \
+                      action="store", \
+                      dest="num_of_disk", \
+                      default="24", \
+                      help="num_of_disk is 48 with HBA otherwise is 24")
 
-    if len( args ) != 0:
-	parse.error("wrong number of arguments")
-	sys.exit(1)
-    home_dir = os.environ['SATI_FT']
+    (options, args) = parser.parse_args(sys.argv)
+
+    home_dir = os.environ['FT']
     config = Configure(home_dir + '/SFTConfig.txt')
+    config.Put('HOME_DIR',home_dir)
     numOfCycle = int(options.numOfCycle)
 
     serial_port = config.Get('port')
@@ -119,6 +123,12 @@ if __name__ == '__main__':
     log.Open('test.log')
     comm = Comm232(config, log, eventManager, serial_port)
 
-    test = SasPhysDataPathCheck(config, eventManager, log, comm, numOfCycle)
+    test = SasPhysDataPathCheck(config, eventManager, log, comm, numOfCycle, options.num_of_disk)
+    startTime=time.time() 
     result = test.Start()
+    endTime=time.time()
+    print "********************************************"
+    print "Exerice time cost:%s",endTime-startTime
+    print "********************************************"
+
     print result

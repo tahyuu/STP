@@ -112,10 +112,9 @@
 80001	GetMACPrint.Read_Eth_MAC_Err
 80002	GetMACPrint.Label_MAC_Err
 80099	GetMACPrint.Others_Fail
-90000	ProgramBmcMacFru
-90001	ProgramBmcMacFru.Program_Bmc_Mac1_Fail
-90002	ProgramBmcMacFru.Program_Bmc_Mac2_Fail
-90003	ProgramBmcMacFru.Program_Bmc_Fru_Fail
+90000	SasPhysDataPathCheck	
+90001	SasPhysDataPathCheck.Disk_Discover_Fail
+90002	SasPhysDataPathCheck.Disk_ReadWrite_Fail
 90099	ProgramBmcMacFru.Others_Fail
 91000	EthernetLoopbackCheck
 91001	EthernetLoopbackCheck.Ethernet_Loopback_Fail
