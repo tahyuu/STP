@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+TMP="$(dirname $(pwd))"
+PKG="${TMP##*/}"
+
+TMP="$(basename $(pwd))"
+VER="${TMP##*-}"
+
+TGZ=$PKG-$VER.tgz
+
+[ -f $TGZ ] && rm $TGZ
+
+tar -czvf $TGZ $(ls | grep -v make-pkg | grep -v fio-2.1.14_src.tgz)
+
+[ -d ../$VER ] || mkdir ../$VER
+
+mv $TGZ ../$VER/
+
