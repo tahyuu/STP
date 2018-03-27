@@ -77,13 +77,13 @@ class CpuRamCheck(TestBase):
                 print len(ID)
                 print self.CPUID
                 print len(self.CPUID)
-                if ID != self.CPUID: 
-                    self.log.Print("CPU %s ID %s is not matched to %s" % \
-                                (cpu_num, ID, self.CPUID))
-                    raise Error(self.errCode[errCodeStr], errCodeStr)
-                else:
-                    self.log.Print("CPU %s ID %s is matched to %s" % \
-                                (cpu_num, ID, self.CPUID))
+                #if ID != self.CPUID: 
+                #    self.log.Print("CPU %s ID %s is not matched to %s" % \
+                #                (cpu_num, ID, self.CPUID))
+                #    raise Error(self.errCode[errCodeStr], errCodeStr)
+                #else:
+                #    self.log.Print("CPU %s ID %s is matched to %s" % \
+                #                (cpu_num, ID, self.CPUID))
 
             if line.find('Signature') > -1:
                 m = self.pCPUType.search(line)
@@ -281,7 +281,7 @@ if __name__ == '__main__':
 	sys.exit(1)
 
     home_dir = os.environ['FT']
-    config = Configure(home_dir + '/BFTConfig.txt')
+    config = Configure(home_dir + '/SFTConfig.txt')
     config.Put('HOME_DIR',home_dir)
     #config.Put('PcbaSN','SZ605FZ5240019')
     config.Put('PcbaSN','SZ597FZ5240010')
