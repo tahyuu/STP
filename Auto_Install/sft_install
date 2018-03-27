@@ -1,9 +1,44 @@
 #tar -zxvf rpm_files.tar.gz
-yum -y install rpm_files/pexpect-2.3-11.el7.noarch.rpm
-yum -y install rpm_files/sg3_utils-libs-1.37-9.el7.x86_64.rpm
-yum -y install rpm_files/sg3_utils-1.37-9.el7.x86_64.rpm
-yum -y install rpm_files/tix-8.4.3-12.el7.x86_64.rpm
-yum -y install rpm_files/tkinter-2.7.5-34.el7.x86_64.rpm
+#install pexpect
+rpm -qa | grep -i pexpect
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed pexpect skip!"
+else
+  echo "install pexpect"
+  yum -y install rpm_files/pexpect-2.3-11.el7.noarch.rpm
+fi
+#install sg3_utils-libs 
+rpm -qa | grep -i sg3_utils-libs
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed sg3_utils-libs skip!"
+else
+  echo "install sg3_utils-libs"
+  yum -y install rpm_files/sg3_utils-libs-1.37-9.el7.x86_64.rpm
+fi
+#install sg3_utils
+rpm -qa | grep -i sg3_utils
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed sg3_utils skip!"
+else
+  echo "install sg3_utils"
+  yum -y install rpm_files/sg3_utils-1.37-9.el7.x86_64.rpm
+fi
+#install tix
+rpm -qa | grep -i tix 
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed tix skip!"
+else
+  echo "install tix"
+  yum -y install rpm_files/tix-8.4.3-12.el7.x86_64.rpm
+fi
+#install tkinter
+rpm -qa | grep -i tkinter
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed tkinter skip!"
+else
+  echo "install tkinter"
+  yum -y install rpm_files/tkinter-2.7.5-34.el7.x86_64.rpm
+fi
 #install python2-pip
 rpm -qa | grep -i python2-pip
 if [ "$?" == 0 ] ;then
@@ -73,9 +108,9 @@ pip install rpm_files/pyserial-3.3-py2.py3-none-any.whl
 #rm -rf rpm_files
 cp bash_profile ~/.bash_profile
 # change grub.cfg, to make the ethernet index from eth0
-#sed -i "s/quiet/quiet net.ifnames=0/g" /etc/default/grub
+sed -i "s/quiet/quiet net.ifnames=0/g" /etc/default/grub
 #grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
-#grub2-mkconfig -o /boot/grub2/grub.cfg
+grub2-mkconfig -o /boot/grub2/grub.cfg
 
 
 

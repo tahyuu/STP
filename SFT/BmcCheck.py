@@ -11,8 +11,8 @@ class BmcCheck(TestBase):
 	self.version = config.Get('BMC_Version')
 	self.bmc_username="admin"
 	self.bmc_password="admin"
-	self.bmc_ipaddr=""
-	self.bmc_command_header="ipmitool -I lanplus -H 192.168.4.193 -U admin -P admin"
+	self.bmc_ip=""
+	self.bmc_command_header="ipmitool -I lanplus -H %s -U %s -P %s"
     def Start(self):
 	self.log.Print(BmcCheck.section_str)
 	try:
@@ -27,14 +27,21 @@ class BmcCheck(TestBase):
             self.log.Print("Tester => OK: BMC Version Check")
             return 'PASS'
     def GetBmcIpaddr(self):
-	#self.comm.SendReturn('ipmitool lan print 0')
-#	line = self.comm.RecvTerminatedBy()
+	self.comm.SendReturn('ipmitool lan print')
+	line = self.comm.RecvTerminatedBy()
 	self.BmcIpPat= \
-		r'(?P<bmc_ip>\d+\.\d+\.\d+\.\d+)'
+		r'IP Address\s+:\s+(?P<bmc_ip>\d+\.\d+\.\d+\.\d+)'
 	self.p = re.compile(self.BmcIpPat)
-	line ="1.2.3.4"
 	m = self.p.search(line)
-	print m.group("bmc_ip")
+        errCodeStr = 'Get_BMC_IP_Fail'
+        if m == None:
+	    self.log.Print("Can not get BMC IP ADDRESS")
+            raise Error(self.errCode[errCodeStr], errCodeStr)
+	else:
+	    self.bmc_ip=m.group("bmc_ip")
+	    if self.bmc_ip.find("192.168.4")<0:
+	    	self.log.Print("BMC IP ADDRESS(%s) is not correct if should like 192.168.4.X")
+            	raise Error(self.errCode[errCodeStr], errCodeStr)
     def CheckUserSummary(self):
 	self.comm.SendReturn('ipmitool mc info')
 	line = self.comm.RecvTerminatedBy()

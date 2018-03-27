@@ -30,7 +30,7 @@
 24009	ButterFlySpeedWithCheckOthers_Fail
 30001	BmcCheck
 30011	BmcCheck.Version_Fail
-30021	BmcCheck.Check_Mac1_Fail
+30021	BmcCheck.Get_BMC_IP_Fail
 30031	BmcCheck.Check_Mac2_Fail
 30041	BmcCheck.Check_Fru_Board_SN_Fail
 30051	BmcCheck.Check_Fru_Board_PN_Fail
