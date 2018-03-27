@@ -11,20 +11,29 @@ class BmcCheck(TestBase):
 	self.version = config.Get('BMC_Version')
 	self.bmc_username="admin"
 	self.bmc_password="admin"
-	self.bmc_ip=""
-	self.bmc_command_header="ipmitool -I lanplus -H %s -U %s -P %s"
+	self.bmc_ip="192.168.4.12"
+	self.bmc_command_header="ipmitool -I lanplus -H %s -U %s -P %s %s"
     def Start(self):
 	self.log.Print(BmcCheck.section_str)
 	try:
-	    self.GetBmcIpaddr()
-            #self.CheckVersion()
+	    #self.GetBmcIpaddr()
+            self.CheckUserSummary()
+            self.CheckUserList()
+            self.CheckSolInfo()
+            #self.CheckMcInfo()
+            self.CheckVersion()
+            self.CheckFru()
+            self.CheckSensor()
+            self.CheckSDR()
+            self.CheckSelInfo()
+            self.CheckSelList()
 	except Error, error:
             errCode, errMsg = error
             self.log.Print('TestEnd => ErrorCode=%s: %s' % \
                            (errCode, errMsg))
             return 'FAIL ErrorCode=%s' % errCode
         else:
-            self.log.Print("Tester => OK: BMC Version Check")
+            self.log.Print("Tester => OK: BMC Check")
             return 'PASS'
     def GetBmcIpaddr(self):
 	self.comm.SendReturn('ipmitool lan print')
@@ -43,9 +52,83 @@ class BmcCheck(TestBase):
 	    	self.log.Print("BMC IP ADDRESS(%s) is not correct if should like 192.168.4.X")
             	raise Error(self.errCode[errCodeStr], errCodeStr)
     def CheckUserSummary(self):
-	self.comm.SendReturn('ipmitool mc info')
+	cmd="user summary"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
 	line = self.comm.RecvTerminatedBy()
+        errCodeStr = 'CheckUserSummary_FAIL'
+	if line.find("Maximum IDs")<0:
+	    	self.log.Print("Check User Summay Fail")
+            	raise Error(self.errCode[errCodeStr], errCodeStr)
+    def CheckUserList(self):
+	cmd="user list"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
+	line = self.comm.RecvTerminatedBy()
+        errCodeStr = 'CheckUserList_FAIL'
+	if line.find("ADMINISTRATOR")<0:
+	    	self.log.Print("Check User List Fail")
+            	raise Error(self.errCode[errCodeStr], errCodeStr)
+    def CheckSolInfo(self):
+	cmd="sol info"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
+	line = self.comm.RecvTerminatedBy()
+        errCodeStr = 'Sol_Info_FAIL'
+	if line.find("Payload Port")<0:
+	    	self.log.Print("Sol Info Check Fail")
+            	raise Error(self.errCode[errCodeStr], errCodeStr)
+    def CheckFru(self):
+	cmd="fru"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
+	line = self.comm.RecvTerminatedBy()
+        errCodeStr = 'Fru_FAIL'
+	if line.find("Board Mfg Date")<0:
+	    	self.log.Print("BMC FRU Check Fail")
+            	raise Error(self.errCode[errCodeStr], errCodeStr)
 
+    def CheckSelList(self):
+	cmd="sel list"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
+	line = self.comm.RecvTerminatedBy()
+        #errCodeStr = 'SEL_List_FAIL'
+	#if line.find("Board Mfg Date")<0:
+	#    	self.log.Print("BMC FRU Check Fail")
+        #    	raise Error(self.errCode[errCodeStr], errCodeStr)
+    def CheckSDR(self):
+	bmc_sdr_ok_count=self.config.Get('BMC_SDR_OK_Count')
+	#to get sdr list
+	cmd="sdr"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
+	line = self.comm.RecvTerminatedBy()
+	#to check sdr count without no reading
+	cmd="sdr | grep -v 'no reading' |wc -l"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
+	line = self.comm.RecvTerminatedBy()
+        errCodeStr = 'SDR_FAIL'
+	if line.find(bmc_sdr_ok_count)<0:
+	    	self.log.Print("BMC SDR Check Fail,some compoment response 'no reading'")
+            	raise Error(self.errCode[errCodeStr], errCodeStr)
+    def CheckSensor(self):
+	bmc_sensor_ok_count=self.config.Get('BMC_Sensor_OK_Count')
+	#to get sensor list
+	cmd="sensor"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
+	line = self.comm.RecvTerminatedBy()
+	#to check sensor list count
+	cmd="sensor | grep -E 'ok|0x0080|0x0180' | wc -l"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
+	line = self.comm.RecvTerminatedBy()
+        errCodeStr = 'Check_Sensor_FAIL'
+	if line.find(bmc_sensor_ok_count)<0:
+	    	self.log.Print("BMC Sensor Check Fail some component dosen't OK")
+            	raise Error(self.errCode[errCodeStr], errCodeStr)
     def CheckVersion(self):
 	#self.comm.SendReturn('service ipmi start')
 	#line = self.comm.RecvTerminatedBy()
@@ -60,6 +143,31 @@ class BmcCheck(TestBase):
 	print version
 	print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 	if version != self.version: 
+	    self.log.Print("Version number %s is not matched to %s" % \
+			(self.version, version))
+            raise Error(self.errCode[errCodeStr], errCodeStr)
+	else:
+	    self.log.Print("Version number %s is matched to %s" % \
+			(self.version, version))
+    def CheckSelInfo(self):
+	self.SelVersionCheck= \
+		r'Version\s+:\s+(?P<Version>[\w\W]+?)\s+'
+	self.p = re.compile(self.SelVersionCheck)
+	self.Sel_version = self.config.Get('Sel_Version')
+	cmd="sel info"
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
+	line = self.comm.RecvTerminatedBy()
+	m = self.p.search(line)
+        errCodeStr = 'Sel_Info_FAIL'
+	print m
+        if m == None:
+            raise Error(self.errCode[errCodeStr], errCodeStr)
+	version = m.group('Version')
+	print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+	print version
+	print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+	if version != self.Sel_version: 
 	    self.log.Print("Version number %s is not matched to %s" % \
 			(self.version, version))
             raise Error(self.errCode[errCodeStr], errCodeStr)

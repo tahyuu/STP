@@ -27,7 +27,10 @@ BmcMAC2			0140D4F5129E
 # BIOS,BMC,Ethernet Version and Speed Check
 BIOS_Version		5.12
 CMD_Version		01 07
-BMC_Version		0.02
+BMC_Version		1.17
+Sel_Version		1.5
+BMC_Sensor_OK_Count	47
+BMC_SDR_OK_Count	47
 ETHERNET_Version	3.132
 Iperf_Speed		930
 SAS_CTRL_Version	3070400
