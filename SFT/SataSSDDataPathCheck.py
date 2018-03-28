@@ -6,7 +6,7 @@ from multiprocessing import Pool
 import time
 
 
-class SasPhysDataPathCheck(TestBase):
+class SataSSDDataPathCheck(TestBase):
     section_str = "Section: SAS Phys Data Path Check"
     def __init__(self, config, eventManager, log, comm, numOfCycle, numOfDisk):
 	TestBase.__init__(self, config, eventManager, log, comm)
@@ -14,7 +14,7 @@ class SasPhysDataPathCheck(TestBase):
 	self.numOfDisk = numOfDisk
 
     def Start(self):
-	self.log.Print(SasPhysDataPathCheck.section_str)
+	self.log.Print(SataSSDDataPathCheck.section_str)
 	self.Prepare()
 	#if True:
 	try:
@@ -46,7 +46,7 @@ class SasPhysDataPathCheck(TestBase):
     def DiscoverDisks(self):
 	home_dir = self.config.Get('HOME_DIR')
 	#self.comm.SendReturn(home_dir+'/tools/discover_drives_sg.py ' + 'SEAGATE '+'HITACHI '+ 'ATA')
-	self.comm.SendReturn(home_dir+'/tools/discover_drives_fdisk.py ' + '6001')
+	self.comm.SendReturn(home_dir+'/tools/discover_drives_sg.py ' + 'Micron')
 	result = self.comm.RecvTerminatedBy()
 	self.drives_list = result.split('+')[1].split()
 	if len(self.drives_list) != int(self.numOfDisk):
@@ -116,7 +116,7 @@ if __name__ == '__main__':
     parser.add_option("-d", "--num_of_disk", \
                       action="store", \
                       dest="num_of_disk", \
-                      default="24", \
+                      default="14", \
                       help="num_of_disk is 5 ")
 
     (options, args) = parser.parse_args(sys.argv)
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     log.Open('test.log')
     comm = Comm232(config, log, eventManager, serial_port)
 
-    test = SasPhysDataPathCheck(config, eventManager, log, comm, numOfCycle, options.num_of_disk)
+    test = SataSSDDataPathCheck(config, eventManager, log, comm, numOfCycle, options.num_of_disk)
     startTime=time.time() 
     result = test.Start()
     endTime=time.time()

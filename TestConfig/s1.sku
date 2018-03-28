@@ -76,7 +76,7 @@ HDD_FW_V3		xx
 HDD_WSpeed		30.0
 HDD_RSpeed		130.0
 HDD_Size		4000.8
-HDD_Qty			12
+HDD_Qty			24
 
 # PSU product Check
 PSU_Product		12V P/S WITH 12VSTBY AND FAN

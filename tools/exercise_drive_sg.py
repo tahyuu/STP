@@ -6,8 +6,10 @@ import multiprocessing
 def ExerciseData(drive):
 	#drive = sys.argv[1]
 	printStr=""
-	writeCmdStr = 'sg_dd if=/dev/shm/random_10M.bin of=' + drive + ' count=4 time=2 dio=1 blk_sgio=1 bs=512'
-	readCmdStr = 'sg_dd if=' + drive + ' of=/dev/shm/test.bin count=20480 time=2 dio=1 blk_sgio=1 bs=512'
+	#writeCmdStr = 'sg_dd if=/dev/shm/random_10M.bin of=' + drive + ' count=4 time=2 dio=1 blk_sgio=1 bs=512'
+	#readCmdStr = 'sg_dd if=' + drive + ' of=/dev/shm/test.bin count=20480 time=2 dio=1 blk_sgio=1 bs=512'
+	writeCmdStr = 'sg_dd if=/dev/shm/random_10M.bin of=' + drive + ' count=4 time=2 dio=1  bs=512'
+	readCmdStr = 'sg_dd if=' + drive + ' of=/dev/shm/test.bin count=20480 time=2 dio=1  bs=512'
 	#print writeCmdStr
 	printStr=printStr+writeCmdStr
 	pw = Popen(writeCmdStr, shell=True, stdout=PIPE, stderr=PIPE)
