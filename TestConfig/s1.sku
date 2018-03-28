@@ -45,16 +45,19 @@ CPU_Type		0
 CPU_Family		6
 CPU_Model		85
 CPU_Stepping		4
-CPU_Speed		3000
-CPU_Core_Count		18
-CPU_Core_Enabled	18
+CPU_Speed		2200
+CPU_Core_Count		10
+CPU_Core_Enabled	10
 CPU_Qty			2
 
 # DIMM Width, Speed, Size
 DIMM_Total_Width	72  
 DIMM_Data_Width		64
-DIMM_Size		12288
+DIMM_Size		16384
 DIMM_Speed		2666
+DIMM_MB_Slot_Count	16
+DIMM_Need_Count		12
+DIMM_Empty_List		CPU1_DIMM_A2,CPU1_DIMM_D2,CPU2_DIMM_D2,CPU2_DIMM_F1
 
 # SSD/HDD Qty,FW,Model Check
 SSD_Model		SAMSUNG MZQWV480

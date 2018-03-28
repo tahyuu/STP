@@ -36,6 +36,7 @@ class CpuRamCheck(TestBase):
 	self.CPUCoreCount = self.config.Get('CPU_Core_Count')
 	self.CPUCoreEnabled = self.config.Get('CPU_Core_Enabled')
 
+	self.pDIMMSerialNumber = re.compile(r'Serial\s+Number:\s(?P<SerialNumber>\S+)')
 	self.pDIMMTotalWidth = re.compile(r'Total Width: (?P<DIMMTotalWidth>\d+) bits\W*')
 	self.pDIMMDataWidth = re.compile(r'Data Width: (?P<DIMMDataWidth>\d+) bits\W*')
 	self.pDIMMSize = re.compile(r'Size: (?P<DIMMSize>\d+)\W*')
@@ -50,6 +51,7 @@ class CpuRamCheck(TestBase):
 	try:
             self.CheckCPU()
             self.CheckDIMM()
+	    pass
 	except Error, error:
             errCode, errMsg = error
             self.log.Print('TestEnd => ErrorCode=%s: %s' % (errCode, errMsg))
@@ -77,6 +79,8 @@ class CpuRamCheck(TestBase):
                 print len(ID)
                 print self.CPUID
                 print len(self.CPUID)
+                self.log.Print("CPU %s ID: %s " % \
+                             (cpu_num, ID))
                 #if ID != self.CPUID: 
                 #    self.log.Print("CPU %s ID %s is not matched to %s" % \
                 #                (cpu_num, ID, self.CPUID))
@@ -207,16 +211,36 @@ class CpuRamCheck(TestBase):
 	self.log.Print("Check DIMM -------------------------------------")
 	self.comm.SendReturn('dmidecode -t 17')
 	result = self.comm.RecvTerminatedBy()
+	self.pDIMMlocation= re.compile(r'Memory Device\s+(?P<DIMMInfo>[\w\W]*?Configured\s+Voltage)')
+        dimm_list = self.pDIMMlocation.findall(result)
+	self.comm.SendReturn("dmidecode -t 17 | grep 'Manufacturer: NO DIMM' | wc -l")
+	result = self.comm.RecvTerminatedBy()
 	#result = file('/root/log/dimm.log').read()
-	if result.find('Manufacturer: NO DIMM') > 0:
+	DIMM_MB_Slot_Count=self.config.Get('DIMM_MB_Slot_Count')
+	DIMM_Need_Count=self.config.Get('DIMM_Need_Count')
+	DIMM_Empty_List=self.config.Get('DIMM_Empty_List')
+	DIMM_Empty_Count=int(DIMM_MB_Slot_Count)-int(DIMM_Need_Count)
+	if result.find(str(DIMM_Empty_Count)) < 0:
             errCodeStr = 'No_DIMM_Fail'
+	    self.log.Print("Mother board have %s DIMM Slot, (%s) can be empty,above number should be %s " %(DIMM_MB_Slot_Count,DIMM_Empty_List,DIMM_Need_Count))
 	    self.log.Print('At least one DIMM is missing!')
             raise Error(self.errCode[errCodeStr], errCodeStr)
-	self.log.Print("All RAM DIMM Slots are populated")
-
-	ll = result.split('\n')
+	else:
+	    self.log.Print("Mother board have %s DIMM Slot, (%s) can be empty, %s pcs DIMMs are populated" %(DIMM_MB_Slot_Count,DIMM_Empty_List,DIMM_Need_Count))
+	
 	dimm_num = 0
-	for l in ll:
+	for l in dimm_list:
+	    #find localtion
+	    dimm_location=""
+	    self.pDIMMlocation= re.compile(r'Locator:\s+(?P<DIMMLoation>CPU\w+)')
+            m = self.pDIMMlocation.search(l)
+	    if m:
+	    	dimm_location=m.group('DIMMLoation')
+	    else:
+		continue
+	    #to check if current DIMM location is in the empty list
+	    if DIMM_Empty_List.find(dimm_location)>=0:
+		continue
             if l.find('Total Width') >= 0:
 		dimm_num = dimm_num + 1
 		#print [l]
@@ -226,11 +250,21 @@ class CpuRamCheck(TestBase):
                     raise Error(self.errCode[errCodeStr], errCodeStr)
                 else:
                     if m.group('DIMMTotalWidth') == self.DIMMTotalWidth:
-                        self.log.Print('DIMM ' + str(dimm_num) + ' Total Width '  + m.group('DIMMTotalWidth') + ' match to ' + self.DIMMTotalWidth )
+                        self.log.Print('DIMM ' + str(dimm_location) + ' Total Width '  + m.group('DIMMTotalWidth') + ' match to ' + self.DIMMTotalWidth )
                     else:                
                         errCodeStr = 'DIMM_Total_Width_Fail'
-                        self.log.Print('DIMM ' + str(dimm_num) + ' Total Width '  + m.group('DIMMTotalWidth') + ' not match to ' + self.DIMMTotalWidth )
+                        self.log.Print('DIMM ' + str(dimm_location) + ' Total Width '  + m.group('DIMMTotalWidth') + ' not match to ' + self.DIMMTotalWidth )
                         raise Error(self.errCode[errCodeStr], errCodeStr)
+            if l.find('Serial Number') >= 0:
+                m = self.pDIMMSerialNumber.search(l)
+		print m.group(0)
+		m.group('SerialNumber')
+                if m == None:
+                    errCodeStr = 'Others_Fail'
+                    raise Error(self.errCode[errCodeStr], errCodeStr)
+                else:
+                    self.log.Print('DIMM ' + str(dimm_location) + ' Serial Number:'  + m.group('SerialNumber'))
+
             
 	    if l.find('Data Width') >= 0:
                 m = self.pDIMMDataWidth.search(l)
@@ -239,10 +273,10 @@ class CpuRamCheck(TestBase):
                     raise Error(self.errCode[errCodeStr], errCodeStr)
                 else:
                     if m.group('DIMMDataWidth') == self.DIMMDataWidth:
-                        self.log.Print('DIMM ' + str(dimm_num) + ' Data Width '  + m.group('DIMMDataWidth') + ' match to ' + self.DIMMDataWidth )
+                        self.log.Print('DIMM ' + str(dimm_location) + ' Data Width '  + m.group('DIMMDataWidth') + ' match to ' + self.DIMMDataWidth )
                     else:                
                         errCodeStr = 'DIMM_Data_Width_Fail'
-                        self.log.Print('DIMM ' + str(dimm_num) + ' Data Width '  + m.group('DIMMDatalWidth') + ' not match to ' + self.DIMMDataWidth )
+                        self.log.Print('DIMM ' + str(dimm_location) + ' Data Width '  + m.group('DIMMDatalWidth') + ' not match to ' + self.DIMMDataWidth )
                         raise Error(self.errCode[errCodeStr], errCodeStr)
             
             if l.find('Size') >= 0:
@@ -252,10 +286,10 @@ class CpuRamCheck(TestBase):
                     raise Error(self.errCode[errCodeStr], errCodeStr)
                 else:
                     if m.group('DIMMSize') == self.DIMMSize:
-                        self.log.Print('DIMM ' + str(dimm_num) + ' Size '  + m.group('DIMMSize') + ' match to ' + self.DIMMSize )
+                        self.log.Print('DIMM ' + str(dimm_location) + ' Size '  + m.group('DIMMSize') + ' match to ' + self.DIMMSize )
                     else:                
                         errCodeStr = 'DIMM_Size_Fail'
-                        self.log.Print('DIMM ' + str(dimm_num) + ' Size '  + m.group('DIMMSize') + ' not match to ' + self.DIMMSize )
+                        self.log.Print('DIMM ' + str(dimm_location) + ' Size '  + m.group('DIMMSize') + ' not match to ' + self.DIMMSize )
                         raise Error(self.errCode[errCodeStr], errCodeStr)
             
             if l.find('Speed') == 1:
@@ -265,10 +299,10 @@ class CpuRamCheck(TestBase):
                     raise Error(self.errCode[errCodeStr], errCodeStr)
                 else:
                     if m.group('DIMMSpeed') == self.DIMMSpeed:
-                        self.log.Print('DIMM ' + str(dimm_num) + ' Speed '  + m.group('DIMMSpeed') + ' match to ' + self.DIMMSpeed )
+                        self.log.Print('DIMM ' + str(dimm_location) + ' Speed '  + m.group('DIMMSpeed') + ' match to ' + self.DIMMSpeed )
                     else:                
                         errCodeStr = 'DIMM_Speed_Fail'
-                        self.log.Print('DIMM ' + str(dimm_num) + ' Speed '  + m.group('DIMMSpeed') + ' not match to ' + self.DIMMSpeed )
+                        self.log.Print('DIMM ' + str(dimm_location) + ' Speed '  + m.group('DIMMSpeed') + ' not match to ' + self.DIMMSpeed )
                         raise Error(self.errCode[errCodeStr], errCodeStr)            
 
 	
