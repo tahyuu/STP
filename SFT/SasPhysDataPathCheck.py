@@ -45,8 +45,9 @@ class SasPhysDataPathCheck(TestBase):
 	self.comm.RecvTerminatedBy()
     def DiscoverDisks(self):
 	home_dir = self.config.Get('HOME_DIR')
+	sas_hd_size = self.config.Get('SAS_HD_Size')
 	#self.comm.SendReturn(home_dir+'/tools/discover_drives_sg.py ' + 'SEAGATE '+'HITACHI '+ 'ATA')
-	self.comm.SendReturn(home_dir+'/tools/discover_drives_fdisk.py ' + '6001')
+	self.comm.SendReturn(home_dir+'/tools/discover_drives_fdisk.py %s' %sas_hd_size)
 	result = self.comm.RecvTerminatedBy()
 	self.drives_list = result.split('+')[1].split()
 	if len(self.drives_list) != int(self.numOfDisk):

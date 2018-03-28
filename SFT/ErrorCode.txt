@@ -116,7 +116,11 @@
 90000	SasPhysDataPathCheck	
 90001	SasPhysDataPathCheck.Disk_Discover_Fail
 90002	SasPhysDataPathCheck.Disk_ReadWrite_Fail
-90099	ProgramBmcMacFru.Others_Fail
+90099	SasPhysDataPathCheck.Others_Fail
+90003	SataSSDDataPathCheck	
+90004	SataSSDDataPathCheck.Disk_Discover_Fail
+90005	SataSSDDataPathCheck.Disk_ReadWrite_Fail
+90099	SataSSDDataPathCheck.Others_Fail
 91000	EthernetLoopbackCheck
 91001	EthernetLoopbackCheck.Ethernet_Loopback_Fail
 91002	EthernetLoopbackCheck.FW_Version_Port0_Fail
