@@ -1,0 +1,48 @@
+#BootUUT(self.config, self.eventManager, self.log, self.comm, 1, 180, True)
+SetClock(self.config, self.eventManager, self.log, self.comm)
+BmcSelClear(self.config, self.eventManager, self.log, self.comm)
+#BiosVersionCheck(self.config, self.eventManager, self.log, self.comm)
+#BmcCheck(self.config, self.eventManager, self.log, self.comm)
+#ProgramBmcMacFru(self.config, self.eventManager, self.log, self.comm)
+#IdStatusLedCheck(self.config, self.eventManager, self.log, self.comm)
+#
+PciListCheck(self.config, self.eventManager, self.log, self.comm,"s4.list")
+PciSpeedWidthCheck(self.config, self.eventManager, self.log, self.comm)
+EthernetLoopbackCheck(self.config, self.eventManager, self.log, self.comm)
+FiberLoopbackCheck(self.config, self.eventManager, self.log, self.comm)
+USBCheck(self.config, self.eventManager, self.log, self.comm)
+SasPhysDataPathCheck(self.config, self.eventManager, self.log, self.comm)
+SataSSDDataPathCheck(self.config, self.eventManager, self.log, self.comm)
+BmcCheck(self.config, self.eventManager, self.log, self.comm, '1')
+CpuRamBurnIn(self.config, self.eventManager, self.log, self.comm, '1')
+#
+#PciListCheck(self.config, self.eventManager, self.log, self.comm,"S1.list")
+#USBCheck(self.config, self.eventManager, self.log, self.comm)
+#CpuRamBurnIn(self.config, self.eventManager, self.log, self.comm, '60')
+##
+#PciListCheck(self.config, self.eventManager, self.log, self.comm,"S1.list")
+#USBCheck(self.config, self.eventManager, self.log, self.comm)
+#CpuRamBurnIn(self.config, self.eventManager, self.log, self.comm, '60')
+##
+#PciListCheck(self.config, self.eventManager, self.log, self.comm,"S1.list")
+#USBCheck(self.config, self.eventManager, self.log, self.comm)
+#CpuRamBurnIn(self.config, self.eventManager, self.log, self.comm, '60')
+##
+#PciListCheck(self.config, self.eventManager, self.log, self.comm,"S1.list")
+#USBCheck(self.config, self.eventManager, self.log, self.comm)
+#CpuRamBurnIn(self.config, self.eventManager, self.log, self.comm, '60')
+##
+#PciListCheck(self.config, self.eventManager, self.log, self.comm,"S1.list")
+#USBCheck(self.config, self.eventManager, self.log, self.comm)
+#CpuRamBurnIn(self.config, self.eventManager, self.log, self.comm, '60')
+##
+#PciListCheck(self.config, self.eventManager, self.log, self.comm,"S1.list")
+#USBCheck(self.config, self.eventManager, self.log, self.comm)
+#CpuRamBurnIn(self.config, self.eventManager, self.log, self.comm, '60')
+##
+#PciListCheck(self.config, self.eventManager, self.log, self.comm,"BFT1_EVT_Cycle1.list")
+#InterposeSpeedWithCheck(self.config, self.eventManager, self.log, self.comm)
+#CpuRamBurnIn(self.config, self.eventManager, self.log, self.comm, '10')
+#HaltUUT(self.config, self.eventManager, self.log, self.comm,True, '1')
+BmcSelCheck(self.config, self.eventManager, self.log, self.comm)
+BmcSelClear(self.config, self.eventManager, self.log, self.comm)

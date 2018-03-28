@@ -155,6 +155,12 @@ class EthernetLoopbackCheck(TestBase):
 	#	echo 0 > /selinux/enforce
         self.comm.SendReturn("systemctl stop firewalld.service")
 	line = self.comm.RecvTerminatedBy()
+        self.comm.SendReturn('service NetworkManager stop')
+        line = self.comm.RecvTerminatedBy()
+	time.sleep(3)
+
+        self.comm.SendReturn("service vsftpd start")
+	line = self.comm.RecvTerminatedBy()
 
         #self.comm.SendReturn("echo 0 > /selinux/enforce")
 	#line = self.comm.RecvTerminatedBy()
@@ -163,8 +169,6 @@ class EthernetLoopbackCheck(TestBase):
 	#setp2 start fire firewall
 	#  commands:
 	#	service vsftpd start
-        self.comm.SendReturn("service vsftpd start")
-	line = self.comm.RecvTerminatedBy()
 
 	#step3 excute loop back test
 	#  commands:

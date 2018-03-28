@@ -21,15 +21,15 @@ class USBCheck(TestBase):
         #self.cmd_usb_rwspeed="./storage-tool-64 -pciid 8086:8d31 -scsipath 0:0:0:0 -devicecount 1 -action testspeed -speed 10"
         #self.cmd_usb_rwspeed="./storage-tool-64 -pciid 8086:8d31 -usbpath 0:1:1:0 -devicecount 1 -action testspeed -speed 10"
         #####################################Check with Pciid###################################
-        self.cmd_usb1_info="/root/CBFT/tools/storage-tool-64 -pciid 8086:3a3c -usbpath 0:4:1.0 -devicecount 1 -action info"
-        self.cmd_usb1_rwspeed="/root/CBFT/tools/storage-tool-64 -pciid 8086:3a3c -usbpath 0:4:1.0 -devicecount 1 -action testspeed -speed 10"
-        self.cmd_usb1_ramdom_test="/root/CBFT/tools/storage-tool-64 -pciid 8086:3a3c -usbpath 0:4:1.0 -devicecount 1 -action writeread -count 1M -force"
-        self.cmd_usb2_info="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info"
-        self.cmd_usb2_rwspeed="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action testspeed -speed 10"
-        self.cmd_usb2_ramdom_test="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action writeread -count 1M -force"
-        self.cmd_usb3_info="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info"
-        self.cmd_usb3_rwspeed="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action testspeed -speed 10"
-        self.cmd_usb3_ramdom_test="/root/CBFT/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action writeread -count 1M -force"
+        self.cmd_usb1_info="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:5:1.0 -devicecount 1 -action info"
+        self.cmd_usb1_rwspeed="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:5:1.0 -devicecount 1 -action testspeed -speed 50"
+        self.cmd_usb1_ramdom_test="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:5:1.0 -devicecount 1 -action writeread -count 1M -force"
+        self.cmd_usb2_info="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info"
+        self.cmd_usb2_rwspeed="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action testspeed -speed 10"
+        self.cmd_usb2_ramdom_test="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action writeread -count 1M -force"
+        self.cmd_usb3_info="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action info"
+        self.cmd_usb3_rwspeed="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action testspeed -speed 10"
+        self.cmd_usb3_ramdom_test="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:4:1.0 -devicecount 1 -action writeread -count 1M -force"
         #####################################Check with Pciid###################################
         #####################################Check with PciBUS###################################
         #self.cmd_usb1_info="./storage-tool-64 -pcipath 0000:00:14.0 -usbpath 0:1:1.0 -devicecount 1 -action info"
@@ -78,7 +78,7 @@ class USBCheck(TestBase):
 	self.log.Print(USBCheck.section_str)
         try:
 	    self.FindUSBDevices()
-	    #self.TestUSBDrivesCacheReadSpeed(1)
+	    self.TestUSBDrivesCacheReadSpeed(1)
 	    #self.TestUSBDrivesCacheReadSpeed(2)
 	    #self.comm.setTimeout(22)
 	    #self.TestUSBDriveswithRandomData(2)

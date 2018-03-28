@@ -147,6 +147,6 @@ if __name__ == '__main__':
     comm = Comm232(config, log, eventManager, serial_port) 
     #test = GetBarcode(config, eventManager, log, comm)
     #result = test.Start()
-    test = PciListCheck(config, eventManager, log, comm,"S1.list")
+    test = PciListCheck(config, eventManager, log, comm,"s4.list")
     result = test.Start()
     print result

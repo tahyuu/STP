@@ -7,7 +7,7 @@ class BmcCheck(TestBase):
 	self.BmcCheck= \
 		r'(?P<Version>\d+[.]\d{2})'
 	self.pattern = self.BmcCheck
-	self.p = re.compile(self.pattern)
+	self.bmc_version_p = re.compile(self.pattern)
 	self.version = config.Get('BMC_Version')
 	self.bmc_username="admin"
 	self.bmc_password="admin"
@@ -16,7 +16,7 @@ class BmcCheck(TestBase):
     def Start(self):
 	self.log.Print(BmcCheck.section_str)
 	try:
-	    #self.GetBmcIpaddr()
+	    self.GetBmcIpaddr()
             self.CheckUserSummary()
             self.CheckUserList()
             self.CheckSolInfo()
@@ -36,6 +36,9 @@ class BmcCheck(TestBase):
             self.log.Print("Tester => OK: BMC Check")
             return 'PASS'
     def GetBmcIpaddr(self):
+        self.comm.SendReturn('service NetworkManager restart')
+        line = self.comm.RecvTerminatedBy()
+	time.sleep(5)
 	self.comm.SendReturn('ipmitool lan print')
 	line = self.comm.RecvTerminatedBy()
 	self.BmcIpPat= \
@@ -132,10 +135,13 @@ class BmcCheck(TestBase):
     def CheckVersion(self):
 	#self.comm.SendReturn('service ipmi start')
 	#line = self.comm.RecvTerminatedBy()
-	self.comm.SendReturn('ipmitool mc info')
+	cmd='mc info'
+	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
+	self.comm.SendReturn(command)
 	line = self.comm.RecvTerminatedBy()
-	m = self.p.search(line)
+	m = self.bmc_version_p.search(line)
         errCodeStr = 'Version_Fail'
+	print m
         if m == None:
             raise Error(self.errCode[errCodeStr], errCodeStr)
 	version = m.group('Version')

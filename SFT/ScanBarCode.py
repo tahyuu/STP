@@ -33,8 +33,8 @@ class ScanBarCode:
 	self.labelTitle = Label(self.frame, text = 'Scan ' + self.dut_name + ' Barcode', font = 'Times -40 bold')
 	self.labelTitle.grid(row=0, column=0, columnspan=2)
 	self.labeleg = Label(self.frame, text = 'Version: ' + self.config.Get('Version'), font = 'Times -32 bold')
-	self.scanItems = ['SN', 'BmcMac1', 'BmcMac2']
-	#self.scanItems = ['SN']
+	#self.scanItems = ['SN', 'BmcMac1', 'BmcMac2']
+	self.scanItems = ['SN']
 	self.labeleg.grid(row=0, column=2)
 	self.CreateLabelWidget()
 	self.CreateEntryWidget()
@@ -68,8 +68,8 @@ class ScanBarCode:
 
     def CreateEntryWidget(self):
 	self.ScanSN()
-	self.ScanBmcMac1()
-	self.ScanBmcMac2()
+	#self.ScanBmcMac1()
+	#self.ScanBmcMac2()
 
     def CreateLabelExampleWidget(self):
 	row = 0
@@ -120,11 +120,11 @@ class ScanBarCode:
 	print barcode
 	if self.CheckFormat(self.config.Get('SN' + '_Re'), barcode):
 	    #self.config.Put('PcbaSN', barcode)
-            self.MAC1.configure(state="normal")
-	    self.MAC1.focus_set()
+            #self.MAC1.configure(state="normal")
+	    #self.MAC1.focus_set()
 	    #self.root.destroy()
 	    self.config.Put('PcbaSN', self.SN.get())
-            #self.root.destroy()
+            self.root.destroy()
 	else:
             self.SN.delete(0,END)
 

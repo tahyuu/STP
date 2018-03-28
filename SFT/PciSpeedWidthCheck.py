@@ -12,24 +12,12 @@ class PciSpeedWidthCheck(TestBase):
     section_str = "Section: PCIe Devices Link Speed and Width Check"
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
-	self.Ethernet1 = ('18:00.2', '8', '8', 'Ethernet_Ctrl1')
-	self.Ethernet2 = ('19:00.2', '8', '8', 'Ethernet_Ctrl2')
-	self.Ethernet3 = ('3b:00.0', '8', '8', 'Ethernet_Ctrl3')
-	self.Ethernet4 = ('3b:00.1', '8', '8', 'Ethernet_Ctrl4')
-	self.Ethernet5 = ('3b:00.2', '8', '8', 'Ethernet_Ctrl5')
-	self.Ethernet6 = ('3c:00.0', '8', '8', 'Ethernet_Ctrl6')
-	self.Ethernet7 = ('3c:00.1', '8', '8', 'Ethernet_Ctrl7')
-	self.Ethernet8 = ('3c:00.2', '8', '8', 'Ethernet_Ctrl8')
-	self.Ethernet9 = ('5e:00.0', '8', '8', 'Ethernet_Ctrl9')
-	self.Ethernet10 = ('5e:00.1', '8', '8', 'Ethernet_Ctrl0')
-	self.Ethernet11 = ('5e:00.2', '8', '8', 'Ethernet_Ctrl1')
-	self.Ethernet12 = ('5f:00.0', '8', '8', 'Ethernet_Ctrl2')
-	self.Ethernet13 = ('5f:00.1', '8', '8', 'Ethernet_Ctrl3')
-	self.Ethernet14 = ('5f:00.2', '8', '8', 'Ethernet_Ctrl4')
-	self.Storage1 = ('18:00.0', '8', '8', 'Storage_Ctrl1')
-	self.Storage2 = ('18:00.1', '8', '8', 'Storage_Ctrl2')
-	self.Storage3 = ('19:00.0', '8', '8', 'Storage_Ctrl3')
-	self.Storage4 = ('19:00.1', '8', '8', 'Storage_Ctrl4')
+	self.ASPEED = ('02:00.0', '5', '1', 'ASPEED')
+	self.FIBER  = ('18:00.0', '8', '8', 'FIBBER')
+	self.RAID1 =   ('5f:00.0', '8', '8', 'RAID1')
+	self.Ethernet1 = ('af:00.0', '5', '4', 'Ethernet1')
+	self.Ethernet2 = ('af:00.1', '5', '4', 'Ethernet2')
+	self.RAID2 =   ('b1:00.0', '8', '8', 'RAID2')
         self.LnkStaPatt = \
                 r'LnkSta:\W+' + \
                 r'Speed (?P<Speed>\d*[.]*\d)GT\/s,\W+' + \
@@ -38,24 +26,12 @@ class PciSpeedWidthCheck(TestBase):
 
     def Start(self):
         try:
+	    self.CheckPciSpeedWidth(self.ASPEED)
+	    self.CheckPciSpeedWidth(self.FIBER)
+	    self.CheckPciSpeedWidth(self.RAID1)
+	    self.CheckPciSpeedWidth(self.RAID2)
 	    self.CheckPciSpeedWidth(self.Ethernet1)
 	    self.CheckPciSpeedWidth(self.Ethernet2)
-	    self.CheckPciSpeedWidth(self.Ethernet3)
-	    self.CheckPciSpeedWidth(self.Ethernet4)
-	    self.CheckPciSpeedWidth(self.Ethernet5)
-	    self.CheckPciSpeedWidth(self.Ethernet6)
-	    self.CheckPciSpeedWidth(self.Ethernet7)
-	    self.CheckPciSpeedWidth(self.Ethernet8)
-	    self.CheckPciSpeedWidth(self.Ethernet9)
-	    self.CheckPciSpeedWidth(self.Ethernet10)
-	    self.CheckPciSpeedWidth(self.Ethernet11)
-	    self.CheckPciSpeedWidth(self.Ethernet12)
-	    self.CheckPciSpeedWidth(self.Ethernet13)
-	    self.CheckPciSpeedWidth(self.Ethernet14)
-	    self.CheckPciSpeedWidth(self.Storage1)
-	    self.CheckPciSpeedWidth(self.Storage2)
-	    self.CheckPciSpeedWidth(self.Storage3)
-	    self.CheckPciSpeedWidth(self.Storage4)
         except Error, error:
             errCode, errMsg = error
             self.log.Print('TestEnd Chk => ErrorCode=%s: %s' % \
@@ -71,7 +47,7 @@ class PciSpeedWidthCheck(TestBase):
 
     def CheckPciSpeedWidth(self, dev):
 	self.log.Print('Subsection: ' + dev[3] + ' Speed and Width Check')
-        commandStr = 'lspci -s ' + dev[0] + ' -vvn'
+        commandStr = 'lspci -s 0000:' + dev[0] + ' -vvn'
         self.comm.SendReturn(commandStr)
         result = self.comm.RecvTerminatedBy()
         m = self.patternLnkSta.search(result)

@@ -53,8 +53,6 @@ class FiberLoopbackCheck(TestBase):
 	    return 'PASS'
     def FindEthDev(self):
         #self.comm.SendReturn('/root/bin/ethdevfind.sh')
-        self.comm.SendReturn('')
-        line = self.comm.RecvTerminatedBy()
         self.comm.SendReturn('ifconfig -a | grep eth | cut -d " " -f 1')
         line = self.comm.RecvTerminatedBy()
         eth_list = line.split()
@@ -173,7 +171,7 @@ class FiberLoopbackCheck(TestBase):
 
         errorCodeStr = 'Ethernet_Loopback_Fail'
         #self.comm.SendReturn("/root/CMCC/tools/netloop-testtool3-64 -d1 %s -d2 %s -ftpuser root -ftppassword 123456 -ftpsize 1G -maxerror 1" %(portA,portB))
-        self.comm.SendReturn("/root/CMCC/tools/netloop-testtool3-64 -d1 %s -d2 %s -iperfspeed 90" %(portA,portB))
+        self.comm.SendReturn("/root/CMCC/tools/netloop-testtool3-64 -d1 %s -d2 %s -iperfspeed 8800" %(portA,portB))
 	line = self.comm.RecvTerminatedBy()
 	if line.find("All Passed")<0:
         	raise Error(self.errCode[errorCodeStr], errorCodeStr)
