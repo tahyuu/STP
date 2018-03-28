@@ -9,7 +9,7 @@ from GetBarcode import *
 from ScanBarCode import *
 
 class FiberLoopbackCheck(TestBase):
-    section_str = "Section: Ethernet GB loop back test"
+    section_str = "Section: Fibber 10GB loopback test"
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
 	self.config = config
@@ -49,7 +49,7 @@ class FiberLoopbackCheck(TestBase):
             return 'FAIL ErrorCode=%s' % errCode
 
         else:
-            self.log.Print("Tester Chk => OK: Ethernet  loop back Verify")
+            self.log.Print("Tester Chk => OK: Fibber 10G  loopback Verify")
 	    return 'PASS'
     def FindEthDev(self):
         #self.comm.SendReturn('/root/bin/ethdevfind.sh')
