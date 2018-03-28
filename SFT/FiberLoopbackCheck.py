@@ -8,7 +8,7 @@ from subprocess import *
 from GetBarcode import *
 from ScanBarCode import *
 
-class EthernetLoopbackCheck(TestBase):
+class FiberLoopbackCheck(TestBase):
     section_str = "Section: Ethernet GB loop back test"
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
@@ -20,11 +20,11 @@ class EthernetLoopbackCheck(TestBase):
 	self.port1=""
 	self.port2=""
 	#self.busIds=["0000:06:05.0","0000:05:00.0"]
-	self.busIds=["0000:af:00.0","0000:af:00.1"]
+	self.busIds=["0000:18:00.0","0000:18:00.0"]
 	self.device="ixgbe"
 	self.fw="0x800009fa"
     def Start(self):
-	self.log.Print(EthernetLoopbackCheck.section_str)
+	self.log.Print(FiberLoopbackCheck.section_str)
         try:
 	    self.FindEthDev()
    	    #self.CheckFWPort(self.port0)
@@ -64,12 +64,11 @@ class EthernetLoopbackCheck(TestBase):
         for ethdev in eth_list:
             self.comm.SendReturn('ethtool -i ' + ethdev)
             line = self.comm.RecvTerminatedBy()
-            if self.port0 != '' and self.port1 != '' and self.port2!='':
-               break
-            if line.find(self.busIds[0]) > 0:
+            #if self.port0 != '' and self.port1 != '' and self.port2!='':
+            if (line.find(self.busIds[0]) > 0) and (self.port0==""):
 		self.port0 = ethdev.replace(':','')
 		continue	
-            if line.find(self.busIds[1]) > 0:
+            if (line.find(self.busIds[1]) > 0) and (self.port1==""):
 		self.port1 = ethdev.replace(':','')
 		continue	
             #if line.find(self.busIds[2]) > 0:
@@ -205,6 +204,6 @@ if __name__ == '__main__':
     #test = GetBarcode(config, eventManager, log, comm)
     #result = test.Start()
 
-    test = EthernetLoopbackCheck(config, eventManager, log, comm)
+    test = FiberLoopbackCheck(config, eventManager, log, comm)
     result = test.Start()
     print result

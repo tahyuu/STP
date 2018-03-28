@@ -103,6 +103,22 @@ else
   echo "install perl-Archive-Zip"
   yum install perl-Archive-Zip
 fi
+#install iperf3
+rpm -qa | grep -i iperf3
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed iperf3 skip!"
+else
+  echo "install iperf3"
+  yum install rpm_files/iperf3-3.1.7-2.el7.x86_64.rpm
+fi
+#install sg3_utils
+rpm -qa | grep sg3_utils-1.37-12.el7.x86_64
+if [ "$?" == 0 ] ;then
+  echo ">>The system has been installed sg3_utils-1.37-12.el7.x86_64 skip!"
+else
+  echo "install sg3_utils-1.37-12.el7.x86_64"
+  yum install sg3_utils
+fi
 #install pyserial
 pip install rpm_files/pyserial-3.3-py2.py3-none-any.whl
 #rm -rf rpm_files
