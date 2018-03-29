@@ -21,9 +21,9 @@
 22000	BmcSelCheck
 22001	BmcSelCheck.WhiteList_Check_Fail
 22099	BmcSelCheck.Others_Fail
-24000	FwUpdate
-24000	FwUpdate.FW_Update_Fail
-24099	FwUpdate.Others_Fail
+24000	BiosVersionCheck	
+24001	BiosVersionCheck.Version_Fail
+24099	BiosVersionCheck.Others_Fail
 23000	USBCheck
 23099	USBCheck.Others_Fail
 24000	PciSpeedWidthCheck

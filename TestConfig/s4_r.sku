@@ -25,7 +25,7 @@ BmcMAC1			0140D4F5129D
 BmcMAC2			0140D4F5129E
 
 # BIOS,BMC,Ethernet Version and Speed Check
-BIOS_Version		P1.20
+BIOS_Version		5.12
 CMD_Version		01 07
 BMC_Version		1.13
 Sel_Version		1.5
@@ -51,7 +51,7 @@ CPU_Core_Count		10
 CPU_Core_Enabled	10
 CPU_Qty			2
 #cpu burnin time 23
-BurninTime		1
+BurninTime		23
 #PciList file
 PciList_file		s4.list
 #Sas Phy data cycle 
@@ -120,7 +120,7 @@ Bmc_Port1		192.168.42.203
 RUN_STATE		Run
 
 # Testcase and Sequence
-TestSequence		s4.testflow
+TestSequence		s4_r.testflow
 
 # FlexFlow
 FlexFlow_Status		Off

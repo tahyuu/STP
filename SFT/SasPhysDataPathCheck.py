@@ -8,9 +8,9 @@ import time
 
 class SasPhysDataPathCheck(TestBase):
     section_str = "Section: SAS Phys Data Path Check"
-    def __init__(self, config, eventManager, log, comm, numOfCycle, numOfDisk):
+    def __init__(self, config, eventManager, log, comm,numOfDisk):
 	TestBase.__init__(self, config, eventManager, log, comm)
-	self.numOfCycle = numOfCycle
+	self.numOfCycle = self.config.Get('SasPhy_cycle')
 	self.numOfDisk = numOfDisk
 
     def Start(self):

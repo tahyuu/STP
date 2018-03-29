@@ -7,7 +7,7 @@ class CpuRamBurnIn(TestBase):
     section_str = "Section: CPU and RAM Burn-in"
     def __init__(self, config, eventManager, log, comm, minute):
 	TestBase.__init__(self, config, eventManager, log, comm)
-	self.minute = minute
+	self.minute = self.config.Get('BurninTime')
 
     def Start(self):
 	self.log.Print(CpuRamBurnIn.section_str)

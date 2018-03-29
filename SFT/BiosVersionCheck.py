@@ -6,7 +6,7 @@ class BiosVersionCheck(TestBase):
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
 	self.BiosVersionCheck = \
-		r'(?P<Version>\d+[.]\d{2})'
+		r'(?P<Version>\w+[.]\w+)'
 	self.pattern = self.BiosVersionCheck
 	self.p = re.compile(self.pattern)
 	self.version = config.Get('BIOS_Version')
@@ -48,7 +48,7 @@ if __name__ == '__main__':
 	parser.error("wrong number of arguments")
 	sys.exit(1)
     home_dir = os.environ['FT']
-    config = Configure(home_dir + '/BFTConfig.txt')
+    config = Configure(home_dir + '/SFTConfig.txt')
     config.Put('HOME_DIR',home_dir)
 
     serial_port = config.Get('port')

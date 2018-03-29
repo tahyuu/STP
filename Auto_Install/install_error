@@ -1,43 +1,4 @@
 drwxr-xr-x. 3 root root      110 Mar 27 18:27 tools
-[root@localhost Auto_Install]# ./sft_install 
-Loaded plugins: fastestmirror, langpacks
-Examining rpm_files/pexpect-2.3-11.el7.noarch.rpm: pexpect-2.3-11.el7.noarch
-Marking rpm_files/pexpect-2.3-11.el7.noarch.rpm to be installed
-Resolving Dependencies
---> Running transaction check
----> Package pexpect.noarch 0:2.3-11.el7 will be installed
---> Finished Dependency Resolution
-Could not retrieve mirrorlist http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=os&infra=stock error was
-14: curl#7 - "Failed to connect to 2001:4178:5:200::10: Network is unreachable"
-Could not retrieve mirrorlist http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=extras&infra=stock error was
-14: curl#7 - "Failed to connect to 2001:4178:5:200::10: Network is unreachable"
-Could not retrieve mirrorlist http://mirrorlist.centos.org/?release=7&arch=x86_64&repo=updates&infra=stock error was
-14: curl#7 - "Failed to connect to 2001:4178:5:200::10: Network is unreachable"
-
-Dependencies Resolved
-
-============================================================================================================================================
- Package                     Arch                       Version                        Repository                                      Size
-============================================================================================================================================
-Installing:
- pexpect                     noarch                     2.3-11.el7                     /pexpect-2.3-11.el7.noarch                     784 k
-
-Transaction Summary
-============================================================================================================================================
-Install  1 Package
-
-Total size: 784 k
-Installed size: 784 k
-Downloading packages:
-Running transaction check
-Running transaction test
-Transaction test succeeded
-Running transaction
-  Installing : pexpect-2.3-11.el7.noarch                                                                                                1/1 
-  Verifying  : pexpect-2.3-11.el7.noarch                                                                                                1/1 
-
-Installed:
-  pexpect.noarch 0:2.3-11.el7                                                                                                               
 
 Complete!
 Loaded plugins: fastestmirror, langpacks

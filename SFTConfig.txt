@@ -1,1 +1,1 @@
-TestConfig/s1.sku
+TestConfig/s4.sku
