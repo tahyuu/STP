@@ -12,6 +12,7 @@ class PciSpeedWidthCheck(TestBase):
     section_str = "Section: PCIe Devices Link Speed and Width Check"
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
+        self.PciList_file = self.config.Get('PciList_file')
 	self.ASPEED = ('02:00.0', '5', '1', 'ASPEED')
 	self.FIBER  = ('18:00.0', '8', '8', 'FIBBER')
 	self.RAID1 =   ('5f:00.0', '8', '8', 'RAID1')
@@ -26,9 +27,14 @@ class PciSpeedWidthCheck(TestBase):
 
     def Start(self):
         try:
+	    print self.PciList_file
 	    self.CheckPciSpeedWidth(self.ASPEED)
 	    self.CheckPciSpeedWidth(self.FIBER)
-	    self.CheckPciSpeedWidth(self.RAID1)
+            if self.PciList_file != "s3.list":
+	    	self.CheckPciSpeedWidth(self.RAID1)
+	    print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+	    print self.PciList_file
+	    print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 	    self.CheckPciSpeedWidth(self.RAID2)
 	    self.CheckPciSpeedWidth(self.Ethernet1)
 	    self.CheckPciSpeedWidth(self.Ethernet2)

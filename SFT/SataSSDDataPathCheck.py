@@ -7,11 +7,11 @@ import time
 
 
 class SataSSDDataPathCheck(TestBase):
-    section_str = "Section: SAS Phys Data Path Check"
-    def __init__(self, config, eventManager, log, comm,  numOfDisk):
+    section_str = "Section: Sata SSD Phys Data Path Check"
+    def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
 	self.numOfCycle = int(self.config.Get('SataPhy_cycle'))
-	self.numOfDisk = numOfDisk
+	self.numOfDisk = int(self.config.Get('SataPhy_number'))
 
     def Start(self):
 	self.log.Print(SataSSDDataPathCheck.section_str)
@@ -133,7 +133,7 @@ if __name__ == '__main__':
     log.Open('test.log')
     comm = Comm232(config, log, eventManager, serial_port)
 
-    test = SataSSDDataPathCheck(config, eventManager, log, comm,  options.num_of_disk)
+    test = SataSSDDataPathCheck(config, eventManager, log, comm)
     startTime=time.time() 
     result = test.Start()
     endTime=time.time()

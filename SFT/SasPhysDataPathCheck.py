@@ -8,10 +8,10 @@ import time
 
 class SasPhysDataPathCheck(TestBase):
     section_str = "Section: SAS Phys Data Path Check"
-    def __init__(self, config, eventManager, log, comm,numOfDisk):
+    def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
 	self.numOfCycle = int(self.config.Get('SasPhy_cycle'))
-	self.numOfDisk = numOfDisk
+	self.numOfDisk = int(self.config.Get('SasPhy_number'))
 
     def Start(self):
 	self.log.Print(SasPhysDataPathCheck.section_str)
@@ -51,6 +51,7 @@ class SasPhysDataPathCheck(TestBase):
 	result = self.comm.RecvTerminatedBy()
 	self.drives_list = result.split('+')[1].split()
 	if len(self.drives_list) != int(self.numOfDisk):
+            self.log.Print('We just find %s pcs SAS HDDD, we should find %s pcs SAS HDD' %(len(self.drives_list),int(self.numOfDisk))) 
 	    print len(self.drives_list)
 	    print self.numOfDisk
 	    errCodeStr="Disk_Discover_Fail"
@@ -134,7 +135,7 @@ if __name__ == '__main__':
     log.Open('test.log')
     comm = Comm232(config, log, eventManager, serial_port)
 
-    test = SasPhysDataPathCheck(config, eventManager, log, comm, options.num_of_disk)
+    test = SasPhysDataPathCheck(config, eventManager, log, comm)
     startTime=time.time() 
     result = test.Start()
     endTime=time.time()
