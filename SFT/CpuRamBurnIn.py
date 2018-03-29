@@ -5,7 +5,7 @@ from TestBase import *
 
 class CpuRamBurnIn(TestBase):
     section_str = "Section: CPU and RAM Burn-in"
-    def __init__(self, config, eventManager, log, comm, minute):
+    def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
 	self.minute = self.config.Get('BurninTime')
 
@@ -74,7 +74,7 @@ if __name__ == '__main__':
     comm = Comm232(config, log, eventManager, serial_port)
     
     minute = options.minute
-    test = CpuRamBurnIn(config, eventManager, log, comm, minute)
+    test = CpuRamBurnIn(config, eventManager, log, comm)
     result = test.Start()
     print result
 

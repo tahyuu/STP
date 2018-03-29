@@ -10,7 +10,7 @@ class SasPhysDataPathCheck(TestBase):
     section_str = "Section: SAS Phys Data Path Check"
     def __init__(self, config, eventManager, log, comm,numOfDisk):
 	TestBase.__init__(self, config, eventManager, log, comm)
-	self.numOfCycle = self.config.Get('SasPhy_cycle')
+	self.numOfCycle = int(self.config.Get('SasPhy_cycle'))
 	self.numOfDisk = numOfDisk
 
     def Start(self):
@@ -134,7 +134,7 @@ if __name__ == '__main__':
     log.Open('test.log')
     comm = Comm232(config, log, eventManager, serial_port)
 
-    test = SasPhysDataPathCheck(config, eventManager, log, comm, numOfCycle, options.num_of_disk)
+    test = SasPhysDataPathCheck(config, eventManager, log, comm, options.num_of_disk)
     startTime=time.time() 
     result = test.Start()
     endTime=time.time()

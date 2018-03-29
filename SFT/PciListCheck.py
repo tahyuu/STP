@@ -13,8 +13,7 @@ class PciListCheck(TestBase):
     section_str = "Section: PCIe List Check"
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
-	self.minute = self.config.Get('PciList_file')
-	self.list_file=list_file
+	self.list_file= self.config.Get('PciList_file')
     def LspciCheck(self,check_list,lspci_list_gold):
 	# check_list: the list which lspci command return
 	# lspci_list_gold: the list gold list which stored in pc
@@ -148,6 +147,6 @@ if __name__ == '__main__':
     comm = Comm232(config, log, eventManager, serial_port) 
     #test = GetBarcode(config, eventManager, log, comm)
     #result = test.Start()
-    test = PciListCheck(config, eventManager, log, comm,"s4.list")
+    test = PciListCheck(config, eventManager, log, comm)
     result = test.Start()
     print result

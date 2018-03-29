@@ -55,9 +55,9 @@ BurninTime		1
 #PciList file
 PciList_file		s4.list
 #Sas Phy data cycle 
-SasPhy_cycle		30
+SasPhy_cycle		10
 #Sata Phy data cycle 
-SataPhy_cycle		30
+SataPhy_cycle		10
 
 # DIMM Width, Speed, Size
 DIMM_Total_Width	72  
