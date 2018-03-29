@@ -122,7 +122,7 @@ Bmc_Port1		192.168.42.203
 RUN_STATE		Run
 
 # Testcase and Sequence
-TestSequence		s3_sft.testflow
+TestSequence		s3_runin.testflow
 
 # FlexFlow
 FlexFlow_Status		Off
