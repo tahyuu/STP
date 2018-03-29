@@ -4,7 +4,7 @@
 # Note that the items are separated by the tab character
 
 # Test SW Release version
-Version			V0.0.00(BFT1-EVT)
+Version			V0.0.00(Ruin-EVT)
 
 #Reg ro Scan Data
 SN_Re		\w{8}$
@@ -51,14 +51,14 @@ CPU_Core_Count		10
 CPU_Core_Enabled	10
 CPU_Qty			2
 #cpu burnin time 23
-BurninTime		13
+BurninTime		1
 #PciList file
 PciList_file		s3.list
 #Sas Phy data cycle 
-SasPhy_cycle		30
+SasPhy_cycle		10
 SasPhy_number		24
 #Sata Phy data cycle 
-SataPhy_cycle		30
+SataPhy_cycle		10
 SataPhy_number		1
 
 # DIMM Width, Speed, Size

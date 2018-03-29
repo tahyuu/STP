@@ -213,10 +213,10 @@ class TestEngine:
 	#self.log.AddHeader(header_complete_str)
 	#to create header in test log
 	header_complete_str=""
-	header_complete_str+= ('Station : ' + self.hostname+"\n")
-	header_complete_str+= ('Date    : ' + self.testDate+"\n") 
-	header_complete_str+= (('Version : ' + self.config.Get('Version'))+"\n") 
-	header_complete_str+= ('%s SFT: %s\n' %(self.dut_name, self.testResult)) 
+	header_complete_str+= ('Station    : ' + self.hostname+"\n")
+	header_complete_str+= ('Date       : ' + self.testDate+"\n") 
+	header_complete_str+= (('Version    : ' + self.config.Get('Version'))+"\n") 
+	header_complete_str+= ('Test Result: %s\n' %(self.testResult)) 
 	header_complete_str+="\n****************************************************************************************\n"
 	for ti in self.testItemResults:
 		str_testResults=ti.testName.ljust(70)+ti.testResult.rjust(10)+"\n"
