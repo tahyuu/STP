@@ -124,7 +124,7 @@ pip install rpm_files/pyserial-3.3-py2.py3-none-any.whl
 #rm -rf rpm_files
 cp bash_profile ~/.bash_profile
 # change grub.cfg, to make the ethernet index from eth0
-#sed -i "s/quiet/quiet net.ifnames=0/g" /etc/default/grub
+sed -i "s/quiet/quiet net.ifnames=0/g" /etc/default/grub
 #grub2-mkconfig -o /boot/efi/EFI/centos/grub.cfg
 grub2-mkconfig -o /boot/grub2/grub.cfg
 
