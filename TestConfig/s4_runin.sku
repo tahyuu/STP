@@ -14,7 +14,7 @@ BmcMac2_Re	[0-9A-F]{12}$
 # SR
 DUT_Name		SR
 CanisterSN		J1723004M
-SR_SN		J1723004M
+SR_SN			J1723004M
 SR_BmcMac1		0140D4F5129D
 SR_BmcMac2		0140D4F5129E
 
@@ -120,7 +120,7 @@ Bmc_Port1		192.168.42.203
 RUN_STATE		Run
 
 # Testcase and Sequence
-TestSequence		s4_r.testflow
+TestSequence		s4_runin.testflow
 
 # FlexFlow
 FlexFlow_Status		Off
