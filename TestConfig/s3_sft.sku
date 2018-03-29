@@ -51,7 +51,7 @@ CPU_Core_Count		10
 CPU_Core_Enabled	10
 CPU_Qty			2
 #cpu burnin time 23
-BurninTime		13
+BurninTime		28
 #PciList file
 PciList_file		s3.list
 #Sas Phy data cycle 
