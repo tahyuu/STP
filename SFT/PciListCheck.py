@@ -12,9 +12,9 @@ import time
 class PciListCheck(TestBase):
     section_str = "Section: PCIe List Check"
     def __init__(self, config, eventManager, log, comm):
+	TestBase.__init__(self, config, eventManager, log, comm)
 	self.minute = self.config.Get('PciList_file')
 	self.list_file=list_file
-	TestBase.__init__(self, config, eventManager, log, comm)
     def LspciCheck(self,check_list,lspci_list_gold):
 	# check_list: the list which lspci command return
 	# lspci_list_gold: the list gold list which stored in pc
