@@ -116,13 +116,14 @@ class ScanBarCode:
     
     def SNCheck(self, event):
 	barcode = self.SN_SV.get()
-	print self.config.Get( 'SN' + '_Re')
-	print barcode
+	#print self.config.Get( 'SN' + '_Re')
+	#print barcode
 	if self.CheckFormat(self.config.Get('SN' + '_Re'), barcode):
 	    #self.config.Put('PcbaSN', barcode)
             #self.MAC1.configure(state="normal")
 	    #self.MAC1.focus_set()
 	    #self.root.destroy()
+	    self.config.Put('CanisterSN', self.SN.get())
 	    self.config.Put('PcbaSN', self.SN.get())
             self.root.destroy()
 	else:
@@ -130,8 +131,8 @@ class ScanBarCode:
 
     def BmcMac1Check(self, event):
 	barcode = self.MAC1_SV.get()
-	print self.config.Get('BmcMac1' + '_Re')
-	print barcode
+	#print self.config.Get('BmcMac1' + '_Re')
+	#print barcode
         if self.CheckFormat(self.config.Get('BmcMac1' + '_Re'), barcode):
             #self.config.Put('BmcMAC1', barcode)
             self.MAC2.configure(state="normal")
@@ -156,6 +157,7 @@ class ScanBarCode:
 		self.MAC1.focus_set()
 	    else:
 	    	self.config.Put('PcbaSN', self.SN.get())
+	    	self.config.Put('CanisterSN', self.SN.get())
             	self.config.Put('BmcMAC1', self.MAC1.get())
            	self.config.Put('BmcMAC2', self.MAC2.get())
             	self.root.destroy()
@@ -176,6 +178,7 @@ if __name__ == "__main__":
     home_dir = os.environ['FT']
     config = Configure(home_dir + '/SFTConfig.txt')
     ScanBarCode(config)
-    print config.Get('PcbaSN')
-    print config.Get('BmcMAC1')
-    print config.Get('BmcMAC2')
+    print config.Get('CanisterSN')
+    #print config.Get('PcbaSN')
+    #print config.Get('BmcMAC1')
+    #print config.Get('BmcMAC2')
