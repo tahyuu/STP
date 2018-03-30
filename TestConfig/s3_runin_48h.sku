@@ -4,7 +4,7 @@
 # Note that the items are separated by the tab character
 
 # Test SW Release version
-Version			V0.0.00(Ruin-EVT)
+Version			V0.0.00(Ruin-S3)
 
 #Reg ro Scan Data
 SN_Re		\w{8}$
