@@ -51,15 +51,15 @@ CPU_Core_Count		10
 CPU_Core_Enabled	10
 CPU_Qty			2
 #cpu burnin time 23
-BurninTime		28
+BurninTime		112
 #PciList file
-PciList_file		s2.list
+PciList_file		s1.list
 #Sas Phy data cycle 
-SasPhy_cycle		30
-SasPhy_number		10
+SasPhy_cycle		10
+SasPhy_number		0
 #Sata Phy data cycle 
-SataPhy_cycle		30
-SataPhy_number		4
+SataPhy_cycle		10
+SataPhy_number		12
 
 # DIMM Width, Speed, Size
 DIMM_Total_Width	72  
@@ -122,7 +122,7 @@ Bmc_Port1		192.168.42.203
 RUN_STATE		Run
 
 # Testcase and Sequence
-TestSequence		s2_sft.testflow
+TestSequence		s1_runin.testflow
 
 # FlexFlow
 FlexFlow_Status		Off
