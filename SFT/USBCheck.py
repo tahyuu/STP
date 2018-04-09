@@ -19,11 +19,16 @@ class USBCheck(TestBase):
         #self.cmd_usb_info="./storage-tool-64 -pciid 8086:8d31 -usbpath 0:2:1.0 -devicecount 1 -action info -smart"
         #self.cmd_usb_rwspeed="./storage-tool-64 -pciid 8086:8d62 -scsipath 0:0:0:0 -devicecount 1 -action testspeed -speed 10"
         #self.cmd_usb_rwspeed="./storage-tool-64 -pciid 8086:8d31 -scsipath 0:0:0:0 -devicecount 1 -action testspeed -speed 10"
+        self.PciList_file = self.config.Get('PciList_file')
+        if self.PciList_file == "s1.list" or self.PciList_file == "s2.list":
+		self.usb_path="0:3:1.0"
+	else:
+		self.usb_path="0:5:1.0"
         #self.cmd_usb_rwspeed="./storage-tool-64 -pciid 8086:8d31 -usbpath 0:1:1:0 -devicecount 1 -action testspeed -speed 10"
         #####################################Check with Pciid###################################
-        self.cmd_usb1_info="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:5:1.0 -devicecount 1 -action info"
-        self.cmd_usb1_rwspeed="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:5:1.0 -devicecount 1 -action testspeed -speed 35"
-        self.cmd_usb1_ramdom_test="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:5:1.0 -devicecount 1 -action writeread -count 1M -force"
+        self.cmd_usb1_info="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath %s -devicecount 1 -action info" %self.usb_path
+        self.cmd_usb1_rwspeed="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath %s -devicecount 1 -action testspeed -speed 35" %self.usb_path
+        self.cmd_usb1_ramdom_test="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath %s -devicecount 1 -action writeread -count 1M -force" %self.usb_path
         self.cmd_usb2_info="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action info"
         self.cmd_usb2_rwspeed="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action testspeed -speed 10"
         self.cmd_usb2_ramdom_test="/root/CMCC/tools/storage-tool-64 -pciid 8086:a1af -usbpath 0:3:1.0 -devicecount 1 -action writeread -count 1M -force"

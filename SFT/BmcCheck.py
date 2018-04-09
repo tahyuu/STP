@@ -36,6 +36,15 @@ class BmcCheck(TestBase):
             self.log.Print("Tester => OK: BMC Check")
             return 'PASS'
     def GetBmcIpaddr(self):
+        #self.comm.SendReturn('ipmitool lan set 1 ipsrc dhcp')
+        #line = self.comm.RecvTerminatedBy()
+	
+	#time.sleep(2)
+        #self.comm.SendReturn('ipmitool mc reset warm')
+        #line = self.comm.RecvTerminatedBy()
+
+	#time.sleep(10)
+
         self.comm.SendReturn('service NetworkManager restart')
         line = self.comm.RecvTerminatedBy()
 	time.sleep(5)

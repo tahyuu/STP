@@ -39,6 +39,13 @@ class SetClock(TestBase):
 	self.datetime = result
 
     def SetDateTime(self):
+	#restart bmc
+        self.comm.SendReturn('ipmitool lan set 1 ipsrc dhcp')
+        line = self.comm.RecvTerminatedBy()
+	
+	time.sleep(2)
+        self.comm.SendReturn('ipmitool mc reset warm')
+        line = self.comm.RecvTerminatedBy()
 	self.comm.SendReturn("")
 	self.comm.RecvTerminatedBy()
 	cmdStr = 'date ' + self.datetime

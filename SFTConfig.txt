@@ -1,1 +1,1 @@
-TestConfig/s3_sft.sku
+TestConfig/s1_sft.sku
