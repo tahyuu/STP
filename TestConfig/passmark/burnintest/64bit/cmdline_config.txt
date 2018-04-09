@@ -56,7 +56,7 @@ LogMode ClearNew
 ## Duty cycles
 <DutyCycles>
 ## Auto stop after XXX minutes
-AutoStopMinutes 2
+AutoStopMinutes 28
 ## Auto stop after XXX cycles
 AutoStopCycles 0
 ## Duty cycle load for each test, 1-100
