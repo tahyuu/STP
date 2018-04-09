@@ -60,6 +60,10 @@ SasPhy_number		0
 #Sata Phy data cycle 
 SataPhy_cycle		10
 SataPhy_number		12
+#Nvme Phy data cycle 
+NvmePhy_size		3200
+NvmePhy_cycle		30
+NvmePhy_number		2
 
 # DIMM Width, Speed, Size
 DIMM_Total_Width	72  
