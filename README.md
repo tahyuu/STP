@@ -8,7 +8,7 @@ Boot the system(you can use any PC including your laptop) from our USB boot OS(w
 cd
 ```
 ```
-git clone git@192.168.4.2：~/cmcc_silk_road.git CMCC
+git clone https://github.com/tahyuu/STP.git CMCC
 ```
 ```
 yes
