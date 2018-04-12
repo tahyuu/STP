@@ -13,6 +13,7 @@ class EthernetLoopbackCheck(TestBase):
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
 	self.config = config
+        self.PciList_file = self.config.Get('PciList_file')
         #self.pattern = self.cmdPattern.EthernetVersion
         self.pattern = "(?P<Version>0x800009fa)"
         self.p = re.compile(self.pattern)
@@ -20,7 +21,10 @@ class EthernetLoopbackCheck(TestBase):
 	self.port1=""
 	self.port2=""
 	#self.busIds=["0000:06:05.0","0000:05:00.0"]
-	self.busIds=["0000:af:00.0","0000:af:00.1"]
+        if self.PciList_file == "s1.list" or self.PciList_file == "s2.list":
+		self.busIds=["0000:d9:00.0","0000:d9:00.1"]
+	else:
+		self.busIds=["0000:af:00.0","0000:af:00.1"]
 	self.device="ixgbe"
 	self.fw="0x800009fa"
     def Start(self):

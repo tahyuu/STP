@@ -39,6 +39,13 @@ class SetClock(TestBase):
 	self.datetime = result
 
     def SetDateTime(self):
+	#restart bmc
+        self.comm.SendReturn('ipmitool lan set 1 ipsrc dhcp')
+        line = self.comm.RecvTerminatedBy()
+	
+	time.sleep(2)
+        self.comm.SendReturn('ipmitool mc reset warm')
+        line = self.comm.RecvTerminatedBy()
 	self.comm.SendReturn("")
 	self.comm.RecvTerminatedBy()
 	cmdStr = 'date ' + self.datetime
@@ -79,7 +86,7 @@ if __name__ == '__main__':
     (options, args) = parser.parse_args()
 
     home_dir = os.environ['FT']
-    config = Configure(home_dir + '/BFTConfig.txt')
+    config = Configure(home_dir + '/SFTConfig.txt')
     config.Put('HOME_DIR',home_dir)
 
     serial_port = config.Get('port')
