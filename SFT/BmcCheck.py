@@ -117,7 +117,7 @@ class BmcCheck(TestBase):
 	self.comm.SendReturn(command)
 	line = self.comm.RecvTerminatedBy()
 	#to check sdr count without no reading
-	cmd="sdr | grep -v 'no reading' |wc -l"
+	cmd="sdr | grep ok |wc -l"
 	command=self.bmc_command_header %(self.bmc_ip,self.bmc_username,self.bmc_password,cmd)
 	self.comm.SendReturn(command)
 	line = self.comm.RecvTerminatedBy()
