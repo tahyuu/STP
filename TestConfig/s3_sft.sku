@@ -59,7 +59,7 @@ SasPhy_cycle		30
 SasPhy_number		24
 #Sata Phy data cycle 
 SataPhy_cycle		30
-SataPhy_number		1
+SataPhy_number		2
 
 # DIMM Width, Speed, Size
 DIMM_Total_Width	72  
