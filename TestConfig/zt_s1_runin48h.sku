@@ -25,18 +25,18 @@ BmcMAC1			0140D4F5129D
 BmcMAC2			0140D4F5129E
 
 # BIOS,BMC,Ethernet Version and Speed Check
-BIOS_Version		L1.15I
+BIOS_Version		L1.15H
 CMD_Version		01 07
-BMC_Version		1.14
+BMC_Version		1.13
 Sel_Version		1.5
-BMC_Sensor_OK_Count	51
-BMC_SDR_OK_Count	51
+BMC_Sensor_OK_Count	72
+BMC_SDR_OK_Count	74
 ETHERNET_Version	3.132
 Iperf_Speed		930
 SAS_CTRL_Version	3070400
 SAS_Speed		8.0
 SAS_Width		8
-SAS_HD_Size		6001
+SAS_HD_Size		1000
 I2C_303-335-201B-02	2d 00
 I2C_303-335-201B-02-S	1e 00
 
@@ -51,15 +51,15 @@ CPU_Core_Count		10
 CPU_Core_Enabled	10
 CPU_Qty			2
 #cpu burnin time 23
-BurninTime		28
+BurninTime		112
 #PciList file
-PciList_file		s3.list
+PciList_file		zt_s1.list
 #Sas Phy data cycle 
 SasPhy_cycle		30
-SasPhy_number		24
+SasPhy_number		2
 #Sata Phy data cycle 
 SataPhy_cycle		30
-SataPhy_number		2
+SataPhy_number		4
 
 # DIMM Width, Speed, Size
 DIMM_Total_Width	72  
@@ -71,8 +71,6 @@ DIMM_Need_Count		12
 DIMM_Empty_List		CPU1_DIMM_A2,CPU1_DIMM_D2,CPU2_DIMM_D2,CPU2_DIMM_F1
 
 # SSD/HDD Qty,FW,Model Check
-# 			         busid SSD, count,speed
-SSD_CHECK_LIST		[['-pciid 8086:a182','2','100'],]
 SSD_Model		SAMSUNG MZQWV480
 SSD_FW_V1		001L
 SSD_FW_V2		xx
@@ -124,7 +122,7 @@ Bmc_Port1		192.168.42.203
 RUN_STATE		Run
 
 # Testcase and Sequence
-TestSequence		s3_sft.testflow
+TestSequence		zt_s1_runin.testflow
 
 # FlexFlow
 FlexFlow_Status		Off
