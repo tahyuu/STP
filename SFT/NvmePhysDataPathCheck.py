@@ -10,7 +10,7 @@ class NvmePhysDataPathCheck(TestBase):
     section_str = "Section: SAS Phys Data Path Check"
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
-	self.size = int(self.config.Get('NvmePhy_size'))
+	#self.size = self.config.Get('NvmePhy_size')
 	self.numOfCycle = int(self.config.Get('NvmePhy_cycle'))
 	self.numOfDisk = int(self.config.Get('NvmePhy_number'))
 

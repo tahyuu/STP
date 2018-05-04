@@ -24,6 +24,8 @@ class USBCheck(TestBase):
 		self.usb_path="-usbpath 0:3:1.0 -usbpath 0:2:1.0"
 	elif self.PciList_file == "zt_s1.list":
 		self.usb_path="-usbpath 0:1:1.0"
+	elif self.PciList_file == "zt_s2.list":
+		self.usb_path="-usbpath 0:2:1.0"
 	else:
 		self.usb_path="-usbpath 0:5:1.0 -usbpath 0:2:1.0"
         #self.cmd_usb_rwspeed="./storage-tool-64 -pciid 8086:8d31 -usbpath 0:1:1:0 -devicecount 1 -action testspeed -speed 10"

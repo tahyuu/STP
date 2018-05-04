@@ -35,13 +35,15 @@ class PciSpeedWidthCheck(TestBase):
         try:
 	    print self.PciList_file
 	    self.CheckPciSpeedWidth(self.ASPEED)
-	    if self.PciList_file != "zt_s1.list":
+	    if self.PciList_file != "zt_s1.list" and self.PciList_file != "zt_s2.list":
 	    	self.CheckPciSpeedWidth(self.FIBER)
             if self.PciList_file == "s4.list":
 	    	self.CheckPciSpeedWidth(self.RAID1)
             if self.PciList_file == "s1.list":
 	    	self.CheckPciSpeedWidth(self.RAID_s1)
 	    if self.PciList_file == "zt_s1.list":
+	    	self.CheckPciSpeedWidth(self.RAID_zt_s1)
+	    if self.PciList_file == "zt_s2.list":
 	    	self.CheckPciSpeedWidth(self.RAID_zt_s1)
 
 	    print "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
@@ -61,6 +63,19 @@ class PciSpeedWidthCheck(TestBase):
 	    	self.CheckPciSpeedWidth(self.Ethernet_zt2)
 	    	self.CheckPciSpeedWidth(self.Ethernet_zt3)
 	    	self.CheckPciSpeedWidth(self.Ethernet_zt4)
+            if self.PciList_file == "zt_s2.list":		
+	    	self.CheckPciSpeedWidth(self.Ethernet_zt1)
+	    	self.CheckPciSpeedWidth(self.Ethernet_zt2)
+	    	self.CheckPciSpeedWidth(self.Ethernet_zt3)
+	    	self.CheckPciSpeedWidth(self.Ethernet_zt4)
+		self.EthernetX70_1 = ('da:00.0', '8', '8', 'X70_1')
+		self.EthernetX70_2 = ('da:00.1', '8', '8', 'X70_2')
+		self.EthernetX70_3 = ('da:00.2', '8', '8', 'X70_3')
+		self.EthernetX70_4 = ('da:00.3', '8', '8', 'X70_4')
+	    	self.CheckPciSpeedWidth(self.EthernetX70_1)
+	    	self.CheckPciSpeedWidth(self.EthernetX70_2)
+	    	self.CheckPciSpeedWidth(self.EthernetX70_3)
+	    	self.CheckPciSpeedWidth(self.EthernetX70_4)
 
         except Error, error:
             errCode, errMsg = error
