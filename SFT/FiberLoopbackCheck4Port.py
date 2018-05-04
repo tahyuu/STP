@@ -188,7 +188,7 @@ class FiberLoopbackCheck4Port(TestBase):
 
         errorCodeStr = 'Ethernet_Loopback_Fail'
         #self.comm.SendReturn("/root/CMCC/tools/netloop-testtool3-64 -d1 %s -d2 %s -ftpuser root -ftppassword 123456 -ftpsize 1G -maxerror 1" %(portA,portB))
-        self.comm.SendReturn("/root/CMCC/tools/netloop-testtool3-64 -d1 %s -d2 %s -iperfspeed 900" %(portA,portB))
+        self.comm.SendReturn("/root/CMCC/tools/netloop-testtool3-64 -d1 %s -d2 %s -iperfspeed 9000" %(portA,portB))
 	line = self.comm.RecvTerminatedBy()
         self.comm.SendReturn('service NetworkManager start')
         self.comm.RecvTerminatedBy()
