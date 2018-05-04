@@ -66,6 +66,10 @@ class Log:
 	self._fd.write( line + '\n')
 	self._fd.flush()
 
+    def PrintNoTimeWithoutReturn(self, line):
+        self._fd.write( line)
+        self._fd.flush()
+
     def AddHeader(self, line):
 	self._fd.seek(0,0)
 	line2 = line.strip() + '\n'
