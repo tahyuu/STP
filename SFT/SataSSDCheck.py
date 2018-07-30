@@ -28,6 +28,7 @@ class SataSSDCheck(TestBase):
             self.log.Print("Tester => OK: All SAS Data Path Check Pass")
             return 'PASS'
     def TestSSD(self):
+	home_dir = self.config.Get('HOME_DIR')
 	checkList=[]
 	checkList.append(['-pciid 8086:a1d2','2','200'])
 	checkList.append(['-pciid 8086:a182','2','200'])

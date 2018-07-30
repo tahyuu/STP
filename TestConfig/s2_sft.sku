@@ -29,8 +29,8 @@ BIOS_Version		L0.13I
 CMD_Version		01 07
 BMC_Version		1.13
 Sel_Version		1.5
-BMC_Sensor_OK_Count	55
-BMC_SDR_OK_Count	55
+BMC_Sensor_OK_Count	78
+BMC_SDR_OK_Count	79
 ETHERNET_Version	3.132
 Iperf_Speed		930
 SAS_CTRL_Version	3070400
