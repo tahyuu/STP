@@ -25,12 +25,12 @@ BmcMAC1			0140D4F5129D
 BmcMAC2			0140D4F5129E
 
 # BIOS,BMC,Ethernet Version and Speed Check
-BIOS_Version		P1.20
+BIOS_Version		L1.15I
 CMD_Version		01 07
-BMC_Version		1.13
+BMC_Version		1.14
 Sel_Version		1.5
-BMC_Sensor_OK_Count	46
-BMC_SDR_OK_Count	46
+BMC_Sensor_OK_Count	49
+BMC_SDR_OK_Count	50
 ETHERNET_Version	3.132
 Iperf_Speed		930
 SAS_CTRL_Version	3070400
@@ -71,6 +71,8 @@ DIMM_Need_Count		12
 DIMM_Empty_List		CPU1_DIMM_A2,CPU1_DIMM_D2,CPU2_DIMM_D2,CPU2_DIMM_F1
 
 # SSD/HDD Qty,FW,Model Check
+# 			         busid SSD, count,speed
+SSD_CHECK_LIST		[['-pciid 8086:a182','2','100'],]
 SSD_Model		SAMSUNG MZQWV480
 SSD_FW_V1		001L
 SSD_FW_V2		xx

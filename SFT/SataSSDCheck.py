@@ -30,8 +30,11 @@ class SataSSDCheck(TestBase):
     def TestSSD(self):
 	home_dir = self.config.Get('HOME_DIR')
 	checkList=[]
-	checkList.append(['-pciid 8086:a1d2','2','200'])
-	checkList.append(['-pciid 8086:a182','2','200'])
+	checklist_str=self.config.Get('SSD_CHECK_LIST')
+	checklist_str.split(";")
+	#checkList.append(['-pciid 8086:a1d2','2','200'])
+	#checkList.append(['-pciid 8086:a182','2','200'])
+	checkList=eval(checklist_str)
 	TestStatus=True
 	for check in checkList:
 		self.cmd_ssd_info="%s/tools/storage-tool-64  %s  -devicecount %s -action info -smart" %(home_dir,check[0],check[1])
