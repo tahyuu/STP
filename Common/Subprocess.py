@@ -8,8 +8,8 @@ from optparse import OptionParser
 from Comm import *
 
 class Subprocess(Comm):
-    def __init__(self, config, log, eventManager, serial_port):
-	Comm.__init__(self, config, log,eventManager, serial_port)
+    def __init__(self, config, log, eventManager):
+	Comm.__init__(self, config, log,eventManager)
 	pass
 
     def SendReturn(self, cmdAsciiStr):
@@ -61,8 +61,7 @@ if __name__ == "__main__":
     log = Log()
     log.Open('test.log')
     eventManager = EventManager()
-    serial_port = '/dev/ttyS0'
-    Comm = Subprocess(config, log, eventManager, serial_port)
+    Comm = Subprocess(config, log, eventManager)
     Comm.SendReturn('lspci')
     Comm.RecvTerminatedBy()
     Comm.close()

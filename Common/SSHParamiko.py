@@ -9,9 +9,6 @@ from Comm import *
 class SSHParamiko(Comm):
     def __init_(self,config,log,eventManager):
 	Comm.__init__(self, config, log,eventManager)
-        username = "root"
-        passwd = "123456"
-        ip = '192.168.56.3'
 	self.status="CLOSED"
 	self.connect(5)
 	#pass

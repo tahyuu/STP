@@ -13,6 +13,7 @@ class Comm():
 	self.PROMPT = self.config.Get('PROMPT')
 	self.ssh=None
 	self.status="CLOSED"
+	self.child=None
 
     def SendReturn(self, cmdAsciiStr):
 	pass
