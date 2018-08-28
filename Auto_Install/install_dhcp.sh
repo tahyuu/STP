@@ -2,6 +2,17 @@
 # author:yong.tan
 # install dhcp server
 
+# define usage function
+usage(){
+	echo "  Usage: $0 ethx ipaddess"
+	echo "example: $0 eth0 192.168.4.2"
+	exit 1
+}
+
+# call usage() function if ethx and Ipaddess not supplied
+[[ $# -eq 0 || $# -eq 1 ]] && usage
+
+
 rpm -qa | grep -i dhcp-4
 if [ "$?" == 0 ] ;then
   echo ">>The system has been installed dhcp skip!"
