@@ -122,6 +122,9 @@
 70004	PowerCycle.Boot_4_Fail
 70005	PowerCycle.Boot_5_Fail
 70099	PowerCycle.Others_Fail
+71000	RaidTemperatureTest
+71001	RaidTemperatureTest.Raid_Temperature_Fail
+71002	RaidTemperatureTest.Others_Fail
 80000	GetMACPrint
 80001	GetMACPrint.Read_Eth_MAC_Err
 80002	GetMACPrint.Label_MAC_Err
