@@ -12,6 +12,7 @@ class RaidTemperatureTest(TestBase):
     section_str = "Section: Raid Temperature Test"
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
+	self.raidtemplimit=80
 
     def Start(self):
 	self.log.Print(RaidTemperatureTest.section_str)
@@ -23,7 +24,7 @@ class RaidTemperatureTest(TestBase):
                            (errCode, errMsg))
             return 'FAIL ErrorCode=%s' % errCode
         else:
-            self.log.Print("Tester => OK: Raid Temperature Tets PASS")
+            self.log.Print("Tester => OK: Raid Temperature Test PASS")
             return 'PASS'
 
     def CheckTemperture(self):
@@ -32,14 +33,16 @@ class RaidTemperatureTest(TestBase):
         self.patternTempSta = re.compile(self.tempStaPatt)
 	self.comm.SendReturn('/opt/MegaRAID/MegaCli/MegaCli64 -Adpallinfo -aALL |grep -i temp |grep -i ROC')              
 	result = self.comm.RecvTerminatedBy()
-	lanRe=self.comm.RecvTerminatedBy()
         m = self.patternTempSta.search(result)
         if m == None:
             raise Error(self.errCode['Others_Fail'], 'Others_Fail')
         temperature = m.group('TEMP')
-	if int(temperature)>90:
+	if int(temperature)>self.raidtemplimit:
+            self.log.Print('Raid Temperature is %s. not in range[0,%s]' %(temperature,self.raidtemplimit))
             errCodeStr = 'Raid_Temperature_Fail'
             raise Error(self.errCode[errCodeStr], errCodeStr)
+	else:
+            self.log.Print('Raid Temperature is %s. in range[0,%s]' %(temperature,self.raidtemplimit))
 	
 if __name__ == '__main__':
     parser = OptionParser(usage="usage: %prog [option]")
