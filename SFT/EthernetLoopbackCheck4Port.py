@@ -8,7 +8,7 @@ from subprocess import *
 from GetBarcode import *
 from ScanBarCode import *
 
-class EthernetLoopbackCheck(TestBase):
+class EthernetLoopbackCheck4Port(TestBase):
     section_str = "Section: Ethernet 1GB loopback test"
     def __init__(self, config, eventManager, log, comm):
 	TestBase.__init__(self, config, eventManager, log, comm)
@@ -29,7 +29,7 @@ class EthernetLoopbackCheck(TestBase):
 	self.device="ixgbe"
 	self.fw="0x800009fa"
     def Start(self):
-	self.log.Print(EthernetLoopbackCheck.section_str)
+	self.log.Print(EthernetLoopbackCheck4Port.section_str)
         try:
 	    self.FindEthDev()
    	    #self.CheckFWPort(self.port0)
@@ -222,6 +222,6 @@ if __name__ == '__main__':
     #test = GetBarcode(config, eventManager, log, comm)
     #result = test.Start()
 
-    test = EthernetLoopbackCheck(config, eventManager, log, comm)
+    test = EthernetLoopbackCheck4Port(config, eventManager, log, comm)
     result = test.Start()
     print result
