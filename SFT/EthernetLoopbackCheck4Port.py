@@ -25,7 +25,7 @@ class EthernetLoopbackCheck4Port(TestBase):
 		self.busIds=["0000:d9:00.0","0000:d9:00.1"]
 	else:
 		self.busIds=["0000:af:00.0","0000:af:00.1"]
-	self.busIds=["0000:d8:00.0","0000:d8:00.1","0000:d8:00.2","0000:d8:00.3"]
+	self.busIds=["0000:d9:00.0","0000:d9:00.1","0000:d9:00.2","0000:d9:00.3"]
 	self.device="ixgbe"
 	self.fw="0x800009fa"
     def Start(self):
