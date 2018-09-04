@@ -75,7 +75,7 @@ DIMM_Need_Count		12
 DIMM_Empty_List		CPU1_DIMM_A2,CPU1_DIMM_D2,CPU2_DIMM_D2,CPU2_DIMM_F1
 
 # SSD/HDD Qty,FW,Model Check
-SSD_CHECK_LIST		[['-scsipath 0:0:17:0','1','200'],['-scsipath 0:0:22:0','1','200']]
+SSD_CHECK_LIST		[['-scsipath 0:0:13:0','1','200'],['-scsipath 0:0:14:0','1','200']]
 SSD_Model		SAMSUNG MZQWV480
 SSD_FW_V1		001L
 SSD_FW_V2		xx
