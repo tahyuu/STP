@@ -25,7 +25,7 @@ BmcMAC1			0140D4F5129D
 BmcMAC2			0140D4F5129E
 
 # BIOS,BMC,Ethernet Version and Speed Check
-BIOS_Version		L0.13A
+BIOS_Version		L0.13B
 CMD_Version		01 07
 BMC_Version		1.13
 Sel_Version		1.5
@@ -57,6 +57,7 @@ PciList_file		zt_s1.list
 #Sas Phy data cycle 
 SasPhy_cycle		30
 SasPhy_number		2
+HDD_CHECK_LIST		[['-pcipath 0000:5e:00.0','2','200']]
 #Sata Phy data cycle 
 SataPhy_cycle		30
 SataPhy_number		4
