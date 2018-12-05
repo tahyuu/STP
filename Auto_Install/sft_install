@@ -123,6 +123,8 @@ fi
 pip install rpm_files/pyserial-3.3-py2.py3-none-any.whl
 #install paramiko
 pip install paramiko
+#install suds
+pip install suds
 #rm -rf rpm_files
 cp bash_profile ~/.bash_profile
 # change grub.cfg, to make the ethernet index from eth0
